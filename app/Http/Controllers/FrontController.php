@@ -39,6 +39,11 @@ class FrontController extends Controller
     {
         return view('seo');
     }
+
+    public function smm()
+    {
+        return view('smm');
+    }
      public function contact()
     {
         return view('contact');

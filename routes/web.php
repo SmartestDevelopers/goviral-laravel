@@ -24,6 +24,7 @@ Route::get('/', 'FrontController@index');
 Route::get('/about', 'FrontController@about');
 Route::get('/services', 'FrontController@services');
 Route::get('/seo', 'FrontController@seo');
+Route::get('/smm', 'FrontController@smm');
 Route::get('/contact-us', 'FrontController@contact');
 Route::get('/our-team', 'FrontController@ourTeam');
 Route::get('/pricing', 'FrontController@pricing');
