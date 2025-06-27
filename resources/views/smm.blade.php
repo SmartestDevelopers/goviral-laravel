@@ -1,7 +1,646 @@
 @extends('layouts.front')
 
 @section('content')
+<style>
+		img:is([sizes="auto"i], [sizes^="auto,"i]) {
+			contain-intrinsic-size: 3000px 1500px
+		}
+	</style>
+    <link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Feed" href="../../feed/index.html" />
+	<link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Comments Feed"
+		href="../../comments/feed/index.html" />
+	<script>
+		window._wpemojiSettings = {
+			"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+			"ext": ".png",
+			"svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+			"svgExt": ".svg",
+			"source": {
+				"concatemoji": "https:\/\/kitpro.site\/fluxco\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"
+			}
+		};
+		/*! This file is auto-generated */
+		! function(i, n) {
+			var o, s, e;
 
+			function c(e) {
+				try {
+					var t = {
+						supportTests: e,
+						timestamp: (new Date).valueOf()
+					};
+					sessionStorage.setItem(o, JSON.stringify(t))
+				} catch (e) {}
+			}
+
+			function p(e, t, n) {
+				e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+				var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+					r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e
+						.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+				return t.every(function(e, t) {
+					return e === r[t]
+				})
+			}
+
+			function u(e, t, n) {
+				switch (t) {
+					case "flag":
+						return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(
+							e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
+							"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+							"\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+							);
+					case "emoji":
+						return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
+				}
+				return !1
+			}
+
+			function f(e, t, n) {
+				var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(
+						300, 150) : i.createElement("canvas"),
+					a = r.getContext("2d", {
+						willReadFrequently: !0
+					}),
+					o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
+				return e.forEach(function(e) {
+					o[e] = t(a, e, n)
+				}), o
+			}
+
+			function t(e) {
+				var t = i.createElement("script");
+				t.src = e, t.defer = !0, i.head.appendChild(t)
+			}
+			"undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
+				everything: !0,
+				everythingExceptFlag: !0
+			}, e = new Promise(function(e) {
+				i.addEventListener("DOMContentLoaded", e, {
+					once: !0
+				})
+			}), new Promise(function(t) {
+				var n = function() {
+					try {
+						var e = JSON.parse(sessionStorage.getItem(o));
+						if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e
+							.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+					} catch (e) {}
+					return null
+				}();
+				if (!n) {
+					if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" !=
+						typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+						var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p
+								.toString()
+							].join(",") + "));",
+							r = new Blob([e], {
+								type: "text/javascript"
+							}),
+							a = new Worker(URL.createObjectURL(r), {
+								name: "wpTestEmojiSupports"
+							});
+						return void(a.onmessage = function(e) {
+							c(n = e.data), a.terminate(), t(n)
+						})
+					} catch (e) {}
+					c(n = f(s, u, p))
+				}
+				t(n)
+			}).then(function(e) {
+				for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n
+					.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports
+						.everythingExceptFlag && n.supports[t]);
+				n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n
+					.DOMReady = !1, n.readyCallback = function() {
+						n.DOMReady = !0
+					}
+			}).then(function() {
+				return e
+			}).then(function() {
+				var e;
+				n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) :
+					e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+			}))
+		}((window, document), window._wpemojiSettings);
+	</script>
+	<link rel='stylesheet' id='hfe-widgets-style-css'
+		href='../../wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend3c94.css?ver=2.1.0'
+		media='all' />
+	<link rel='stylesheet' id='jkit-elements-main-css'
+		href='../../wp-content/plugins/jeg-elementor-kit/assets/css/elements/maina19e.css?ver=2.6.9' media='all' />
+	<style id='wp-emoji-styles-inline-css'>
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 0.07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel='stylesheet' id='fontawesome-gutenverse-css'
+		href='../../wp-content/plugins/gutenverse/lib/framework/assets/fonts/fontawesome/css/all.min1576.css?ver=1.2.1'
+		media='all' />
+	<link rel='stylesheet' id='gutenverse-iconlist-css'
+		href='../../wp-content/plugins/gutenverse/lib/framework/assets/fonts/gtnicon/gtnicon1576.css?ver=1.2.1'
+		media='all' />
+	<link rel='stylesheet' id='gutenverse-frontend-style-css'
+		href='../../wp-content/plugins/gutenverse/lib/framework/assets/css/frontend1576.css?ver=1.2.1' media='all' />
+	<style id='classic-theme-styles-inline-css'>
+		/*! This file is auto-generated */
+		.wp-block-button__link {
+			color: #fff;
+			background-color: #32373c;
+			border-radius: 9999px;
+			box-shadow: none;
+			text-decoration: none;
+			padding: calc(.667em + 2px) calc(1.333em + 2px);
+			font-size: 1.125em
+		}
+
+		.wp-block-file__button {
+			background: #32373c;
+			color: #fff;
+			text-decoration: none
+		}
+	</style>
+	<style id='global-styles-inline-css'>
+		:root {
+			--wp--preset--aspect-ratio--square: 1;
+			--wp--preset--aspect-ratio--4-3: 4/3;
+			--wp--preset--aspect-ratio--3-4: 3/4;
+			--wp--preset--aspect-ratio--3-2: 3/2;
+			--wp--preset--aspect-ratio--2-3: 2/3;
+			--wp--preset--aspect-ratio--16-9: 16/9;
+			--wp--preset--aspect-ratio--9-16: 9/16;
+			--wp--preset--color--black: #000000;
+			--wp--preset--color--cyan-bluish-gray: #abb8c3;
+			--wp--preset--color--white: #ffffff;
+			--wp--preset--color--pale-pink: #f78da7;
+			--wp--preset--color--vivid-red: #cf2e2e;
+			--wp--preset--color--luminous-vivid-orange: #ff6900;
+			--wp--preset--color--luminous-vivid-amber: #fcb900;
+			--wp--preset--color--light-green-cyan: #7bdcb5;
+			--wp--preset--color--vivid-green-cyan: #00d084;
+			--wp--preset--color--pale-cyan-blue: #8ed1fc;
+			--wp--preset--color--vivid-cyan-blue: #0693e3;
+			--wp--preset--color--vivid-purple: #9b51e0;
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+			--wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+			--wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+			--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+			--wp--preset--font-size--small: 13px;
+			--wp--preset--font-size--medium: 20px;
+			--wp--preset--font-size--large: 36px;
+			--wp--preset--font-size--x-large: 42px;
+			--wp--preset--spacing--20: 0.44rem;
+			--wp--preset--spacing--30: 0.67rem;
+			--wp--preset--spacing--40: 1rem;
+			--wp--preset--spacing--50: 1.5rem;
+			--wp--preset--spacing--60: 2.25rem;
+			--wp--preset--spacing--70: 3.38rem;
+			--wp--preset--spacing--80: 5.06rem;
+			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+		}
+
+		:where(.is-layout-flex) {
+			gap: 0.5em;
+		}
+
+		:where(.is-layout-grid) {
+			gap: 0.5em;
+		}
+
+		body .is-layout-flex {
+			display: flex;
+		}
+
+		.is-layout-flex {
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+		.is-layout-flex> :is(*, div) {
+			margin: 0;
+		}
+
+		body .is-layout-grid {
+			display: grid;
+		}
+
+		.is-layout-grid> :is(*, div) {
+			margin: 0;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-color {
+			color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-color {
+			color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-color {
+			color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-color {
+			color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-color {
+			color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-color {
+			color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-color {
+			color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-color {
+			color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-color {
+			color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-color {
+			color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-color {
+			color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-background-color {
+			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-background-color {
+			background-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-background-color {
+			background-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-background-color {
+			background-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-background-color {
+			background-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-background-color {
+			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-background-color {
+			background-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-border-color {
+			border-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-border-color {
+			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-border-color {
+			border-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-border-color {
+			border-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-border-color {
+			border-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-border-color {
+			border-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-border-color {
+			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-border-color {
+			border-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+		}
+
+		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+		}
+
+		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+		}
+
+		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+		}
+
+		.has-cool-to-warm-spectrum-gradient-background {
+			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+		}
+
+		.has-blush-light-purple-gradient-background {
+			background: var(--wp--preset--gradient--blush-light-purple) !important;
+		}
+
+		.has-blush-bordeaux-gradient-background {
+			background: var(--wp--preset--gradient--blush-bordeaux) !important;
+		}
+
+		.has-luminous-dusk-gradient-background {
+			background: var(--wp--preset--gradient--luminous-dusk) !important;
+		}
+
+		.has-pale-ocean-gradient-background {
+			background: var(--wp--preset--gradient--pale-ocean) !important;
+		}
+
+		.has-electric-grass-gradient-background {
+			background: var(--wp--preset--gradient--electric-grass) !important;
+		}
+
+		.has-midnight-gradient-background {
+			background: var(--wp--preset--gradient--midnight) !important;
+		}
+
+		.has-small-font-size {
+			font-size: var(--wp--preset--font-size--small) !important;
+		}
+
+		.has-medium-font-size {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+
+		.has-large-font-size {
+			font-size: var(--wp--preset--font-size--large) !important;
+		}
+
+		.has-x-large-font-size {
+			font-size: var(--wp--preset--font-size--x-large) !important;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:root :where(.wp-block-pullquote) {
+			font-size: 1.5em;
+			line-height: 1.6;
+		}
+	</style>
+	<link rel='stylesheet' id='template-kit-export-css'
+		href='../../wp-content/plugins/template-kit-export/assets/public/template-kit-export-public982a.css?ver=1.0.23'
+		media='all' />
+	<link rel='stylesheet' id='hfe-style-css'
+		href='../../wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor3c94.css?ver=2.1.0'
+		media='all' />
+	<link rel='stylesheet' id='elementor-frontend-css'
+		href='../../wp-content/plugins/elementor/assets/css/frontend.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='swiper-css'
+		href='../../wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5' media='all' />
+	<link rel='stylesheet' id='e-swiper-css'
+		href='../../wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='elementor-post-3-css'
+		href='../../wp-content/uploads/sites/292/elementor/css/post-31c5e.css?ver=1736325156' media='all' />
+	<link rel='stylesheet' id='widget-image-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-image.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='widget-text-editor-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-text-editor.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='widget-image-carousel-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-image-carousel.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='e-animation-grow-css'
+		href='../../wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min5422.css?ver=3.25.9'
+		media='all' />
+	<link rel='stylesheet' id='widget-counter-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-counter.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='widget-rating-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-rating.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='widget-heading-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-heading.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='widget-icon-list-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-icon-list.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='elementor-post-429-css'
+		href='../../wp-content/uploads/sites/292/elementor/css/post-4292f3e.css?ver=1736868037' media='all' />
+	<link rel='stylesheet' id='elementor-post-299-css'
+		href='../../wp-content/uploads/sites/292/elementor/css/post-299c0d3.css?ver=1736732002' media='all' />
+	<link rel='stylesheet' id='elementor-post-305-css'
+		href='../../wp-content/uploads/sites/292/elementor/css/post-3051142.css?ver=1736325157' media='all' />
+	<link rel='stylesheet' id='text-editor-style-css'
+		href='../../wp-content/plugins/metform/public/assets/css/text-editor3b71.css?ver=3.5.0' media='all' />
+	<link rel='stylesheet' id='hello-elementor-css'
+		href='../../wp-content/themes/hello-elementor/style.min1102.css?ver=2.8.1' media='all' />
+	<link rel='stylesheet' id='hello-elementor-theme-style-css'
+		href='../../wp-content/themes/hello-elementor/theme.min1102.css?ver=2.8.1' media='all' />
+	<link rel='stylesheet' id='hfe-elementor-icons-css'
+		href='../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min705c.css?ver=5.34.0'
+		media='all' />
+	<link rel='stylesheet' id='hfe-icons-list-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-icon-list.min44b4.css?ver=3.24.3' media='all' />
+	<link rel='stylesheet' id='hfe-social-icons-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-social-icons.min2401.css?ver=3.24.0' media='all' />
+	<link rel='stylesheet' id='hfe-social-share-icons-brands-css'
+		href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands52d5.css?ver=5.15.3' media='all' />
+	<link rel='stylesheet' id='hfe-social-share-icons-fontawesome-css'
+		href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome52d5.css?ver=5.15.3'
+		media='all' />
+	<link rel='stylesheet' id='hfe-nav-menu-icons-css'
+		href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid52d5.css?ver=5.15.3' media='all' />
+	<link rel='stylesheet' id='ekit-widget-styles-css'
+		href='../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles6b00.css?ver=3.4.0'
+		media='all' />
+	<link rel='stylesheet' id='ekit-responsive-css'
+		href='../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive6b00.css?ver=3.4.0'
+		media='all' />
+	<link rel='stylesheet' id='gutenverse-form-frontend-css'
+		href='../../wp-content/plugins/gutenverse-form/assets/css/frontendc5c9.css?ver=1.1.9' media='all' />
+	<link rel='stylesheet' id='gutenverse-frontend-css'
+		href='../../wp-content/plugins/gutenverse/assets/css/frontend77e6.css?ver=2.2.1' media='all' />
+	<style id='gutenverse-frontend-inline-css'>
+		:root {
+			--guten-screen-xs-max: 767px;
+			--guten-screen-sm-min: 768px;
+			--guten-screen-sm-max: 1024px;
+			--guten-screen-md-min: 1025px;
+		}
+	</style>
+	<link rel='stylesheet' id='gutenverse-theme-essential-frontend-block-css'
+		href='../../wp-content/plugins/gutenverse-themes-builder/assets/css/essential/frontend-essential97de.css?ver=1.0.5'
+		media='all' />
+	<link rel='stylesheet' id='gutenverse-frontend-icon-css'
+		href='../../wp-content/plugins/gutenverse/lib/framework/assets/dist/frontend-icon1576.css?ver=1.2.1'
+		media='all' />
+	<link rel='stylesheet' id='google-fonts-1-css'
+		href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CDM+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.7.2'
+		media='all' />
+	<link rel='stylesheet' id='elementor-icons-jkiticon-css'
+		href='../../wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticona19e.css?ver=2.6.9'
+		media='all' />
+	<link rel='stylesheet' id='elementor-icons-ekiticons-css'
+		href='../../wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons6b00.css?ver=3.4.0'
+		media='all' />
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<script src="../../wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
+	<script src="../../wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
+	<script id="jquery-js-after">
+		! function($) {
+			"use strict";
+			$(document).ready(function() {
+				$(this).scrollTop() > 100 && $(".hfe-scroll-to-top-wrap").removeClass("hfe-scroll-to-top-hide"), $(
+					window).scroll(function() {
+					$(this).scrollTop() < 100 ? $(".hfe-scroll-to-top-wrap").fadeOut(300) : $(
+						".hfe-scroll-to-top-wrap").fadeIn(300)
+				}), $(".hfe-scroll-to-top-wrap").on("click", function() {
+					$("html, body").animate({
+						scrollTop: 0
+					}, 300);
+					return !1
+				})
+			})
+		}(jQuery);
+	</script>
+	<script
+		src="../../wp-content/plugins/template-kit-export/assets/public/template-kit-export-public982a.js?ver=1.0.23"
+		id="template-kit-export-js"></script>
+	<link rel="https://api.w.org/" href="../../wp-json/index.html" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
+	<meta name="generator" content="WordPress 6.7.2" />
+	<link rel="canonical" href="index.html" />
+	<link rel='shortlink' href='../../indexedce.html?p=429' />
+	<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
+		href="../../wp-json/oembed/1.0/embed1e7d.json?url=https%3A%2F%2Fkitpro.site%2Ffluxco%2Ftemplate-kit%2Fportofolio%2F" />
+	<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
+		href="../../wp-json/oembed/1.0/embed59b0?url=https%3A%2F%2Fkitpro.site%2Ffluxco%2Ftemplate-kit%2Fportofolio%2F&amp;format=xml" />
+	<meta name="generator"
+		content="Elementor 3.25.9; features: e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading; settings: css_print_method-external, google_font-enabled, font_display-auto">
+	<style>
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+			background-image: none !important;
+		}
+
+		@media screen and (max-height: 1024px) {
+
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+			}
+		}
+
+		@media screen and (max-height: 640px) {
+
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+			}
+		}
+	</style>
 <div data-elementor-type="wp-page" data-elementor-id="777" class="elementor elementor-777">
     <div class="elementor-element elementor-element-1cbf619 e-flex e-con-boxed e-con e-parent" data-id="1cbf619"
         data-element_type="container"
@@ -29,8 +668,7 @@
                                             src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}}"
                                             class="attachment-large size-large wp-image-884" alt=""
                                             srcset="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 1024w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 300w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 768w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 800w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 1196w"
-                                            sizes="(max-width: 800px) 100vw, 800px" />
-                                    </div>
+                                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-2d96591 e-con-full e-flex e-con e-child"
@@ -44,8 +682,8 @@
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_1_683073e3d52b9">
                                             <div style="  padding-right:10px;"
                                                 class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title"><span class="style-gradient"><span>Go Viral
-                                                            SEO Agency</span></span></h2>
+                                                <h2 class="heading-title"><span class="style-gradient"><span>Top
+                                                            Digital Marketing Agency</span></span></h2>
                                             </div>
                                         </div>
                                     </div>
@@ -63,11 +701,9 @@
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h1 style="font-size: 70px;" class="heading-title">Drive Relevant Traffic &
-                                            Maximum Revenue With
-                                            <span class="style-gradient"><span>The Best SEO Agency
-                                                    Malaysia</span></span>
-                                        </h1>
+                                        <h1 style="font-size: 70px;" class="heading-title">Bringing Revolution
+                                            With Top<span class="style-gradient"><span>Digital Marketing Agency
+                                                    Malaysia</span></span></h1>
                                     </div>
                                 </div>
                             </div>
@@ -79,13 +715,13 @@
                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <p>As the best SEO agency in Malaysia, we don’t just improve your Google rankings—we
-                                        optimise your website’s structure, content, and user experience to drive
-                                        high-quality organic traffic and boost conversions. Our best SEO agency uses
-                                        AI-powered strategies, advanced tools, and ethical white-hat techniques to help
-                                        your business dominate both local and global search results. Whether you want to
-                                        strengthen your online presence or increase brand visibility, our proven SEO
-                                        services in Malaysia deliver measurable results.
+                                    <p>Go Viral is the top digital marketing agency in Malaysia, delivering
+                                        user-friendly, results-driven websites and marketing strategies since
+                                        2008. To help your business thrive online, we are here to provide
+                                        comprehensive website solutions. From SEO and PPC to e-commerce growth,
+                                        we help businesses scale fast. Unlock your brand’s full potential with
+                                        our expert strategies. Let’s Go Viral and take your business to the next
+                                        level!
                                     </p>
                                 </div>
                             </div>
@@ -286,8 +922,7 @@
                                                         src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/2-37.jpg')}}"
                                                         class="attachment-large size-large wp-image-958" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37-300x300.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37-150x150.jpg 150w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37-768x768.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37-800x800.jpg 800w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" />
-                                                </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-4f52f612 e-con-full e-flex e-con e-child"
@@ -300,8 +935,7 @@
                                                         src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/3-44.jpg')}}"
                                                         class="attachment-large size-large wp-image-962" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44-300x300.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44-150x150.jpg 150w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44-768x768.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44-800x800.jpg 800w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" />
-                                                </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-67f04c02 e-con-full e-flex e-con e-child"
@@ -314,8 +948,7 @@
                                                         src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/4-35.jpg')}}"
                                                         class="attachment-large size-large wp-image-964" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35-300x300.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35-150x150.jpg 150w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35-768x768.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35-800x800.jpg 800w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" />
-                                                </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-5054f33b e-con-full e-flex e-con e-child"
@@ -326,8 +959,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-icon-wrapper">
                                                         <div class="elementor-icon elementor-animation-grow">
-                                                            <i aria-hidden="true" class="jki jki-plus-solid"></i>
-                                                        </div>
+                                                            <i aria-hidden="true" class="jki jki-plus-solid"></i> </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -452,8 +1084,7 @@
                                         aria-label="1 of 5">
                                         <figure class="swiper-slide-inner"><img decoding="async"
                                                 class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-1.png')}}"
-                                                alt="1" />
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-1.png')}}" alt="1" />
                                         </figure>
                                     </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
@@ -515,8 +1146,8 @@
                                         data-id="794e72e9" data-element_type="widget"
                                         data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h5 class="elementor-heading-title elementor-size-default">Why Choose
-                                                SEO Agency Malaysia?</h5>
+                                            <h5 class="elementor-heading-title elementor-size-default">Why
+                                                Choose Us?</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -524,10 +1155,10 @@
                                     data-id="31b1fa50" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Partnering with the best SEO agency in Malaysia guarantees innovative tactics
-                                            that produce tangible results. Being the top SEO company in Malaysia, we
-                                            increase your brand's potential by expanding your website visibility and
-                                            achieving scalable growth and sustained online success.</p>
+                                        <p>At Go Viral, we are helping brands speak louder, sell faster, and
+                                            shine brighter with innovative digital marketing strategies. As the
+                                            best digital marketing company in Malaysia, We have all the
+                                            expertise to bring your business to the next level.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-4587248f elementor-align-center elementor-widget elementor-widget-button"
@@ -577,8 +1208,7 @@
                                                                 <path
                                                                     d="M223.75 130.75L154.62 15.54A31.997 31.997 0 0 0 127.18 0H16.03C3.08 0-4.5 14.57 2.92 25.18l111.27 158.96c29.72-27.77 67.52-46.83 109.56-53.39zM495.97 0H384.82c-11.24 0-21.66 5.9-27.44 15.54l-69.13 115.21c42.04 6.56 79.84 25.62 109.56 53.38L509.08 25.18C516.5 14.57 508.92 0 495.97 0zM256 160c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm92.52 157.26l-37.93 36.96 8.97 52.22c1.6 9.36-8.26 16.51-16.65 12.09L256 393.88l-46.9 24.65c-8.4 4.45-18.25-2.74-16.65-12.09l8.97-52.22-37.93-36.96c-6.82-6.64-3.05-18.23 6.35-19.59l52.43-7.64 23.43-47.52c2.11-4.28 6.19-6.39 10.28-6.39 4.11 0 8.22 2.14 10.33 6.39l23.43 47.52 52.43 7.64c9.4 1.36 13.17 12.95 6.35 19.59z">
                                                                 </path>
-                                                            </svg>
-                                                        </div>
+                                                            </svg> </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -598,10 +1228,8 @@
                                                     data-id="38c33e5" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <p>We are a trusted SEO agency, offers complete SEO solutions —
-                                                            from eCommerce and local SEO to national, international, and
-                                                            technical SEO — designed to help your business grow online.
-                                                        </p>
+                                                        <p>We Are Helping Brands Achieve Long-Term Online
+                                                            Success</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -893,8 +1521,7 @@
                                                 src="wp-content/uploads/sites/292/2024/11/5-42.jpg"
                                                 class="attachment-large size-large wp-image-965" alt=""
                                                 srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/5-42.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/5-42-300x180.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/5-42-768x461.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/5-42-800x480.jpg 800w"
-                                                sizes="(max-width: 800px) 100vw, 800px" />
-                                        </div>
+                                                sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                     </div>
                                 </div>
                             </div>
@@ -919,8 +1546,7 @@
                                                     src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                     class="attachment-large size-large wp-image-884" alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                    sizes="(max-width: 800px) 100vw, 800px" />
-                                            </div>
+                                                    sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-62033399 e-con-full e-flex e-con e-child"
@@ -1022,8 +1648,7 @@
                             src="wp-content/uploads/sites/292/2024/11/1-3-1024x256.png"
                             class="attachment-large size-large wp-image-869" alt=""
                             srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-1024x256.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-300x75.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-768x192.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-1536x384.png 1536w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-800x200.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3.png 1600w"
-                            sizes="(max-width: 800px) 100vw, 800px" />
-                    </div>
+                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
                 </div>
             </div>
         </div>
@@ -1048,8 +1673,7 @@
                                                 src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                 class="attachment-large size-large wp-image-884" alt=""
                                                 srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                sizes="(max-width: 800px) 100vw, 800px" />
-                                        </div>
+                                                sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-595c5592 e-con-full e-flex e-con e-child"
@@ -1121,8 +1745,7 @@
                                                     class="elementor-animation-grow attachment-large size-large wp-image-967"
                                                     alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-2.png 512w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-2-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-2-150x150.png 150w"
-                                                    sizes="(max-width: 512px) 100vw, 512px" />
-                                            </div>
+                                                    sizes="(max-width: 512px) 100vw, 512px" /> </div>
                                         </div>
                                     </div>
 
@@ -1173,8 +1796,7 @@
                                                     class="elementor-animation-grow attachment-large size-large wp-image-966"
                                                     alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6.png 512w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6-150x150.png 150w"
-                                                    sizes="(max-width: 512px) 100vw, 512px" />
-                                            </div>
+                                                    sizes="(max-width: 512px) 100vw, 512px" /> </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-1c9f4f1a e-con-full e-flex e-con e-child"
@@ -1229,8 +1851,7 @@
                                                     class="elementor-animation-grow attachment-large size-large wp-image-968"
                                                     alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-2.png 512w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-2-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-2-150x150.png 150w"
-                                                    sizes="(max-width: 512px) 100vw, 512px" />
-                                            </div>
+                                                    sizes="(max-width: 512px) 100vw, 512px" /> </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-41514302 e-con-full e-flex e-con e-child"
@@ -1283,8 +1904,7 @@
                                                     class="elementor-animation-grow attachment-large size-large wp-image-969"
                                                     alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-4.png 512w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-4-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-4-150x150.png 150w"
-                                                    sizes="(max-width: 512px) 100vw, 512px" />
-                                            </div>
+                                                    sizes="(max-width: 512px) 100vw, 512px" /> </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-13225081 e-con-full e-flex e-con e-child"
@@ -1347,8 +1967,7 @@
                                                     src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                     class="attachment-large size-large wp-image-884" alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                    sizes="(max-width: 800px) 100vw, 800px" />
-                                            </div>
+                                                    sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-787cf3a8 e-con-full e-flex e-con e-child"
@@ -1906,8 +2525,7 @@
                             src="wp-content/uploads/sites/292/2024/11/1-7-1024x145.png"
                             class="attachment-large size-large wp-image-907" alt=""
                             srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-1024x145.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-300x43.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-768x109.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-1536x218.png 1536w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-800x114.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7.png 1556w"
-                            sizes="(max-width: 800px) 100vw, 800px" />
-                    </div>
+                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
                 </div>
             </div>
         </div>
@@ -1937,8 +2555,7 @@
                                                             src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                             class="attachment-large size-large wp-image-884" alt=""
                                                             srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                            sizes="(max-width: 800px) 100vw, 800px" />
-                                                    </div>
+                                                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-4a9465c4 e-con-full e-flex e-con e-child"
@@ -1952,8 +2569,8 @@
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_10_683073e41e5c2">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class="style-gradient"><span>Why Choose SEO
-                                                                            Agency Malaysia?</span></span></h2>
+                                                                        class="style-gradient"><span>Why Choose
+                                                                            Us</span></span></h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2187,8 +2804,7 @@
                                                     src="wp-content/uploads/sites/292/2024/11/6-1-1.png"
                                                     class="attachment-large size-large wp-image-971" alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6-1-1.png 635w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6-1-1-248x300.png 248w"
-                                                    sizes="(max-width: 635px) 100vw, 635px" />
-                                            </div>
+                                                    sizes="(max-width: 635px) 100vw, 635px" /> </div>
                                         </div>
                                     </div>
                                 </div>
@@ -2379,11 +2995,12 @@
                             src="wp-content/uploads/sites/292/2024/11/48-1024x1024.png"
                             class="attachment-large size-large wp-image-811" alt=""
                             srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-1024x1024.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-150x150.png 150w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-768x768.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-1536x1536.png 1536w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-800x800.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48.png 1633w"
-                            sizes="(max-width: 800px) 100vw, 800px" />
-                    </div>
+                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
                 </div>
             </div>
         </div>
+
+        
         <div class="elementor-element elementor-element-7301da76 e-flex e-con-boxed elementor-invisible e-con e-parent"
             data-id="7301da76" data-element_type="container"
             data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
@@ -2410,8 +3027,7 @@
                                                         src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                         class="attachment-large size-large wp-image-884" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" />
-                                                </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-e1cb1 e-con-full e-flex e-con e-child"
@@ -2588,17 +3204,18 @@
 
                                                                         <div class="elementskit-commentor-content">
                                                                             <p>
-                                                                            <div class="elementskit-commentor-content">
-                                                                                <!-- Client testimonial -->
-                                                                                <p>“The social media
-                                                                                    campaigns created by Go
-                                                                                    Viral brought incredible
-                                                                                    engagement and
-                                                                                    visibility to our brand.
-                                                                                    Highly recommended for
-                                                                                    businesses looking to
-                                                                                    grow fast!”</p>
-                                                                            </div>
+                                                                                <div
+                                                                                    class="elementskit-commentor-content">
+                                                                                    <!-- Client testimonial -->
+                                                                                    <p>“The social media
+                                                                                        campaigns created by Go
+                                                                                        Viral brought incredible
+                                                                                        engagement and
+                                                                                        visibility to our brand.
+                                                                                        Highly recommended for
+                                                                                        businesses looking to
+                                                                                        grow fast!”</p>
+                                                                                </div>
                                                                             </p>
                                                                         </div>
 
@@ -2719,6 +3336,1822 @@
                     </div>
                 </div>
             </div>
+            
+
+
+            <div class="elementor-element elementor-element-7ceb12d e-flex e-con-boxed e-con e-parent" data-id="7ceb12d"
+				data-element_type="container">
+				<div class="e-con-inner">
+					<div class="elementor-element elementor-element-a0f60eb e-con-full e-flex e-con e-child"
+						data-id="a0f60eb" data-element_type="container">
+						<div class="elementor-element elementor-element-90f04c9 e-con-full e-flex e-con e-child"
+							data-id="90f04c9" data-element_type="container">
+							<div class="elementor-element elementor-element-38cde81 e-con-full e-flex e-con e-child"
+								data-id="38cde81" data-element_type="container">
+								<div class="elementor-element elementor-element-138aa77 e-con-full e-flex e-con e-child"
+									data-id="138aa77" data-element_type="container"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+									<div class="elementor-element elementor-element-f553dbb e-con-full e-flex e-con e-child"
+										data-id="f553dbb" data-element_type="container">
+										<div class="elementor-element elementor-element-8bf8c4d elementor-widget elementor-widget-image"
+											data-id="8bf8c4d" data-element_type="widget"
+											data-widget_type="image.default">
+											<div class="elementor-widget-container">
+												<img decoding="async" width="800" height="780"
+													src="../../wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
+													class="attachment-large size-large wp-image-884" alt=""
+													srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
+													sizes="(max-width: 800px) 100vw, 800px" /> </div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-05bcf6f e-con-full e-flex e-con e-child"
+										data-id="05bcf6f" data-element_type="container">
+										<div class="elementor-element elementor-element-527475b elementor-widget elementor-widget-jkit_heading"
+											data-id="527475b" data-element_type="widget"
+											data-settings="{&quot;_animation&quot;:&quot;none&quot;}"
+											data-widget_type="jkit_heading.default">
+											<div class="elementor-widget-container">
+												<div
+													class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_429_8_683073e798fc1">
+													<div class="heading-section-title  display-inline-block">
+														<h2 class="heading-title"><span class="style-gradient"><span>our
+																	project</span></span></h2>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-abe95ff elementor-widget elementor-widget-jkit_heading"
+								data-id="abe95ff" data-element_type="widget"
+								data-settings="{&quot;_animation&quot;:&quot;none&quot;}"
+								data-widget_type="jkit_heading.default">
+								<div class="elementor-widget-container">
+									<div
+										class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_429_9_683073e799e34">
+										<div class="heading-section-title  display-inline-block">
+											<h2 class="heading-title">Your Success Story Begins <span
+													class="style-gradient"><span>With Fluxco</span></span></h2>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-22b323b elementor-widget elementor-widget-text-editor"
+								data-id="22b323b" data-element_type="widget"
+								data-settings="{&quot;_animation&quot;:&quot;none&quot;}"
+								data-widget_type="text-editor.default">
+								<div class="elementor-widget-container">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+										nec ullamcorper mattis, pulvinar dapibus leo.</p>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-986aa42 e-con-full e-flex e-con e-child"
+							data-id="986aa42" data-element_type="container">
+							<a class="elementor-element elementor-element-cf6f1dc e-con-full e-transform e-transform e-flex e-con e-child"
+								data-id="cf6f1dc" data-element_type="container"
+								data-settings="{&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-5,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								href="#">
+								<div class="elementor-element elementor-element-e4d6af7 e-con-full e-flex e-con e-child"
+									data-id="e4d6af7" data-element_type="container"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+									<div class="elementor-element elementor-element-5cfea7a e-con-full e-flex e-con e-child"
+										data-id="5cfea7a" data-element_type="container">
+										<div class="elementor-element elementor-element-1e6da62 e-con-full e-flex e-con e-child"
+											data-id="1e6da62" data-element_type="container">
+											<div class="elementor-element elementor-element-28bd768 elementor-widget elementor-widget-image"
+												data-id="28bd768" data-element_type="widget"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="800" height="320"
+														src="../../wp-content/uploads/sites/292/2024/11/25-22.jpg"
+														class="attachment-large size-large wp-image-1391" alt=""
+														srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/25-22.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/25-22-300x120.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/25-22-768x307.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/25-22-800x320.jpg 800w"
+														sizes="(max-width: 800px) 100vw, 800px" /> </div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-7a63bab e-con-full e-flex e-con e-child"
+											data-id="7a63bab" data-element_type="container">
+											<div class="elementor-element elementor-element-de71533 e-con-full e-flex e-con e-child"
+												data-id="de71533" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-13e3035 elementor-widget elementor-widget-rating"
+													data-id="13e3035" data-element_type="widget"
+													data-widget_type="rating.default">
+													<div class="elementor-widget-container">
+														<div class="e-rating" itemtype="https://schema.org/Rating"
+															itemscope="" itemprop="reviewRating">
+															<meta itemprop="worstRating" content="0">
+															<meta itemprop="bestRating" content="5">
+															<div class="e-rating-wrapper" itemprop="ratingValue"
+																content="4.5" role="img"
+																aria-label="Rated 4.5 out of 5">
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked"
+																		style="--e-rating-icon-marked-width: 50%;">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-b405ff5 elementor-widget elementor-widget-text-editor"
+													data-id="b405ff5" data-element_type="widget"
+													data-widget_type="text-editor.default">
+													<div class="elementor-widget-container">
+														<p>(4,5/5)</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-ae2c4f1 e-con-full e-flex e-con e-child"
+										data-id="ae2c4f1" data-element_type="container">
+										<div class="elementor-element elementor-element-4f1b828 elementor-widget elementor-widget-heading"
+											data-id="4f1b828" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h4 class="elementor-heading-title elementor-size-default">EcoTech
+													Solutions – Increased Organic Traffic by 70%</h4>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-a3248db e-con-full e-flex e-con e-child"
+											data-id="a3248db" data-element_type="container">
+											<div class="elementor-element elementor-element-cb2eb1b e-con-full e-flex e-con e-child"
+												data-id="cb2eb1b" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-e756d28 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="e756d28" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-lightbulb"
+																		viewBox="0 0 352 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Solution</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-49f5f88 e-con-full e-flex e-con e-child"
+												data-id="49f5f88" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-de6bb9f elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="de6bb9f" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-business-time"
+																		viewBox="0 0 640 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M496 224c-79.59 0-144 64.41-144 144s64.41 144 144 144 144-64.41 144-144-64.41-144-144-144zm64 150.29c0 5.34-4.37 9.71-9.71 9.71h-60.57c-5.34 0-9.71-4.37-9.71-9.71v-76.57c0-5.34 4.37-9.71 9.71-9.71h12.57c5.34 0 9.71 4.37 9.71 9.71V352h38.29c5.34 0 9.71 4.37 9.71 9.71v12.58zM496 192c5.4 0 10.72.33 16 .81V144c0-25.6-22.4-48-48-48h-80V48c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h395.12c28.6-20.09 63.35-32 100.88-32zM320 96H192V64h128v32zm6.82 224H208c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h291.43C327.1 423.96 320 396.82 320 368c0-16.66 2.48-32.72 6.82-48z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Business</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-f4fe8aa e-con-full elementor-hidden-tablet e-flex e-con e-child"
+												data-id="f4fe8aa" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-77d25a5 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="77d25a5" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-rocket"
+																		viewBox="0 0 512 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Technology</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-b764f39 elementor-widget elementor-widget-text-editor"
+											data-id="b764f39" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+													tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="elementor-element elementor-element-8e07b85 e-con-full e-flex e-con e-child"
+							data-id="8e07b85" data-element_type="container">
+							<a class="elementor-element elementor-element-c1fb34b e-con-full e-transform e-transform e-flex e-con e-child"
+								data-id="c1fb34b" data-element_type="container"
+								data-settings="{&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-5,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								href="#">
+								<div class="elementor-element elementor-element-490c920 e-con-full e-flex e-con e-child"
+									data-id="490c920" data-element_type="container"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+									<div class="elementor-element elementor-element-695063c e-con-full e-flex e-con e-child"
+										data-id="695063c" data-element_type="container">
+										<div class="elementor-element elementor-element-aa462b1 e-con-full e-flex e-con e-child"
+											data-id="aa462b1" data-element_type="container">
+											<div class="elementor-element elementor-element-ef837a5 elementor-widget elementor-widget-image"
+												data-id="ef837a5" data-element_type="widget"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="800" height="320"
+														src="../../wp-content/uploads/sites/292/2024/11/26-17.jpg"
+														class="attachment-large size-large wp-image-1392" alt=""
+														srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/26-17.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/26-17-300x120.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/26-17-768x307.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/26-17-800x320.jpg 800w"
+														sizes="(max-width: 800px) 100vw, 800px" /> </div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-4205a00 e-con-full e-flex e-con e-child"
+											data-id="4205a00" data-element_type="container">
+											<div class="elementor-element elementor-element-1844996 e-con-full e-flex e-con e-child"
+												data-id="1844996" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-84f091b elementor-widget elementor-widget-rating"
+													data-id="84f091b" data-element_type="widget"
+													data-widget_type="rating.default">
+													<div class="elementor-widget-container">
+														<div class="e-rating" itemtype="https://schema.org/Rating"
+															itemscope="" itemprop="reviewRating">
+															<meta itemprop="worstRating" content="0">
+															<meta itemprop="bestRating" content="5">
+															<div class="e-rating-wrapper" itemprop="ratingValue"
+																content="4.5" role="img"
+																aria-label="Rated 4.5 out of 5">
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked"
+																		style="--e-rating-icon-marked-width: 50%;">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-661eeff elementor-widget elementor-widget-text-editor"
+													data-id="661eeff" data-element_type="widget"
+													data-widget_type="text-editor.default">
+													<div class="elementor-widget-container">
+														<p>(4,5/5)</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-0b8637d e-con-full e-flex e-con e-child"
+										data-id="0b8637d" data-element_type="container">
+										<div class="elementor-element elementor-element-9022c3f elementor-widget elementor-widget-heading"
+											data-id="9022c3f" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h4 class="elementor-heading-title elementor-size-default">GreenWave –
+													40% Boost in Social Media Engagement</h4>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-46e583b e-con-full e-flex e-con e-child"
+											data-id="46e583b" data-element_type="container">
+											<div class="elementor-element elementor-element-b45240c e-con-full e-flex e-con e-child"
+												data-id="b45240c" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-1fb261d elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="1fb261d" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-comment-dots"
+																		viewBox="0 0 512 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M256 32C114.6 32 0 125.1 0 240c0 49.6 21.4 95 57 130.7C44.5 421.1 2.7 466 2.2 466.5c-2.2 2.3-2.8 5.7-1.5 8.7S4.8 480 8 480c66.3 0 116-31.8 140.6-51.4 32.7 12.3 69 19.4 107.4 19.4 141.4 0 256-93.1 256-208S397.4 32 256 32zM128 272c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Social
+																	Media</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-ce07f2c e-con-full e-flex e-con e-child"
+												data-id="ce07f2c" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-ee6b267 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="ee6b267" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-business-time"
+																		viewBox="0 0 640 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M496 224c-79.59 0-144 64.41-144 144s64.41 144 144 144 144-64.41 144-144-64.41-144-144-144zm64 150.29c0 5.34-4.37 9.71-9.71 9.71h-60.57c-5.34 0-9.71-4.37-9.71-9.71v-76.57c0-5.34 4.37-9.71 9.71-9.71h12.57c5.34 0 9.71 4.37 9.71 9.71V352h38.29c5.34 0 9.71 4.37 9.71 9.71v12.58zM496 192c5.4 0 10.72.33 16 .81V144c0-25.6-22.4-48-48-48h-80V48c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h395.12c28.6-20.09 63.35-32 100.88-32zM320 96H192V64h128v32zm6.82 224H208c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h291.43C327.1 423.96 320 396.82 320 368c0-16.66 2.48-32.72 6.82-48z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Business</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-f80895b e-con-full elementor-hidden-tablet e-flex e-con e-child"
+												data-id="f80895b" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-7f72d6d elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="7f72d6d" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-rocket"
+																		viewBox="0 0 512 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Technology</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-0173950 elementor-widget elementor-widget-text-editor"
+											data-id="0173950" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+													tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="elementor-element elementor-element-6011a9d e-con-full e-flex e-con e-child"
+							data-id="6011a9d" data-element_type="container">
+							<a class="elementor-element elementor-element-1137932 e-con-full e-transform e-transform e-flex e-con e-child"
+								data-id="1137932" data-element_type="container"
+								data-settings="{&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-5,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								href="#">
+								<div class="elementor-element elementor-element-797a741 e-con-full e-flex e-con e-child"
+									data-id="797a741" data-element_type="container"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+									<div class="elementor-element elementor-element-71d8643 e-con-full e-flex e-con e-child"
+										data-id="71d8643" data-element_type="container">
+										<div class="elementor-element elementor-element-0104021 e-con-full e-flex e-con e-child"
+											data-id="0104021" data-element_type="container">
+											<div class="elementor-element elementor-element-12142cc elementor-widget elementor-widget-image"
+												data-id="12142cc" data-element_type="widget"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="800" height="320"
+														src="../../wp-content/uploads/sites/292/2024/11/27-14.jpg"
+														class="attachment-large size-large wp-image-1393" alt=""
+														srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-300x120.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-768x307.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-800x320.jpg 800w"
+														sizes="(max-width: 800px) 100vw, 800px" /> </div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-403cd0a e-con-full e-flex e-con e-child"
+											data-id="403cd0a" data-element_type="container">
+											<div class="elementor-element elementor-element-a5cf93e e-con-full e-flex e-con e-child"
+												data-id="a5cf93e" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-820054c elementor-widget elementor-widget-rating"
+													data-id="820054c" data-element_type="widget"
+													data-widget_type="rating.default">
+													<div class="elementor-widget-container">
+														<div class="e-rating" itemtype="https://schema.org/Rating"
+															itemscope="" itemprop="reviewRating">
+															<meta itemprop="worstRating" content="0">
+															<meta itemprop="bestRating" content="5">
+															<div class="e-rating-wrapper" itemprop="ratingValue"
+																content="4.5" role="img"
+																aria-label="Rated 4.5 out of 5">
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked"
+																		style="--e-rating-icon-marked-width: 50%;">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-1fa8c47 elementor-widget elementor-widget-text-editor"
+													data-id="1fa8c47" data-element_type="widget"
+													data-widget_type="text-editor.default">
+													<div class="elementor-widget-container">
+														<p>(4,5/5)</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-99c4280 e-con-full e-flex e-con e-child"
+										data-id="99c4280" data-element_type="container">
+										<div class="elementor-element elementor-element-cd2bd69 elementor-widget elementor-widget-heading"
+											data-id="cd2bd69" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h4 class="elementor-heading-title elementor-size-default">Bright
+													Futures Consulting – 3x Growth in Online Leads</h4>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-c369d72 e-con-full e-flex e-con e-child"
+											data-id="c369d72" data-element_type="container">
+											<div class="elementor-element elementor-element-2647ac5 e-con-full e-flex e-con e-child"
+												data-id="2647ac5" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-647b2d0 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="647b2d0" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-comments"
+																		viewBox="0 0 576 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Consulting</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-08aa1e9 e-con-full e-flex e-con e-child"
+												data-id="08aa1e9" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-cf00a34 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="cf00a34" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-business-time"
+																		viewBox="0 0 640 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M496 224c-79.59 0-144 64.41-144 144s64.41 144 144 144 144-64.41 144-144-64.41-144-144-144zm64 150.29c0 5.34-4.37 9.71-9.71 9.71h-60.57c-5.34 0-9.71-4.37-9.71-9.71v-76.57c0-5.34 4.37-9.71 9.71-9.71h12.57c5.34 0 9.71 4.37 9.71 9.71V352h38.29c5.34 0 9.71 4.37 9.71 9.71v12.58zM496 192c5.4 0 10.72.33 16 .81V144c0-25.6-22.4-48-48-48h-80V48c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h395.12c28.6-20.09 63.35-32 100.88-32zM320 96H192V64h128v32zm6.82 224H208c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h291.43C327.1 423.96 320 396.82 320 368c0-16.66 2.48-32.72 6.82-48z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Business</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-50c75f2 e-con-full elementor-hidden-tablet e-flex e-con e-child"
+												data-id="50c75f2" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-a053d87 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="a053d87" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-rocket"
+																		viewBox="0 0 512 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Technology</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-e01c222 elementor-widget elementor-widget-text-editor"
+											data-id="e01c222" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+													tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="elementor-element elementor-element-6011a9d e-con-full e-flex e-con e-child"
+							data-id="6011a9d" data-element_type="container">
+							<a class="elementor-element elementor-element-1137932 e-con-full e-transform e-transform e-flex e-con e-child"
+								data-id="1137932" data-element_type="container"
+								data-settings="{&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-5,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								href="#">
+								<div class="elementor-element elementor-element-797a741 e-con-full e-flex e-con e-child"
+									data-id="797a741" data-element_type="container"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+									<div class="elementor-element elementor-element-71d8643 e-con-full e-flex e-con e-child"
+										data-id="71d8643" data-element_type="container">
+										<div class="elementor-element elementor-element-0104021 e-con-full e-flex e-con e-child"
+											data-id="0104021" data-element_type="container">
+											<div class="elementor-element elementor-element-12142cc elementor-widget elementor-widget-image"
+												data-id="12142cc" data-element_type="widget"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="800" height="320"
+														src="../../wp-content/uploads/sites/292/2024/11/27-14.jpg"
+														class="attachment-large size-large wp-image-1393" alt=""
+														srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-300x120.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-768x307.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-800x320.jpg 800w"
+														sizes="(max-width: 800px) 100vw, 800px" /> </div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-403cd0a e-con-full e-flex e-con e-child"
+											data-id="403cd0a" data-element_type="container">
+											<div class="elementor-element elementor-element-a5cf93e e-con-full e-flex e-con e-child"
+												data-id="a5cf93e" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-820054c elementor-widget elementor-widget-rating"
+													data-id="820054c" data-element_type="widget"
+													data-widget_type="rating.default">
+													<div class="elementor-widget-container">
+														<div class="e-rating" itemtype="https://schema.org/Rating"
+															itemscope="" itemprop="reviewRating">
+															<meta itemprop="worstRating" content="0">
+															<meta itemprop="bestRating" content="5">
+															<div class="e-rating-wrapper" itemprop="ratingValue"
+																content="4.5" role="img"
+																aria-label="Rated 4.5 out of 5">
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked"
+																		style="--e-rating-icon-marked-width: 50%;">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-1fa8c47 elementor-widget elementor-widget-text-editor"
+													data-id="1fa8c47" data-element_type="widget"
+													data-widget_type="text-editor.default">
+													<div class="elementor-widget-container">
+														<p>(4,5/5)</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-99c4280 e-con-full e-flex e-con e-child"
+										data-id="99c4280" data-element_type="container">
+										<div class="elementor-element elementor-element-cd2bd69 elementor-widget elementor-widget-heading"
+											data-id="cd2bd69" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h4 class="elementor-heading-title elementor-size-default">Bright
+													Futures Consulting – 3x Growth in Online Leads</h4>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-c369d72 e-con-full e-flex e-con e-child"
+											data-id="c369d72" data-element_type="container">
+											<div class="elementor-element elementor-element-2647ac5 e-con-full e-flex e-con e-child"
+												data-id="2647ac5" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-647b2d0 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="647b2d0" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-comments"
+																		viewBox="0 0 576 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Consulting</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-08aa1e9 e-con-full e-flex e-con e-child"
+												data-id="08aa1e9" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-cf00a34 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="cf00a34" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-business-time"
+																		viewBox="0 0 640 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M496 224c-79.59 0-144 64.41-144 144s64.41 144 144 144 144-64.41 144-144-64.41-144-144-144zm64 150.29c0 5.34-4.37 9.71-9.71 9.71h-60.57c-5.34 0-9.71-4.37-9.71-9.71v-76.57c0-5.34 4.37-9.71 9.71-9.71h12.57c5.34 0 9.71 4.37 9.71 9.71V352h38.29c5.34 0 9.71 4.37 9.71 9.71v12.58zM496 192c5.4 0 10.72.33 16 .81V144c0-25.6-22.4-48-48-48h-80V48c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h395.12c28.6-20.09 63.35-32 100.88-32zM320 96H192V64h128v32zm6.82 224H208c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h291.43C327.1 423.96 320 396.82 320 368c0-16.66 2.48-32.72 6.82-48z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Business</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-50c75f2 e-con-full elementor-hidden-tablet e-flex e-con e-child"
+												data-id="50c75f2" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-a053d87 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="a053d87" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-rocket"
+																		viewBox="0 0 512 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Technology</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-e01c222 elementor-widget elementor-widget-text-editor"
+											data-id="e01c222" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+													tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="elementor-element elementor-element-6011a9d e-con-full e-flex e-con e-child"
+							data-id="6011a9d" data-element_type="container">
+							<a class="elementor-element elementor-element-1137932 e-con-full e-transform e-transform e-flex e-con e-child"
+								data-id="1137932" data-element_type="container"
+								data-settings="{&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-5,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								href="#">
+								<div class="elementor-element elementor-element-797a741 e-con-full e-flex e-con e-child"
+									data-id="797a741" data-element_type="container"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+									<div class="elementor-element elementor-element-71d8643 e-con-full e-flex e-con e-child"
+										data-id="71d8643" data-element_type="container">
+										<div class="elementor-element elementor-element-0104021 e-con-full e-flex e-con e-child"
+											data-id="0104021" data-element_type="container">
+											<div class="elementor-element elementor-element-12142cc elementor-widget elementor-widget-image"
+												data-id="12142cc" data-element_type="widget"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="800" height="320"
+														src="../../wp-content/uploads/sites/292/2024/11/27-14.jpg"
+														class="attachment-large size-large wp-image-1393" alt=""
+														srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-300x120.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-768x307.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-800x320.jpg 800w"
+														sizes="(max-width: 800px) 100vw, 800px" /> </div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-403cd0a e-con-full e-flex e-con e-child"
+											data-id="403cd0a" data-element_type="container">
+											<div class="elementor-element elementor-element-a5cf93e e-con-full e-flex e-con e-child"
+												data-id="a5cf93e" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-820054c elementor-widget elementor-widget-rating"
+													data-id="820054c" data-element_type="widget"
+													data-widget_type="rating.default">
+													<div class="elementor-widget-container">
+														<div class="e-rating" itemtype="https://schema.org/Rating"
+															itemscope="" itemprop="reviewRating">
+															<meta itemprop="worstRating" content="0">
+															<meta itemprop="bestRating" content="5">
+															<div class="e-rating-wrapper" itemprop="ratingValue"
+																content="4.5" role="img"
+																aria-label="Rated 4.5 out of 5">
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked"
+																		style="--e-rating-icon-marked-width: 50%;">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-1fa8c47 elementor-widget elementor-widget-text-editor"
+													data-id="1fa8c47" data-element_type="widget"
+													data-widget_type="text-editor.default">
+													<div class="elementor-widget-container">
+														<p>(4,5/5)</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-99c4280 e-con-full e-flex e-con e-child"
+										data-id="99c4280" data-element_type="container">
+										<div class="elementor-element elementor-element-cd2bd69 elementor-widget elementor-widget-heading"
+											data-id="cd2bd69" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h4 class="elementor-heading-title elementor-size-default">Bright
+													Futures Consulting – 3x Growth in Online Leads</h4>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-c369d72 e-con-full e-flex e-con e-child"
+											data-id="c369d72" data-element_type="container">
+											<div class="elementor-element elementor-element-2647ac5 e-con-full e-flex e-con e-child"
+												data-id="2647ac5" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-647b2d0 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="647b2d0" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-comments"
+																		viewBox="0 0 576 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Consulting</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-08aa1e9 e-con-full e-flex e-con e-child"
+												data-id="08aa1e9" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-cf00a34 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="cf00a34" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-business-time"
+																		viewBox="0 0 640 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M496 224c-79.59 0-144 64.41-144 144s64.41 144 144 144 144-64.41 144-144-64.41-144-144-144zm64 150.29c0 5.34-4.37 9.71-9.71 9.71h-60.57c-5.34 0-9.71-4.37-9.71-9.71v-76.57c0-5.34 4.37-9.71 9.71-9.71h12.57c5.34 0 9.71 4.37 9.71 9.71V352h38.29c5.34 0 9.71 4.37 9.71 9.71v12.58zM496 192c5.4 0 10.72.33 16 .81V144c0-25.6-22.4-48-48-48h-80V48c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h395.12c28.6-20.09 63.35-32 100.88-32zM320 96H192V64h128v32zm6.82 224H208c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h291.43C327.1 423.96 320 396.82 320 368c0-16.66 2.48-32.72 6.82-48z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Business</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-50c75f2 e-con-full elementor-hidden-tablet e-flex e-con e-child"
+												data-id="50c75f2" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-a053d87 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="a053d87" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-rocket"
+																		viewBox="0 0 512 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Technology</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-e01c222 elementor-widget elementor-widget-text-editor"
+											data-id="e01c222" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+													tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="elementor-element elementor-element-6011a9d e-con-full e-flex e-con e-child"
+							data-id="6011a9d" data-element_type="container">
+							<a class="elementor-element elementor-element-1137932 e-con-full e-transform e-transform e-flex e-con e-child"
+								data-id="1137932" data-element_type="container"
+								data-settings="{&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-5,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								href="#">
+								<div class="elementor-element elementor-element-797a741 e-con-full e-flex e-con e-child"
+									data-id="797a741" data-element_type="container"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+									<div class="elementor-element elementor-element-71d8643 e-con-full e-flex e-con e-child"
+										data-id="71d8643" data-element_type="container">
+										<div class="elementor-element elementor-element-0104021 e-con-full e-flex e-con e-child"
+											data-id="0104021" data-element_type="container">
+											<div class="elementor-element elementor-element-12142cc elementor-widget elementor-widget-image"
+												data-id="12142cc" data-element_type="widget"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="800" height="320"
+														src="../../wp-content/uploads/sites/292/2024/11/27-14.jpg"
+														class="attachment-large size-large wp-image-1393" alt=""
+														srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-300x120.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-768x307.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-800x320.jpg 800w"
+														sizes="(max-width: 800px) 100vw, 800px" /> </div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-403cd0a e-con-full e-flex e-con e-child"
+											data-id="403cd0a" data-element_type="container">
+											<div class="elementor-element elementor-element-a5cf93e e-con-full e-flex e-con e-child"
+												data-id="a5cf93e" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-820054c elementor-widget elementor-widget-rating"
+													data-id="820054c" data-element_type="widget"
+													data-widget_type="rating.default">
+													<div class="elementor-widget-container">
+														<div class="e-rating" itemtype="https://schema.org/Rating"
+															itemscope="" itemprop="reviewRating">
+															<meta itemprop="worstRating" content="0">
+															<meta itemprop="bestRating" content="5">
+															<div class="e-rating-wrapper" itemprop="ratingValue"
+																content="4.5" role="img"
+																aria-label="Rated 4.5 out of 5">
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked"
+																		style="--e-rating-icon-marked-width: 50%;">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-1fa8c47 elementor-widget elementor-widget-text-editor"
+													data-id="1fa8c47" data-element_type="widget"
+													data-widget_type="text-editor.default">
+													<div class="elementor-widget-container">
+														<p>(4,5/5)</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-99c4280 e-con-full e-flex e-con e-child"
+										data-id="99c4280" data-element_type="container">
+										<div class="elementor-element elementor-element-cd2bd69 elementor-widget elementor-widget-heading"
+											data-id="cd2bd69" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h4 class="elementor-heading-title elementor-size-default">Bright
+													Futures Consulting – 3x Growth in Online Leads</h4>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-c369d72 e-con-full e-flex e-con e-child"
+											data-id="c369d72" data-element_type="container">
+											<div class="elementor-element elementor-element-2647ac5 e-con-full e-flex e-con e-child"
+												data-id="2647ac5" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-647b2d0 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="647b2d0" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-comments"
+																		viewBox="0 0 576 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Consulting</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-08aa1e9 e-con-full e-flex e-con e-child"
+												data-id="08aa1e9" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-cf00a34 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="cf00a34" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-business-time"
+																		viewBox="0 0 640 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M496 224c-79.59 0-144 64.41-144 144s64.41 144 144 144 144-64.41 144-144-64.41-144-144-144zm64 150.29c0 5.34-4.37 9.71-9.71 9.71h-60.57c-5.34 0-9.71-4.37-9.71-9.71v-76.57c0-5.34 4.37-9.71 9.71-9.71h12.57c5.34 0 9.71 4.37 9.71 9.71V352h38.29c5.34 0 9.71 4.37 9.71 9.71v12.58zM496 192c5.4 0 10.72.33 16 .81V144c0-25.6-22.4-48-48-48h-80V48c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h395.12c28.6-20.09 63.35-32 100.88-32zM320 96H192V64h128v32zm6.82 224H208c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h291.43C327.1 423.96 320 396.82 320 368c0-16.66 2.48-32.72 6.82-48z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Business</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-50c75f2 e-con-full elementor-hidden-tablet e-flex e-con e-child"
+												data-id="50c75f2" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-a053d87 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="a053d87" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-rocket"
+																		viewBox="0 0 512 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Technology</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-e01c222 elementor-widget elementor-widget-text-editor"
+											data-id="e01c222" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+													tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+
+						<div class="elementor-element elementor-element-6011a9d e-con-full e-flex e-con e-child"
+							data-id="6011a9d" data-element_type="container">
+							<a class="elementor-element elementor-element-1137932 e-con-full e-transform e-transform e-flex e-con e-child"
+								data-id="1137932" data-element_type="container"
+								data-settings="{&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-5,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								href="#">
+								<div class="elementor-element elementor-element-797a741 e-con-full e-flex e-con e-child"
+									data-id="797a741" data-element_type="container"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+									<div class="elementor-element elementor-element-71d8643 e-con-full e-flex e-con e-child"
+										data-id="71d8643" data-element_type="container">
+										<div class="elementor-element elementor-element-0104021 e-con-full e-flex e-con e-child"
+											data-id="0104021" data-element_type="container">
+											<div class="elementor-element elementor-element-12142cc elementor-widget elementor-widget-image"
+												data-id="12142cc" data-element_type="widget"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="800" height="320"
+														src="../../wp-content/uploads/sites/292/2024/11/27-14.jpg"
+														class="attachment-large size-large wp-image-1393" alt=""
+														srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-300x120.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-768x307.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-800x320.jpg 800w"
+														sizes="(max-width: 800px) 100vw, 800px" /> </div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-403cd0a e-con-full e-flex e-con e-child"
+											data-id="403cd0a" data-element_type="container">
+											<div class="elementor-element elementor-element-a5cf93e e-con-full e-flex e-con e-child"
+												data-id="a5cf93e" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-820054c elementor-widget elementor-widget-rating"
+													data-id="820054c" data-element_type="widget"
+													data-widget_type="rating.default">
+													<div class="elementor-widget-container">
+														<div class="e-rating" itemtype="https://schema.org/Rating"
+															itemscope="" itemprop="reviewRating">
+															<meta itemprop="worstRating" content="0">
+															<meta itemprop="bestRating" content="5">
+															<div class="e-rating-wrapper" itemprop="ratingValue"
+																content="4.5" role="img"
+																aria-label="Rated 4.5 out of 5">
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked"
+																		style="--e-rating-icon-marked-width: 50%;">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-1fa8c47 elementor-widget elementor-widget-text-editor"
+													data-id="1fa8c47" data-element_type="widget"
+													data-widget_type="text-editor.default">
+													<div class="elementor-widget-container">
+														<p>(4,5/5)</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-99c4280 e-con-full e-flex e-con e-child"
+										data-id="99c4280" data-element_type="container">
+										<div class="elementor-element elementor-element-cd2bd69 elementor-widget elementor-widget-heading"
+											data-id="cd2bd69" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h4 class="elementor-heading-title elementor-size-default">Bright
+													Futures Consulting – 3x Growth in Online Leads</h4>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-c369d72 e-con-full e-flex e-con e-child"
+											data-id="c369d72" data-element_type="container">
+											<div class="elementor-element elementor-element-2647ac5 e-con-full e-flex e-con e-child"
+												data-id="2647ac5" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-647b2d0 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="647b2d0" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-comments"
+																		viewBox="0 0 576 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Consulting</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-08aa1e9 e-con-full e-flex e-con e-child"
+												data-id="08aa1e9" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-cf00a34 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="cf00a34" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-business-time"
+																		viewBox="0 0 640 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M496 224c-79.59 0-144 64.41-144 144s64.41 144 144 144 144-64.41 144-144-64.41-144-144-144zm64 150.29c0 5.34-4.37 9.71-9.71 9.71h-60.57c-5.34 0-9.71-4.37-9.71-9.71v-76.57c0-5.34 4.37-9.71 9.71-9.71h12.57c5.34 0 9.71 4.37 9.71 9.71V352h38.29c5.34 0 9.71 4.37 9.71 9.71v12.58zM496 192c5.4 0 10.72.33 16 .81V144c0-25.6-22.4-48-48-48h-80V48c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h395.12c28.6-20.09 63.35-32 100.88-32zM320 96H192V64h128v32zm6.82 224H208c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h291.43C327.1 423.96 320 396.82 320 368c0-16.66 2.48-32.72 6.82-48z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Business</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-50c75f2 e-con-full elementor-hidden-tablet e-flex e-con e-child"
+												data-id="50c75f2" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-a053d87 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="a053d87" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-rocket"
+																		viewBox="0 0 512 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Technology</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-e01c222 elementor-widget elementor-widget-text-editor"
+											data-id="e01c222" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+													tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+
+						<div class="elementor-element elementor-element-6011a9d e-con-full e-flex e-con e-child"
+							data-id="6011a9d" data-element_type="container">
+							<a class="elementor-element elementor-element-1137932 e-con-full e-transform e-transform e-flex e-con e-child"
+								data-id="1137932" data-element_type="container"
+								data-settings="{&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-5,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								href="#">
+								<div class="elementor-element elementor-element-797a741 e-con-full e-flex e-con e-child"
+									data-id="797a741" data-element_type="container"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+									<div class="elementor-element elementor-element-71d8643 e-con-full e-flex e-con e-child"
+										data-id="71d8643" data-element_type="container">
+										<div class="elementor-element elementor-element-0104021 e-con-full e-flex e-con e-child"
+											data-id="0104021" data-element_type="container">
+											<div class="elementor-element elementor-element-12142cc elementor-widget elementor-widget-image"
+												data-id="12142cc" data-element_type="widget"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="800" height="320"
+														src="../../wp-content/uploads/sites/292/2024/11/27-14.jpg"
+														class="attachment-large size-large wp-image-1393" alt=""
+														srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-300x120.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-768x307.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-800x320.jpg 800w"
+														sizes="(max-width: 800px) 100vw, 800px" /> </div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-403cd0a e-con-full e-flex e-con e-child"
+											data-id="403cd0a" data-element_type="container">
+											<div class="elementor-element elementor-element-a5cf93e e-con-full e-flex e-con e-child"
+												data-id="a5cf93e" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-820054c elementor-widget elementor-widget-rating"
+													data-id="820054c" data-element_type="widget"
+													data-widget_type="rating.default">
+													<div class="elementor-widget-container">
+														<div class="e-rating" itemtype="https://schema.org/Rating"
+															itemscope="" itemprop="reviewRating">
+															<meta itemprop="worstRating" content="0">
+															<meta itemprop="bestRating" content="5">
+															<div class="e-rating-wrapper" itemprop="ratingValue"
+																content="4.5" role="img"
+																aria-label="Rated 4.5 out of 5">
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked"
+																		style="--e-rating-icon-marked-width: 50%;">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-1fa8c47 elementor-widget elementor-widget-text-editor"
+													data-id="1fa8c47" data-element_type="widget"
+													data-widget_type="text-editor.default">
+													<div class="elementor-widget-container">
+														<p>(4,5/5)</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-99c4280 e-con-full e-flex e-con e-child"
+										data-id="99c4280" data-element_type="container">
+										<div class="elementor-element elementor-element-cd2bd69 elementor-widget elementor-widget-heading"
+											data-id="cd2bd69" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h4 class="elementor-heading-title elementor-size-default">Bright
+													Futures Consulting – 3x Growth in Online Leads</h4>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-c369d72 e-con-full e-flex e-con e-child"
+											data-id="c369d72" data-element_type="container">
+											<div class="elementor-element elementor-element-2647ac5 e-con-full e-flex e-con e-child"
+												data-id="2647ac5" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-647b2d0 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="647b2d0" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-comments"
+																		viewBox="0 0 576 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Consulting</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-08aa1e9 e-con-full e-flex e-con e-child"
+												data-id="08aa1e9" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-cf00a34 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="cf00a34" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-business-time"
+																		viewBox="0 0 640 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M496 224c-79.59 0-144 64.41-144 144s64.41 144 144 144 144-64.41 144-144-64.41-144-144-144zm64 150.29c0 5.34-4.37 9.71-9.71 9.71h-60.57c-5.34 0-9.71-4.37-9.71-9.71v-76.57c0-5.34 4.37-9.71 9.71-9.71h12.57c5.34 0 9.71 4.37 9.71 9.71V352h38.29c5.34 0 9.71 4.37 9.71 9.71v12.58zM496 192c5.4 0 10.72.33 16 .81V144c0-25.6-22.4-48-48-48h-80V48c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h395.12c28.6-20.09 63.35-32 100.88-32zM320 96H192V64h128v32zm6.82 224H208c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h291.43C327.1 423.96 320 396.82 320 368c0-16.66 2.48-32.72 6.82-48z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Business</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-50c75f2 e-con-full elementor-hidden-tablet e-flex e-con e-child"
+												data-id="50c75f2" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-a053d87 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="a053d87" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-rocket"
+																		viewBox="0 0 512 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Technology</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-e01c222 elementor-widget elementor-widget-text-editor"
+											data-id="e01c222" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+													tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="elementor-element elementor-element-6011a9d e-con-full e-flex e-con e-child"
+							data-id="6011a9d" data-element_type="container">
+							<a class="elementor-element elementor-element-1137932 e-con-full e-transform e-transform e-flex e-con e-child"
+								data-id="1137932" data-element_type="container"
+								data-settings="{&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-5,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								href="#">
+								<div class="elementor-element elementor-element-797a741 e-con-full e-flex e-con e-child"
+									data-id="797a741" data-element_type="container"
+									data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+									<div class="elementor-element elementor-element-71d8643 e-con-full e-flex e-con e-child"
+										data-id="71d8643" data-element_type="container">
+										<div class="elementor-element elementor-element-0104021 e-con-full e-flex e-con e-child"
+											data-id="0104021" data-element_type="container">
+											<div class="elementor-element elementor-element-12142cc elementor-widget elementor-widget-image"
+												data-id="12142cc" data-element_type="widget"
+												data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="800" height="320"
+														src="../../wp-content/uploads/sites/292/2024/11/27-14.jpg"
+														class="attachment-large size-large wp-image-1393" alt=""
+														srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-300x120.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-768x307.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/27-14-800x320.jpg 800w"
+														sizes="(max-width: 800px) 100vw, 800px" /> </div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-403cd0a e-con-full e-flex e-con e-child"
+											data-id="403cd0a" data-element_type="container">
+											<div class="elementor-element elementor-element-a5cf93e e-con-full e-flex e-con e-child"
+												data-id="a5cf93e" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-820054c elementor-widget elementor-widget-rating"
+													data-id="820054c" data-element_type="widget"
+													data-widget_type="rating.default">
+													<div class="elementor-widget-container">
+														<div class="e-rating" itemtype="https://schema.org/Rating"
+															itemscope="" itemprop="reviewRating">
+															<meta itemprop="worstRating" content="0">
+															<meta itemprop="bestRating" content="5">
+															<div class="e-rating-wrapper" itemprop="ratingValue"
+																content="4.5" role="img"
+																aria-label="Rated 4.5 out of 5">
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+																<div class="e-icon">
+																	<div class="e-icon-wrapper e-icon-marked"
+																		style="--e-rating-icon-marked-width: 50%;">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																	<div class="e-icon-wrapper e-icon-unmarked">
+																		<i aria-hidden="true"
+																			class="jki jki-star-solid"></i> </div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-1fa8c47 elementor-widget elementor-widget-text-editor"
+													data-id="1fa8c47" data-element_type="widget"
+													data-widget_type="text-editor.default">
+													<div class="elementor-widget-container">
+														<p>(4,5/5)</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-99c4280 e-con-full e-flex e-con e-child"
+										data-id="99c4280" data-element_type="container">
+										<div class="elementor-element elementor-element-cd2bd69 elementor-widget elementor-widget-heading"
+											data-id="cd2bd69" data-element_type="widget"
+											data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h4 class="elementor-heading-title elementor-size-default">Bright
+													Futures Consulting – 3x Growth in Online Leads</h4>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-c369d72 e-con-full e-flex e-con e-child"
+											data-id="c369d72" data-element_type="container">
+											<div class="elementor-element elementor-element-2647ac5 e-con-full e-flex e-con e-child"
+												data-id="2647ac5" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-647b2d0 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="647b2d0" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-comments"
+																		viewBox="0 0 576 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Consulting</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-08aa1e9 e-con-full e-flex e-con e-child"
+												data-id="08aa1e9" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-cf00a34 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="cf00a34" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-business-time"
+																		viewBox="0 0 640 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M496 224c-79.59 0-144 64.41-144 144s64.41 144 144 144 144-64.41 144-144-64.41-144-144-144zm64 150.29c0 5.34-4.37 9.71-9.71 9.71h-60.57c-5.34 0-9.71-4.37-9.71-9.71v-76.57c0-5.34 4.37-9.71 9.71-9.71h12.57c5.34 0 9.71 4.37 9.71 9.71V352h38.29c5.34 0 9.71 4.37 9.71 9.71v12.58zM496 192c5.4 0 10.72.33 16 .81V144c0-25.6-22.4-48-48-48h-80V48c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h395.12c28.6-20.09 63.35-32 100.88-32zM320 96H192V64h128v32zm6.82 224H208c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h291.43C327.1 423.96 320 396.82 320 368c0-16.66 2.48-32.72 6.82-48z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Business</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-50c75f2 e-con-full elementor-hidden-tablet e-flex e-con e-child"
+												data-id="50c75f2" data-element_type="container"
+												data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+												<div class="elementor-element elementor-element-a053d87 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+													data-id="a053d87" data-element_type="widget"
+													data-widget_type="icon-list.default">
+													<div class="elementor-widget-container">
+														<ul class="elementor-icon-list-items">
+															<li class="elementor-icon-list-item">
+																<span class="elementor-icon-list-icon">
+																	<svg aria-hidden="true"
+																		class="e-font-icon-svg e-fas-rocket"
+																		viewBox="0 0 512 512"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z">
+																		</path>
+																	</svg> </span>
+																<span class="elementor-icon-list-text">Technology</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-e01c222 elementor-widget elementor-widget-text-editor"
+											data-id="e01c222" data-element_type="widget"
+											data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+													tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+           
+
+
+
+            
             <div class="elementor-element elementor-element-1f4a113b e-flex e-con-boxed e-con e-parent"
                 data-id="1f4a113b" data-element_type="container">
                 <div class="e-con-inner">
@@ -2749,8 +5182,7 @@
                                                                 <div class="ekit_accordion_icon_left_group">
                                                                     <div class="ekit_accordion_normal_icon">
                                                                         <!-- Normal Icon -->
-                                                                        <i class="icon icon-plus"></i>
-                                                                    </div>
+                                                                        <i class="icon icon-plus"></i> </div>
 
                                                                     <div class="ekit_accordion_active_icon">
                                                                         <!-- Active Icon -->
@@ -2792,8 +5224,7 @@
                                                                 <div class="ekit_accordion_icon_left_group">
                                                                     <div class="ekit_accordion_normal_icon">
                                                                         <!-- Normal Icon -->
-                                                                        <i class="icon icon-plus"></i>
-                                                                    </div>
+                                                                        <i class="icon icon-plus"></i> </div>
 
                                                                     <div class="ekit_accordion_active_icon">
                                                                         <!-- Active Icon -->
@@ -2835,8 +5266,7 @@
                                                                 <div class="ekit_accordion_icon_left_group">
                                                                     <div class="ekit_accordion_normal_icon">
                                                                         <!-- Normal Icon -->
-                                                                        <i class="icon icon-plus"></i>
-                                                                    </div>
+                                                                        <i class="icon icon-plus"></i> </div>
 
                                                                     <div class="ekit_accordion_active_icon">
                                                                         <!-- Active Icon -->
@@ -2889,8 +5319,7 @@
                                                         src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                         class="attachment-large size-large wp-image-884" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" />
-                                                </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-59ad01e2 e-con-full e-flex e-con e-child"
@@ -2974,6 +5403,8 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="elementor-element elementor-element-21786894 e-flex e-con-boxed e-con e-parent"
                 data-id="21786894" data-element_type="container">
                 <div class="e-con-inner">
@@ -2999,8 +5430,7 @@
                                                             src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                             class="attachment-large size-large wp-image-884" alt=""
                                                             srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                            sizes="(max-width: 800px) 100vw, 800px" />
-                                                    </div>
+                                                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-2c461563 e-con-full e-flex e-con e-child"
@@ -3394,8 +5824,7 @@
                                                     class="attachment-large size-large wp-image-943" alt=""
                                                     decoding="async"
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-1024x305.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-300x89.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-768x229.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-1536x458.png 1536w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-2048x610.png 2048w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-800x238.png 800w"
-                                                    sizes="(max-width: 800px) 100vw, 800px" />
-                                            </div>
+                                                    sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                         </div>
                                         <div class="elementor-element elementor-element-f016da8 elementor-widget elementor-widget-text-editor"
                                             data-id="f016da8" data-element_type="widget"
@@ -3595,7 +6024,7 @@
                                         data-id="4ccbc73" data-element_type="widget"
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>Copyright © 2025 Go-viral | Powered by Go-viral</p>
+                                            <p>Copyright © 2025 Fluxco | Powered by Fluxco</p>
                                         </div>
                                     </div>
                                 </div>
