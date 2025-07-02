@@ -1,7 +1,646 @@
 @extends('layouts.front')
 
 @section('content')
+<style>
+		img:is([sizes="auto"i], [sizes^="auto,"i]) {
+			contain-intrinsic-size: 3000px 1500px
+		}
+	</style>
+    <link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Feed" href="../../feed/index.html" />
+	<link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Comments Feed"
+		href="../../comments/feed/index.html" />
+	<script>
+		window._wpemojiSettings = {
+			"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+			"ext": ".png",
+			"svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+			"svgExt": ".svg",
+			"source": {
+				"concatemoji": "https:\/\/kitpro.site\/fluxco\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"
+			}
+		};
+		/*! This file is auto-generated */
+		! function(i, n) {
+			var o, s, e;
 
+			function c(e) {
+				try {
+					var t = {
+						supportTests: e,
+						timestamp: (new Date).valueOf()
+					};
+					sessionStorage.setItem(o, JSON.stringify(t))
+				} catch (e) {}
+			}
+
+			function p(e, t, n) {
+				e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+				var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+					r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e
+						.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+				return t.every(function(e, t) {
+					return e === r[t]
+				})
+			}
+
+			function u(e, t, n) {
+				switch (t) {
+					case "flag":
+						return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(
+							e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
+							"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+							"\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+							);
+					case "emoji":
+						return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
+				}
+				return !1
+			}
+
+			function f(e, t, n) {
+				var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(
+						300, 150) : i.createElement("canvas"),
+					a = r.getContext("2d", {
+						willReadFrequently: !0
+					}),
+					o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
+				return e.forEach(function(e) {
+					o[e] = t(a, e, n)
+				}), o
+			}
+
+			function t(e) {
+				var t = i.createElement("script");
+				t.src = e, t.defer = !0, i.head.appendChild(t)
+			}
+			"undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
+				everything: !0,
+				everythingExceptFlag: !0
+			}, e = new Promise(function(e) {
+				i.addEventListener("DOMContentLoaded", e, {
+					once: !0
+				})
+			}), new Promise(function(t) {
+				var n = function() {
+					try {
+						var e = JSON.parse(sessionStorage.getItem(o));
+						if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e
+							.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+					} catch (e) {}
+					return null
+				}();
+				if (!n) {
+					if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" !=
+						typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+						var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p
+								.toString()
+							].join(",") + "));",
+							r = new Blob([e], {
+								type: "text/javascript"
+							}),
+							a = new Worker(URL.createObjectURL(r), {
+								name: "wpTestEmojiSupports"
+							});
+						return void(a.onmessage = function(e) {
+							c(n = e.data), a.terminate(), t(n)
+						})
+					} catch (e) {}
+					c(n = f(s, u, p))
+				}
+				t(n)
+			}).then(function(e) {
+				for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n
+					.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports
+						.everythingExceptFlag && n.supports[t]);
+				n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n
+					.DOMReady = !1, n.readyCallback = function() {
+						n.DOMReady = !0
+					}
+			}).then(function() {
+				return e
+			}).then(function() {
+				var e;
+				n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) :
+					e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+			}))
+		}((window, document), window._wpemojiSettings);
+	</script>
+	<link rel='stylesheet' id='hfe-widgets-style-css'
+		href='../../wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend3c94.css?ver=2.1.0'
+		media='all' />
+	<link rel='stylesheet' id='jkit-elements-main-css'
+		href='../../wp-content/plugins/jeg-elementor-kit/assets/css/elements/maina19e.css?ver=2.6.9' media='all' />
+	<style id='wp-emoji-styles-inline-css'>
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 0.07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel='stylesheet' id='fontawesome-gutenverse-css'
+		href='../../wp-content/plugins/gutenverse/lib/framework/assets/fonts/fontawesome/css/all.min1576.css?ver=1.2.1'
+		media='all' />
+	<link rel='stylesheet' id='gutenverse-iconlist-css'
+		href='../../wp-content/plugins/gutenverse/lib/framework/assets/fonts/gtnicon/gtnicon1576.css?ver=1.2.1'
+		media='all' />
+	<link rel='stylesheet' id='gutenverse-frontend-style-css'
+		href='../../wp-content/plugins/gutenverse/lib/framework/assets/css/frontend1576.css?ver=1.2.1' media='all' />
+	<style id='classic-theme-styles-inline-css'>
+		/*! This file is auto-generated */
+		.wp-block-button__link {
+			color: #fff;
+			background-color: #32373c;
+			border-radius: 9999px;
+			box-shadow: none;
+			text-decoration: none;
+			padding: calc(.667em + 2px) calc(1.333em + 2px);
+			font-size: 1.125em
+		}
+
+		.wp-block-file__button {
+			background: #32373c;
+			color: #fff;
+			text-decoration: none
+		}
+	</style>
+	<style id='global-styles-inline-css'>
+		:root {
+			--wp--preset--aspect-ratio--square: 1;
+			--wp--preset--aspect-ratio--4-3: 4/3;
+			--wp--preset--aspect-ratio--3-4: 3/4;
+			--wp--preset--aspect-ratio--3-2: 3/2;
+			--wp--preset--aspect-ratio--2-3: 2/3;
+			--wp--preset--aspect-ratio--16-9: 16/9;
+			--wp--preset--aspect-ratio--9-16: 9/16;
+			--wp--preset--color--black: #000000;
+			--wp--preset--color--cyan-bluish-gray: #abb8c3;
+			--wp--preset--color--white: #ffffff;
+			--wp--preset--color--pale-pink: #f78da7;
+			--wp--preset--color--vivid-red: #cf2e2e;
+			--wp--preset--color--luminous-vivid-orange: #ff6900;
+			--wp--preset--color--luminous-vivid-amber: #fcb900;
+			--wp--preset--color--light-green-cyan: #7bdcb5;
+			--wp--preset--color--vivid-green-cyan: #00d084;
+			--wp--preset--color--pale-cyan-blue: #8ed1fc;
+			--wp--preset--color--vivid-cyan-blue: #0693e3;
+			--wp--preset--color--vivid-purple: #9b51e0;
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+			--wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+			--wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+			--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+			--wp--preset--font-size--small: 13px;
+			--wp--preset--font-size--medium: 20px;
+			--wp--preset--font-size--large: 36px;
+			--wp--preset--font-size--x-large: 42px;
+			--wp--preset--spacing--20: 0.44rem;
+			--wp--preset--spacing--30: 0.67rem;
+			--wp--preset--spacing--40: 1rem;
+			--wp--preset--spacing--50: 1.5rem;
+			--wp--preset--spacing--60: 2.25rem;
+			--wp--preset--spacing--70: 3.38rem;
+			--wp--preset--spacing--80: 5.06rem;
+			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+		}
+
+		:where(.is-layout-flex) {
+			gap: 0.5em;
+		}
+
+		:where(.is-layout-grid) {
+			gap: 0.5em;
+		}
+
+		body .is-layout-flex {
+			display: flex;
+		}
+
+		.is-layout-flex {
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+		.is-layout-flex> :is(*, div) {
+			margin: 0;
+		}
+
+		body .is-layout-grid {
+			display: grid;
+		}
+
+		.is-layout-grid> :is(*, div) {
+			margin: 0;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-color {
+			color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-color {
+			color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-color {
+			color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-color {
+			color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-color {
+			color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-color {
+			color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-color {
+			color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-color {
+			color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-color {
+			color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-color {
+			color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-color {
+			color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-background-color {
+			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-background-color {
+			background-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-background-color {
+			background-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-background-color {
+			background-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-background-color {
+			background-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-background-color {
+			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-background-color {
+			background-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-border-color {
+			border-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-border-color {
+			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-border-color {
+			border-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-border-color {
+			border-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-border-color {
+			border-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-border-color {
+			border-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-border-color {
+			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-border-color {
+			border-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+		}
+
+		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+		}
+
+		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+		}
+
+		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+		}
+
+		.has-cool-to-warm-spectrum-gradient-background {
+			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+		}
+
+		.has-blush-light-purple-gradient-background {
+			background: var(--wp--preset--gradient--blush-light-purple) !important;
+		}
+
+		.has-blush-bordeaux-gradient-background {
+			background: var(--wp--preset--gradient--blush-bordeaux) !important;
+		}
+
+		.has-luminous-dusk-gradient-background {
+			background: var(--wp--preset--gradient--luminous-dusk) !important;
+		}
+
+		.has-pale-ocean-gradient-background {
+			background: var(--wp--preset--gradient--pale-ocean) !important;
+		}
+
+		.has-electric-grass-gradient-background {
+			background: var(--wp--preset--gradient--electric-grass) !important;
+		}
+
+		.has-midnight-gradient-background {
+			background: var(--wp--preset--gradient--midnight) !important;
+		}
+
+		.has-small-font-size {
+			font-size: var(--wp--preset--font-size--small) !important;
+		}
+
+		.has-medium-font-size {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+
+		.has-large-font-size {
+			font-size: var(--wp--preset--font-size--large) !important;
+		}
+
+		.has-x-large-font-size {
+			font-size: var(--wp--preset--font-size--x-large) !important;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:root :where(.wp-block-pullquote) {
+			font-size: 1.5em;
+			line-height: 1.6;
+		}
+	</style>
+	<link rel='stylesheet' id='template-kit-export-css'
+		href='../../wp-content/plugins/template-kit-export/assets/public/template-kit-export-public982a.css?ver=1.0.23'
+		media='all' />
+	<link rel='stylesheet' id='hfe-style-css'
+		href='../../wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor3c94.css?ver=2.1.0'
+		media='all' />
+	<link rel='stylesheet' id='elementor-frontend-css'
+		href='../../wp-content/plugins/elementor/assets/css/frontend.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='swiper-css'
+		href='../../wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5' media='all' />
+	<link rel='stylesheet' id='e-swiper-css'
+		href='../../wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='elementor-post-3-css'
+		href='../../wp-content/uploads/sites/292/elementor/css/post-31c5e.css?ver=1736325156' media='all' />
+	<link rel='stylesheet' id='widget-image-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-image.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='widget-text-editor-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-text-editor.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='widget-image-carousel-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-image-carousel.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='e-animation-grow-css'
+		href='../../wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min5422.css?ver=3.25.9'
+		media='all' />
+	<link rel='stylesheet' id='widget-counter-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-counter.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='widget-rating-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-rating.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='widget-heading-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-heading.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='widget-icon-list-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-icon-list.min5422.css?ver=3.25.9' media='all' />
+	<link rel='stylesheet' id='elementor-post-429-css'
+		href='../../wp-content/uploads/sites/292/elementor/css/post-4292f3e.css?ver=1736868037' media='all' />
+	<link rel='stylesheet' id='elementor-post-299-css'
+		href='../../wp-content/uploads/sites/292/elementor/css/post-299c0d3.css?ver=1736732002' media='all' />
+	<link rel='stylesheet' id='elementor-post-305-css'
+		href='../../wp-content/uploads/sites/292/elementor/css/post-3051142.css?ver=1736325157' media='all' />
+	<link rel='stylesheet' id='text-editor-style-css'
+		href='../../wp-content/plugins/metform/public/assets/css/text-editor3b71.css?ver=3.5.0' media='all' />
+	<link rel='stylesheet' id='hello-elementor-css'
+		href='../../wp-content/themes/hello-elementor/style.min1102.css?ver=2.8.1' media='all' />
+	<link rel='stylesheet' id='hello-elementor-theme-style-css'
+		href='../../wp-content/themes/hello-elementor/theme.min1102.css?ver=2.8.1' media='all' />
+	<link rel='stylesheet' id='hfe-elementor-icons-css'
+		href='../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min705c.css?ver=5.34.0'
+		media='all' />
+	<link rel='stylesheet' id='hfe-icons-list-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-icon-list.min44b4.css?ver=3.24.3' media='all' />
+	<link rel='stylesheet' id='hfe-social-icons-css'
+		href='../../wp-content/plugins/elementor/assets/css/widget-social-icons.min2401.css?ver=3.24.0' media='all' />
+	<link rel='stylesheet' id='hfe-social-share-icons-brands-css'
+		href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands52d5.css?ver=5.15.3' media='all' />
+	<link rel='stylesheet' id='hfe-social-share-icons-fontawesome-css'
+		href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome52d5.css?ver=5.15.3'
+		media='all' />
+	<link rel='stylesheet' id='hfe-nav-menu-icons-css'
+		href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid52d5.css?ver=5.15.3' media='all' />
+	<link rel='stylesheet' id='ekit-widget-styles-css'
+		href='../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles6b00.css?ver=3.4.0'
+		media='all' />
+	<link rel='stylesheet' id='ekit-responsive-css'
+		href='../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive6b00.css?ver=3.4.0'
+		media='all' />
+	<link rel='stylesheet' id='gutenverse-form-frontend-css'
+		href='../../wp-content/plugins/gutenverse-form/assets/css/frontendc5c9.css?ver=1.1.9' media='all' />
+	<link rel='stylesheet' id='gutenverse-frontend-css'
+		href='../../wp-content/plugins/gutenverse/assets/css/frontend77e6.css?ver=2.2.1' media='all' />
+	<style id='gutenverse-frontend-inline-css'>
+		:root {
+			--guten-screen-xs-max: 767px;
+			--guten-screen-sm-min: 768px;
+			--guten-screen-sm-max: 1024px;
+			--guten-screen-md-min: 1025px;
+		}
+	</style>
+	<link rel='stylesheet' id='gutenverse-theme-essential-frontend-block-css'
+		href='../../wp-content/plugins/gutenverse-themes-builder/assets/css/essential/frontend-essential97de.css?ver=1.0.5'
+		media='all' />
+	<link rel='stylesheet' id='gutenverse-frontend-icon-css'
+		href='../../wp-content/plugins/gutenverse/lib/framework/assets/dist/frontend-icon1576.css?ver=1.2.1'
+		media='all' />
+	<link rel='stylesheet' id='google-fonts-1-css'
+		href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CDM+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.7.2'
+		media='all' />
+	<link rel='stylesheet' id='elementor-icons-jkiticon-css'
+		href='../../wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticona19e.css?ver=2.6.9'
+		media='all' />
+	<link rel='stylesheet' id='elementor-icons-ekiticons-css'
+		href='../../wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons6b00.css?ver=3.4.0'
+		media='all' />
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<script src="../../wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
+	<script src="../../wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
+	<script id="jquery-js-after">
+		! function($) {
+			"use strict";
+			$(document).ready(function() {
+				$(this).scrollTop() > 100 && $(".hfe-scroll-to-top-wrap").removeClass("hfe-scroll-to-top-hide"), $(
+					window).scroll(function() {
+					$(this).scrollTop() < 100 ? $(".hfe-scroll-to-top-wrap").fadeOut(300) : $(
+						".hfe-scroll-to-top-wrap").fadeIn(300)
+				}), $(".hfe-scroll-to-top-wrap").on("click", function() {
+					$("html, body").animate({
+						scrollTop: 0
+					}, 300);
+					return !1
+				})
+			})
+		}(jQuery);
+	</script>
+	<script
+		src="../../wp-content/plugins/template-kit-export/assets/public/template-kit-export-public982a.js?ver=1.0.23"
+		id="template-kit-export-js"></script>
+	<link rel="https://api.w.org/" href="../../wp-json/index.html" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
+	<meta name="generator" content="WordPress 6.7.2" />
+	<link rel="canonical" href="index.html" />
+	<link rel='shortlink' href='../../indexedce.html?p=429' />
+	<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
+		href="../../wp-json/oembed/1.0/embed1e7d.json?url=https%3A%2F%2Fkitpro.site%2Ffluxco%2Ftemplate-kit%2Fportofolio%2F" />
+	<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
+		href="../../wp-json/oembed/1.0/embed59b0?url=https%3A%2F%2Fkitpro.site%2Ffluxco%2Ftemplate-kit%2Fportofolio%2F&amp;format=xml" />
+	<meta name="generator"
+		content="Elementor 3.25.9; features: e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading; settings: css_print_method-external, google_font-enabled, font_display-auto">
+	<style>
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+			background-image: none !important;
+		}
+
+		@media screen and (max-height: 1024px) {
+
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+			}
+		}
+
+		@media screen and (max-height: 640px) {
+
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+			}
+		}
+	</style>
 <div data-elementor-type="wp-page" data-elementor-id="777" class="elementor elementor-777">
     <div class="elementor-element elementor-element-1cbf619 e-flex e-con-boxed e-con e-parent" data-id="1cbf619"
         data-element_type="container"
@@ -29,8 +668,7 @@
                                             src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}}"
                                             class="attachment-large size-large wp-image-884" alt=""
                                             srcset="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 1024w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 300w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 768w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 800w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 1196w"
-                                            sizes="(max-width: 800px) 100vw, 800px" />
-                                    </div>
+                                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-2d96591 e-con-full e-flex e-con e-child"
@@ -44,8 +682,7 @@
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_1_683073e3d52b9">
                                             <div style="  padding-right:10px;"
                                                 class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title"><span class=""><span>Go Viral
-                                                            SEO Agency</span></span></h2>
+                                                <h2 class="heading-title"><span class=""><span>Graphic Design Agency</span></span></h2>
                                             </div>
                                         </div>
                                     </div>
@@ -63,11 +700,8 @@
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h1 style="font-size: 70px;" class="heading-title">Drive Relevant Traffic &
-                                            Maximum Revenue With
-                                            <span class=""><span>The Best SEO Agency
-                                                    Malaysia</span></span>
-                                        </h1>
+                                        <h1 style="font-size: 50px;" class="heading-title"> Graphic Design Agency in Malaysia Delivering Creative Branding Solutions
+<span class=""><span></span></span></h1>
                                     </div>
                                 </div>
                             </div>
@@ -79,14 +713,7 @@
                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <p>As the best SEO agency in Malaysia, we don’t just improve your Google rankings—we
-                                        optimise your website’s structure, content, and user experience to drive
-                                        high-quality organic traffic and boost conversions. Our best SEO agency uses
-                                        AI-powered strategies, advanced tools, and ethical white-hat techniques to help
-                                        your business dominate both local and global search results. Whether you want to
-                                        strengthen your online presence or increase brand visibility, our proven SEO
-                                        services in Malaysia deliver measurable results.
-                                    </p>
+                                    <p>Searching for a creative and successful graphic design agency in Malaysia? Our team creates powerful images for your company under the direction of a famous graphic designer in Malaysia. Whether you need a graphic design artist in Malaysia for logos, branding, or marketing, we turn ideas into powerful designs.our graphic designing services includes: brochure and banner designs, logo or business card design, poster designs, and much more to elevate your brand identity.</p>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +725,7 @@
                                 <div class="elementor-element elementor-element-5caebf65 elementor-align-justify elementor-widget elementor-widget-button"
                                     data-id="5caebf65" data-element_type="widget" data-widget_type="button.default">
                                     <div class="elementor-widget-container">
-                                        <div class="elementor-button-wrapper">
+                                        <div class="">
                                             <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
                                                 href="#">
                                                 <span class="elementor-button-content-wrapper">
@@ -110,7 +737,7 @@
                                                                 d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                             </path>
                                                         </svg> </span>
-                                                    <span class="elementor-button-text">Let's Get Started</span>
+                                                    <span class="elementor-button-text">Get Free Consultation</span>
                                                 </span>
                                             </a>
                                         </div>
@@ -168,9 +795,7 @@
                                     data-id="145626e0" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Go Viral is affordable digital marketing agency, offering expert
-                                            digital marketing services in Malaysia cater to all brands, ensuring
-                                            success with data-driven strategies.</p>
+                                        <p>At Go Viral, we transform creative ideas into impactful visual designs that connect with your audience. Our graphic design services include brochures, banners, logos, business cards, and posters tailored to your brand. With a focus on quality and creativity, we help your brand stand out in a competitive market.</p>
                                     </div>
                                 </div>
                             </div>
@@ -286,8 +911,7 @@
                                                         src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/2-37.jpg')}}"
                                                         class="attachment-large size-large wp-image-958" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37-300x300.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37-150x150.jpg 150w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37-768x768.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37-800x800.jpg 800w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" />
-                                                </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-4f52f612 e-con-full e-flex e-con e-child"
@@ -300,8 +924,7 @@
                                                         src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/3-44.jpg')}}"
                                                         class="attachment-large size-large wp-image-962" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44-300x300.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44-150x150.jpg 150w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44-768x768.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44-800x800.jpg 800w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" />
-                                                </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-67f04c02 e-con-full e-flex e-con e-child"
@@ -314,8 +937,7 @@
                                                         src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/4-35.jpg')}}"
                                                         class="attachment-large size-large wp-image-964" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35-300x300.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35-150x150.jpg 150w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35-768x768.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35-800x800.jpg 800w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" />
-                                                </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-5054f33b e-con-full e-flex e-con e-child"
@@ -326,8 +948,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-icon-wrapper">
                                                         <div class="elementor-icon elementor-animation-grow">
-                                                            <i aria-hidden="true" class="jki jki-plus-solid"></i>
-                                                        </div>
+                                                            <i aria-hidden="true" class="jki jki-plus-solid"></i> </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -452,8 +1073,7 @@
                                         aria-label="1 of 5">
                                         <figure class="swiper-slide-inner"><img decoding="async"
                                                 class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-1.png')}}"
-                                                alt="1" />
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-1.png')}}" alt="1" />
                                         </figure>
                                     </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
@@ -515,8 +1135,7 @@
                                         data-id="794e72e9" data-element_type="widget"
                                         data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h5 class="elementor-heading-title elementor-size-default">Why Choose
-                                                SEO Agency Malaysia?</h5>
+                                            <h5 class="elementor-heading-title elementor-size-default">Why choose us?</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -524,10 +1143,7 @@
                                     data-id="31b1fa50" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Partnering with the best SEO agency in Malaysia guarantees innovative tactics
-                                            that produce tangible results. Being the top SEO company in Malaysia, we
-                                            increase your brand's potential by expanding your website visibility and
-                                            achieving scalable growth and sustained online success.</p>
+                                        <p>Work with a top-rated graphic design agency in Malaysia featuring expert graphic design artists, brand identity designer, and professional logo design services tailored for your business.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-4587248f elementor-align-center elementor-widget elementor-widget-button"
@@ -545,7 +1161,7 @@
                                                                 d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                             </path>
                                                         </svg> </span>
-                                                    <span class="elementor-button-text">Learn More</span>
+                                                    <span class="elementor-button-text">Get Free Consultation</span>
                                                 </span>
                                             </a>
                                         </div>
@@ -577,8 +1193,7 @@
                                                                 <path
                                                                     d="M223.75 130.75L154.62 15.54A31.997 31.997 0 0 0 127.18 0H16.03C3.08 0-4.5 14.57 2.92 25.18l111.27 158.96c29.72-27.77 67.52-46.83 109.56-53.39zM495.97 0H384.82c-11.24 0-21.66 5.9-27.44 15.54l-69.13 115.21c42.04 6.56 79.84 25.62 109.56 53.38L509.08 25.18C516.5 14.57 508.92 0 495.97 0zM256 160c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm92.52 157.26l-37.93 36.96 8.97 52.22c1.6 9.36-8.26 16.51-16.65 12.09L256 393.88l-46.9 24.65c-8.4 4.45-18.25-2.74-16.65-12.09l8.97-52.22-37.93-36.96c-6.82-6.64-3.05-18.23 6.35-19.59l52.43-7.64 23.43-47.52c2.11-4.28 6.19-6.39 10.28-6.39 4.11 0 8.22 2.14 10.33 6.39l23.43 47.52 52.43 7.64c9.4 1.36 13.17 12.95 6.35 19.59z">
                                                                 </path>
-                                                            </svg>
-                                                        </div>
+                                                            </svg> </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -598,10 +1213,7 @@
                                                     data-id="38c33e5" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <p>We are a trusted SEO agency, offers complete SEO solutions —
-                                                            from eCommerce and local SEO to national, international, and
-                                                            technical SEO — designed to help your business grow online.
-                                                        </p>
+                                                        <p>Achieved 500+ successful projects as a top graphic design company in Malaysia, boosting brand identity.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -893,8 +1505,7 @@
                                                 src="wp-content/uploads/sites/292/2024/11/5-42.jpg"
                                                 class="attachment-large size-large wp-image-965" alt=""
                                                 srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/5-42.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/5-42-300x180.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/5-42-768x461.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/5-42-800x480.jpg 800w"
-                                                sizes="(max-width: 800px) 100vw, 800px" />
-                                        </div>
+                                                sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                     </div>
                                 </div>
                             </div>
@@ -919,8 +1530,7 @@
                                                     src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                     class="attachment-large size-large wp-image-884" alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                    sizes="(max-width: 800px) 100vw, 800px" />
-                                            </div>
+                                                    sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-62033399 e-con-full e-flex e-con e-child"
@@ -951,10 +1561,7 @@
                                     <div
                                         class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_5_683073e40c673">
                                         <div class="heading-section-title  display-inline-block">
-                                            <h2 style="font-size: 50px;" class="heading-title">See What Makes Us
-                                                The<span style="font-size: 50px;" class=""><span>Best
-                                                        Digital Marketing Company
-                                                        In Malaysia,</span></span></h2>
+                                            <h2 style="font-size: 30px;" class="heading-title">Graphic Design Company for Complete Branding Solutions
                                         </div>
                                     </div>
                                 </div>
@@ -965,15 +1572,9 @@
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
                                     <div>
-                                        <p>
-                                            Go Vial stands out by delivering proven results through custom
-                                            strategies tailored to your business goals. Our team of digital
-                                            marketing experts ensures effective campaigns and engaging user
-                                            experiences while providing transparent, consistent reporting.
-                                            Offering all-in-one digital marketing solutions, we handle
-                                            everything from SEO and content to design and PPC, making your
-                                            growth our top priority.
-                                        </p>
+                                        <p>Go Viral is a top-rated graphic design company in Malaysia, home to expert graphic design artists, a famous designer, and a skilled brand identity designer. We specialise in Malaysia logo design, brand visuals, and creative strategies that strengthen identity, drive engagement, and deliver measurable success for businesses across industries.
+
+</p>
 
                                     </div>
                                 </div>
@@ -1000,8 +1601,7 @@
                                                                         d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-button-text">Learn
-                                                                More</span>
+                                                            <span class="elementor-button-text">Get Free Consultation!</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1022,8 +1622,7 @@
                             src="wp-content/uploads/sites/292/2024/11/1-3-1024x256.png"
                             class="attachment-large size-large wp-image-869" alt=""
                             srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-1024x256.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-300x75.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-768x192.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-1536x384.png 1536w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-800x200.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3.png 1600w"
-                            sizes="(max-width: 800px) 100vw, 800px" />
-                    </div>
+                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
                 </div>
             </div>
         </div>
@@ -1048,8 +1647,7 @@
                                                 src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                 class="attachment-large size-large wp-image-884" alt=""
                                                 srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                sizes="(max-width: 800px) 100vw, 800px" />
-                                        </div>
+                                                sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-595c5592 e-con-full e-flex e-con e-child"
@@ -1079,9 +1677,10 @@
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_7_683073e4108be">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h2 class="heading-title">Your Success Begins With <span
-                                                class=""><span>Best Digital Marketing
-                                                    Services</span></span></h2>
+                                        <h2 class="heading-title">Graphic Design Services for Every Business
+
+<span
+                                                class=""><span></span></span></h2>
                                     </div>
                                 </div>
                             </div>
@@ -1091,11 +1690,7 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                             data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p>Selecting the right digital marketing company can make a huge difference in
-                                    achieving your business goals, when selecting any agency, make sure you
-                                    clearly understand the digital marketing services they offer, their
-                                    expertise in areas like SEO, social media marketing, paid ads, content
-                                    creation, and analytics.</p>
+                                <p>We deliver expert brand design, custom logo creation, and impactful marketing visuals that elevate your brand identity and drive audience engagement. Our graphic design services in Malaysia are tailored to reflect your business values and make a lasting impression. From brochures and business cards to banners and social media graphics, we ensure consistency and creativity across all platforms. Whether you're a startup or an established brand, our designs help you stand out, connect with your audience, and grow with confidence.</p>
                             </div>
                         </div>
                     </div>
@@ -1121,8 +1716,7 @@
                                                     class="elementor-animation-grow attachment-large size-large wp-image-967"
                                                     alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-2.png 512w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-2-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-2-150x150.png 150w"
-                                                    sizes="(max-width: 512px) 100vw, 512px" />
-                                            </div>
+                                                    sizes="(max-width: 512px) 100vw, 512px" /> </div>
                                         </div>
                                     </div>
 
@@ -1132,8 +1726,8 @@
                                             data-id="7f70002a" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Web
-                                                    Design Services
+                                                <h5 class="elementor-heading-title elementor-size-default">Unique and Professional Branding
+ 
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-4f08705f elementor-widget elementor-widget-text-editor"
@@ -1142,12 +1736,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="section">
                                                     <p class="show">
-                                                        <span class="preview">As a leading website design agency
-                                                            Malaysia,</span>
-                                                        <span class="more-text"> we create custom web designs
-                                                            that reflect your brand identity. Get the best
-                                                            website design Malaysia and tell your story
-                                                            online!</span>
+                                                        <span class="preview">Our best logo designer in Malaysia crafts original, brand-aligned logos that attract attention and enhance business recognition and trust.</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -1173,8 +1762,7 @@
                                                     class="elementor-animation-grow attachment-large size-large wp-image-966"
                                                     alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6.png 512w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6-150x150.png 150w"
-                                                    sizes="(max-width: 512px) 100vw, 512px" />
-                                            </div>
+                                                    sizes="(max-width: 512px) 100vw, 512px" /> </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-1c9f4f1a e-con-full e-flex e-con e-child"
@@ -1183,8 +1771,7 @@
                                             data-id="73c705b9" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">
-                                                    Social Media Marketing</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">Captures Your Business Identity</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-5b71efa8 elementor-widget elementor-widget-text-editor"
@@ -1194,12 +1781,8 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview">We are a social media
-                                                                marketing agency Malaysia offering full-service
-                                                                SMM solutions. </span>
-                                                            <span class="more-text"> As the top social media
-                                                                marketing agency Malaysia, we help grow your
-                                                                brand’s online presence.</span>
+                                                            <span class="preview">From full visual branding to professional logo creation, our brand design in Malaysia reflects your business values and personality.
+</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1229,8 +1812,7 @@
                                                     class="elementor-animation-grow attachment-large size-large wp-image-968"
                                                     alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-2.png 512w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-2-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-2-150x150.png 150w"
-                                                    sizes="(max-width: 512px) 100vw, 512px" />
-                                            </div>
+                                                    sizes="(max-width: 512px) 100vw, 512px" /> </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-41514302 e-con-full e-flex e-con e-child"
@@ -1239,8 +1821,7 @@
                                             data-id="3aa6d3dc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">SEO
-                                                    Services</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">Flyers, Brochures, & Posters</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-88678c2 elementor-widget elementor-widget-text-editor"
@@ -1250,12 +1831,10 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview">As the best SEO company in
-                                                                Malaysia, Go Viral specializes in Google-focused
-                                                                strategies. </span>
-                                                            <span class="more-text"> Our SEO agency Malaysia
-                                                                delivers proven results to boost rankings and
-                                                                online visibility.</span>
+                                                            <span class="preview">We design brochures, flyers, posters, and social media graphics that drive engagement and reflect your brand identity perfectly. Each design is unique.
+
+ </span>
+                                                            <span class="more-text"></span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1283,8 +1862,7 @@
                                                     class="elementor-animation-grow attachment-large size-large wp-image-969"
                                                     alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-4.png 512w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-4-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-4-150x150.png 150w"
-                                                    sizes="(max-width: 512px) 100vw, 512px" />
-                                            </div>
+                                                    sizes="(max-width: 512px) 100vw, 512px" /> </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-13225081 e-con-full e-flex e-con e-child"
@@ -1293,8 +1871,7 @@
                                             data-id="101e2f11" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">
-                                                    Graphic Design Services</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">Business Card & UI Design</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-17b368c3 elementor-widget elementor-widget-text-editor"
@@ -1304,15 +1881,12 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview">Go viral with our graphic
-                                                                design agency in Malaysia!, we craft compelling
-                                                                content that turns </span>
-                                                            <span class="more-text"> heads and drives results.
-                                                                Let your brand shine online and offline.</span>
+                                                            <span class="preview">Enhance web & mobile UI graphics, infographics, and business card design to boost clarity, interactivity, and professional impact.
+</span>
                                                         </p>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> 
                                         </div>
                                     </div>
                                 </div>
@@ -1323,7 +1897,7 @@
             </div>
         </div>
 
-        <div class="elementor-element elementor-element-1fce4e90 e-flex e-con-boxed e-con e-parent" data-id="1fce4e90"
+        <div  style="display:none;"         class="elementor-element elementor-element-1fce4e90 e-flex e-con-boxed e-con e-parent" data-id="1fce4e90"
             data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="e-con-inner">
                 <div class="elementor-element elementor-element-41750a9f e-flex e-con-boxed e-con e-child"
@@ -1347,8 +1921,7 @@
                                                     src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                     class="attachment-large size-large wp-image-884" alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                    sizes="(max-width: 800px) 100vw, 800px" />
-                                            </div>
+                                                    sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-787cf3a8 e-con-full e-flex e-con e-child"
@@ -1390,17 +1963,39 @@
                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <p>Choose a package that fits your business goals and budget. Transparent
-                                        pricing, no hidden fees. We also offer tailor-made solutions for
-                                        businesses with unique needs.<br><span><a href=""><button>Build Your
-                                                    Custom Plan</button></a></span></p>
+                                    <p>In every pricing plan, you’ll have a dedicated team managing your brand.
+From strategic planning to creative visuals — we provide a Social Media Specialist, Copywriter, Graphics Designer, and an Account Manager to ensure smooth communication and results. OR you can make your customized package<br>
+
+<div class="elementor-widget-container">
+                                                        <div class="build_your_custom_plan elementor-button-wrapper">
+                                                            <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
+                                                                href="#">
+                                                                <span class="elementor-button-content-wrapper">
+                                                                    <span class="elementor-button-icon">
+                                                                        <svg aria-hidden="true"
+                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                            viewBox="0 0 512 512"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                            </path>
+                                                                        </svg> </span>
+                                                                    <span class="elementor-button-text">Build your custom plan</span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+<span>
+<a href=""><button>
+Build Your Custom Plan</button></a></span></p>
                                 </div>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-50b9b9e7 e-flex e-con-boxed e-con e-child"
                             data-id="50b9b9e7" data-element_type="container">
-                            <div class="e-con-inner">
-                                <div class="elementor-element elementor-element-c7031b8 e-flex e-con-boxed elementor-invisible e-con e-child"
+                            <div  class="e-con-inner">
+                                <div style="border:1px solid #fff;" class="elementor-element elementor-element-c7031b8 e-flex e-con-boxed elementor-invisible e-con e-child"
                                     data-id="c7031b8" data-element_type="container"
                                     data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
                                     <div class="e-con-inner">
@@ -1425,7 +2020,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <h4 class="elementor-heading-title elementor-size-default">
-                                                            RM 899
+                                                            RM 2,200–4,400
                                                         </h4>
                                                     </div>
                                                 </div>
@@ -1456,8 +2051,7 @@
                                                                             d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text"> Basic
-                                                                    SEO optimization</span>
+                                                                <span class="elementor-icon-list-text">Review monitoring</span>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
@@ -1469,8 +2063,20 @@
                                                                             d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text">Social
-                                                                    media post design</span>
+                                                                <span class="elementor-icon-list-text">Alert setup</span>
+                                                            </li>
+                                                            
+                                                            <li class="elementor-icon-list-item">
+                                                                <span class="elementor-icon-list-icon">
+                                                                    <svg aria-hidden="true"
+                                                                        class="e-font-icon-svg e-fas-check-circle"
+                                                                        viewBox="0 0 512 512"
+                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                        <path
+                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                        </path>
+                                                                    </svg> </span>
+                                                                <span class="elementor-icon-list-text">Content Strategy & Planning</span>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
@@ -1482,8 +2088,7 @@
                                                                             d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text"> Social
-                                                                    media page management</span>
+                                                                <span class="elementor-icon-list-text">Competitor Analysis</span>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
@@ -1495,8 +2100,19 @@
                                                                             d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text"> Basic
-                                                                    website audit</span>
+                                                                <span class="elementor-icon-list-text"> 2 Platforms</span>
+                                                            </li>
+                                                              <li class="elementor-icon-list-item">
+                                                                <span class="elementor-icon-list-icon">
+                                                                    <svg aria-hidden="true"
+                                                                        class="e-font-icon-svg e-fas-check-circle"
+                                                                        viewBox="0 0 512 512"
+                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                        <path
+                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                        </path>
+                                                                    </svg> </span>
+                                                                <span class="elementor-icon-list-text">Engagement: Reply to DMs & Comments</span>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
@@ -1508,8 +2124,7 @@
                                                                             d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text"> Monthly
-                                                                    performance report</span>
+                                                                <span class="elementor-icon-list-text">Performance Report & Insights</span>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -1549,7 +2164,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-609f922e e-con-full e-flex elementor-invisible e-con e-child"
+                                <div style="border:1px solid #fff;" class="elementor-element elementor-element-609f922e e-con-full e-flex elementor-invisible e-con e-child"
                                     data-id="609f922e" data-element_type="container"
                                     data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
                                     <div class="elementor-element elementor-element-2d03d740 e-flex e-con-boxed e-con e-child"
@@ -1573,7 +2188,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h4 class="elementor-heading-title elementor-size-default">
-                                                        RM 1,699</h4>
+                                                        RM 1,700</h4>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-706f48ba elementor-widget elementor-widget-text-editor"
@@ -1603,8 +2218,7 @@
                                                                         d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text">On-Page
-                                                                SEO</span>
+                                                            <span class="elementor-icon-list-text"> Single Account Manager, Specialist, Copywriter, and a Graphic Designer</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
@@ -1616,8 +2230,7 @@
                                                                         d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> Social Media
-                                                                Management</span>
+                                                            <span class="elementor-icon-list-text"> 10 Posts/Month</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
@@ -1629,8 +2242,7 @@
                                                                         d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> Ad Campaign
-                                                                Setup & Management</span>
+                                                            <span class="elementor-icon-list-text"> Content Ideas + Monthly Calendar</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
@@ -1642,8 +2254,7 @@
                                                                         d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> Google My
-                                                                Business Optimization</span>
+                                                            <span class="elementor-icon-list-text"> 4 Platforms (FB, IG, Twitter, TikTok)</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
@@ -1655,8 +2266,7 @@
                                                                         d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> Website
-                                                                Maintenance Support</span>
+                                                            <span class="elementor-icon-list-text"> 10 Product Studio Photos (One-Time)</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
@@ -1668,22 +2278,9 @@
                                                                         d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> 2
-                                                                Conversion-focused Landing Pages</span>
+                                                            <span class="elementor-icon-list-text">PageFull Engagement + Monthly Audit Reports</span>
                                                         </li>
-                                                        <li class="elementor-icon-list-item">
-                                                            <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
-                                                                    </path>
-                                                                </svg> </span>
-                                                            <span class="elementor-icon-list-text"> Bi-weekly
-                                                                Performance Reports</span>
-                                                        </li>
+                                                        
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1721,7 +2318,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-792a8e8e e-con-full e-flex elementor-invisible e-con e-child"
+                                <div style="border:1px solid #fff;" class="elementor-element elementor-element-792a8e8e e-con-full e-flex elementor-invisible e-con e-child"
                                     data-id="792a8e8e" data-element_type="container"
                                     data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
                                     <div class="elementor-element elementor-element-b8ecacb e-flex e-con-boxed e-con e-child"
@@ -1745,7 +2342,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h4 class="elementor-heading-title elementor-size-default">
-                                                        RM 2,899</h4>
+                                                        RM 2,600</h4>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-585d403c elementor-widget elementor-widget-text-editor"
@@ -1902,12 +2499,7 @@
                     data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_transform_flipX_effect&quot;:&quot;transform&quot;,&quot;_transform_flipY_effect&quot;:&quot;transform&quot;,&quot;_animation&quot;:&quot;fadeInRight&quot;}"
                     data-widget_type="image.default">
                     <div class="elementor-widget-container">
-                        <img loading="lazy" decoding="async" width="800" height="113"
-                            src="wp-content/uploads/sites/292/2024/11/1-7-1024x145.png"
-                            class="attachment-large size-large wp-image-907" alt=""
-                            srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-1024x145.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-300x43.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-768x109.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-1536x218.png 1536w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-800x114.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7.png 1556w"
-                            sizes="(max-width: 800px) 100vw, 800px" />
-                    </div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -1915,8 +2507,7 @@
             data-element_type="container">
             <div class="e-con-inner">
                 <div class="elementor-element elementor-element-4c7bb9cc e-flex e-con-boxed e-con e-child"
-                    data-id="4c7bb9cc" data-element_type="container">
-                    <div class="e-con-inner">
+                    data-id="4c7bb9cc" data-element_type="container">                    <div class="e-con-inner">
                         <div class="elementor-element elementor-element-696d42b8 e-flex e-con-boxed e-con e-child"
                             data-id="696d42b8" data-element_type="container">
                             <div class="e-con-inner">
@@ -1937,8 +2528,7 @@
                                                             src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                             class="attachment-large size-large wp-image-884" alt=""
                                                             srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                            sizes="(max-width: 800px) 100vw, 800px" />
-                                                    </div>
+                                                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-4a9465c4 e-con-full e-flex e-con e-child"
@@ -1952,8 +2542,7 @@
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_10_683073e41e5c2">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class=""><span>Why Choose SEO
-                                                                            Agency Malaysia?</span></span></h2>
+                                                                        class=""><span>Graphic Design Services</span></span></h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1969,9 +2558,9 @@
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_11_683073e41efeb">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title">Driving Success With Top<span
-                                                            class=""><span> Digital Marketing
-                                                                Company in Malaysia </span></span></span></h2>
+                                                    <h2 class="heading-title">Work With Top Graphic Designers in Malaysia Today
+<span
+                                                            class=""><span></span></span></span></h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -1980,10 +2569,8 @@
                                         data-id="37b7110a" data-element_type="widget"
                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                         data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            <p>Partnering with the Best digital marketing agency in Malaysia
-                                                ensuress strategies, and maximum online success.
-                                            </p>
+                                        <div style="text-align:left," class="elementor-widget-container">
+                                            <p>Our expert team includes renowned graphic designers and brand identity specialists who craft visuals that leave a lasting impact. Whether you need custom illustrations, brochures, or social media graphics, we ensure every design aligns perfectly with your brand message. With consistent branding across all platforms, we help you stand out in a competitive market. Choose Go Viral for high-quality graphic design services that combine innovation with strategy</p>
                                         </div>
                                     </div>
                                 </div>
@@ -2011,8 +2598,7 @@
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        What Defines the Top Digital Agency in
-                                                                        Malaysia?</h5>
+                                                                        Top Graphic Design Artists in Malaysia </h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2022,22 +2608,7 @@
                                                                 <div class="elementor-widget-container">
                                                                     <div class="section">
                                                                         <div class="content">
-                                                                            <p>
-                                                                                Go Viral is a leading digital
-                                                                                marketing agency in Malaysia
-                                                                                known for its outstanding
-                                                                                results, in-depth strategies,
-                                                                                and innovative solutions for
-                                                                                your business. Dedicated to
-                                                                                growing brands with innovative
-                                                                                strategies and campaigns,
-                                                                                ensuring long-term success. As a
-                                                                                trusted leading marketing agency
-                                                                                in Malaysia, we present
-                                                                                measurable solutions to boost
-                                                                                online presence , engagement,
-                                                                                and conversions.
-                                                                            </p>
+                                                                            <p>Our graphic design artists in Malaysia deliver powerful, targeted, and creative designs tailored to your audience.</p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2085,7 +2656,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-7b511b31 e-flex e-con-boxed elementor-invisible e-con e-child"
+                                        <div  class="elementor-element elementor-element-7b511b31 e-flex e-con-boxed elementor-invisible e-con e-child"
                                             data-id="7b511b31" data-element_type="container"
                                             data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
                                             <div class="e-con-inner">
@@ -2101,8 +2672,7 @@
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        Best Digital Marketing Services in
-                                                                        Malaysia</h5>
+                                                                      Famous Graphic Designers in Malaysia</h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2113,19 +2683,7 @@
                                                                     <div class="section">
 
                                                                         <div class="content">
-                                                                            <p>
-                                                                                The best digital agency in
-                                                                                Malaysia, is committed to
-                                                                                bringing growth by implementing
-                                                                                results-driven marketing
-                                                                                strategies. We offer a full
-                                                                                suite of services, including
-                                                                                SEO, PPC , SMM , graphic design
-                                                                                , web development, and
-                                                                                e-commerce solutions to elevate
-                                                                                the brand’s visibility and boost
-                                                                                conversions.
-                                                                            </p>
+                                                                            <p>A famous graphic designer in Malaysia brings creativity and vision to build your competitive brand presence.</p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2187,8 +2745,7 @@
                                                     src="wp-content/uploads/sites/292/2024/11/6-1-1.png"
                                                     class="attachment-large size-large wp-image-971" alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6-1-1.png 635w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6-1-1-248x300.png 248w"
-                                                    sizes="(max-width: 635px) 100vw, 635px" />
-                                            </div>
+                                                    sizes="(max-width: 635px) 100vw, 635px" /> </div>
                                         </div>
                                     </div>
                                 </div>
@@ -2246,8 +2803,7 @@
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        Boost Growth with the best digital
-                                                                        marketing services</h5>
+                                                                      Expert Brand Identity Designer in Malaysia </h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2258,18 +2814,7 @@
                                                                     <div class="section">
 
                                                                         <div class="content">
-                                                                            <p>
-                                                                                Go Viral offers complete digital
-                                                                                marketing services in Malaysia
-                                                                                to achieve targetted goal, SEO &
-                                                                                PPC: Boost visibility and
-                                                                                website traffic, Social Media
-                                                                                Marketing : to engage the right
-                                                                                audience, and Content &
-                                                                                E-commerce Solutions: for better
-                                                                                user experience to get loyal
-                                                                                customers
-                                                                            </p>
+                                                                            <p>Our brand identity designer in Malaysia creates consistent branding through smart typography and strategic design elements.</p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2331,8 +2876,7 @@
                                                                 <div class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        Combined agency solutions for your
-                                                                        brands</h5>
+                                                                         Malaysia Logo & Graphic Designer </h5>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-6aed7f96 elementor-widget elementor-widget-text-editor"
@@ -2341,19 +2885,7 @@
                                                                 <div class="elementor-widget-container">
                                                                     <div class="section">
                                                                         <div class="content">
-                                                                            <p>
-                                                                                Go Viral offers combined agency
-                                                                                solutions to elevate your
-                                                                                brand’s online visibility. As
-                                                                                the best digital agency in
-                                                                                Malaysia, we use a holistic
-                                                                                approach that shows the smooth
-                                                                                integration of SEO, SMM, and PPC
-                                                                                and custom-tailored strategies
-                                                                                to achieve your brand’s goals.
-                                                                                and maximise ROI through our
-                                                                                data-driven campaigns.
-                                                                            </p>
+                                                                            <p>We offer scalable Malaysia logo design and professional graphic designer support for business growth.</p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2379,11 +2911,12 @@
                             src="wp-content/uploads/sites/292/2024/11/48-1024x1024.png"
                             class="attachment-large size-large wp-image-811" alt=""
                             srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-1024x1024.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-150x150.png 150w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-768x768.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-1536x1536.png 1536w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-800x800.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48.png 1633w"
-                            sizes="(max-width: 800px) 100vw, 800px" />
-                    </div>
+                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
                 </div>
             </div>
         </div>
+
+        
         <div class="elementor-element elementor-element-7301da76 e-flex e-con-boxed elementor-invisible e-con e-parent"
             data-id="7301da76" data-element_type="container"
             data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
@@ -2410,8 +2943,7 @@
                                                         src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                         class="attachment-large size-large wp-image-884" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" />
-                                                </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-e1cb1 e-con-full e-flex e-con e-child"
@@ -2442,8 +2974,8 @@
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_13_683073e42ba32">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">What They Say <span
-                                                        class=""><span>About Us?</span></span>
+                                                <h2 class="heading-title">Reviews from Our Happy Clients<span
+                                                        class=""><span></span></span>
                                                 </h2>
                                             </div>
                                         </div>
@@ -2513,10 +3045,7 @@
 
                                                                         <div class="elementskit-commentor-content">
                                                                             <!-- Client testimonial -->
-                                                                            <p>“Go Viral Digital Marketing
-                                                                                transformed our online presence
-                                                                                and helped us double our sales
-                                                                                within six months.”</p>
+                                                                            <p>“I admired working with the Go Viral design team! They really understood my brand and delivered exactly what I needed.Their graphic design services are top-notch and truly creative.”</p>
                                                                         </div>
 
                                                                         <div class="elementskit-commentor-bio">
@@ -2533,8 +3062,7 @@
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Nur
-                                                                                        Aisyah
+                                                                                        class="elementskit-author-name">Siti Amirah, Penang
 
                                                                                     </strong>
                                                                                     <span
@@ -2588,17 +3116,11 @@
 
                                                                         <div class="elementskit-commentor-content">
                                                                             <p>
-                                                                            <div class="elementskit-commentor-content">
-                                                                                <!-- Client testimonial -->
-                                                                                <p>“The social media
-                                                                                    campaigns created by Go
-                                                                                    Viral brought incredible
-                                                                                    engagement and
-                                                                                    visibility to our brand.
-                                                                                    Highly recommended for
-                                                                                    businesses looking to
-                                                                                    grow fast!”</p>
-                                                                            </div>
+                                                                                <div
+                                                                                    class="elementskit-commentor-content">
+                                                                                    <!-- Client testimonial -->
+                                                                                    <p>“From logo to brochure, everything was perfect. Go Viral’s team was patient and highly professional. I’d definitely recommend them to anyone looking for high-quality designs”</p>
+                                                                                </div>
                                                                             </p>
                                                                         </div>
 
@@ -2616,8 +3138,7 @@
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Jasmine
-                                                                                        Tan</strong>
+                                                                                        class="elementskit-author-name">Nur Aisyah, Selangor</strong>
                                                                                     <span
                                                                                         class="elementskit-author-des">Our
                                                                                         Client</span>
@@ -2670,13 +3191,9 @@
                                                                         <div class="elementskit-commentor-content">
                                                                             <div class="elementskit-commentor-content">
                                                                                 <!-- Client testimonial -->
-                                                                                <p>"Their SEO and digital
-                                                                                    strategy boosted our website
-                                                                                    traffic significantly. The
-                                                                                    regular updates and
-                                                                                    transparency made the entire
-                                                                                    process seamless and
-                                                                                    effective."</p>
+                                                                                <p>"Their attention to detail and creative input amazed me. They helped bring my brand vision to life seamlessly. Truly one of the best design teams I’ve worked with!
+
+"</p>
                                                                             </div>
                                                                         </div>
 
@@ -2694,8 +3211,7 @@
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Chen
-                                                                                        Wei Ming
+                                                                                        class="elementskit-author-name">Azlan Hakim, Kuala Lumpur
 
                                                                                     </strong>
                                                                                     <span
@@ -2719,6 +3235,12 @@
                     </div>
                 </div>
             </div>
+            
+
+
+
+
+            
             <div class="elementor-element elementor-element-1f4a113b e-flex e-con-boxed e-con e-parent"
                 data-id="1f4a113b" data-element_type="container">
                 <div class="e-con-inner">
@@ -2749,8 +3271,7 @@
                                                                 <div class="ekit_accordion_icon_left_group">
                                                                     <div class="ekit_accordion_normal_icon">
                                                                         <!-- Normal Icon -->
-                                                                        <i class="icon icon-plus"></i>
-                                                                    </div>
+                                                                        <i class="icon icon-plus"></i> </div>
 
                                                                     <div class="ekit_accordion_active_icon">
                                                                         <!-- Active Icon -->
@@ -2758,9 +3279,7 @@
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">Are Digital
-                                                                    Marketing Agencies Worth it in
-                                                                    Malaysia?</span>
+                                                                <span class="ekit-accordion-title"> What is included in graphic design services?</span>
 
                                                             </a>
                                                         </div>
@@ -2769,11 +3288,7 @@
                                                             aria-labelledby="primaryHeading-0-5447b409"
                                                             data-parent="#accordion-683073e42fec7">
 
-                                                            <div class="elementskit-card-body ekit-accordion--content">
-                                                                <p>Far far away, behind the word mountains, far
-                                                                    from the countries Vokalia and Consonantia,
-                                                                    there live the blind texts. Separated they
-                                                                    live in Bookmarksgrove right at </p>
+                                                            <div class="elementskit-card-body ekit-accordion--content">Graphic design services typically include logo design, branding, brochures, social media posts, business cards, packaging, infographics, and website graphics.</p>
                                                             </div>
 
                                                         </div>
@@ -2792,8 +3307,7 @@
                                                                 <div class="ekit_accordion_icon_left_group">
                                                                     <div class="ekit_accordion_normal_icon">
                                                                         <!-- Normal Icon -->
-                                                                        <i class="icon icon-plus"></i>
-                                                                    </div>
+                                                                        <i class="icon icon-plus"></i> </div>
 
                                                                     <div class="ekit_accordion_active_icon">
                                                                         <!-- Active Icon -->
@@ -2801,9 +3315,8 @@
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">How much does
-                                                                    it cost to hire a digital marketing
-                                                                    agency?</span>
+                                                                <span class="ekit-accordion-title"> How much do graphic design services cost in Malaysia?
+</span>
 
                                                             </a>
                                                         </div>
@@ -2813,10 +3326,11 @@
                                                             data-parent="#accordion-683073e42fec7">
 
                                                             <div class="elementskit-card-body ekit-accordion--content">
-                                                                <p>Far far away, behind the word mountains, far
-                                                                    from the countries Vokalia and Consonantia,
-                                                                    there live the blind texts. Separated they
-                                                                    live in Bookmarksgrove right at</p>
+                                                                <p>Prices vary based on the scope of work, but basic services like logo design can start from RM200+, while full branding packages may range from RM1,000 to RM5,000 or more.
+
+
+
+</p>
                                                             </div>
 
                                                         </div>
@@ -2835,8 +3349,7 @@
                                                                 <div class="ekit_accordion_icon_left_group">
                                                                     <div class="ekit_accordion_normal_icon">
                                                                         <!-- Normal Icon -->
-                                                                        <i class="icon icon-plus"></i>
-                                                                    </div>
+                                                                        <i class="icon icon-plus"></i> </div>
 
                                                                     <div class="ekit_accordion_active_icon">
                                                                         <!-- Active Icon -->
@@ -2844,8 +3357,7 @@
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title"> Is digital
-                                                                    marketing in demand in Malaysia?</span>
+                                                                <span class="ekit-accordion-title">How long does it take to complete a graphic design project?</span>
 
                                                             </a>
                                                         </div>
@@ -2855,10 +3367,7 @@
                                                             data-parent="#accordion-683073e42fec7">
 
                                                             <div class="elementskit-card-body ekit-accordion--content">
-                                                                <p>Far far away, behind the word mountains, far
-                                                                    from the countries Vokalia and Consonantia,
-                                                                    there live the blind texts. Separated they
-                                                                    live in Bookmarksgrove right at</p>
+                                                                <p>Simple projects (like a flyer or logo) may take 2–5 days. Larger projects involving branding or multiple assets could take 1–3 weeks, depending on revisions and client feedback.</p>
                                                             </div>
 
                                                         </div>
@@ -2871,6 +3380,10 @@
                                     </div>
                                 </div>
                             </div>
+
+                             
+
+
                             <div class="elementor-element elementor-element-7b6de46c e-con-full e-flex e-con e-child"
                                 data-id="7b6de46c" data-element_type="container">
                                 <div class="elementor-element elementor-element-4188f868 e-con-full e-flex elementor-invisible e-con e-child"
@@ -2889,8 +3402,7 @@
                                                         src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                         class="attachment-large size-large wp-image-884" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" />
-                                                </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-59ad01e2 e-con-full e-flex e-con e-child"
@@ -2933,9 +3445,7 @@
                                     data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                            ad minim veniam</p>
+                                        <p>Looking for a creative boost for your brand? Go Viral is a professional graphic design agency that transforms your ideas into stunning visuals. From logos and brochures to social media graphics and UI designs, we craft designs that leave a lasting impression and strengthen your brand identity. Let your business stand out with designs that speak volumes.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-1d4ef575 e-con-full e-flex elementor-invisible e-con e-child"
@@ -2961,7 +3471,7 @@
                                                                         d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-button-text">See More</span>
+                                                            <span class="elementor-button-text">Contact Us</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -2974,8 +3484,13 @@
                     </div>
                 </div>
             </div>
+
+           
+
+
             <div class="elementor-element elementor-element-21786894 e-flex e-con-boxed e-con e-parent"
                 data-id="21786894" data-element_type="container">
+                
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-6b4be47a e-flex e-con-boxed e-con e-child"
                         data-id="6b4be47a" data-element_type="container">
@@ -2999,8 +3514,7 @@
                                                             src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                             class="attachment-large size-large wp-image-884" alt=""
                                                             srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                            sizes="(max-width: 800px) 100vw, 800px" />
-                                                    </div>
+                                                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-2c461563 e-con-full e-flex e-con e-child"
@@ -3014,8 +3528,7 @@
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_16_683073e4327ac">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class=""><span>Our
-                                                                            Blog</span></span></h2>
+                                                                        class=""><span>Graphic Design Company Malaysia</span></span></h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3031,9 +3544,11 @@
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_17_683073e43308d">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title">Blog &amp; <span
-                                                            class=""><span> Article</span></span>
-                                                    </h2>
+                                                    <h3 class="heading-title"> <span
+                                                            class=""><span>Our Graphic Design Services Include
+
+</span></span>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -3043,13 +3558,7 @@
                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>Stay updated with the latest digital marketing trends, expert
-                                                tips, and industry insights. Our blog offers valuable content to
-                                                help you grow your online presence and stay ahead of the
-                                                competition. Dive into practical guides and case studies that
-                                                inspire real results.
-
-                                            </p>
+                                            <p>At Go Viral, we offer a wide range of graphic design services tailored to meet the branding and marketing needs of modern businesses. Our expertise includes logo and brand identity design, business cards, letterheads, flyers, brochures, posters, banners, and packaging designs. We also create stunning social media graphics, infographics, website visuals, and UI graphics that enhance user engagement. Whether you need presentation design, catalogues, menu cards, or email newsletters, our creative team delivers high-quality, print-ready designs that leave a lasting impression.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -3067,7 +3576,7 @@
                                                     <div class="col-lg-4 col-md-6">
 
                                                         <div class="elementskit-post-image-card">
-                                                            <div class="elementskit-entry-header">
+                                                             <div class="elementskit-entry-header">
                                                                 <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
                                                                     class="elementskit-entry-thumb">
                                                                     <img decoding="async"
@@ -3082,26 +3591,10 @@
                                                                 <h2 class="entry-title">
                                                                     <a
                                                                         href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Why Content Is The Backbone Of Your
-                                                                        Digital Strategy </a>
+                                                                        Brand Design in Malaysia</a>
                                                                 </h2>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur
-                                                                    adipiscing elit, sed do eiusmod tempor
-                                                                    incididunt ut labore et dolore magna aliqua.
-                                                                </p>
-                                                                <div class="btn-wraper">
-                                                                    <a class="elementskit-btn whitespace--normal" id=""
-                                                                        href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Learn more <svg aria-hidden="true"
-                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                            viewBox="0 0 512 512"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                            </path>
-                                                                        </svg> </a>
-
-                                                                </div>
+                                                                <p>Improve your brand image with expert brand design in Malaysia that embodies your personality and engages your target market. From creating a logo to providing full visual branding, our creative team has it covered.</p>
+                                                            
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
 
@@ -3109,12 +3602,12 @@
                                                     <div class="col-lg-4 col-md-6">
 
                                                         <div class="elementskit-post-image-card">
-                                                            <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html"
+                                                             <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
                                                                     class="elementskit-entry-thumb">
                                                                     <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/29-14.jpg')}}"
-                                                                        alt="How To Run A Successful Google Ads Campaign: A Step-By-Step">
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
                                                                 </a><!-- .elementskit-entry-thumb END -->
 
                                                             </div><!-- .elementskit-entry-header END -->
@@ -3123,27 +3616,12 @@
 
                                                                 <h2 class="entry-title">
                                                                     <a
-                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                        How To Run A Successful Google Ads
-                                                                        Campaign: A Step-By-Step </a>
+                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">Brochures, Flyers & Posters</a>
                                                                 </h2>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur
-                                                                    adipiscing elit, sed do eiusmod tempor
-                                                                    incididunt ut labore et dolore magna aliqua.
-                                                                </p>
-                                                                <div class="btn-wraper">
-                                                                    <a class="elementskit-btn whitespace--normal" id=""
-                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                        Learn more <svg aria-hidden="true"
-                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                            viewBox="0 0 512 512"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                            </path>
-                                                                        </svg> </a>
-
-                                                                </div>
+                                                                <p>Searching for a Malaysian designer to design attractive posters, flyers, and brochures? We are here to show our creativity in visually appealing, superior marketing collateral that engages audience and reflects brand.
+ 
+ </p>
+                                                               
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
 
@@ -3151,41 +3629,24 @@
                                                     <div class="col-lg-4 col-md-6">
 
                                                         <div class="elementskit-post-image-card">
-                                                            <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html"
+                                                          <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
                                                                     class="elementskit-entry-thumb">
                                                                     <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/30-11.jpg')}}"
-                                                                        alt="Social Media In 2025: How To Leverage Them For Your Brand">
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
                                                                 </a><!-- .elementskit-entry-thumb END -->
 
                                                             </div><!-- .elementskit-entry-header END -->
-
                                                             <div class="elementskit-post-body ">
 
                                                                 <h2 class="entry-title">
                                                                     <a
-                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
-                                                                        Social Media In 2025: How To Leverage
-                                                                        Them For Your Brand </a>
+                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">Social Media Graphics Design</a>
                                                                 </h2>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur
-                                                                    adipiscing elit, sed do eiusmod tempor
-                                                                    incididunt ut labore et dolore magna aliqua.
-                                                                </p>
-                                                                <div class="btn-wraper">
-                                                                    <a class="elementskit-btn whitespace--normal" id=""
-                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
-                                                                        Learn more <svg aria-hidden="true"
-                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                            viewBox="0 0 512 512"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                            </path>
-                                                                        </svg> </a>
-
-                                                                </div>
+                                                                <p>Enhance your online visibility with eye-catching, engagement-focused social media graphics design. We provide images for Facebook advertising and Instagram posts that are precisely in line with your plan and brand.
+</p>
+                                                                
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
 
@@ -3201,6 +3662,96 @@
                 </div>
             </div>
         </div>
+       <div class="e-con-inner">
+                            <div class="elementor-element elementor-element-259e45d3 e-flex e-con-boxed e-con e-child" data-id="259e45d3" data-element_type="container">
+                                <div class="e-con-inner">
+                                    <div class="elementor-element elementor-element-640e645b elementor-widget elementor-widget-elementskit-blog-posts animated fadeInUp" data-id="640e645b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="elementskit-blog-posts.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="ekit-wid-con">
+                                                <div id="post-items--640e645b" class="row post-items">
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                         <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
+                                                                </a><!-- .elementskit-entry-thumb END -->
+
+                                                            </div><!-- .elementskit-entry-header END -->
+
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
+                                                                        Infographics & Presentations</a>
+                                                                </h2>
+                                                                <p>
+Simplify difficult information with unique infographics and presentations to deliver data with impact. To keep your audience informed, interested, and amazed, our designs blend originality with clarity.</p>
+                                                                
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                             <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
+                                                                </a><!-- .elementskit-entry-thumb END -->
+
+                                                            </div><!-- .elementskit-entry-header END -->
+
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
+                                                                        Web & Mobile UI Graphics</a>
+                                                                </h2>
+                                                                <p>Enhance user experience with sleek and intuitive web & mobile UI graphics. We create cutting-edge, intuitive user interfaces that promote interaction and functionality on all platforms in addition to looking fantastic.
+</p>
+                                                               
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                            <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
+                                                                </a><!-- .elementskit-entry-thumb END -->
+
+                                                            </div><!-- .elementskit-entry-header END -->
+
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">Business Cards Design</a>
+                                                                </h2>
+                                                                <p>A business card design will embody your brand identity and leave a lasting impression. For effective networking, we design simple, memorable cards that blend elegance and clarity.</p>
+                                                        
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
         <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
             <div class='footer-width-fixer'>
@@ -3394,8 +3945,7 @@
                                                     class="attachment-large size-large wp-image-943" alt=""
                                                     decoding="async"
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-1024x305.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-300x89.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-768x229.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-1536x458.png 1536w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-2048x610.png 2048w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-800x238.png 800w"
-                                                    sizes="(max-width: 800px) 100vw, 800px" />
-                                            </div>
+                                                    sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                         </div>
                                         <div class="elementor-element elementor-element-f016da8 elementor-widget elementor-widget-text-editor"
                                             data-id="f016da8" data-element_type="widget"
@@ -3595,7 +4145,7 @@
                                         data-id="4ccbc73" data-element_type="widget"
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>Copyright © 2025 Go-viral | Powered by Go-viral</p>
+                                            <p>Copyright © 2025 Fluxco | Powered by Fluxco</p>
                                         </div>
                                     </div>
                                 </div>

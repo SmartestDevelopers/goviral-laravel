@@ -44,6 +44,38 @@ class FrontController extends Controller
     {
         return view('smm');
     }
+    public function ppc()
+    {
+        return view('ppc');
+    }
+    public function orm()
+    {
+        return view('orm');
+    }
+    public function seoaudit()
+    {
+        return view('seoaudit');
+    }
+    public function uiux()
+    {
+        return view('uiux');
+    }
+    public function graphicdesign()
+    {
+        return view('graphicdesign');
+    }
+    public function webdesign()
+    {
+        return view('webdesign');
+    }
+     public function webdevelopment()
+    {
+        return view('webdevelopment');
+    }
+     public function wordpress()
+    {
+        return view('wordpress');
+    }
      public function contact()
     {
         return view('contact');
@@ -72,4 +104,6 @@ class FrontController extends Controller
     {
         return view('faq');
     }
+
+ 
 }

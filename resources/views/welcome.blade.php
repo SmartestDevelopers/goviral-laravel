@@ -43,7 +43,7 @@
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_1_683073e3d52b9">
                                             <div style="  padding-right:10px;"
                                                 class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title"><span class="style-gradient"><span>Top
+                                                <h2 class="heading-title"><span class=""><span>Top
                                                             Digital Marketing Agency</span></span></h2>
                                             </div>
                                         </div>
@@ -63,7 +63,7 @@
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
                                     <div class="heading-section-title  display-inline-block">
                                         <h1 style="font-size: 70px;" class="heading-title">Bringing Revolution
-                                            With Top<span class="style-gradient"><span>Digital Marketing Agency
+                                            With Top<span class=""><span>Digital Marketing Agency
                                                     Malaysia</span></span></h1>
                                     </div>
                                 </div>
@@ -921,7 +921,7 @@
                                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_4_683073e40bb0b">
                                                     <div class="heading-section-title  display-inline-block">
                                                         <h2 class="heading-title"><span
-                                                                class="style-gradient"><span>About
+                                                                class=""><span>About
                                                                     Us</span></span></h2>
                                                     </div>
                                                 </div>
@@ -939,7 +939,7 @@
                                         class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_5_683073e40c673">
                                         <div class="heading-section-title  display-inline-block">
                                             <h2 style="font-size: 50px;" class="heading-title">See What Makes Us
-                                                The<span style="font-size: 50px;" class="style-gradient"><span>Best
+                                                The<span style="font-size: 50px;" class=""><span>Best
                                                         Digital Marketing Company
                                                         In Malaysia,</span></span></h2>
                                         </div>
@@ -1047,7 +1047,7 @@
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_6_683073e40fa6c">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title"><span class="style-gradient"><span>Our
+                                                    <h2 class="heading-title"><span class=""><span>Our
                                                                 Services</span></span></h2>
                                                 </div>
                                             </div>
@@ -1065,7 +1065,7 @@
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_7_683073e4108be">
                                     <div class="heading-section-title  display-inline-block">
                                         <h2 class="heading-title">Your Success Begins With <span
-                                                class="style-gradient"><span>Best Digital Marketing
+                                                class=""><span>Best Digital Marketing
                                                     Services</span></span></h2>
                                     </div>
                                 </div>
@@ -1342,7 +1342,7 @@
                                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_8_683073e416fe4">
                                                     <div class="heading-section-title  display-inline-block">
                                                         <h2 class="heading-title"><span
-                                                                class="style-gradient"><span>Pricing
+                                                                class=""><span>Pricing
                                                                     Plan</span></span></h2>
                                                     </div>
                                                 </div>
@@ -1360,7 +1360,7 @@
                                         class="jeg-elementor-kit jkit-heading  align- align-tablet-center align-mobile-center jeg_module_777_9_683073e417b2a">
                                         <div class="heading-section-title  display-inline-block">
                                             <h2 class="heading-title">Choose Your <span
-                                                    class="style-gradient"><span>Pricing</span></span> Plan</h2>
+                                                    class=""><span>Pricing</span></span> Plan</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -1930,7 +1930,7 @@
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_10_683073e41e5c2">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class="style-gradient"><span>Why Choose
+                                                                        class=""><span>Why Choose
                                                                             Us</span></span></h2>
                                                             </div>
                                                         </div>
@@ -1948,7 +1948,7 @@
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_11_683073e41efeb">
                                                 <div class="heading-section-title  display-inline-block">
                                                     <h2 class="heading-title">Driving Success With Top<span
-                                                            class="style-gradient"><span> Digital Marketing
+                                                            class=""><span> Digital Marketing
                                                                 Company in Malaysia </span></span></span></h2>
                                                 </div>
                                             </div>
@@ -2400,7 +2400,7 @@
                                                         class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_12_683073e42ab88">
                                                         <div class="heading-section-title  display-inline-block">
                                                             <h2 class="heading-title"><span
-                                                                    class="style-gradient"><span>Testimonial</span></span>
+                                                                    class=""><span>Testimonial</span></span>
                                                             </h2>
                                                         </div>
                                                     </div>
@@ -2418,7 +2418,7 @@
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_13_683073e42ba32">
                                             <div class="heading-section-title  display-inline-block">
                                                 <h2 class="heading-title">What They Say <span
-                                                        class="style-gradient"><span>About Us?</span></span>
+                                                        class=""><span>About Us?</span></span>
                                                 </h2>
                                             </div>
                                         </div>
@@ -2876,7 +2876,7 @@
                                                         class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_14_683073e4308f3">
                                                         <div class="heading-section-title  display-inline-block">
                                                             <h2 class="heading-title"><span
-                                                                    class="style-gradient"><span>FAQ&#039;s</span></span>
+                                                                    class=""><span>FAQ&#039;s</span></span>
                                                             </h2>
                                                         </div>
                                                     </div>
@@ -2894,7 +2894,7 @@
                                             class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_15_683073e4311ed">
                                             <div class="heading-section-title  display-inline-block">
                                                 <h2 class="heading-title">Frequently Asked <span
-                                                        class="style-gradient"><span>Questions</span></span>
+                                                        class=""><span>Questions</span></span>
                                                 </h2>
                                             </div>
                                         </div>
@@ -2985,7 +2985,7 @@
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_16_683073e4327ac">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class="style-gradient"><span>Our
+                                                                        class=""><span>Our
                                                                             Blog</span></span></h2>
                                                             </div>
                                                         </div>
@@ -3003,7 +3003,7 @@
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_17_683073e43308d">
                                                 <div class="heading-section-title  display-inline-block">
                                                     <h2 class="heading-title">Blog &amp; <span
-                                                            class="style-gradient"><span> Article</span></span>
+                                                            class=""><span> Article</span></span>
                                                     </h2>
                                                 </div>
                                             </div>

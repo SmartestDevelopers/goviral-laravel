@@ -183,6 +183,16 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     .mybutton:hover {
       background-color: #0056b3;
     }
+
+	.elementor-button-wrapper{
+		border:1px solid #fff !important;
+	}
+	.build_your_custom_plan:hover{
+
+		background-color:purple !important;
+		
+	}
+
 	</style>
 
 
