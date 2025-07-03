@@ -18,6 +18,10 @@
 .elementor-299 .elementor-element.elementor-element-20a5710{
     width:53% !important;
 }
+
+body:not(.rtl) .elementor-299 .elementor-element.elementor-element-8c2eb57 .hfe-nav-menu__layout-horizontal .hfe-nav-menu > li.menu-item:not(:last-child) {
+	margin-right: 0px !important;
+}
 </style>
 
     <script>
@@ -264,6 +268,10 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 																		class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
 																		<a href="{{url('about')}}"
 																			class="hfe-menu-item">About Us</a></li>
+																	<li id="menu-item-171"
+																		class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
+																		<a href="{{url('smm')}}"
+																			class="hfe-menu-item">SMM</a></li>
 																	<li id="menu-item-171"
 																		class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
 																		<a href="{{url('seo')}}"
