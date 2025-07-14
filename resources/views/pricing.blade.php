@@ -2,6 +2,6 @@
 
 @section('content')
 
-<h1>SEO</h1>
+<h1>Pricing</h1>
 
 @endsection

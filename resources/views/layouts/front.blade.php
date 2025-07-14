@@ -315,23 +315,20 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 																								</li>
 																								<li id="menu-item-175"
 																									class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu">
-																									<a href="{{url('seo')}}"
+																									<a href="{{url('uiux')}}"
 																										class="hfe-sub-menu-item">UI/UX</a></li>	
 																								<li id="menu-item-175"
 																									class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu">
-																									<a href="{{url('seo')}}"
+																									<a href="{{url('wordpress')}}"
 																										class="hfe-sub-menu-item">Wordpress</a></li>	
 																								<li id="menu-item-175"
 																									class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu">
-																									<a href="{{url('seo')}}"
+																									<a href="{{url('webdesign')}}"
 																										class="hfe-sub-menu-item">Web Design</a></li>
+																									
 																								<li id="menu-item-175"
 																									class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu">
-																									<a href="{{url('seo')}}"
-																										class="hfe-sub-menu-item">UI/UX</a></li>		
-																								<li id="menu-item-175"
-																									class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu">
-																									<a href="{{url('seo')}}"
+																									<a href="{{url('graphicdesign')}}"
 																										class="hfe-sub-menu-item">Graphic Design</a></li>
 																							</ul>
 																						</li>
@@ -693,88 +690,74 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                                     <div class="elementor-element elementor-element-92260bb e-flex e-con-boxed e-con e-child"
                                         data-id="92260bb" data-element_type="container">
                                         <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-e50b579 e-con-full e-flex e-con e-child"
-                                                data-id="e50b579" data-element_type="container">
-                                                <div class="elementor-element elementor-element-7787d00 elementor-widget elementor-widget-heading"
-                                                    data-id="7787d00" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <h5 class="elementor-heading-title elementor-size-default">
-                                                            Our Services</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-79082bd elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                    data-id="79082bd" data-element_type="widget"
-                                                    data-widget_type="icon-list.default">
-                                                    <div class="elementor-widget-container">
-                                                        <ul class="elementor-icon-list-items">
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">SEO</span>
-                                                            </li>
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">SMM</span>
-                                                            </li>
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">PPC</span>
-                                                            </li>
-															<li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">ORM</span>
-                                                            </li>
-															<li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">UI/UX</span>
-                                                            </li>
-															<li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">SEO Audit</span>
-                                                            </li>
-															<li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Graphic Design</span>
-                                                            </li>
-															<li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">WordPress</span>
-                                                            </li>
-															<li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Web Design</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-44dc489 e-con-full e-flex e-con e-child"
-                                                data-id="44dc489" data-element_type="container">
-                                                <div class="elementor-element elementor-element-ff020b8 elementor-widget elementor-widget-heading"
-                                                    data-id="ff020b8" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <h5 class="elementor-heading-title elementor-size-default">
-                                                            Quick Links</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-48cc2de elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                    data-id="48cc2de" data-element_type="widget"
-                                                    data-widget_type="icon-list.default">
-                                                    <div class="elementor-widget-container">
-                                                        <ul class="elementor-icon-list-items">
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Home</span>
-                                                            </li>
-															<li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">About Us
-                                                                    </span>
-                                                            </li>
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Term Of
-                                                                    Service</span>
-                                                            </li>
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Disclaimer</span>
-                                                            </li>
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Credits</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <div class="elementor-element elementor-element-e50b579 e-con-full e-flex e-con e-child" data-id="e50b579" data-element_type="container">
+    <div class="elementor-element elementor-element-7787d00 elementor-widget elementor-widget-heading" data-id="7787d00" data-element_type="widget" data-widget_type="heading.default">
+        <div class="elementor-widget-container">
+            <h5 class="elementor-heading-title elementor-size-default">Our Services</h5>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-79082bd elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="79082bd" data-element_type="widget" data-widget_type="icon-list.default">
+        <div class="elementor-widget-container">
+            <ul class="elementor-icon-list-items">
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('seo') }}"><span class="elementor-icon-list-text">SEO</span></a>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('smm') }}"><span class="elementor-icon-list-text">SMM</span></a>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('ppc') }}"><span class="elementor-icon-list-text">PPC</span></a>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('orm') }}"><span class="elementor-icon-list-text">ORM</span></a>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('uiux') }}"><span class="elementor-icon-list-text">UI/UX</span></a>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('seoaudit') }}"><span class="elementor-icon-list-text">SEO Audit</span></a>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('graphicdesign') }}"><span class="elementor-icon-list-text">Graphic Design</span></a>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('wordpress') }}"><span class="elementor-icon-list-text">WordPress</span></a>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('webdesign') }}"><span class="elementor-icon-list-text">Web Design</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="elementor-element elementor-element-44dc489 e-con-full e-flex e-con e-child" data-id="44dc489" data-element_type="container">
+    <div class="elementor-element elementor-element-ff020b8 elementor-widget elementor-widget-heading" data-id="ff020b8" data-element_type="widget" data-widget_type="heading.default">
+        <div class="elementor-widget-container">
+            <h5 class="elementor-heading-title elementor-size-default">Quick Links</h5>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-48cc2de elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="48cc2de" data-element_type="widget" data-widget_type="icon-list.default">
+        <div class="elementor-widget-container">
+            <ul class="elementor-icon-list-items">
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('/') }}"><span class="elementor-icon-list-text">Home</span></a>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('about') }}"><span class="elementor-icon-list-text">About Us</span></a>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('our-team') }}"><span class="elementor-icon-list-text">Our Team</span></a>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('faq') }}"><span class="elementor-icon-list-text">FAQ’s</span></a>
+                </li>
+                <li class="elementor-icon-list-item">
+                    <a href="{{ url('privacypolicy') }}"><span class="elementor-icon-list-text">Privacy Policy</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
                                             <div class="elementor-element elementor-element-ff32189 e-flex e-con-boxed e-con e-child"
                                                 data-id="ff32189" data-element_type="container">
                                                 <div class="e-con-inner">
