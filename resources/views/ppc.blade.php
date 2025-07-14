@@ -1,4 +1,7 @@
 @extends('layouts.front')
+@section('title', 'Top PPC Agency Malaysia | Boost ROI with Targeted Ads')
+@section('meta_description', 'Maximise your ad spend with our expert PPC agency Malaysia. Our high-converting campaigns increase more traffic, and real business growth.')
+
 
 @section('content')
 <style>
@@ -144,6 +147,43 @@
 			padding: 0 !important;
 		}
 	</style>
+    <style>
+    .swiper-slide {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  justify-content: center;
+  flex-direction: row; /* Align icon and text horizontally */
+  gap: 10px; /* Space between the icon and the text */
+  text-align: center;
+  font-size: 24px;
+  color: #D8A6FF; /* Light Lilac Color */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.swiper-slide i {
+  font-size: 30px; /* Make icon bigger */
+}
+
+.swiper-slide h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.mycustombutton{
+border: 1px solid #ffffff !important;  /* white border */
+  border-radius: 8px !important;         /* smooth corners */
+  background-color: transparent !important;  /* optional: makes button transparent */
+  color: #ffffff !important;            /* text color white (you can change if needed) */
+  font-weight: 500;
+}
+.mycustombutton:hover {
+  color:rgb(255, 255, 255) !important;
+  transition: all 0.3s ease;
+}
+
+</style>
 	<link rel='stylesheet' id='fontawesome-gutenverse-css'
 		href='../../wp-content/plugins/gutenverse/lib/framework/assets/fonts/fontawesome/css/all.min1576.css?ver=1.2.1'
 		media='all' />
@@ -588,7 +628,22 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<script src="../../wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
 	<script src="../../wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
-	<script id="jquery-js-after">
+	<script>
+  function toggleContent(btn) {
+    const span = btn.previousElementSibling.querySelector(".more-content");
+    const isHidden = span.style.display === "none";
+
+
+    if (isHidden) {
+      span.style.display = "inline";
+      btn.innerHTML = 'Read less <i class="fas fa-chevron-up"></i>';
+    } else {
+      span.style.display = "none";
+      btn.innerHTML = 'Read more <i class="fas fa-chevron-down"></i>';
+    }
+  }
+</script>
+    <script id="jquery-js-after">
 		! function($) {
 			"use strict";
 			$(document).ready(function() {
@@ -682,7 +737,7 @@
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_1_683073e3d52b9">
                                             <div style="  padding-right:10px;"
                                                 class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title"><span class=""><span>PPC Agency Malaysia</span></span></h2>
+                                                <h1 class="heading-title"><span style="color: #C9A8C1;">PPC Agency Malaysia</span></span></h>
                                             </div>
                                         </div>
                                     </div>
@@ -700,8 +755,8 @@
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h1 style="font-size: 50px;" class="heading-title"> PPC Agency Malaysia:
-<span class=""><span> Turn Clicks Into Conversions</span></span></h1>
+                                        <h1 style="font-size: 50px;" class="heading-title"> <span style="color: #C9A8C1;">PPC Agency Malaysia:
+</span> Turn Clicks Into Conversions</h1>
                                     </div>
                                 </div>
                             </div>
@@ -1564,7 +1619,7 @@
                                     <div
                                         class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_5_683073e40c673">
                                         <div class="heading-section-title  display-inline-block">
-                                            <h2 style="font-size: 30px;" class="heading-title">Leading Google Ads and PPC Marketing Agency in Malaysia
+                                            <h2 style="font-size: 30px;" class="heading-title">Leading Google Ads & <span style="color: #C9A8C1;">PPC Marketing Agency in Malaysia
 <span style="font-size: 30px;" class=" "><span></span></span></h2>
                                         </div>
                                     </div>
@@ -1592,7 +1647,7 @@
                                             data-id="13a55f96" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
+                                                <div class="mycustombutton">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
                                                         href="#">
                                                         <span class="elementor-button-content-wrapper">
@@ -1605,7 +1660,7 @@
                                                                         d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-button-text">Get Free Consultation!</span>
+                                                            <span class="elementor-button-text">Contact Us</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1681,7 +1736,7 @@
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_7_683073e4108be">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h2 class="heading-title">Our Proven Process for PPC Marketing Services
+                                        <h2 class="heading-title">Our Proven Process for <span style="color: #C9A8C1;">PPC Marketing Services
 
 
 <span
@@ -2561,7 +2616,7 @@ Build Your Custom Plan</button></a></span></p>
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_11_683073e41efeb">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title">PPC Marketing Services in Malaysia for Growth
+                                                    <h2 class="heading-title"><span style="color: #C9A8C1;">PPC Marketing Services </span> in Malaysia for Growth
 <span
                                                             class=""><span></span></span></span></h2>
                                                 </div>
@@ -2979,7 +3034,7 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_13_683073e42ba32">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Reviews from Our Happy Clients<span
+                                                <h2 class="heading-title">Reviews from Our <span style="color: #C9A8C1;">Happy Clients<span
                                                         class=""><span></span></span>
                                                 </h2>
                                             </div>
@@ -3124,7 +3179,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 <div
                                                                                     class="elementskit-commentor-content">
                                                                                     <!-- Client testimonial -->
-                                                                                    <p>“Super happy with Go Viral’s pay-per-click services! Their team explained everything clearly and kept me updated. My ROI has improved significantly in just a short time.”</p>
+                                                                                    <p>“Super happy with Go Viral’s pay-per-click services! Their team explained everything clearly and kept me updated. My ROI has improved significantly in short time.”</p>
                                                                                 </div>
                                                                             </p>
                                                                         </div>
@@ -3442,8 +3497,7 @@ Pay-per-click (PPC) is an online advertising model where you pay only when someo
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_15_683073e4311ed">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Frequently Asked <span
-                                                        class=""><span>Questions</span></span>
+                                                <h2 class="heading-title">Frequently <span style="color: #C9A8C1;"> Asked Questions</span></span>
                                                 </h2>
                                             </div>
                                         </div>
@@ -3454,7 +3508,7 @@ Pay-per-click (PPC) is an online advertising model where you pay only when someo
                                     data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Drive leads, boost ROI, and get real-time results with expert PPC strategies. As the best pay per click advertising agency in Malaysia, Go Viral delivers data-driven pay-per-click services tailored to your business goals. From keyword selection to ad optimization, we ensure your ads reach the right audience at the right time. Experience measurable growth with PPC campaigns designed for maximum efficiency and performance.</p>
+                                        <p>Have questions about PPC advertising? From budget planning to ad performance, our PPC FAQs cover everything you need to know. Whether you’re new to Google Ads or looking to optimize your campaigns, we’re here to help you. Let’s turn clicks into results!</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-1d4ef575 e-con-full e-flex elementor-invisible e-con e-child"
@@ -3467,23 +3521,7 @@ Pay-per-click (PPC) is an online advertising model where you pay only when someo
                                             data-id="50a99fa" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                    </path>
-                                                                </svg> </span>
-                                                            <span class="elementor-button-text">Contact Us</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -3553,8 +3591,7 @@ Pay-per-click (PPC) is an online advertising model where you pay only when someo
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_17_683073e43308d">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h3 class="heading-title"> <span
-                                                            class=""><span> Maximize Your Business Growth With Expert PPC Marketing in Malaysia</span></span>
+                                                    <h3 class="heading-title">Maximize Your Business Growth With <span style="color: #C9A8C1;"> Expert PPC Marketing in Malaysia</span></span>
                                                     </h3>
                                                 </div>
                                             </div>
@@ -3760,6 +3797,7 @@ Experience faster growth, better ROI, and measurable success with our pay-per-cl
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
 

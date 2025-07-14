@@ -1,4 +1,6 @@
 @extends('layouts.front')
+@section('title', 'Top Graphic Design Agency Malaysia – Branding Experts')
+@section('meta_description', 'Stand out with the leading graphic design agency Malaysia. We deliver logos, branding, and visuals that elevate your business identity and attract customers.')
 
 @section('content')
 <style>
@@ -169,6 +171,9 @@
 			color: #fff;
 			text-decoration: none
 		}
+        .services{
+        font-size:150px;
+        }
 	</style>
 	<style id='global-styles-inline-css'>
 		:root {
@@ -494,6 +499,27 @@
 			font-size: 1.5em;
 			line-height: 1.6;
 		}
+        
+.mycustombutton{
+border: 1px solid #ffffff !important;  /* white border */
+  border-radius: 8px !important;         /* smooth corners */
+  background-color: transparent !important;  /* optional: makes button transparent */
+  color: #ffffff !important;            /* text color white (you can change if needed) */
+  font-weight: 500;
+}
+.mycustombutton:hover {
+  color:rgb(255, 255, 255) !important;
+  transition: all 0.3s ease;
+}
+.steps {
+
+  font-size: 54px;
+  font-weight: bold;
+  color:#D4BEE4 !important; 
+  margin: 10px 30px!important; 
+  margin-left: 50px; /* or any value like 30px, 2rem etc. */
+}
+
 	</style>
 	<link rel='stylesheet' id='template-kit-export-css'
 		href='../../wp-content/plugins/template-kit-export/assets/public/template-kit-export-public982a.css?ver=1.0.23'
@@ -569,6 +595,13 @@
 			--guten-screen-sm-max: 1024px;
 			--guten-screen-md-min: 1025px;
 		}
+       .custom-icon {
+    color: #fff;                /* white icon color */
+    width: 24px;            /* increase size */
+    padding: 10px;              /* padding inside icon box */
+    border-radius: 6px;         /* optional: rounded corners */
+    margin-left: 10px;          /* space to the left */
+}
 	</style>
 	<link rel='stylesheet' id='gutenverse-theme-essential-frontend-block-css'
 		href='../../wp-content/plugins/gutenverse-themes-builder/assets/css/essential/frontend-essential97de.css?ver=1.0.5'
@@ -605,6 +638,35 @@
 			})
 		}(jQuery);
 	</script>
+    <script>
+  function toggleContent(btn) {
+    const span = btn.previousElementSibling.querySelector(".more-content");
+    const isHidden = span.style.display === "none";
+
+
+    if (isHidden) {
+      span.style.display = "inline";
+      btn.innerHTML = 'Read less <i class="fas fa-chevron-up"></i>';
+    } else {
+      span.style.display = "none";
+      btn.innerHTML = 'Read more <i class="fas fa-chevron-down"></i>';
+    }
+  }
+</script><script>
+  function toggleContent(btn) {
+    const span = btn.previousElementSibling.querySelector(".more-content");
+    const isHidden = span.style.display === "none";
+
+
+    if (isHidden) {
+      span.style.display = "inline";
+      btn.innerHTML = 'Read less <i class="fas fa-chevron-up"></i>';
+    } else {
+      span.style.display = "none";
+      btn.innerHTML = 'Read more <i class="fas fa-chevron-down"></i>';
+    }
+  }
+</script>
 	<script
 		src="../../wp-content/plugins/template-kit-export/assets/public/template-kit-export-public982a.js?ver=1.0.23"
 		id="template-kit-export-js"></script>
@@ -656,7 +718,7 @@
                     <div class="elementor-element elementor-element-18893392 e-con-full e-flex elementor-invisible e-con e-child"
                         data-id="18893392" data-element_type="container"
                         data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                        <div class="elementor-element elementor-element-47feaea2 e-con-full e-flex e-con e-child"
+                        <div style="width:300px;" class="elementor-element elementor-element-47feaea2 e-con-full e-flex e-con e-child"
                             data-id="47feaea2" data-element_type="container"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                             <div class="elementor-element elementor-element-664423cf e-con-full e-flex e-con e-child"
@@ -700,7 +762,7 @@
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h1 style="font-size: 50px;" class="heading-title"> Graphic Design Agency in Malaysia Delivering Creative Branding Solutions
+                                        <h1 style="font-size: 60px;" class="heading-title"><span style="color: #c9a8c1;"> Graphic Design Agency in Malaysia</span><br> Delivering Creative Branding Solutions
 <span class=""><span></span></span></h1>
                                     </div>
                                 </div>
@@ -795,7 +857,7 @@
                                     data-id="145626e0" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>At Go Viral, we transform creative ideas into impactful visual designs that connect with your audience. Our graphic design services include brochures, banners, logos, business cards, and posters tailored to your brand. With a focus on quality and creativity, we help your brand stand out in a competitive market.</p>
+                                        <p>At Go Viral, we transform creative ideas into impactful visual designs that connect audience. Graphic design services include brochures, banners, logos, business cards, and posters.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1067,46 +1129,6 @@
                         data-settings="{&quot;slides_to_show&quot;:&quot;5&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;autoplay_speed&quot;:500,&quot;speed&quot;:7000,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:53,&quot;sizes&quot;:[]},&quot;slides_to_show_tablet&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;2&quot;,&quot;slides_to_scroll_tablet&quot;:&quot;1&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;1&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
                         data-widget_type="image-carousel.default">
                         <div class="elementor-widget-container">
-                            <div class="elementor-image-carousel-wrapper swiper" dir="ltr">
-                                <div class="elementor-image-carousel swiper-wrapper" aria-live="off">
-                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
-                                        aria-label="1 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-1.png')}}" alt="1" />
-                                        </figure>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
-                                        aria-label="2 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-213-1.png')}}"
-                                                alt="logoipsum-213" /></figure>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
-                                        aria-label="3 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-216-1.png')}}"
-                                                alt="logoipsum-216" /></figure>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
-                                        aria-label="4 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-217-1.png')}}"
-                                                alt="logoipsum-217" /></figure>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
-                                        aria-label="5 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-218-1.png')}}"
-                                                alt="logoipsum-218" /></figure>
-                                    </div>
-                                </div>
-
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -1561,7 +1583,7 @@
                                     <div
                                         class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_5_683073e40c673">
                                         <div class="heading-section-title  display-inline-block">
-                                            <h2 style="font-size: 30px;" class="heading-title">Graphic Design Company for Complete Branding Solutions
+                                            <h2 style="font-size: 30px;" class="heading-title"><span style="color: #c9a8c1;"> Graphic Design Company</span><br> for Complete Branding Solutions
                                         </div>
                                     </div>
                                 </div>
@@ -1588,7 +1610,7 @@
                                             data-id="13a55f96" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
+                                                <div class="mycustombutton">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
                                                         href="#">
                                                         <span class="elementor-button-content-wrapper">
@@ -1601,7 +1623,7 @@
                                                                         d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-button-text">Get Free Consultation!</span>
+                                                            <span class="elementor-button-text">Contact Us!</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1677,7 +1699,7 @@
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_7_683073e4108be">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h2 class="heading-title">Graphic Design Services for Every Business
+                                        <h2 class="heading-title"><span style="color: #c9a8c1;"> Graphic Design Services</span> for Every Business
 
 <span
                                                 class=""><span></span></span></h2>
@@ -2558,7 +2580,7 @@ Build Your Custom Plan</button></a></span></p>
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_11_683073e41efeb">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title">Work With Top Graphic Designers in Malaysia Today
+                                                    <h2 class="heading-title">Work With <span style="color: #c9a8c1;"> Top Graphic Designers</span><br> in Malaysia Today
 <span
                                                             class=""><span></span></span></span></h2>
                                                 </div>
@@ -2974,14 +2996,14 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_13_683073e42ba32">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Reviews from Our Happy Clients<span
+                                                <h2 class="heading-title">Reviews from Our <span style="color: #c9a8c1;">Happy Clients<span
                                                         class=""><span></span></span>
                                                 </h2>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-38b04447 elementor-widget elementor-widget-text-editor"
+                                 <div class="elementor-element elementor-element-38b04447 elementor-widget elementor-widget-text-editor"
                                     data-id="38b04447" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div style="padding-bottom: 3px;" class="elementor-widget-container">
@@ -3045,7 +3067,7 @@ Build Your Custom Plan</button></a></span></p>
 
                                                                         <div class="elementskit-commentor-content">
                                                                             <!-- Client testimonial -->
-                                                                            <p>“I admired working with the Go Viral design team! They really understood my brand and delivered exactly what I needed.Their graphic design services are top-notch and truly creative.”</p>
+                                                                            <p>“From the start, Go Viral understood our goals. Their logo design services were spot on, and we’re seeing better conversions than ever. Great service from a reliable team!”</p>
                                                                         </div>
 
                                                                         <div class="elementskit-commentor-bio">
@@ -3062,7 +3084,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Siti Amirah, Penang
+                                                                                        class="elementskit-author-name">Nadiah, Penang
 
                                                                                     </strong>
                                                                                     <span
@@ -3119,7 +3141,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 <div
                                                                                     class="elementskit-commentor-content">
                                                                                     <!-- Client testimonial -->
-                                                                                    <p>“From logo to brochure, everything was perfect. Go Viral’s team was patient and highly professional. I’d definitely recommend them to anyone looking for high-quality designs”</p>
+                                                                                    <p>“Super happy with Go Viral’s Social media posts design services! Their team explained everything clearly and kept me updated. My ROI has improved significantly in just a short time.”</p>
                                                                                 </div>
                                                                             </p>
                                                                         </div>
@@ -3188,10 +3210,10 @@ Build Your Custom Plan</button></a></span></p>
                                                                             </div>
                                                                         </div>
 
-                                                                        <div class="elementskit-commentor-content">
+                                                                        <div class="elementskit-commentor-content">  
                                                                             <div class="elementskit-commentor-content">
                                                                                 <!-- Client testimonial -->
-                                                                                <p>"Their attention to detail and creative input amazed me. They helped bring my brand vision to life seamlessly. Truly one of the best design teams I’ve worked with!
+                                                                                <p>"Go Viral really helped my brand get noticed. Their branding strategies brought in quality leads, and I saw results within weeks. Highly recommend their expert team!
 
 "</p>
                                                                             </div>
@@ -3211,7 +3233,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Azlan Hakim, Kuala Lumpur
+                                                                                        class="elementskit-author-name">Faizal Ahmed, Kuala Lumpur
 
                                                                                     </strong>
                                                                                     <span
@@ -3236,12 +3258,7 @@ Build Your Custom Plan</button></a></span></p>
                 </div>
             </div>
             
-
-
-
-
-            
-            <div class="elementor-element elementor-element-1f4a113b e-flex e-con-boxed e-con e-parent"
+<div class="elementor-element elementor-element-1f4a113b e-flex e-con-boxed e-con e-parent"
                 data-id="1f4a113b" data-element_type="container">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-53334ea4 e-flex e-con-boxed e-con e-child"
@@ -3279,7 +3296,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title"> What is included in graphic design services?</span>
+                                                                <span class="ekit-accordion-title">What is graphic design and why do I need it?</span>
 
                                                             </a>
                                                         </div>
@@ -3288,7 +3305,7 @@ Build Your Custom Plan</button></a></span></p>
                                                             aria-labelledby="primaryHeading-0-5447b409"
                                                             data-parent="#accordion-683073e42fec7">
 
-                                                            <div class="elementskit-card-body ekit-accordion--content">Graphic design services typically include logo design, branding, brochures, social media posts, business cards, packaging, infographics, and website graphics.</p>
+                                                            <div class="elementskit-card-body ekit-accordion--content">Graphic design is the art of visual communication—using color, typography, images, and layout to convey messages effectively. Businesses rely on it to build brand identity, communicate clearly, and create trust with customers .</p>
                                                             </div>
 
                                                         </div>
@@ -3315,8 +3332,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title"> How much do graphic design services cost in Malaysia?
-</span>
+                                                                <span class="ekit-accordion-title">How much do graphic design services cost?
 
                                                             </a>
                                                         </div>
@@ -3326,7 +3342,7 @@ Build Your Custom Plan</button></a></span></p>
                                                             data-parent="#accordion-683073e42fec7">
 
                                                             <div class="elementskit-card-body ekit-accordion--content">
-                                                                <p>Prices vary based on the scope of work, but basic services like logo design can start from RM200+, while full branding packages may range from RM1,000 to RM5,000 or more.
+                                                                <p>Prices depend on project type, complexity, and designer experience. Simple logo work often has a lower rate, while full branding, print collateral, or UI design involves higher fees. It's best to request a quote with clear project specifications to get an accurate estimate 
 
 
 
@@ -3357,7 +3373,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">How long does it take to complete a graphic design project?</span>
+                                                                <span class="ekit-accordion-title">How long does a graphic design project take?</span>
 
                                                             </a>
                                                         </div>
@@ -3367,7 +3383,7 @@ Build Your Custom Plan</button></a></span></p>
                                                             data-parent="#accordion-683073e42fec7">
 
                                                             <div class="elementskit-card-body ekit-accordion--content">
-                                                                <p>Simple projects (like a flyer or logo) may take 2–5 days. Larger projects involving branding or multiple assets could take 1–3 weeks, depending on revisions and client feedback.</p>
+                                                                <p>Timelines vary. A basic logo might be ready in a few days to two weeks, while full brand development, marketing collateral, or websites can take several weeks. Agreeing on delivery milestones and revision rounds upfront helps keep things on track .</p>
                                                             </div>
 
                                                         </div>
@@ -3380,10 +3396,6 @@ Build Your Custom Plan</button></a></span></p>
                                     </div>
                                 </div>
                             </div>
-
-                             
-
-
                             <div class="elementor-element elementor-element-7b6de46c e-con-full e-flex e-con e-child"
                                 data-id="7b6de46c" data-element_type="container">
                                 <div class="elementor-element elementor-element-4188f868 e-con-full e-flex elementor-invisible e-con e-child"
@@ -3433,8 +3445,7 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_15_683073e4311ed">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Frequently Asked <span
-                                                        class=""><span>Questions</span></span>
+                                                <h2 class="heading-title">Frequently <span style="color: #c9a8c1;">Asked Questions</span></span>
                                                 </h2>
                                             </div>
                                         </div>
@@ -3445,7 +3456,7 @@ Build Your Custom Plan</button></a></span></p>
                                     data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Looking for a creative boost for your brand? Go Viral is a professional graphic design agency that transforms your ideas into stunning visuals. From logos and brochures to social media graphics and UI designs, we craft designs that leave a lasting impression and strengthen your brand identity. Let your business stand out with designs that speak volumes.</p>
+                                        <p>Looking to enhance your digital presence? The best UI UX company in Malaysia, Go Viral, crafts intuitive designs that engage users and boost brand credibility. We focus on user-centered layouts that improve navigation, satisfaction, and conversions. From startups to enterprises, our designs drive real results across all devices.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-1d4ef575 e-con-full e-flex elementor-invisible e-con e-child"
@@ -3458,23 +3469,7 @@ Build Your Custom Plan</button></a></span></p>
                                             data-id="50a99fa" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                    </path>
-                                                                </svg> </span>
-                                                            <span class="elementor-button-text">Contact Us</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -3484,11 +3479,7 @@ Build Your Custom Plan</button></a></span></p>
                     </div>
                 </div>
             </div>
-
-           
-
-
-            <div class="elementor-element elementor-element-21786894 e-flex e-con-boxed e-con e-parent"
+              <div class="elementor-element elementor-element-21786894 e-flex e-con-boxed e-con e-parent"
                 data-id="21786894" data-element_type="container">
                 
                 <div class="e-con-inner">
@@ -3501,7 +3492,7 @@ Build Your Custom Plan</button></a></span></p>
                                     <div class="elementor-element elementor-element-51ae9fbb e-con-full e-flex elementor-invisible e-con e-child"
                                         data-id="51ae9fbb" data-element_type="container"
                                         data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                        <div class="elementor-element elementor-element-4729847f e-con-full e-flex e-con e-child"
+                                        <div style="width:400px;" class="elementor-element elementor-element-4729847f e-con-full e-flex e-con e-child"
                                             data-id="4729847f" data-element_type="container"
                                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                             <div class="elementor-element elementor-element-3035d01d e-con-full e-flex e-con e-child"
@@ -3528,7 +3519,7 @@ Build Your Custom Plan</button></a></span></p>
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_16_683073e4327ac">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class=""><span>Graphic Design Company Malaysia</span></span></h2>
+                                                                        class=""><span>Graphic Design Company</span></span></h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3544,11 +3535,9 @@ Build Your Custom Plan</button></a></span></p>
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_17_683073e43308d">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h3 class="heading-title"> <span
-                                                            class=""><span>Our Graphic Design Services Include
+                                                    <h4 class="heading-title">Best  <span style="color: #c9a8c1;">Graphic Design Services</span> in Malaysia
 
-</span></span>
-                                                    </h3>
+                                                    </h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -3558,7 +3547,9 @@ Build Your Custom Plan</button></a></span></p>
                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>At Go Viral, we offer a wide range of graphic design services tailored to meet the branding and marketing needs of modern businesses. Our expertise includes logo and brand identity design, business cards, letterheads, flyers, brochures, posters, banners, and packaging designs. We also create stunning social media graphics, infographics, website visuals, and UI graphics that enhance user engagement. Whether you need presentation design, catalogues, menu cards, or email newsletters, our creative team delivers high-quality, print-ready designs that leave a lasting impression.</p>
+                                            <p>Our comprehensive graphic design services in Malaysia are tailored to help businesses stand out with creativity and clarity. From logo and brand design to marketing materials, social media graphics, and UI design, our expert team crafts visually stunning and strategically effective designs that capture attention and communicate your brand message with impact.
+
+</p>
                                         </div>
                                     </div>
                                 </div>
@@ -3576,25 +3567,26 @@ Build Your Custom Plan</button></a></span></p>
                                                     <div class="col-lg-4 col-md-6">
 
                                                         <div class="elementskit-post-image-card">
-                                                             <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
-
-                                                            </div><!-- .elementskit-entry-header END -->
+                                                            
 
                                                             <div class="elementskit-post-body ">
 
-                                                                <h2 class="entry-title">
+                                                                <h2 class="entry-title services">
                                                                     <a
                                                                         href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Brand Design in Malaysia</a>
+                                                                        Best Logo Design</a>
                                                                 </h2>
-                                                                <p>Improve your brand image with expert brand design in Malaysia that embodies your personality and engages your target market. From creating a logo to providing full visual branding, our creative team has it covered.</p>
-                                                            
+                                                                <div class="read-more-container">
+    <p class="short-text">Are you trying to find the best logo designer in Malaysia? Our skilled logo maker can produce original, professional designs that enhance your company's identification and attract more customers.</p>
+
+    <p class="full-text" style="display: none;">/p>
+
+
+</div>
+                                                                <div style="display:none" class="btn-wraper">
+                                                                   
+
+                                                                </div>
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
 
@@ -3602,25 +3594,17 @@ Build Your Custom Plan</button></a></span></p>
                                                     <div class="col-lg-4 col-md-6">
 
                                                         <div class="elementskit-post-image-card">
-                                                             <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
-
-                                                            </div><!-- .elementskit-entry-header END -->
+                                                            
 
                                                             <div class="elementskit-post-body ">
 
                                                                 <h2 class="entry-title">
                                                                     <a
-                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">Brochures, Flyers & Posters</a>
+                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
+                                                                       Brochures, Flyers & Posters
+</a>
                                                                 </h2>
-                                                                <p>Searching for a Malaysian designer to design attractive posters, flyers, and brochures? We are here to show our creativity in visually appealing, superior marketing collateral that engages audience and reflects brand.
- 
- </p>
+                                                                <p>Searching for a designer to design attractive posters? We are here to show our creativity in visually appealing, superior marketing collateral that effectively engages your target audience and reflects brand.</p>
                                                                
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
@@ -3630,27 +3614,89 @@ Build Your Custom Plan</button></a></span></p>
 
                                                         <div class="elementskit-post-image-card">
                                                           <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
+                                                                
 
                                                             </div><!-- .elementskit-entry-header END -->
                                                             <div class="elementskit-post-body ">
 
                                                                 <h2 class="entry-title">
                                                                     <a
-                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">Social Media Graphics Design</a>
+                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">Social Media Graphics design
+</a>
                                                                 </h2>
                                                                 <p>Enhance your online visibility with eye-catching, engagement-focused social media graphics design. We provide images for Facebook advertising and Instagram posts that are precisely in line with your plan and brand.
+
 </p>
                                                                 
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
 
                                                     </div>
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                         <div class="elementskit-entry-header">
+                                                        
+
+                                                            </div><!-- .elementskit-entry-header END -->
+
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">Infographics & Presentations
+</a>
+                                                                </h2>
+                                                                <p>Simplify difficult information with unique infographics and presentations to deliver data with impact. To keep your audience informed, interested, and amazed, our designs blend originality with clarity.
+</p>
+                                                                
+                                                           </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                         <div class="elementskit-entry-header">
+                                                        
+
+                                                            </div><!-- .elementskit-entry-header END -->
+
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">Business Cards Design</a>
+                                                                </h2>
+                                                                <p>A business card design will embody your brand identity and leave a lasting impression. For effective networking, we design simple, memorable cards that blend elegance and clarity.
+
+</p>
+                                                               
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                         <div class="elementskit-entry-header">
+                                                        
+
+                                                            </div><!-- .elementskit-entry-header END -->
+
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">Web & Mobile UI Graphics</a>
+                                                                </h2>
+                                                                <p>Enhance user experience with sleek and intuitive web & mobile UI graphics. We create cutting-edge, intuitive user interfaces that promote interaction and functionality on all platforms in addition to looking fantastic.</p>
+                                                        
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+
+
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -3667,82 +3713,8 @@ Build Your Custom Plan</button></a></span></p>
                                 <div class="e-con-inner">
                                     <div class="elementor-element elementor-element-640e645b elementor-widget elementor-widget-elementskit-blog-posts animated fadeInUp" data-id="640e645b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="elementskit-blog-posts.default">
                                         <div class="elementor-widget-container">
-                                            <div class="ekit-wid-con">
-                                                <div id="post-items--640e645b" class="row post-items">
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                         <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Infographics & Presentations</a>
-                                                                </h2>
-                                                                <p>
-Simplify difficult information with unique infographics and presentations to deliver data with impact. To keep your audience informed, interested, and amazed, our designs blend originality with clarity.</p>
-                                                                
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                             <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                        Web & Mobile UI Graphics</a>
-                                                                </h2>
-                                                                <p>Enhance user experience with sleek and intuitive web & mobile UI graphics. We create cutting-edge, intuitive user interfaces that promote interaction and functionality on all platforms in addition to looking fantastic.
-</p>
-                                                               
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                            <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">Business Cards Design</a>
-                                                                </h2>
-                                                                <p>A business card design will embody your brand identity and leave a lasting impression. For effective networking, we design simple, memorable cards that blend elegance and clarity.</p>
-                                                        
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
+                                        
+                                                    
 
                                                     </div>
                                                 </div>
@@ -3752,6 +3724,55 @@ Simplify difficult information with unique infographics and presentations to del
                                 </div>
                             </div>
                         </div>
+
+        <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
+            <div class='footer-width-fixer'>
+                <div data-elementor-type="wp-post" data-elementor-id="305" class="elementor elementor-305">
+                    <div class="elementor-element elementor-element-b7d4e9f e-flex e-con-boxed e-con e-parent"
+                        data-id="b7d4e9f" data-element_type="container">
+                        <div class="e-con-inner">
+                            <div class="elementor-element elementor-element-f9d162b e-flex e-con-boxed e-con e-child"
+                               
+                            </div>
+                            <div class="elementor-element elementor-element-2f2c7470 e-flex e-con-boxed e-con e-child"
+                                data-id="2f2c7470" data-element_type="container">
+                                <div class="e-con-inner">
+                                    <div class="elementor-element elementor-element-1bf1fb66 ekit-testimonial-fade elementor-widget elementor-widget-elementskit-testimonial"
+                                        data-id="1bf1fb66" data-element_type="widget"
+                                        data-widget_type="elementskit-testimonial.default">
+                        
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
+            
+        
+
+                             
+
+
+                            
+                       
+           
+
+
+           
+                                   
 
         <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
             <div class='footer-width-fixer'>
@@ -3915,6 +3936,21 @@ Simplify difficult information with unique infographics and presentations to del
 				</form>
 			`
 		</script>
+        <script>
+  function toggleContent(btn) {
+    const span = btn.previousElementSibling.querySelector(".more-content");
+    const isHidden = span.style.display === "none";
+
+
+    if (isHidden) {
+      span.style.display = "inline";
+      btn.innerHTML = 'Read less <i class="fas fa-chevron-up"></i>';
+    } else {
+      span.style.display = "none";
+      btn.innerHTML = 'Read more <i class="fas fa-chevron-down"></i>';
+    }
+  }
+</script>
 
                                                             </div>
                                                         </div>

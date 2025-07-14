@@ -1,676 +1,7 @@
 @extends('layouts.front')
-@section('title', 'Top UI UX Design Agency Malaysia for better Digital Experiences')
-@section('meta_description', 'Transform your digital presence with our leading UI UX design agency Malaysia. We craft user-centric interfaces to elevate user experience.')
 
 @section('content')
-<style>
-		img:is([sizes="auto"i], [sizes^="auto,"i]) {
-			contain-intrinsic-size: 3000px 1500px
-		}
-        
-.mycustombutton{
-border: 1px solid #ffffff !important;  /* white border */
-  border-radius: 8px !important;         /* smooth corners */
-  background-color: transparent !important;  /* optional: makes button transparent */
-  color: #ffffff !important;            /* text color white (you can change if needed) */
-  font-weight: 500;
-}
-.mycustombutton:hover {
-  color:rgb(255, 255, 255) !important;
-  transition: all 0.3s ease;
-}
 
-	</style>
-    <link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Feed" href="../../feed/index.html" />
-	<link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Comments Feed"
-		href="../../comments/feed/index.html" />
-	<script>
-		window._wpemojiSettings = {
-			"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
-			"ext": ".png",
-			"svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
-			"svgExt": ".svg",
-			"source": {
-				"concatemoji": "https:\/\/kitpro.site\/fluxco\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"
-			}
-		};
-		/*! This file is auto-generated */
-		! function(i, n) {
-			var o, s, e;
-
-			function c(e) {
-				try {
-					var t = {
-						supportTests: e,
-						timestamp: (new Date).valueOf()
-					};
-					sessionStorage.setItem(o, JSON.stringify(t))
-				} catch (e) {}
-			}
-
-			function p(e, t, n) {
-				e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
-				var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
-					r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e
-						.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
-				return t.every(function(e, t) {
-					return e === r[t]
-				})
-			}
-
-			function u(e, t, n) {
-				switch (t) {
-					case "flag":
-						return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(
-							e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
-							"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-							"\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-							);
-					case "emoji":
-						return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
-				}
-				return !1
-			}
-
-			function f(e, t, n) {
-				var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(
-						300, 150) : i.createElement("canvas"),
-					a = r.getContext("2d", {
-						willReadFrequently: !0
-					}),
-					o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
-				return e.forEach(function(e) {
-					o[e] = t(a, e, n)
-				}), o
-			}
-
-			function t(e) {
-				var t = i.createElement("script");
-				t.src = e, t.defer = !0, i.head.appendChild(t)
-			}
-			"undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
-				everything: !0,
-				everythingExceptFlag: !0
-			}, e = new Promise(function(e) {
-				i.addEventListener("DOMContentLoaded", e, {
-					once: !0
-				})
-			}), new Promise(function(t) {
-				var n = function() {
-					try {
-						var e = JSON.parse(sessionStorage.getItem(o));
-						if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e
-							.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
-					} catch (e) {}
-					return null
-				}();
-				if (!n) {
-					if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" !=
-						typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
-						var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p
-								.toString()
-							].join(",") + "));",
-							r = new Blob([e], {
-								type: "text/javascript"
-							}),
-							a = new Worker(URL.createObjectURL(r), {
-								name: "wpTestEmojiSupports"
-							});
-						return void(a.onmessage = function(e) {
-							c(n = e.data), a.terminate(), t(n)
-						})
-					} catch (e) {}
-					c(n = f(s, u, p))
-				}
-				t(n)
-			}).then(function(e) {
-				for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n
-					.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports
-						.everythingExceptFlag && n.supports[t]);
-				n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n
-					.DOMReady = !1, n.readyCallback = function() {
-						n.DOMReady = !0
-					}
-			}).then(function() {
-				return e
-			}).then(function() {
-				var e;
-				n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) :
-					e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
-			}))
-		}((window, document), window._wpemojiSettings);
-	</script>
-	<link rel='stylesheet' id='hfe-widgets-style-css'
-		href='../../wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend3c94.css?ver=2.1.0'
-		media='all' />
-	<link rel='stylesheet' id='jkit-elements-main-css'
-		href='../../wp-content/plugins/jeg-elementor-kit/assets/css/elements/maina19e.css?ver=2.6.9' media='all' />
-	<style id='wp-emoji-styles-inline-css'>
-		img.wp-smiley,
-		img.emoji {
-			display: inline !important;
-			border: none !important;
-			box-shadow: none !important;
-			height: 1em !important;
-			width: 1em !important;
-			margin: 0 0.07em !important;
-			vertical-align: -0.1em !important;
-			background: none !important;
-			padding: 0 !important;
-		}
-	</style>
-	<link rel='stylesheet' id='fontawesome-gutenverse-css'
-		href='../../wp-content/plugins/gutenverse/lib/framework/assets/fonts/fontawesome/css/all.min1576.css?ver=1.2.1'
-		media='all' />
-	<link rel='stylesheet' id='gutenverse-iconlist-css'
-		href='../../wp-content/plugins/gutenverse/lib/framework/assets/fonts/gtnicon/gtnicon1576.css?ver=1.2.1'
-		media='all' />
-	<link rel='stylesheet' id='gutenverse-frontend-style-css'
-		href='../../wp-content/plugins/gutenverse/lib/framework/assets/css/frontend1576.css?ver=1.2.1' media='all' />
-	<style id='classic-theme-styles-inline-css'>
-		/*! This file is auto-generated */
-		.wp-block-button__link {
-			color: #fff;
-			background-color: #32373c;
-			border-radius: 9999px;
-			box-shadow: none;
-			text-decoration: none;
-			padding: calc(.667em + 2px) calc(1.333em + 2px);
-			font-size: 1.125em
-		}
-
-		.wp-block-file__button {
-			background: #32373c;
-			color: #fff;
-			text-decoration: none
-		}
-	</style>
-	<style id='global-styles-inline-css'>
-		:root {
-			--wp--preset--aspect-ratio--square: 1;
-			--wp--preset--aspect-ratio--4-3: 4/3;
-			--wp--preset--aspect-ratio--3-4: 3/4;
-			--wp--preset--aspect-ratio--3-2: 3/2;
-			--wp--preset--aspect-ratio--2-3: 2/3;
-			--wp--preset--aspect-ratio--16-9: 16/9;
-			--wp--preset--aspect-ratio--9-16: 9/16;
-			--wp--preset--color--black: #000000;
-			--wp--preset--color--cyan-bluish-gray: #abb8c3;
-			--wp--preset--color--white: #ffffff;
-			--wp--preset--color--pale-pink: #f78da7;
-			--wp--preset--color--vivid-red: #cf2e2e;
-			--wp--preset--color--luminous-vivid-orange: #ff6900;
-			--wp--preset--color--luminous-vivid-amber: #fcb900;
-			--wp--preset--color--light-green-cyan: #7bdcb5;
-			--wp--preset--color--vivid-green-cyan: #00d084;
-			--wp--preset--color--pale-cyan-blue: #8ed1fc;
-			--wp--preset--color--vivid-cyan-blue: #0693e3;
-			--wp--preset--color--vivid-purple: #9b51e0;
-			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
-			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
-			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
-			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
-			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
-			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
-			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
-			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
-			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
-			--wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
-			--wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
-			--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
-			--wp--preset--font-size--small: 13px;
-			--wp--preset--font-size--medium: 20px;
-			--wp--preset--font-size--large: 36px;
-			--wp--preset--font-size--x-large: 42px;
-			--wp--preset--spacing--20: 0.44rem;
-			--wp--preset--spacing--30: 0.67rem;
-			--wp--preset--spacing--40: 1rem;
-			--wp--preset--spacing--50: 1.5rem;
-			--wp--preset--spacing--60: 2.25rem;
-			--wp--preset--spacing--70: 3.38rem;
-			--wp--preset--spacing--80: 5.06rem;
-			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
-			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
-			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
-			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
-		}
-
-		:where(.is-layout-flex) {
-			gap: 0.5em;
-		}
-
-		:where(.is-layout-grid) {
-			gap: 0.5em;
-		}
-
-		body .is-layout-flex {
-			display: flex;
-		}
-
-		.is-layout-flex {
-			flex-wrap: wrap;
-			align-items: center;
-		}
-
-		.is-layout-flex> :is(*, div) {
-			margin: 0;
-		}
-
-		body .is-layout-grid {
-			display: grid;
-		}
-
-		.is-layout-grid> :is(*, div) {
-			margin: 0;
-		}
-
-		:where(.wp-block-columns.is-layout-flex) {
-			gap: 2em;
-		}
-
-		:where(.wp-block-columns.is-layout-grid) {
-			gap: 2em;
-		}
-
-		:where(.wp-block-post-template.is-layout-flex) {
-			gap: 1.25em;
-		}
-
-		:where(.wp-block-post-template.is-layout-grid) {
-			gap: 1.25em;
-		}
-
-		.has-black-color {
-			color: var(--wp--preset--color--black) !important;
-		}
-
-		.has-cyan-bluish-gray-color {
-			color: var(--wp--preset--color--cyan-bluish-gray) !important;
-		}
-
-		.has-white-color {
-			color: var(--wp--preset--color--white) !important;
-		}
-
-		.has-pale-pink-color {
-			color: var(--wp--preset--color--pale-pink) !important;
-		}
-
-		.has-vivid-red-color {
-			color: var(--wp--preset--color--vivid-red) !important;
-		}
-
-		.has-luminous-vivid-orange-color {
-			color: var(--wp--preset--color--luminous-vivid-orange) !important;
-		}
-
-		.has-luminous-vivid-amber-color {
-			color: var(--wp--preset--color--luminous-vivid-amber) !important;
-		}
-
-		.has-light-green-cyan-color {
-			color: var(--wp--preset--color--light-green-cyan) !important;
-		}
-
-		.has-vivid-green-cyan-color {
-			color: var(--wp--preset--color--vivid-green-cyan) !important;
-		}
-
-		.has-pale-cyan-blue-color {
-			color: var(--wp--preset--color--pale-cyan-blue) !important;
-		}
-
-		.has-vivid-cyan-blue-color {
-			color: var(--wp--preset--color--vivid-cyan-blue) !important;
-		}
-
-		.has-vivid-purple-color {
-			color: var(--wp--preset--color--vivid-purple) !important;
-		}
-
-		.has-black-background-color {
-			background-color: var(--wp--preset--color--black) !important;
-		}
-
-		.has-cyan-bluish-gray-background-color {
-			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-		}
-
-		.has-white-background-color {
-			background-color: var(--wp--preset--color--white) !important;
-		}
-
-		.has-pale-pink-background-color {
-			background-color: var(--wp--preset--color--pale-pink) !important;
-		}
-
-		.has-vivid-red-background-color {
-			background-color: var(--wp--preset--color--vivid-red) !important;
-		}
-
-		.has-luminous-vivid-orange-background-color {
-			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-		}
-
-		.has-luminous-vivid-amber-background-color {
-			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-		}
-
-		.has-light-green-cyan-background-color {
-			background-color: var(--wp--preset--color--light-green-cyan) !important;
-		}
-
-		.has-vivid-green-cyan-background-color {
-			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
-		}
-
-		.has-pale-cyan-blue-background-color {
-			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
-		}
-
-		.has-vivid-cyan-blue-background-color {
-			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-		}
-
-		.has-vivid-purple-background-color {
-			background-color: var(--wp--preset--color--vivid-purple) !important;
-		}
-
-		.has-black-border-color {
-			border-color: var(--wp--preset--color--black) !important;
-		}
-
-		.has-cyan-bluish-gray-border-color {
-			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-		}
-
-		.has-white-border-color {
-			border-color: var(--wp--preset--color--white) !important;
-		}
-
-		.has-pale-pink-border-color {
-			border-color: var(--wp--preset--color--pale-pink) !important;
-		}
-
-		.has-vivid-red-border-color {
-			border-color: var(--wp--preset--color--vivid-red) !important;
-		}
-
-		.has-luminous-vivid-orange-border-color {
-			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-		}
-
-		.has-luminous-vivid-amber-border-color {
-			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-		}
-
-		.has-light-green-cyan-border-color {
-			border-color: var(--wp--preset--color--light-green-cyan) !important;
-		}
-
-		.has-vivid-green-cyan-border-color {
-			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
-		}
-
-		.has-pale-cyan-blue-border-color {
-			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
-		}
-
-		.has-vivid-cyan-blue-border-color {
-			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-		}
-
-		.has-vivid-purple-border-color {
-			border-color: var(--wp--preset--color--vivid-purple) !important;
-		}
-
-		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
-		}
-
-		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
-		}
-
-		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
-		}
-
-		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
-			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
-		}
-
-		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
-		}
-
-		.has-cool-to-warm-spectrum-gradient-background {
-			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
-		}
-
-		.has-blush-light-purple-gradient-background {
-			background: var(--wp--preset--gradient--blush-light-purple) !important;
-		}
-
-		.has-blush-bordeaux-gradient-background {
-			background: var(--wp--preset--gradient--blush-bordeaux) !important;
-		}
-
-		.has-luminous-dusk-gradient-background {
-			background: var(--wp--preset--gradient--luminous-dusk) !important;
-		}
-
-		.has-pale-ocean-gradient-background {
-			background: var(--wp--preset--gradient--pale-ocean) !important;
-		}
-
-		.has-electric-grass-gradient-background {
-			background: var(--wp--preset--gradient--electric-grass) !important;
-		}
-
-		.has-midnight-gradient-background {
-			background: var(--wp--preset--gradient--midnight) !important;
-		}
-
-		.has-small-font-size {
-			font-size: var(--wp--preset--font-size--small) !important;
-		}
-
-		.has-medium-font-size {
-			font-size: var(--wp--preset--font-size--medium) !important;
-		}
-
-		.has-large-font-size {
-			font-size: var(--wp--preset--font-size--large) !important;
-		}
-
-		.has-x-large-font-size {
-			font-size: var(--wp--preset--font-size--x-large) !important;
-		}
-
-		:where(.wp-block-post-template.is-layout-flex) {
-			gap: 1.25em;
-		}
-
-		:where(.wp-block-post-template.is-layout-grid) {
-			gap: 1.25em;
-		}
-
-		:where(.wp-block-columns.is-layout-flex) {
-			gap: 2em;
-		}
-
-		:where(.wp-block-columns.is-layout-grid) {
-			gap: 2em;
-		}
-
-		:root :where(.wp-block-pullquote) {
-			font-size: 1.5em;
-			line-height: 1.6;
-		}
-	</style>
-	<link rel='stylesheet' id='template-kit-export-css'
-		href='../../wp-content/plugins/template-kit-export/assets/public/template-kit-export-public982a.css?ver=1.0.23'
-		media='all' />
-	<link rel='stylesheet' id='hfe-style-css'
-		href='../../wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor3c94.css?ver=2.1.0'
-		media='all' />
-	<link rel='stylesheet' id='elementor-frontend-css'
-		href='../../wp-content/plugins/elementor/assets/css/frontend.min5422.css?ver=3.25.9' media='all' />
-	<link rel='stylesheet' id='swiper-css'
-		href='../../wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5' media='all' />
-	<link rel='stylesheet' id='e-swiper-css'
-		href='../../wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min5422.css?ver=3.25.9' media='all' />
-	<link rel='stylesheet' id='elementor-post-3-css'
-		href='../../wp-content/uploads/sites/292/elementor/css/post-31c5e.css?ver=1736325156' media='all' />
-	<link rel='stylesheet' id='widget-image-css'
-		href='../../wp-content/plugins/elementor/assets/css/widget-image.min5422.css?ver=3.25.9' media='all' />
-	<link rel='stylesheet' id='widget-text-editor-css'
-		href='../../wp-content/plugins/elementor/assets/css/widget-text-editor.min5422.css?ver=3.25.9' media='all' />
-	<link rel='stylesheet' id='widget-image-carousel-css'
-		href='../../wp-content/plugins/elementor/assets/css/widget-image-carousel.min5422.css?ver=3.25.9' media='all' />
-	<link rel='stylesheet' id='e-animation-grow-css'
-		href='../../wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min5422.css?ver=3.25.9'
-		media='all' />
-	<link rel='stylesheet' id='widget-counter-css'
-		href='../../wp-content/plugins/elementor/assets/css/widget-counter.min5422.css?ver=3.25.9' media='all' />
-	<link rel='stylesheet' id='widget-rating-css'
-		href='../../wp-content/plugins/elementor/assets/css/widget-rating.min5422.css?ver=3.25.9' media='all' />
-	<link rel='stylesheet' id='widget-heading-css'
-		href='../../wp-content/plugins/elementor/assets/css/widget-heading.min5422.css?ver=3.25.9' media='all' />
-	<link rel='stylesheet' id='widget-icon-list-css'
-		href='../../wp-content/plugins/elementor/assets/css/widget-icon-list.min5422.css?ver=3.25.9' media='all' />
-	<link rel='stylesheet' id='elementor-post-429-css'
-		href='../../wp-content/uploads/sites/292/elementor/css/post-4292f3e.css?ver=1736868037' media='all' />
-	<link rel='stylesheet' id='elementor-post-299-css'
-		href='../../wp-content/uploads/sites/292/elementor/css/post-299c0d3.css?ver=1736732002' media='all' />
-	<link rel='stylesheet' id='elementor-post-305-css'
-		href='../../wp-content/uploads/sites/292/elementor/css/post-3051142.css?ver=1736325157' media='all' />
-	<link rel='stylesheet' id='text-editor-style-css'
-		href='../../wp-content/plugins/metform/public/assets/css/text-editor3b71.css?ver=3.5.0' media='all' />
-	<link rel='stylesheet' id='hello-elementor-css'
-		href='../../wp-content/themes/hello-elementor/style.min1102.css?ver=2.8.1' media='all' />
-	<link rel='stylesheet' id='hello-elementor-theme-style-css'
-		href='../../wp-content/themes/hello-elementor/theme.min1102.css?ver=2.8.1' media='all' />
-	<link rel='stylesheet' id='hfe-elementor-icons-css'
-		href='../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min705c.css?ver=5.34.0'
-		media='all' />
-	<link rel='stylesheet' id='hfe-icons-list-css'
-		href='../../wp-content/plugins/elementor/assets/css/widget-icon-list.min44b4.css?ver=3.24.3' media='all' />
-	<link rel='stylesheet' id='hfe-social-icons-css'
-		href='../../wp-content/plugins/elementor/assets/css/widget-social-icons.min2401.css?ver=3.24.0' media='all' />
-	<link rel='stylesheet' id='hfe-social-share-icons-brands-css'
-		href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands52d5.css?ver=5.15.3' media='all' />
-	<link rel='stylesheet' id='hfe-social-share-icons-fontawesome-css'
-		href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome52d5.css?ver=5.15.3'
-		media='all' />
-	<link rel='stylesheet' id='hfe-nav-menu-icons-css'
-		href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid52d5.css?ver=5.15.3' media='all' />
-	<link rel='stylesheet' id='ekit-widget-styles-css'
-		href='../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles6b00.css?ver=3.4.0'
-		media='all' />
-	<link rel='stylesheet' id='ekit-responsive-css'
-		href='../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive6b00.css?ver=3.4.0'
-		media='all' />
-	<link rel='stylesheet' id='gutenverse-form-frontend-css'
-		href='../../wp-content/plugins/gutenverse-form/assets/css/frontendc5c9.css?ver=1.1.9' media='all' />
-	<link rel='stylesheet' id='gutenverse-frontend-css'
-		href='../../wp-content/plugins/gutenverse/assets/css/frontend77e6.css?ver=2.2.1' media='all' />
-	<style id='gutenverse-frontend-inline-css'>
-		:root {
-			--guten-screen-xs-max: 767px;
-			--guten-screen-sm-min: 768px;
-			--guten-screen-sm-max: 1024px;
-			--guten-screen-md-min: 1025px;
-		}
-	</style>
-	<link rel='stylesheet' id='gutenverse-theme-essential-frontend-block-css'
-		href='../../wp-content/plugins/gutenverse-themes-builder/assets/css/essential/frontend-essential97de.css?ver=1.0.5'
-		media='all' />
-	<link rel='stylesheet' id='gutenverse-frontend-icon-css'
-		href='../../wp-content/plugins/gutenverse/lib/framework/assets/dist/frontend-icon1576.css?ver=1.2.1'
-		media='all' />
-	<link rel='stylesheet' id='google-fonts-1-css'
-		href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CDM+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.7.2'
-		media='all' />
-	<link rel='stylesheet' id='elementor-icons-jkiticon-css'
-		href='../../wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticona19e.css?ver=2.6.9'
-		media='all' />
-	<link rel='stylesheet' id='elementor-icons-ekiticons-css'
-		href='../../wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons6b00.css?ver=3.4.0'
-		media='all' />
-	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-	<script src="../../wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
-	<script src="../../wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
-	<script id="jquery-js-after">
-		! function($) {
-			"use strict";
-			$(document).ready(function() {
-				$(this).scrollTop() > 100 && $(".hfe-scroll-to-top-wrap").removeClass("hfe-scroll-to-top-hide"), $(
-					window).scroll(function() {
-					$(this).scrollTop() < 100 ? $(".hfe-scroll-to-top-wrap").fadeOut(300) : $(
-						".hfe-scroll-to-top-wrap").fadeIn(300)
-				}), $(".hfe-scroll-to-top-wrap").on("click", function() {
-					$("html, body").animate({
-						scrollTop: 0
-					}, 300);
-					return !1
-				})
-			})
-		}(jQuery);
-	</script>
-    <script>
-  function toggleContent(btn) {
-    const span = btn.previousElementSibling.querySelector(".more-content");
-    const isHidden = span.style.display === "none";
-
-
-    if (isHidden) {
-      span.style.display = "inline";
-      btn.innerHTML = 'Read less <i class="fas fa-chevron-up"></i>';
-    } else {
-      span.style.display = "none";
-      btn.innerHTML = 'Read more <i class="fas fa-chevron-down"></i>';
-    }
-  }
-</script>
-	<script
-		src="../../wp-content/plugins/template-kit-export/assets/public/template-kit-export-public982a.js?ver=1.0.23"
-		id="template-kit-export-js"></script>
-	<link rel="https://api.w.org/" href="../../wp-json/index.html" />
-	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
-	<meta name="generator" content="WordPress 6.7.2" />
-	<link rel="canonical" href="index.html" />
-	<link rel='shortlink' href='../../indexedce.html?p=429' />
-	<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-		href="../../wp-json/oembed/1.0/embed1e7d.json?url=https%3A%2F%2Fkitpro.site%2Ffluxco%2Ftemplate-kit%2Fportofolio%2F" />
-	<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-		href="../../wp-json/oembed/1.0/embed59b0?url=https%3A%2F%2Fkitpro.site%2Ffluxco%2Ftemplate-kit%2Fportofolio%2F&amp;format=xml" />
-	<meta name="generator"
-		content="Elementor 3.25.9; features: e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading; settings: css_print_method-external, google_font-enabled, font_display-auto">
-	<style>
-		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
-		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
-			background-image: none !important;
-		}
-
-		@media screen and (max-height: 1024px) {
-
-			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
-			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
-				background-image: none !important;
-			}
-		}
-
-		@media screen and (max-height: 640px) {
-
-			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
-			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
-				background-image: none !important;
-			}
-		}
-	</style>
 <div data-elementor-type="wp-page" data-elementor-id="777" class="elementor elementor-777">
     <div class="elementor-element elementor-element-1cbf619 e-flex e-con-boxed e-con e-parent" data-id="1cbf619"
         data-element_type="container"
@@ -698,7 +29,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                             src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}}"
                                             class="attachment-large size-large wp-image-884" alt=""
                                             srcset="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 1024w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 300w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 768w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 800w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 1196w"
-                                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                            sizes="(max-width: 800px) 100vw, 800px" />
+                                    </div>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-2d96591 e-con-full e-flex e-con e-child"
@@ -712,7 +44,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_1_683073e3d52b9">
                                             <div style="  padding-right:10px;"
                                                 class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title"><span class=""><span>UI/UX Design Agency</span></span></h2>
+                                                <h2 class="heading-title"><span class=""><span>Go Viral
+                                                            SEO Agency</span></span></h2>
                                             </div>
                                         </div>
                                     </div>
@@ -730,8 +63,11 @@ border: 1px solid #ffffff !important;  /* white border */
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h1 style="font-size: 50px;" class="heading-title">UI/UX Design Agency in Malaysia
-<span class=""><span></span></span></h1>
+                                        <h1 style="font-size: 60px;" class="heading-title">Drive Relevant Traffic &
+                                            Maximum Revenue With
+                                            <span class=""><span>The Best SEO Agency
+                                                    Malaysia</span></span>
+                                        </h1>
                                     </div>
                                 </div>
                             </div>
@@ -743,8 +79,14 @@ border: 1px solid #ffffff !important;  /* white border */
                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <p>As a top UI/UX design firm in Malaysia, Go Viral offers specialised, approachable solutions that increase user engagement and interactions by creating aesthetically beautiful visuals and user-friendly experiences that are suited to your brand's requirements.
-</p>
+                                    <p>As the best SEO agency in Malaysia, we don’t just improve your Google rankings—we
+                                        optimise your website’s structure, content, and user experience to drive
+                                        high-quality organic traffic and boost conversions. Our best SEO agency uses
+                                        AI-powered strategies, advanced tools, and ethical white-hat techniques to help
+                                        your business dominate both local and global search results. Whether you want to
+                                        strengthen your online presence or increase brand visibility, our proven SEO
+                                        services in Malaysia deliver measurable results.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -768,7 +110,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                                                 d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                             </path>
                                                         </svg> </span>
-                                                    <span class="elementor-button-text">Get Free Consultation</span>
+                                                    <span class="elementor-button-text">Let's Get Started</span>
                                                 </span>
                                             </a>
                                         </div>
@@ -826,7 +168,9 @@ border: 1px solid #ffffff !important;  /* white border */
                                     data-id="145626e0" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>With years of expertise, we craft high-quality digital experiences that evolve with user needs. Our innovative approach has built long-term relationships with clients.</p>
+                                        <p>Go Viral is affordable digital marketing agency, offering expert
+                                            digital marketing services in Malaysia cater to all brands, ensuring
+                                            success with data-driven strategies.</p>
                                     </div>
                                 </div>
                             </div>
@@ -942,7 +286,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                         src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/2-37.jpg')}}"
                                                         class="attachment-large size-large wp-image-958" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37-300x300.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37-150x150.jpg 150w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37-768x768.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-37-800x800.jpg 800w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" />
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-4f52f612 e-con-full e-flex e-con e-child"
@@ -955,7 +300,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                         src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/3-44.jpg')}}"
                                                         class="attachment-large size-large wp-image-962" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44-300x300.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44-150x150.jpg 150w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44-768x768.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-44-800x800.jpg 800w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" />
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-67f04c02 e-con-full e-flex e-con e-child"
@@ -968,7 +314,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                         src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/4-35.jpg')}}"
                                                         class="attachment-large size-large wp-image-964" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35-300x300.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35-150x150.jpg 150w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35-768x768.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-35-800x800.jpg 800w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" />
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-5054f33b e-con-full e-flex e-con e-child"
@@ -979,7 +326,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-icon-wrapper">
                                                         <div class="elementor-icon elementor-animation-grow">
-                                                            <i aria-hidden="true" class="jki jki-plus-solid"></i> </div>
+                                                            <i aria-hidden="true" class="jki jki-plus-solid"></i>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1089,7 +437,61 @@ border: 1px solid #ffffff !important;  /* white border */
     <div class="elementor-element elementor-element-1265131f e-flex e-con-boxed elementor-invisible e-con e-parent"
         data-id="1265131f" data-element_type="container"
         data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-       
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-7369d99c e-flex e-con-boxed e-con e-child"
+                data-id="7369d99c" data-element_type="container">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-4fefc831 elementor-widget elementor-widget-image-carousel"
+                        data-id="4fefc831" data-element_type="widget"
+                        data-settings="{&quot;slides_to_show&quot;:&quot;5&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;autoplay_speed&quot;:500,&quot;speed&quot;:7000,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:53,&quot;sizes&quot;:[]},&quot;slides_to_show_tablet&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;2&quot;,&quot;slides_to_scroll_tablet&quot;:&quot;1&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;1&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+                        data-widget_type="image-carousel.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+                                <div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="1 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-1.png')}}"
+                                                alt="1" />
+                                        </figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="2 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-213-1.png')}}"
+                                                alt="logoipsum-213" /></figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="3 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-216-1.png')}}"
+                                                alt="logoipsum-216" /></figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="4 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-217-1.png')}}"
+                                                alt="logoipsum-217" /></figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="5 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-218-1.png')}}"
+                                                alt="logoipsum-218" /></figure>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="elementor-element elementor-element-768d8a73 e-flex e-con-boxed e-con e-parent" data-id="768d8a73"
         data-element_type="container">
@@ -1113,7 +515,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                         data-id="794e72e9" data-element_type="widget"
                                         data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h5 class="elementor-heading-title elementor-size-default">Why choose us?</h5>
+                                            <h5 class="elementor-heading-title elementor-size-default">Why Choose
+                                                SEO Agency Malaysia?</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -1121,7 +524,10 @@ border: 1px solid #ffffff !important;  /* white border */
                                     data-id="31b1fa50" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Choose Go Viral, a UI/UX design company in Malaysia offering innovative, user-friendly, and result-driven UI/UX design services that enhance usability, engagement, and digital success.</p>
+                                        <p>Partnering with the best SEO agency in Malaysia guarantees innovative tactics
+                                            that produce tangible results. Being the top SEO company in Malaysia, we
+                                            increase your brand's potential by expanding your website visibility and
+                                            achieving scalable growth and sustained online success.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-4587248f elementor-align-center elementor-widget elementor-widget-button"
@@ -1139,7 +545,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                                                 d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                             </path>
                                                         </svg> </span>
-                                                    <span class="elementor-button-text">Get Free Consultation</span>
+                                                    <span class="elementor-button-text">Learn More</span>
                                                 </span>
                                             </a>
                                         </div>
@@ -1171,7 +577,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                                 <path
                                                                     d="M223.75 130.75L154.62 15.54A31.997 31.997 0 0 0 127.18 0H16.03C3.08 0-4.5 14.57 2.92 25.18l111.27 158.96c29.72-27.77 67.52-46.83 109.56-53.39zM495.97 0H384.82c-11.24 0-21.66 5.9-27.44 15.54l-69.13 115.21c42.04 6.56 79.84 25.62 109.56 53.38L509.08 25.18C516.5 14.57 508.92 0 495.97 0zM256 160c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm92.52 157.26l-37.93 36.96 8.97 52.22c1.6 9.36-8.26 16.51-16.65 12.09L256 393.88l-46.9 24.65c-8.4 4.45-18.25-2.74-16.65-12.09l8.97-52.22-37.93-36.96c-6.82-6.64-3.05-18.23 6.35-19.59l52.43-7.64 23.43-47.52c2.11-4.28 6.19-6.39 10.28-6.39 4.11 0 8.22 2.14 10.33 6.39l23.43 47.52 52.43 7.64c9.4 1.36 13.17 12.95 6.35 19.59z">
                                                                 </path>
-                                                            </svg> </div>
+                                                            </svg>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1191,7 +598,10 @@ border: 1px solid #ffffff !important;  /* white border */
                                                     data-id="38c33e5" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <p>Improved user experience and engagement for 300+ clients successfully.</p>
+                                                        <p>We are a trusted SEO agency, offers complete SEO solutions —
+                                                            from eCommerce and local SEO to national, international, and
+                                                            technical SEO — designed to help your business grow online.
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1483,7 +893,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 src="wp-content/uploads/sites/292/2024/11/5-42.jpg"
                                                 class="attachment-large size-large wp-image-965" alt=""
                                                 srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/5-42.jpg 1000w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/5-42-300x180.jpg 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/5-42-768x461.jpg 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/5-42-800x480.jpg 800w"
-                                                sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                sizes="(max-width: 800px) 100vw, 800px" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1508,7 +919,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                     src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                     class="attachment-large size-large wp-image-884" alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                    sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                    sizes="(max-width: 800px) 100vw, 800px" />
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-62033399 e-con-full e-flex e-con e-child"
@@ -1539,8 +951,9 @@ border: 1px solid #ffffff !important;  /* white border */
                                     <div
                                         class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_5_683073e40c673">
                                         <div class="heading-section-title  display-inline-block">
-                                            <h2 style="font-size: 30px;" class="heading-title">Best <span style="color: #C9A8C1;"> UI/UX Design Agency</span> in Malaysia
-<span style="font-size: 30px;" class=" "><span></span></span></h2>
+                                            <h2 style="font-size: 30px;" class="heading-title">See What Makes Us
+                                                The Best Digital Marketing Company<span style="font-size:50px;" class=""><span>
+                                                        </span></span></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -1551,8 +964,15 @@ border: 1px solid #ffffff !important;  /* white border */
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
                                     <div>
-                                        <p>As a leading UI/UX design agency in Malaysia, we craft intuitive, user-friendly websites that blend creativity and data-driven strategy. We focus on delivering seamless user experiences and impressive visual designs that reflect your brand identity and enrich digital engagement across all devices.
-</p>
+                                        <p>
+                                            Go Vial stands out by delivering proven results through custom
+                                            strategies tailored to your business goals. Our team of digital
+                                            marketing experts ensures effective campaigns and engaging user
+                                            experiences while providing transparent, consistent reporting.
+                                            Offering all-in-one digital marketing solutions, we handle
+                                            everything from SEO and content to design and PPC, making your
+                                            growth our top priority.
+                                        </p>
 
                                     </div>
                                 </div>
@@ -1566,7 +986,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="13a55f96" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="mycustombutton">
+                                                <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
                                                         href="#">
                                                         <span class="elementor-button-content-wrapper">
@@ -1579,7 +999,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                                         d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-button-text">Contact Us</span>
+                                                            <span class="elementor-button-text">Learn
+                                                                More</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1600,7 +1021,8 @@ border: 1px solid #ffffff !important;  /* white border */
                             src="wp-content/uploads/sites/292/2024/11/1-3-1024x256.png"
                             class="attachment-large size-large wp-image-869" alt=""
                             srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-1024x256.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-300x75.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-768x192.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-1536x384.png 1536w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3-800x200.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-3.png 1600w"
-                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                            sizes="(max-width: 800px) 100vw, 800px" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -1625,7 +1047,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                 class="attachment-large size-large wp-image-884" alt=""
                                                 srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                sizes="(max-width: 800px) 100vw, 800px" />
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-595c5592 e-con-full e-flex e-con e-child"
@@ -1655,10 +1078,9 @@ border: 1px solid #ffffff !important;  /* white border */
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_7_683073e4108be">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h2 class="heading-title"><span style="color: #C9A8C1;"> UI/UX Design Services</span> for Better Engagement
-
-<span
-                                                class=""><span></span></span></h2>
+                                        <h2 class="heading-title">Your Success Begins With <span
+                                                class=""><span>Best Digital Marketing
+                                                    Services</span></span></h2>
                                     </div>
                                 </div>
                             </div>
@@ -1668,7 +1090,11 @@ border: 1px solid #ffffff !important;  /* white border */
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                             data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p>At Go Viral, we craft seamless and intuitive digital experiences that keep users engaged and satisfied. As the Best UI/UX design agency in Malaysia, we focus on user behavior, aesthetic design, and functionality to ensure optimal performance. Our UI/UX design services are tailored to reflect your brand identity and drive long-term success. We deliver expert UI/UX design services in Malaysia that blend creativity, technology, and strategy to achieve real business outcomes.</p>
+                                <p>Selecting the right digital marketing company can make a huge difference in
+                                    achieving your business goals, when selecting any agency, make sure you
+                                    clearly understand the digital marketing services they offer, their
+                                    expertise in areas like SEO, social media marketing, paid ads, content
+                                    creation, and analytics.</p>
                             </div>
                         </div>
                     </div>
@@ -1694,7 +1120,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                     class="elementor-animation-grow attachment-large size-large wp-image-967"
                                                     alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-2.png 512w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-2-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/2-2-150x150.png 150w"
-                                                    sizes="(max-width: 512px) 100vw, 512px" /> </div>
+                                                    sizes="(max-width: 512px) 100vw, 512px" />
+                                            </div>
                                         </div>
                                     </div>
 
@@ -1704,7 +1131,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="7f70002a" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Requirement Analysis 
+                                                <h5 class="elementor-heading-title elementor-size-default">Web
+                                                    Design Services
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-4f08705f elementor-widget elementor-widget-text-editor"
@@ -1713,7 +1141,12 @@ border: 1px solid #ffffff !important;  /* white border */
                                             <div class="elementor-widget-container">
                                                 <div class="section">
                                                     <p class="show">
-                                                        <span class="preview">We begin by understanding your business goals, target audience, timeline, and budget to shape effective UI/UX design strategies.</span>
+                                                        <span class="preview">As a leading website design agency
+                                                            Malaysia,</span>
+                                                        <span class="more-text"> we create custom web designs
+                                                            that reflect your brand identity. Get the best
+                                                            website design Malaysia and tell your story
+                                                            online!</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -1739,7 +1172,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                     class="elementor-animation-grow attachment-large size-large wp-image-966"
                                                     alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6.png 512w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6-150x150.png 150w"
-                                                    sizes="(max-width: 512px) 100vw, 512px" /> </div>
+                                                    sizes="(max-width: 512px) 100vw, 512px" />
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-1c9f4f1a e-con-full e-flex e-con e-child"
@@ -1748,7 +1182,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="73c705b9" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Strategic Planning </h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">
+                                                    Social Media Marketing</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-5b71efa8 elementor-widget elementor-widget-text-editor"
@@ -1758,7 +1193,12 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview">Our team creates a sitemap, defines technologies, and ensures every planning step supports a user-friendly website experience.</span>
+                                                            <span class="preview">We are a social media
+                                                                marketing agency Malaysia offering full-service
+                                                                SMM solutions. </span>
+                                                            <span class="more-text"> As the top social media
+                                                                marketing agency Malaysia, we help grow your
+                                                                brand’s online presence.</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1788,7 +1228,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                     class="elementor-animation-grow attachment-large size-large wp-image-968"
                                                     alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-2.png 512w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-2-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-2-150x150.png 150w"
-                                                    sizes="(max-width: 512px) 100vw, 512px" /> </div>
+                                                    sizes="(max-width: 512px) 100vw, 512px" />
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-41514302 e-con-full e-flex e-con e-child"
@@ -1797,7 +1238,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="3aa6d3dc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">UI/UX Design Creation</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">SEO
+                                                    Services</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-88678c2 elementor-widget elementor-widget-text-editor"
@@ -1807,10 +1249,12 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview"> We design wireframes, select fonts and visuals, and deliver a final design that reflects your unique brand identity.
-
- </span>
-                                                            <span class="more-text"></span>
+                                                            <span class="preview">As the best SEO company in
+                                                                Malaysia, Go Viral specializes in Google-focused
+                                                                strategies. </span>
+                                                            <span class="more-text"> Our SEO agency Malaysia
+                                                                delivers proven results to boost rankings and
+                                                                online visibility.</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1838,7 +1282,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                     class="elementor-animation-grow attachment-large size-large wp-image-969"
                                                     alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-4.png 512w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-4-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/4-4-150x150.png 150w"
-                                                    sizes="(max-width: 512px) 100vw, 512px" /> </div>
+                                                    sizes="(max-width: 512px) 100vw, 512px" />
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-13225081 e-con-full e-flex e-con e-child"
@@ -1847,7 +1292,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="101e2f11" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Long-Term Support</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">
+                                                    Graphic Design Services</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-17b368c3 elementor-widget elementor-widget-text-editor"
@@ -1857,11 +1303,15 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview">We build, test for performance, and offer ongoing technical support as part of our UI/UX design services in Malaysia.</span>
+                                                            <span class="preview">Go viral with our graphic
+                                                                design agency in Malaysia!, we craft compelling
+                                                                content that turns </span>
+                                                            <span class="more-text"> heads and drives results.
+                                                                Let your brand shine online and offline.</span>
                                                         </p>
                                                     </div>
                                                 </div>
-                                            </div> 
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1872,7 +1322,7 @@ border: 1px solid #ffffff !important;  /* white border */
             </div>
         </div>
 
-        <div  style="display:none;"         class="elementor-element elementor-element-1fce4e90 e-flex e-con-boxed e-con e-parent" data-id="1fce4e90"
+        <div class="elementor-element elementor-element-1fce4e90 e-flex e-con-boxed e-con e-parent" data-id="1fce4e90"
             data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="e-con-inner">
                 <div class="elementor-element elementor-element-41750a9f e-flex e-con-boxed e-con e-child"
@@ -1896,7 +1346,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                     src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                     class="attachment-large size-large wp-image-884" alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                    sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                    sizes="(max-width: 800px) 100vw, 800px" />
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-787cf3a8 e-con-full e-flex e-con e-child"
@@ -1938,48 +1389,21 @@ border: 1px solid #ffffff !important;  /* white border */
                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <p>In every pricing plan, you’ll have a dedicated team managing your brand.
-From strategic planning to creative visuals — we provide a Social Media Specialist, Copywriter, Graphics Designer, and an Account Manager to ensure smooth communication and results. OR you can make your customized package<br>
-
-<div class="elementor-widget-container">
-                                                        <div class="build_your_custom_plan elementor-button-wrapper">
-                                                            <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                                href="#">
-                                                                <span class="elementor-button-content-wrapper">
-                                                                    <span class="elementor-button-icon">
-                                                                        <svg aria-hidden="true"
-                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                            viewBox="0 0 512 512"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                            </path>
-                                                                        </svg> </span>
-                                                                    <span class="elementor-button-text">Build your custom plan</span>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-<span>
-<a href=""><button>
-Build Your Custom Plan</button></a></span></p>
+                                    <p>Choose a package that fits your business goals and budget. Transparent
+                                        pricing, no hidden fees. We also offer tailor-made solutions for
+                                        businesses with unique needs.<br><span><a href=""><button>Build Your
+                                                    Custom Plan</button></a></span></p>
                                 </div>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-50b9b9e7 e-flex e-con-boxed e-con e-child"
                             data-id="50b9b9e7" data-element_type="container">
-                            <div  class="e-con-inner">
-                                <div style="border:1px solid #fff;" class="elementor-element elementor-element-c7031b8 e-flex e-con-boxed elementor-invisible e-con e-child"
-                                    data-id="c7031b8" data-element_type="container"
-                                    data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                            <div class="e-con-inner">
+                                <div style="border:1px solid #fff;" class="elementor-element elementor-element-c7031b8 e-flex e-con-boxed e-con e-child animated fadeInUp" data-id="c7031b8" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
                                     <div class="e-con-inner">
-                                        <div class="elementor-element elementor-element-523b15fa e-flex e-con-boxed e-con e-child"
-                                            data-id="523b15fa" data-element_type="container">
+                                        <div class="elementor-element elementor-element-523b15fa e-flex e-con-boxed e-con e-child" data-id="523b15fa" data-element_type="container">
                                             <div class="e-con-inner">
-                                                <div class="elementor-element elementor-element-20ccc0fe elementor-widget elementor-widget-heading"
-                                                    data-id="20ccc0fe" data-element_type="widget"
-                                                    data-widget_type="heading.default">
+                                                <div class="elementor-element elementor-element-20ccc0fe elementor-widget elementor-widget-heading" data-id="20ccc0fe" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <h5 class="elementor-heading-title elementor-size-default">
                                                             Basic Plan</h5>
@@ -1987,145 +1411,99 @@ Build Your Custom Plan</button></a></span></p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-57d2fb6b e-flex e-con-boxed e-con e-child"
-                                            data-id="57d2fb6b" data-element_type="container">
+                                        <div class="elementor-element elementor-element-57d2fb6b e-flex e-con-boxed e-con e-child" data-id="57d2fb6b" data-element_type="container">
                                             <div class="e-con-inner">
-                                                <div class="elementor-element elementor-element-670a778c elementor-widget elementor-widget-heading"
-                                                    data-id="670a778c" data-element_type="widget"
-                                                    data-widget_type="heading.default">
+                                                <div class="elementor-element elementor-element-670a778c elementor-widget elementor-widget-heading" data-id="670a778c" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <h4 class="elementor-heading-title elementor-size-default">
-                                                            RM 2,200–4,400
+                                                            RM 1,000
                                                         </h4>
                                                     </div>
                                                 </div>
-                                                <div class="elementor-element elementor-element-74a1b78e elementor-widget elementor-widget-text-editor"
-                                                    data-id="74a1b78e" data-element_type="widget"
-                                                    data-widget_type="text-editor.default">
+                                                <div class="elementor-element elementor-element-74a1b78e elementor-widget elementor-widget-text-editor" data-id="74a1b78e" data-element_type="widget" data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
                                                         <p>/ month</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-7c7ccbb6 e-flex e-con-boxed e-con e-child"
-                                            data-id="7c7ccbb6" data-element_type="container">
+                                        <div class="elementor-element elementor-element-7c7ccbb6 e-flex e-con-boxed e-con e-child" data-id="7c7ccbb6" data-element_type="container">
                                             <div class="e-con-inner">
-                                                <div class="elementor-element elementor-element-5aa43e44 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                    data-id="5aa43e44" data-element_type="widget"
-                                                    data-widget_type="icon-list.default">
+                                                <div class="elementor-element elementor-element-5aa43e44 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="5aa43e44" data-element_type="widget" data-widget_type="icon-list.default">
                                                     <div class="elementor-widget-container">
                                                         <ul class="elementor-icon-list-items">
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-check-circle"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text">Review monitoring</span>
+                                                                <span class="elementor-icon-list-text">Basic SEO Optimization</span>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-check-circle"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text">Alert setup</span>
+                                                                <span class="elementor-icon-list-text">  Social Media Post Design</span>
                                                             </li>
                                                             
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-check-circle"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text">Content Strategy & Planning</span>
+                                                                <span class="elementor-icon-list-text">Social Media Page Management</span>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-check-circle"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text">Competitor Analysis</span>
+                                                                <span class="elementor-icon-list-text">Basic Website Audit</span>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-check-circle"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text"> 2 Platforms</span>
+                                                                <span class="elementor-icon-list-text">Monthly Performance Report</span>
                                                             </li>
                                                               <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-check-circle"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text">Engagement: Reply to DMs & Comments</span>
+                                                                <span class="elementor-icon-list-text">Google Business Profile Setup</span>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-check-circle"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text">Performance Report & Insights</span>
+                                                                <span class="elementor-icon-list-text">Keyword Research (Up to 10 keywords)</span>
                                                             </li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-18cbc8ad e-con-full e-flex e-con e-child"
-                                            data-id="18cbc8ad" data-element_type="container">
-                                            <div class="elementor-element elementor-element-229d91ea e-con-full e-flex e-con e-child"
-                                                data-id="229d91ea" data-element_type="container"
-                                                data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                                <div class="elementor-element elementor-element-55dc15e8 elementor-align-justify elementor-widget elementor-widget-button"
-                                                    data-id="55dc15e8" data-element_type="widget"
-                                                    data-widget_type="button.default">
+                                        <div class="elementor-element elementor-element-18cbc8ad e-con-full e-flex e-con e-child" data-id="18cbc8ad" data-element_type="container">
+                                            <div class="elementor-element elementor-element-229d91ea e-con-full e-flex e-con e-child" data-id="229d91ea" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                                <div class="elementor-element elementor-element-55dc15e8 elementor-align-justify elementor-widget elementor-widget-button" data-id="55dc15e8" data-element_type="widget" data-widget_type="button.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-button-wrapper">
-                                                            <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                                href="#">
+                                                            <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="#">
                                                                 <span class="elementor-button-content-wrapper">
                                                                     <span class="elementor-button-icon">
-                                                                        <svg aria-hidden="true"
-                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                            viewBox="0 0 512 512"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                             </path>
                                                                         </svg> </span>
                                                                     <span class="elementor-button-text">Select
@@ -2139,121 +1517,92 @@ Build Your Custom Plan</button></a></span></p>
                                         </div>
                                     </div>
                                 </div>
-                                <div style="border:1px solid #fff;" class="elementor-element elementor-element-609f922e e-con-full e-flex elementor-invisible e-con e-child"
-                                    data-id="609f922e" data-element_type="container"
-                                    data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                    <div class="elementor-element elementor-element-2d03d740 e-flex e-con-boxed e-con e-child"
-                                        data-id="2d03d740" data-element_type="container">
+                                <div style="border:1px solid #fff;" class="elementor-element elementor-element-609f922e e-con-full e-flex e-con e-child animated fadeInUp" data-id="609f922e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                    <div class="elementor-element elementor-element-2d03d740 e-flex e-con-boxed e-con e-child" data-id="2d03d740" data-element_type="container">
                                         <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-7e2183ad elementor-widget elementor-widget-heading"
-                                                data-id="7e2183ad" data-element_type="widget"
-                                                data-widget_type="heading.default">
+                                            <div class="elementor-element elementor-element-7e2183ad elementor-widget elementor-widget-heading" data-id="7e2183ad" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h5 class="elementor-heading-title elementor-size-default">
-                                                        standart Plan</h5>
+                                                        Standard Plan</h5>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-1c185d62 e-flex e-con-boxed e-con e-child"
-                                        data-id="1c185d62" data-element_type="container">
+                                    <div class="elementor-element elementor-element-1c185d62 e-flex e-con-boxed e-con e-child" data-id="1c185d62" data-element_type="container">
                                         <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-764291ab elementor-widget elementor-widget-heading"
-                                                data-id="764291ab" data-element_type="widget"
-                                                data-widget_type="heading.default">
+                                            <div class="elementor-element elementor-element-764291ab elementor-widget elementor-widget-heading" data-id="764291ab" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h4 class="elementor-heading-title elementor-size-default">
-                                                        RM 1,700</h4>
+                                                        RM 1599</h4>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-706f48ba elementor-widget elementor-widget-text-editor"
-                                                data-id="706f48ba" data-element_type="widget"
-                                                data-widget_type="text-editor.default">
+                                            <div class="elementor-element elementor-element-706f48ba elementor-widget elementor-widget-text-editor" data-id="706f48ba" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <p>/ month</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-3a0035c8 e-flex e-con-boxed e-con e-child"
-                                        data-id="3a0035c8" data-element_type="container">
+                                    <div class="elementor-element elementor-element-3a0035c8 e-flex e-con-boxed e-con e-child" data-id="3a0035c8" data-element_type="container">
                                         <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-63f335f6 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                data-id="63f335f6" data-element_type="widget"
-                                                data-widget_type="icon-list.default">
+                                            <div class="elementor-element elementor-element-63f335f6 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="63f335f6" data-element_type="widget" data-widget_type="icon-list.default">
                                                 <div class="elementor-widget-container">
                                                     <ul class="elementor-icon-list-items">
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> Single Account Manager, Specialist, Copywriter, and a Graphic Designer</span>
+                                                            <span class="elementor-icon-list-text">On-Page SEO</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> 10 Posts/Month</span>
+                                                            <span class="elementor-icon-list-text">Social Media Management</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> Content Ideas + Monthly Calendar</span>
+                                                            <span class="elementor-icon-list-text">Ad Campaign Setup & Management</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> 4 Platforms (FB, IG, Twitter, TikTok)</span>
+                                                            <span class="elementor-icon-list-text">Google My Business Optimization</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> 10 Product Studio Photos (One-Time)</span>
+                                                            <span class="elementor-icon-list-text">Website Maintenance Support</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text">PageFull Engagement + Monthly Audit Reports</span>
+                                                            <span class="elementor-icon-list-text">2 Conversion-focused Landing Pages</span>
+                                                        </li>
+                                                         <li class="elementor-icon-list-item">
+                                                            <span class="elementor-icon-list-icon">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                    </path>
+                                                                </svg> </span>
+                                                            <span class="elementor-icon-list-text">Bi-weekly Performance Reports</span>
                                                         </li>
                                                         
                                                     </ul>
@@ -2261,26 +1610,16 @@ Build Your Custom Plan</button></a></span></p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-190bad35 e-con-full e-flex e-con e-child"
-                                        data-id="190bad35" data-element_type="container">
-                                        <div class="elementor-element elementor-element-ffafd07 e-con-full e-flex e-con e-child"
-                                            data-id="ffafd07" data-element_type="container"
-                                            data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                            <div class="elementor-element elementor-element-29c1b775 elementor-align-justify elementor-widget elementor-widget-button"
-                                                data-id="29c1b775" data-element_type="widget"
-                                                data-widget_type="button.default">
+                                    <div class="elementor-element elementor-element-190bad35 e-con-full e-flex e-con e-child" data-id="190bad35" data-element_type="container">
+                                        <div class="elementor-element elementor-element-ffafd07 e-con-full e-flex e-con e-child" data-id="ffafd07" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                            <div class="elementor-element elementor-element-29c1b775 elementor-align-justify elementor-widget elementor-widget-button" data-id="29c1b775" data-element_type="widget" data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper">
-                                                        <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                            href="#">
+                                                        <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="#">
                                                             <span class="elementor-button-content-wrapper">
                                                                 <span class="elementor-button-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                         </path>
                                                                     </svg> </span>
                                                                 <span class="elementor-button-text">Select
@@ -2293,15 +1632,10 @@ Build Your Custom Plan</button></a></span></p>
                                         </div>
                                     </div>
                                 </div>
-                                <div style="border:1px solid #fff;" class="elementor-element elementor-element-792a8e8e e-con-full e-flex elementor-invisible e-con e-child"
-                                    data-id="792a8e8e" data-element_type="container"
-                                    data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                    <div class="elementor-element elementor-element-b8ecacb e-flex e-con-boxed e-con e-child"
-                                        data-id="b8ecacb" data-element_type="container">
+                                <div style="border:1px solid #fff;" class="elementor-element elementor-element-792a8e8e e-con-full e-flex e-con e-child animated fadeInUp" data-id="792a8e8e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                    <div class="elementor-element elementor-element-b8ecacb e-flex e-con-boxed e-con e-child" data-id="b8ecacb" data-element_type="container">
                                         <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-442a788a elementor-widget elementor-widget-heading"
-                                                data-id="442a788a" data-element_type="widget"
-                                                data-widget_type="heading.default">
+                                            <div class="elementor-element elementor-element-442a788a elementor-widget elementor-widget-heading" data-id="442a788a" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h5 class="elementor-heading-title elementor-size-default">
                                                         Premium plan</h5>
@@ -2309,55 +1643,38 @@ Build Your Custom Plan</button></a></span></p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-14e838c2 e-flex e-con-boxed e-con e-child"
-                                        data-id="14e838c2" data-element_type="container">
+                                    <div class="elementor-element elementor-element-14e838c2 e-flex e-con-boxed e-con e-child" data-id="14e838c2" data-element_type="container">
                                         <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-74b8ac4c elementor-widget elementor-widget-heading"
-                                                data-id="74b8ac4c" data-element_type="widget"
-                                                data-widget_type="heading.default">
+                                            <div class="elementor-element elementor-element-74b8ac4c elementor-widget elementor-widget-heading" data-id="74b8ac4c" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h4 class="elementor-heading-title elementor-size-default">
-                                                        RM 2,600</h4>
+                                                        RM 2,899</h4>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-585d403c elementor-widget elementor-widget-text-editor"
-                                                data-id="585d403c" data-element_type="widget"
-                                                data-widget_type="text-editor.default">
+                                            <div class="elementor-element elementor-element-585d403c elementor-widget elementor-widget-text-editor" data-id="585d403c" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <p>/ month</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-380fc580 e-flex e-con-boxed e-con e-child"
-                                        data-id="380fc580" data-element_type="container">
+                                    <div class="elementor-element elementor-element-380fc580 e-flex e-con-boxed e-con e-child" data-id="380fc580" data-element_type="container">
                                         <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-1acc2005 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                data-id="1acc2005" data-element_type="widget"
-                                                data-widget_type="icon-list.default">
+                                            <div class="elementor-element elementor-element-1acc2005 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1acc2005" data-element_type="widget" data-widget_type="icon-list.default">
                                                 <div class="elementor-widget-container">
                                                     <ul class="elementor-icon-list-items">
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text">Advanced SEO
-                                                                Strategy</span>
+                                                            <span class="elementor-icon-list-text">Advanced SEO Strategy</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
                                                             <span class="elementor-icon-list-text">Full Social
@@ -2365,12 +1682,8 @@ Build Your Custom Plan</button></a></span></p>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
                                                             <span class="elementor-icon-list-text"> Paid Ads
@@ -2378,12 +1691,8 @@ Build Your Custom Plan</button></a></span></p>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
                                                             <span class="elementor-icon-list-text">Custom
@@ -2391,12 +1700,8 @@ Build Your Custom Plan</button></a></span></p>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
                                                             <span class="elementor-icon-list-text">
@@ -2404,12 +1709,8 @@ Build Your Custom Plan</button></a></span></p>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
                                                             <span class="elementor-icon-list-text"> Graphic
@@ -2417,12 +1718,8 @@ Build Your Custom Plan</button></a></span></p>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
                                                             <span class="elementor-icon-list-text">Weekly
@@ -2433,26 +1730,16 @@ Build Your Custom Plan</button></a></span></p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-7e4f692b e-con-full e-flex e-con e-child"
-                                        data-id="7e4f692b" data-element_type="container">
-                                        <div class="elementor-element elementor-element-3508eb1f e-con-full e-flex e-con e-child"
-                                            data-id="3508eb1f" data-element_type="container"
-                                            data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                            <div class="elementor-element elementor-element-6ae65119 elementor-align-justify elementor-widget elementor-widget-button"
-                                                data-id="6ae65119" data-element_type="widget"
-                                                data-widget_type="button.default">
+                                    <div class="elementor-element elementor-element-7e4f692b e-con-full e-flex e-con e-child" data-id="7e4f692b" data-element_type="container">
+                                        <div class="elementor-element elementor-element-3508eb1f e-con-full e-flex e-con e-child" data-id="3508eb1f" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                            <div class="elementor-element elementor-element-6ae65119 elementor-align-justify elementor-widget elementor-widget-button" data-id="6ae65119" data-element_type="widget" data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper">
-                                                        <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                            href="#">
+                                                        <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="#">
                                                             <span class="elementor-button-content-wrapper">
                                                                 <span class="elementor-button-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                         </path>
                                                                     </svg> </span>
                                                                 <span class="elementor-button-text">Select
@@ -2473,16 +1760,15 @@ Build Your Custom Plan</button></a></span></p>
                     data-id="53e21ddd" data-element_type="widget"
                     data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_transform_flipX_effect&quot;:&quot;transform&quot;,&quot;_transform_flipY_effect&quot;:&quot;transform&quot;,&quot;_animation&quot;:&quot;fadeInRight&quot;}"
                     data-widget_type="image.default">
-                    <div class="elementor-widget-container">
-                        </div>
-                </div>
+                    
             </div>
         </div>
         <div class="elementor-element elementor-element-3d2b4980 e-flex e-con-boxed e-con e-parent" data-id="3d2b4980"
             data-element_type="container">
             <div class="e-con-inner">
                 <div class="elementor-element elementor-element-4c7bb9cc e-flex e-con-boxed e-con e-child"
-                    data-id="4c7bb9cc" data-element_type="container">                    <div class="e-con-inner">
+                    data-id="4c7bb9cc" data-element_type="container">
+                    <div class="e-con-inner">
                         <div class="elementor-element elementor-element-696d42b8 e-flex e-con-boxed e-con e-child"
                             data-id="696d42b8" data-element_type="container">
                             <div class="e-con-inner">
@@ -2503,7 +1789,8 @@ Build Your Custom Plan</button></a></span></p>
                                                             src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                             class="attachment-large size-large wp-image-884" alt=""
                                                             srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                            sizes="(max-width: 800px) 100vw, 800px" />
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-4a9465c4 e-con-full e-flex e-con e-child"
@@ -2517,7 +1804,8 @@ Build Your Custom Plan</button></a></span></p>
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_10_683073e41e5c2">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class=""><span>UI/UX Design Company</span></span></h2>
+                                                                        class=""><span>Why Choose SEO
+                                                                            Agency Malaysia?</span></span></h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2533,9 +1821,9 @@ Build Your Custom Plan</button></a></span></p>
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_11_683073e41efeb">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title">Create the Ideal Ambience for Your <span style="color: #C9A8C1;"> UI/UX Design</span>
-<span
-                                                            class=""><span></span></span></span></h2>
+                                                    <h2 class="heading-title">Driving Success With Top<span
+                                                            class=""><span> Digital Marketing
+                                                                Company in Malaysia </span></span></span></h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -2544,8 +1832,10 @@ Build Your Custom Plan</button></a></span></p>
                                         data-id="37b7110a" data-element_type="widget"
                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                         data-widget_type="text-editor.default">
-                                        <div style="text-align:left," class="elementor-widget-container">
-                                            <p>As a best UI/UX design agency in Malaysia, we guarantee that the art direction of your brand is taken into consideration when designing your website. In order to gain a firm understanding of how we can establish an appropriate mood that complements your brand identity and can evoke the required emotion in your users, we first engage you in our conversation to learn more about your brand, your industry, and your users.</p>
+                                        <div class="elementor-widget-container">
+                                            <p>Partnering with the Best digital marketing agency in Malaysia
+                                                ensuress strategies, and maximum online success.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -2573,7 +1863,8 @@ Build Your Custom Plan</button></a></span></p>
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        Cut Time and Costs:</h5>
+                                                                        What Defines the Top Digital Agency in
+                                                                        Malaysia?</h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2583,7 +1874,22 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="elementor-widget-container">
                                                                     <div class="section">
                                                                         <div class="content">
-                                                                            <p> Engage a UI/UX design agency early to identify usability issues before development, preventing expensive rework later.</p>
+                                                                            <p>
+                                                                                Go Viral is a leading digital
+                                                                                marketing agency in Malaysia
+                                                                                known for its outstanding
+                                                                                results, in-depth strategies,
+                                                                                and innovative solutions for
+                                                                                your business. Dedicated to
+                                                                                growing brands with innovative
+                                                                                strategies and campaigns,
+                                                                                ensuring long-term success. As a
+                                                                                trusted leading marketing agency
+                                                                                in Malaysia, we present
+                                                                                measurable solutions to boost
+                                                                                online presence , engagement,
+                                                                                and conversions.
+                                                                            </p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2631,7 +1937,7 @@ Build Your Custom Plan</button></a></span></p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div  class="elementor-element elementor-element-7b511b31 e-flex e-con-boxed elementor-invisible e-con e-child"
+                                        <div class="elementor-element elementor-element-7b511b31 e-flex e-con-boxed elementor-invisible e-con e-child"
                                             data-id="7b511b31" data-element_type="container"
                                             data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
                                             <div class="e-con-inner">
@@ -2647,7 +1953,8 @@ Build Your Custom Plan</button></a></span></p>
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                      Enhance Accessibility:</h5>
+                                                                        Best Digital Marketing Services in
+                                                                        Malaysia</h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2658,7 +1965,19 @@ Build Your Custom Plan</button></a></span></p>
                                                                     <div class="section">
 
                                                                         <div class="content">
-                                                                            <p> UI/UX design ensures inclusive interfaces, improving usability for diverse abilities and strengthening your brand's reputation.</p>
+                                                                            <p>
+                                                                                The best digital agency in
+                                                                                Malaysia, is committed to
+                                                                                bringing growth by implementing
+                                                                                results-driven marketing
+                                                                                strategies. We offer a full
+                                                                                suite of services, including
+                                                                                SEO, PPC , SMM , graphic design
+                                                                                , web development, and
+                                                                                e-commerce solutions to elevate
+                                                                                the brand’s visibility and boost
+                                                                                conversions.
+                                                                            </p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2720,7 +2039,8 @@ Build Your Custom Plan</button></a></span></p>
                                                     src="wp-content/uploads/sites/292/2024/11/6-1-1.png"
                                                     class="attachment-large size-large wp-image-971" alt=""
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6-1-1.png 635w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/6-1-1-248x300.png 248w"
-                                                    sizes="(max-width: 635px) 100vw, 635px" /> </div>
+                                                    sizes="(max-width: 635px) 100vw, 635px" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -2778,7 +2098,8 @@ Build Your Custom Plan</button></a></span></p>
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                      Boost User Engagement: </h5>
+                                                                        Boost Growth with the best digital
+                                                                        marketing services</h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2789,7 +2110,18 @@ Build Your Custom Plan</button></a></span></p>
                                                                     <div class="section">
 
                                                                         <div class="content">
-                                                                            <p>A UI/UX company in Malaysia crafts interactions that increase visit duration, conversions, and loyalty through immersive design.</p>
+                                                                            <p>
+                                                                                Go Viral offers complete digital
+                                                                                marketing services in Malaysia
+                                                                                to achieve targetted goal, SEO &
+                                                                                PPC: Boost visibility and
+                                                                                website traffic, Social Media
+                                                                                Marketing : to engage the right
+                                                                                audience, and Content &
+                                                                                E-commerce Solutions: for better
+                                                                                user experience to get loyal
+                                                                                customers
+                                                                            </p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2851,7 +2183,8 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                         Strengthen Branding: </h5>
+                                                                        Combined agency solutions for your
+                                                                        brands</h5>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-6aed7f96 elementor-widget elementor-widget-text-editor"
@@ -2860,7 +2193,19 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="elementor-widget-container">
                                                                     <div class="section">
                                                                         <div class="content">
-                                                                            <p>Consistent UI/UX design elements build identity, elevate customer loyalty, attract new users, and enhance overall satisfaction and trust.</p>
+                                                                            <p>
+                                                                                Go Viral offers combined agency
+                                                                                solutions to elevate your
+                                                                                brand’s online visibility. As
+                                                                                the best digital agency in
+                                                                                Malaysia, we use a holistic
+                                                                                approach that shows the smooth
+                                                                                integration of SEO, SMM, and PPC
+                                                                                and custom-tailored strategies
+                                                                                to achieve your brand’s goals.
+                                                                                and maximise ROI through our
+                                                                                data-driven campaigns.
+                                                                            </p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2886,12 +2231,11 @@ Build Your Custom Plan</button></a></span></p>
                             src="wp-content/uploads/sites/292/2024/11/48-1024x1024.png"
                             class="attachment-large size-large wp-image-811" alt=""
                             srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-1024x1024.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-300x300.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-150x150.png 150w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-768x768.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-1536x1536.png 1536w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48-800x800.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/48.png 1633w"
-                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                            sizes="(max-width: 800px) 100vw, 800px" />
+                    </div>
                 </div>
             </div>
         </div>
-
-        
         <div class="elementor-element elementor-element-7301da76 e-flex e-con-boxed elementor-invisible e-con e-parent"
             data-id="7301da76" data-element_type="container"
             data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
@@ -2918,7 +2262,8 @@ Build Your Custom Plan</button></a></span></p>
                                                         src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                         class="attachment-large size-large wp-image-884" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" />
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-e1cb1 e-con-full e-flex e-con e-child"
@@ -2949,8 +2294,8 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_13_683073e42ba32">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Reviews from Our <span style="color: #C9A8C1;"> Happy Clients<span
-                                                        class=""><span></span></span>
+                                                <h2 class="heading-title">What They Say <span
+                                                        class=""><span>About Us?</span></span>
                                                 </h2>
                                             </div>
                                         </div>
@@ -3020,7 +2365,10 @@ Build Your Custom Plan</button></a></span></p>
 
                                                                         <div class="elementskit-commentor-content">
                                                                             <!-- Client testimonial -->
-                                                                            <p>“From the start, Go Viral understood our goals. Their PPC campaigns were spot on, and we’re seeing better conversions than ever. Great service from a reliable team!”</p>
+                                                                            <p>“Go Viral Digital Marketing
+                                                                                transformed our online presence
+                                                                                and helped us double our sales
+                                                                                within six months.”</p>
                                                                         </div>
 
                                                                         <div class="elementskit-commentor-bio">
@@ -3037,7 +2385,8 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Nadiah, Penang
+                                                                                        class="elementskit-author-name">Nur
+                                                                                        Aisyah
 
                                                                                     </strong>
                                                                                     <span
@@ -3091,11 +2440,17 @@ Build Your Custom Plan</button></a></span></p>
 
                                                                         <div class="elementskit-commentor-content">
                                                                             <p>
-                                                                                <div
-                                                                                    class="elementskit-commentor-content">
-                                                                                    <!-- Client testimonial -->
-                                                                                    <p>“Super happy with Go Viral’s pay-per-click services! Their team explained everything clearly and kept me updated. My ROI has improved significantly in just a short time.”</p>
-                                                                                </div>
+                                                                            <div class="elementskit-commentor-content">
+                                                                                <!-- Client testimonial -->
+                                                                                <p>“The social media
+                                                                                    campaigns created by Go
+                                                                                    Viral brought incredible
+                                                                                    engagement and
+                                                                                    visibility to our brand.
+                                                                                    Highly recommended for
+                                                                                    businesses looking to
+                                                                                    grow fast!”</p>
+                                                                            </div>
                                                                             </p>
                                                                         </div>
 
@@ -3113,7 +2468,8 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Nur Aisyah, Selangor</strong>
+                                                                                        class="elementskit-author-name">Jasmine
+                                                                                        Tan</strong>
                                                                                     <span
                                                                                         class="elementskit-author-des">Our
                                                                                         Client</span>
@@ -3166,9 +2522,13 @@ Build Your Custom Plan</button></a></span></p>
                                                                         <div class="elementskit-commentor-content">
                                                                             <div class="elementskit-commentor-content">
                                                                                 <!-- Client testimonial -->
-                                                                                <p>"Go Viral really helped my brand get noticed. Their PPC strategies brought in quality leads, and I saw results within weeks. Highly recommend their expert team!
-
-"</p>
+                                                                                <p>"Their SEO and digital
+                                                                                    strategy boosted our website
+                                                                                    traffic significantly. The
+                                                                                    regular updates and
+                                                                                    transparency made the entire
+                                                                                    process seamless and
+                                                                                    effective."</p>
                                                                             </div>
                                                                         </div>
 
@@ -3186,7 +2546,8 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Faizal Ahmed, Kuala Lumpur
+                                                                                        class="elementskit-author-name">Chen
+                                                                                        Wei Ming
 
                                                                                     </strong>
                                                                                     <span
@@ -3210,12 +2571,6 @@ Build Your Custom Plan</button></a></span></p>
                     </div>
                 </div>
             </div>
-            
-
-
-
-
-            
             <div class="elementor-element elementor-element-1f4a113b e-flex e-con-boxed e-con e-parent"
                 data-id="1f4a113b" data-element_type="container">
                 <div class="e-con-inner">
@@ -3246,7 +2601,8 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="ekit_accordion_icon_left_group">
                                                                     <div class="ekit_accordion_normal_icon">
                                                                         <!-- Normal Icon -->
-                                                                        <i class="icon icon-plus"></i> </div>
+                                                                        <i class="icon icon-plus"></i>
+                                                                    </div>
 
                                                                     <div class="ekit_accordion_active_icon">
                                                                         <!-- Active Icon -->
@@ -3254,7 +2610,9 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">What is the difference between UI and UX design?</span>
+                                                                <span class="ekit-accordion-title">Are Digital
+                                                                    Marketing Agencies Worth it in
+                                                                    Malaysia?</span>
 
                                                             </a>
                                                         </div>
@@ -3263,7 +2621,11 @@ Build Your Custom Plan</button></a></span></p>
                                                             aria-labelledby="primaryHeading-0-5447b409"
                                                             data-parent="#accordion-683073e42fec7">
 
-                                                            <div class="elementskit-card-body ekit-accordion--content">UI (User Interface) refers to the visual elements of a product—like buttons, icons, and layouts—while UX (User Experience) focuses on how users interact with those elements and the overall feel of the experience.</p>
+                                                            <div class="elementskit-card-body ekit-accordion--content">
+                                                                <p>Far far away, behind the word mountains, far
+                                                                    from the countries Vokalia and Consonantia,
+                                                                    there live the blind texts. Separated they
+                                                                    live in Bookmarksgrove right at </p>
                                                             </div>
 
                                                         </div>
@@ -3282,7 +2644,8 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="ekit_accordion_icon_left_group">
                                                                     <div class="ekit_accordion_normal_icon">
                                                                         <!-- Normal Icon -->
-                                                                        <i class="icon icon-plus"></i> </div>
+                                                                        <i class="icon icon-plus"></i>
+                                                                    </div>
 
                                                                     <div class="ekit_accordion_active_icon">
                                                                         <!-- Active Icon -->
@@ -3290,8 +2653,9 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">Why is UI/UX design important for my business?
-</span>
+                                                                <span class="ekit-accordion-title">How much does
+                                                                    it cost to hire a digital marketing
+                                                                    agency?</span>
 
                                                             </a>
                                                         </div>
@@ -3301,11 +2665,10 @@ Build Your Custom Plan</button></a></span></p>
                                                             data-parent="#accordion-683073e42fec7">
 
                                                             <div class="elementskit-card-body ekit-accordion--content">
-                                                                <p>A good UI/UX design improves user satisfaction, boosts engagement, and increases conversions. It helps retain customers by making your website or app easy to use, attractive, and efficient
-
-
-
-</p>
+                                                                <p>Far far away, behind the word mountains, far
+                                                                    from the countries Vokalia and Consonantia,
+                                                                    there live the blind texts. Separated they
+                                                                    live in Bookmarksgrove right at</p>
                                                             </div>
 
                                                         </div>
@@ -3324,7 +2687,8 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="ekit_accordion_icon_left_group">
                                                                     <div class="ekit_accordion_normal_icon">
                                                                         <!-- Normal Icon -->
-                                                                        <i class="icon icon-plus"></i> </div>
+                                                                        <i class="icon icon-plus"></i>
+                                                                    </div>
 
                                                                     <div class="ekit_accordion_active_icon">
                                                                         <!-- Active Icon -->
@@ -3332,7 +2696,8 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">How long does a UI/UX design project typically take?</span>
+                                                                <span class="ekit-accordion-title"> Is digital
+                                                                    marketing in demand in Malaysia?</span>
 
                                                             </a>
                                                         </div>
@@ -3342,7 +2707,10 @@ Build Your Custom Plan</button></a></span></p>
                                                             data-parent="#accordion-683073e42fec7">
 
                                                             <div class="elementskit-card-body ekit-accordion--content">
-                                                                <p>The timeline varies depending on the complexity of the project. A basic website might take 2–3 weeks, while a custom platform or app could take 4–8 weeks or more, including research, wireframing, design, feedback, and revisions.</p>
+                                                                <p>Far far away, behind the word mountains, far
+                                                                    from the countries Vokalia and Consonantia,
+                                                                    there live the blind texts. Separated they
+                                                                    live in Bookmarksgrove right at</p>
                                                             </div>
 
                                                         </div>
@@ -3355,10 +2723,6 @@ Build Your Custom Plan</button></a></span></p>
                                     </div>
                                 </div>
                             </div>
-
-                             
-
-
                             <div class="elementor-element elementor-element-7b6de46c e-con-full e-flex e-con e-child"
                                 data-id="7b6de46c" data-element_type="container">
                                 <div class="elementor-element elementor-element-4188f868 e-con-full e-flex elementor-invisible e-con e-child"
@@ -3377,7 +2741,8 @@ Build Your Custom Plan</button></a></span></p>
                                                         src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                         class="attachment-large size-large wp-image-884" alt=""
                                                         srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                        sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                        sizes="(max-width: 800px) 100vw, 800px" />
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-59ad01e2 e-con-full e-flex e-con e-child"
@@ -3408,7 +2773,8 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_15_683073e4311ed">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Frequently <span style="color: #C9A8C1;">  Asked Questions</span></span>
+                                                <h2 class="heading-title">Frequently Asked <span
+                                                        class=""><span>Questions</span></span>
                                                 </h2>
                                             </div>
                                         </div>
@@ -3419,7 +2785,9 @@ Build Your Custom Plan</button></a></span></p>
                                     data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Looking to enhance your digital presence? The best UI UX company in Malaysia, Go Viral, crafts intuitive designs that engage users and boost brand credibility. We focus on user-centered layouts that improve navigation, satisfaction, and conversions. From startups to enterprises, our designs drive real results across all devices.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                            ad minim veniam</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-1d4ef575 e-con-full e-flex elementor-invisible e-con e-child"
@@ -3432,7 +2800,23 @@ Build Your Custom Plan</button></a></span></p>
                                             data-id="50a99fa" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
+                                                        href="#">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-icon">
+                                                                <svg aria-hidden="true"
+                                                                    class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                    viewBox="0 0 512 512"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                    </path>
+                                                                </svg> </span>
+                                                            <span class="elementor-button-text">See More</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -3442,13 +2826,8 @@ Build Your Custom Plan</button></a></span></p>
                     </div>
                 </div>
             </div>
-
-           
-
-
             <div class="elementor-element elementor-element-21786894 e-flex e-con-boxed e-con e-parent"
                 data-id="21786894" data-element_type="container">
-                
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-6b4be47a e-flex e-con-boxed e-con e-child"
                         data-id="6b4be47a" data-element_type="container">
@@ -3459,10 +2838,10 @@ Build Your Custom Plan</button></a></span></p>
                                     <div class="elementor-element elementor-element-51ae9fbb e-con-full e-flex elementor-invisible e-con e-child"
                                         data-id="51ae9fbb" data-element_type="container"
                                         data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                        <div style="width:400px;" class="elementor-element elementor-element-4729847f e-con-full e-flex e-con e-child"
+                                        <div class="elementor-element elementor-element-4729847f e-con-full e-flex e-con e-child"
                                             data-id="4729847f" data-element_type="container"
                                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                            <div  class="elementor-element elementor-element-3035d01d e-con-full e-flex e-con e-child"
+                                            <div class="elementor-element elementor-element-3035d01d e-con-full e-flex e-con e-child"
                                                 data-id="3035d01d" data-element_type="container">
                                                 <div class="elementor-element elementor-element-424a0220 elementor-widget elementor-widget-image"
                                                     data-id="424a0220" data-element_type="widget"
@@ -3472,7 +2851,8 @@ Build Your Custom Plan</button></a></span></p>
                                                             src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
                                                             class="attachment-large size-large wp-image-884" alt=""
                                                             srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                            sizes="(max-width: 800px) 100vw, 800px" />
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-2c461563 e-con-full e-flex e-con e-child"
@@ -3482,11 +2862,11 @@ Build Your Custom Plan</button></a></span></p>
                                                     data-settings="{&quot;_animation&quot;:&quot;none&quot;}"
                                                     data-widget_type="jkit_heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <div 
+                                                        <div
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_16_683073e4327ac">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class=""><span>UI/UX Design Company Malaysia</span></span></h2>
+                                                                        class=""><span>SEO Agency</span></span></h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3502,9 +2882,11 @@ Build Your Custom Plan</button></a></span></p>
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_17_683073e43308d">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h3 class="heading-title"><span style="color: #C9A8C1;"> Our Design Process:</span> From Vision to Reality
+                                                    <h2 class="heading-title"> <span
+                                                            class=""><span>The Proven Process of a Local SEO Agency
+
 </span></span>
-                                                    </h3>
+                                                    </h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -3514,7 +2896,7 @@ Build Your Custom Plan</button></a></span></p>
                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>Go Viral, a trusted UI/UX design agency in Malaysia, follows a systematic and cooperative approach to guarantee that each UI/UX design project fulfils your company objectives, engages your users, and produces visible results. We begin by thoroughly understanding your business goals, user expectations, and industry standards. Our collaborative process ensures that every design decision is user-focused and aligned with your brand identity. From initial research to final execution, we pay close attention to detail, usability, and visual appeal. Whether you're launching a new website or revamping an existing one, we tailor every aspect of our UI/UX strategy to deliver seamless, intuitive, and high-converting digital experiences that drive business success.</p>
+                                            <p>A proven local SEO process begins with optimizing your Google Business Profile to ensure your business appears in relevant local searches. Next, accurate NAP (Name, Address, Phone) citations are built across trusted directories to strengthen credibility. Our local SEO agency also performs competitor analysis and keyword targeting to capture high-intent local traffic. Consistent review management and location-based content help improve rankings and drive in-store or service-based conversions.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -3532,8 +2914,13 @@ Build Your Custom Plan</button></a></span></p>
                                                     <div class="col-lg-4 col-md-6">
 
                                                         <div class="elementskit-post-image-card">
-                                                             <div class="elementskit-entry-header">
-                                                                
+                                                            <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
+                                                                </a><!-- .elementskit-entry-thumb END -->
 
                                                             </div><!-- .elementskit-entry-header END -->
 
@@ -3542,10 +2929,23 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <h2 class="entry-title">
                                                                     <a
                                                                         href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Analysis of Requirements</a>
+                                                                        Keyword Research </a>
                                                                 </h2>
-                                                                <p>To learn more about your website and business goals, we first set up a consultation at a time that works for you. Being an affordable UI/UX company in Malaysia, we offer forms to collect all the information required for your project. This involves defining your objectives, the elements of your website, the expected outcomes, the timeframe, scope, and budget. The creation of a comprehensive proposal guarantees that our expectations are met right away.</p>
-                                                            
+                                                                <p>Keyword research is the first step taken by any local SEO agency, or supplier of white label SEO services. It directs your content strategy and assists in determining the search terms used by your target audience. We use tools like SEMrush, Ahrefs, or Moz to find the relevant keywords, as well as their search volume and difficulty. We often use goldilocks keywords which refers to a list of keywords that maintain a hierarchy between realistic competition and traffic relevance. Sort your keywords into:primary keywords , and secondary keywords. An SEO agency providing reasonably priced SEO services must have a well-organised keyword strategy The important terms you wish to rank for are known as primary keywords. Supporting terms that increase context and relevance are known as secondary keywords. SEO helps your website rank higher on search engines, attract more visitors, and grow your business organically over time.  
+</p>
+                                                                <div style="display:none" class="btn-wraper">
+                                                                    <a class="elementskit-btn whitespace--normal" id=""
+                                                                        href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
+                                                                        Learn more <svg aria-hidden="true"
+                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                            viewBox="0 0 512 512"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                            </path>
+                                                                        </svg> </a>
+
+                                                                </div>
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
 
@@ -3553,8 +2953,13 @@ Build Your Custom Plan</button></a></span></p>
                                                     <div class="col-lg-4 col-md-6">
 
                                                         <div class="elementskit-post-image-card">
-                                                             <div class="elementskit-entry-header">
-                                                               
+                                                            <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/29-14.jpg')}}"
+                                                                        alt="How To Run A Successful Google Ads Campaign: A Step-By-Step">
+                                                                </a><!-- .elementskit-entry-thumb END -->
 
                                                             </div><!-- .elementskit-entry-header END -->
 
@@ -3563,12 +2968,22 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <h2 class="entry-title">
                                                                     <a
                                                                         href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                       Making Plans</a>
+                                                                       Competitors Analysis</a>
                                                                 </h2>
-                                                                <p>We start creating a plan for your website using the data from the first stage. This includes creating a sitemap and choosing the appropriate technology, such as whether to utilise a content management system like WordPress. We make sure that every planning detail contributes to the development of a well-organised and user-friendly website as part of our UI/UX design services. This strategic planning lays the foundation for a seamless and impactful user experience.
- 
- </p>
-                                                               
+                                                                <p>In the SEO process, assessing your competitors is the next stage. Discovering who dominates the search results for your targeted keywords is the first step. Understand their weaknesses, such as lacking relevant backlinks, subpar on-site SEO, and poor content quality. Apply these insights as benchmarks for your business. Missed keyword opportunities that your website can target can be uncovered through content gap analysis. Every top SEO agency uses this strategy to gain a competitive edge. Finally, conduct a backlink evaluation of the main competition to assess the quality and quantity of links required to compete. This analysis helps you build a practical and effective off-site SEO plan based on real data. Studying competitor flaws not only sharpens your SEO strategy but also reveals untapped opportunities, ensuring your website is prepared to rank and perform better in search results.</p>
+                                                                <div style="display:none" class="btn-wraper">
+                                                                    <a class="elementskit-btn whitespace--normal" id=""
+                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
+                                                                        Learn more <svg aria-hidden="true"
+                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                            viewBox="0 0 512 512"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                            </path>
+                                                                        </svg> </a>
+
+                                                                </div>
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
 
@@ -3576,25 +2991,179 @@ Build Your Custom Plan</button></a></span></p>
                                                     <div class="col-lg-4 col-md-6">
 
                                                         <div class="elementskit-post-image-card">
-                                                          <div class="elementskit-entry-header">
-                                                               
+                                                            <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/30-11.jpg')}}"
+                                                                        alt="Social Media In 2025: How To Leverage Them For Your Brand">
+                                                                </a><!-- .elementskit-entry-thumb END -->
 
                                                             </div><!-- .elementskit-entry-header END -->
+
                                                             <div class="elementskit-post-body ">
 
                                                                 <h2 class="entry-title">
                                                                     <a
                                                                         href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
-                                                                        Design</a>
+                                                                        Technical SEO</a>
                                                                 </h2>
-                                                                <p>Our creative team begins working on the user interface (UI) and user experience (UX) strategies as soon as the blueprint is complete. The visual features (like colours, fonts, animations, hovers, and format) are chosen, outlines are designed, and a design that goes with your brand is produced. Once all the changes have been made according to your demand, the final design is forwarded to you for approval. We ensure that every element reflects your brand identity seamlessly.
-</p>
-                                                                
+                                                                <p>Fixing the technical foundation of your website comes next after conducting thorough keyword research. SEO company consider this stage crucial for achieving high rankings for your target keywords. Even with high-quaity content, a website that is slow, unstable, or difficult to navigate will not rank well in search results. Important technical SEO areas include site speed, mobile responsiveness, duplicate content, indexability, and site architecture. An ideal speed of a website is under 2 sec, which indicates optimized code and compressed images. Moreover, your website must run efficiently across all devices, and high-quality content is essential to avoid ranking issues. SEO company strongly focuses on technical SEO, especially when offering high-ROI and affordable SEO services. Strong technical groundwork helps increase visibility, improve user experience, and ensures long-term success across all major search engines and platforms.</p>
+                                                                <div style="display:none" class="btn-wraper">
+                                                                    <a class="elementskit-btn whitespace--normal" id=""
+                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
+                                                                        Learn more <svg aria-hidden="true"
+                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                            viewBox="0 0 512 512"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                            </path>
+                                                                        </svg> </a>
+
+                                                                </div>
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
 
                                                     </div>
-                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-259e45d3 e-flex e-con-boxed e-con e-child"
+                                data-id="259e45d3" data-element_type="container">
+                                <div class="e-con-inner">
+                                    <div class="elementor-element elementor-element-640e645b elementor-invisible elementor-widget elementor-widget-elementskit-blog-posts"
+                                        data-id="640e645b" data-element_type="widget"
+                                        data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
+                                        data-widget_type="elementskit-blog-posts.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="ekit-wid-con">
+                                                <div id="post-items--640e645b" class="row post-items">
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                            <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
+                                                                </a><!-- .elementskit-entry-thumb END -->
+
+                                                            </div><!-- .elementskit-entry-header END -->
+
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a
+                                                                        href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
+                                                                        Page-Level Optimisation & Content Strategy</a>
+                                                                </h2>
+                                                                <p>
+Optimizing on-page elements helps search engines understand your content. On-page SEO involves using primary and secondary keywords strategically in headers, body text, image alt tags, titles, and meta tags—without keyword stuffing. A balanced keyword strategy ensures your site ranks well while offering real value to users. The goal is to improve relevance while keeping the content clear and user-friendly. Pages on CMS platforms like WordPress, Shopify, or Webflow can be easily optimized by a top SEO agency in Malaysia.
+A strong content strategy is essential for SEO success. Publishing quality content that meets search intent boosts rankings and traffic. Conduct a content audit and gap analysis to find missed keyword opportunities. Restructure existing pages with pillar content or clusters, and create new material that addresses audience needs. Top SEO agencies rely on this proven approach
+</p>
+                                                                <div style="display:none" class="btn-wraper">
+                                                                    <a class="elementskit-btn whitespace--normal" id=""
+                                                                        href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
+                                                                        Learn more <svg aria-hidden="true"
+                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                            viewBox="0 0 512 512"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                            </path>
+                                                                        </svg> </a>
+
+                                                                </div>
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                            <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/29-14.jpg')}}"
+                                                                        alt="How To Run A Successful Google Ads Campaign: A Step-By-Step">
+                                                                </a><!-- .elementskit-entry-thumb END -->
+
+                                                            </div><!-- .elementskit-entry-header END -->
+
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a
+                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
+                                                                        Local SEO & Link-building</a>
+                                                                </h2>
+                                                                <p>
+To increase exposure in location-based searches, local SEO services are essential. A strong strategy boosts both online traffic and in-store visits. Optimising your Google Business Profile (GBP) is the first step. This free tool lets you manage how your business appears on Google Maps and Search—upload images, respond to reviews, and update your address, hours, and website.
+Backlinks are a major SEO ranking factor that help search engines judge your site's authority. Quality links from reputable sources signal trustworthiness and can improve your rankings. Guest posting on niche-relevant websites is a powerful way to gain strong backlinks. Also, review your link profile to remove toxic links and fix any broken ones. By following these steps, you can improve your rankings and pass on maximum link equity to your most important pages. SEO helps your website rank higher on search engines, attract more visitors, and grow your business organically over time.
+</p>
+                                                                <div style="display:none" class="btn-wraper">
+                                                                    <a class="elementskit-btn whitespace--normal" id=""
+                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
+                                                                        Learn more <svg aria-hidden="true"
+                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                            viewBox="0 0 512 512"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                            </path>
+                                                                        </svg> </a>
+
+                                                                </div>
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                            <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/30-11.jpg')}}"
+                                                                        alt="Social Media In 2025: How To Leverage Them For Your Brand">
+                                                                </a><!-- .elementskit-entry-thumb END -->
+
+                                                            </div><!-- .elementskit-entry-header END -->
+
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a
+                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
+                                                                        Reporting & Maintenance</a>
+                                                                </h2>
+                                                                <p>SEO is a continuous cycle of research, testing, and improvement rather than a one-time event. To monitor developments and trouble spots, a clear reporting mechanism is necessary. To identify problems early and maintain long-term outcomes, monitor important metrics like rankings, traffic, and conversions. Every top SEO business depends on a robust reporting system to maintain the effectiveness of their SEO process and provide reliable, top SEO services.
+Regular insights not only help measure performance but also guide strategic decisions for consistent growth. With transparent reporting, businesses stay informed and in control every step of the way. Our SEO experts provide detailed monthly reports, competitor comparisons, keyword performance, and actionable recommendations. This ensures complete clarity and allows you to stay one step ahead of your digital competition with data that drives real results.
+</p>
+                                                                <div  style="display:none" class="btn-wraper">
+                                                                    <a class="elementskit-btn whitespace--normal" id=""
+                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
+                                                                        Learn more <svg aria-hidden="true"
+                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                            viewBox="0 0 512 512"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                            </path>
+                                                                        </svg> </a>
+
+                                                                </div>
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -3606,81 +3175,6 @@ Build Your Custom Plan</button></a></span></p>
                 </div>
             </div>
         </div>
-       <div class="e-con-inner">
-                            <div class="elementor-element elementor-element-259e45d3 e-flex e-con-boxed e-con e-child" data-id="259e45d3" data-element_type="container">
-                                <div class="e-con-inner">
-                                    <div class="elementor-element elementor-element-640e645b elementor-widget elementor-widget-elementskit-blog-posts animated fadeInUp" data-id="640e645b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="elementskit-blog-posts.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="ekit-wid-con">
-                                                <div id="post-items--640e645b" class="row post-items">
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                         <div class="elementskit-entry-header">
-                                                              
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Development and Site Test</a>
-                                                                </h2>
-                                                                <p>
-Once  the design is approved, we proceed with development. This includes developing the structure of the website with HTML, CSS, and other technologies, polishing the content, and including visual elements like interactive media, videos, and photographs. We guarantee that, as a leading UI/UX company, you can review the website during the developing process and provide feedback anytime. We test  the website before launching to check the compatibility on different browsers and devices.
-</p>
-                                                                
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                             <div class="elementskit-entry-header">
-                                                               
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                        Launching for Impact</a>
-                                                                </h2>
-                                                                <p>
- After launching your website, our efforts don’t stop there. As your long-term partner, we ensure your site continues to grow and perform. We implement SEO fundamentals like title tags, meta descriptions, keyword optimisation, and link building to enhance visibility. Alongside this, we offer regular maintenance and technical support to keep your website running smoothly as part of our comprehensive UI/UX design services. Our team is here to help your website keeps growing and succeeding.</p>
-                                                               
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                            <div class="elementskit-entry-header">
-                                                                
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">Feedback & Iteration</a>
-                                                                </h2>
-                                                                <p>Even after launch, we believe the design journey continues. At Go Viral, we value client and user feedback to fine-tune your website experience. We monitor user behavior, identify areas for improvement, and iterate designs to ensure lasting engagement. This agile and adaptive approach helps us deliver high-performing, user-centered interfaces that evolve with your business goals, because your success is our ongoing priority. We stay connected to your brand's growth and ensure your digital presence remains impactful.</p>
-                                                        
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
         <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
             <div class='footer-width-fixer'>
@@ -3874,7 +3368,8 @@ Once  the design is approved, we proceed with development. This includes develop
                                                     class="attachment-large size-large wp-image-943" alt=""
                                                     decoding="async"
                                                     srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-1024x305.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-300x89.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-768x229.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-1536x458.png 1536w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-2048x610.png 2048w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-800x238.png 800w"
-                                                    sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                    sizes="(max-width: 800px) 100vw, 800px" />
+                                            </div>
                                         </div>
                                         <div class="elementor-element elementor-element-f016da8 elementor-widget elementor-widget-text-editor"
                                             data-id="f016da8" data-element_type="widget"
@@ -4074,7 +3569,7 @@ Once  the design is approved, we proceed with development. This includes develop
                                         data-id="4ccbc73" data-element_type="widget"
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>Copyright © 2025 Fluxco | Powered by Fluxco</p>
+                                            <p>Copyright © 2025 Go-viral | Powered by Go-viral</p>
                                         </div>
                                     </div>
                                 </div>

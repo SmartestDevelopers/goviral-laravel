@@ -1,6 +1,62 @@
 @extends('layouts.front')
 
+
+@section('title', 'Best SEO Agency in Malaysia | ROI‑Driven Services')
+@section('meta_description', 'Partner with the best SEO agency in Malaysia for AI powered, white-hat strategies that boost rankings, traffic, and conversions. Get a free consultation today.')
+
 @section('content')
+<style>
+.read-more-btn {
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.swiper-slide {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  justify-content: center;
+  flex-direction: row; /* Align icon and text horizontally */
+  gap: 10px; /* Space between the icon and the text */
+  text-align: center;
+  font-size: 24px;
+  color:rgb(225, 185, 255); /* Light Lilac Color */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.swiper-slide i {
+  font-size: 30px; /* Make icon bigger */
+}
+
+.swiper-slide h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+}
+.mycustombutton{
+border: 1px solid #ffffff !important;  /* white border */
+  border-radius: 8px !important;         /* smooth corners */
+  background-color: transparent !important;  /* optional: makes button transparent */
+  color: #ffffff !important;            /* text color white (you can change if needed) */
+  font-weight: 500;
+}
+.mycustombutton:hover {
+  color:rgb(255, 255, 255) !important;
+  transition: all 0.3s ease;
+}
+.steps {
+
+  font-size: 54px;
+  font-weight: bold;
+  color:#D4BEE4 !important; 
+  margin: 10px 30px!important; 
+  margin-left: 50px; /* or any value like 30px, 2rem etc. */
+}
+</style>
 
 <div data-elementor-type="wp-page" data-elementor-id="777" class="elementor elementor-777">
     <div class="elementor-element elementor-element-1cbf619 e-flex e-con-boxed e-con e-parent" data-id="1cbf619"
@@ -63,10 +119,10 @@
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h1 style="font-size: 70px;" class="heading-title">Drive Relevant Traffic &
+                                        <h1 style="font-size: 60px;" class="heading-title">Drive Relevant Traffic &
                                             Maximum Revenue With
-                                            <span class=""><span>The Best SEO Agency
-                                                    Malaysia</span></span>
+                                            <span style="color: #c9a8c1;">The Best SEO Agency
+                                                    Malaysia</span>
                                         </h1>
                                     </div>
                                 </div>
@@ -98,7 +154,7 @@
                                 <div class="elementor-element elementor-element-5caebf65 elementor-align-justify elementor-widget elementor-widget-button"
                                     data-id="5caebf65" data-element_type="widget" data-widget_type="button.default">
                                     <div class="elementor-widget-container">
-                                        <div class="elementor-button-wrapper">
+                                        <div class="">
                                             <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
                                                 href="#">
                                                 <span class="elementor-button-content-wrapper">
@@ -434,7 +490,7 @@
             </div>
         </div>
     </div>
-    <div class="elementor-element elementor-element-1265131f e-flex e-con-boxed elementor-invisible e-con e-parent"
+    <div style="display:hidden;" class="elementor-element elementor-element-1265131f e-flex e-con-boxed elementor-invisible e-con e-parent"
         data-id="1265131f" data-element_type="container"
         data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
         <div class="e-con-inner">
@@ -450,39 +506,38 @@
                                 <div class="elementor-image-carousel swiper-wrapper" aria-live="off">
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="1 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-1.png')}}"
-                                                alt="1" />
-                                        </figure>
+                                        <div class="swiper-slide">
+      <i class="fab fa-weebly"></i>
+      <h4>Weebly</h4>
+    </div>
                                     </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="2 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-213-1.png')}}"
-                                                alt="logoipsum-213" /></figure>
+                                         <div class="swiper-slide">
+      <i class="fab fa-shopify"></i>
+      <h4>Shopify</h4>
+    </div>
                                     </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="3 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-216-1.png')}}"
-                                                alt="logoipsum-216" /></figure>
+                                        <div class="swiper-slide">
+      <i class="fab fa-figma"></i>
+      <h4>Figma</h4>
+    </div>
                                     </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="4 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-217-1.png')}}"
-                                                alt="logoipsum-217" /></figure>
+                                        <div class="swiper-slide">
+      <i class="fab fa-wordpress"></i>
+      <h4>WordPress</h4>
+    </div>
                                     </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="5 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-218-1.png')}}"
-                                                alt="logoipsum-218" /></figure>
+                                         <div class="swiper-slide">
+      <i class="fab fa-wix"></i>
+      <h4>Wix</h4>
+    </div>
                                     </div>
                                 </div>
 
@@ -516,7 +571,7 @@
                                         data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
                                             <h5 class="elementor-heading-title elementor-size-default">Why Choose
-                                                SEO Agency Malaysia?</h5>
+                                                <span style="color: #c9a8c1;">SEO Agency Malaysia?</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -951,10 +1006,8 @@
                                     <div
                                         class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_5_683073e40c673">
                                         <div class="heading-section-title  display-inline-block">
-                                            <h2 style="font-size: 50px;" class="heading-title">See What Makes Us
-                                                The<span style="font-size: 50px;" class=""><span>Best
-                                                        Digital Marketing Company
-                                                        In Malaysia,</span></span></h2>
+                                            <h2 style="font-size: 30px;" class="heading-title">What Makes Us Best 
+                                                <span style="color: #c9a8c1;">Digital Marketing Company?</span></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -987,7 +1040,7 @@
                                             data-id="13a55f96" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
+                                                <div class="mycustombutton">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
                                                         href="#">
                                                         <span class="elementor-button-content-wrapper">
@@ -1078,11 +1131,12 @@
                             <div class="elementor-widget-container">
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_7_683073e4108be">
-                                    <div class="heading-section-title  display-inline-block">
-                                        <h2 class="heading-title">Your Success Begins With <span
-                                                class=""><span>Best Digital Marketing
-                                                    Services</span></span></h2>
-                                    </div>
+                                    <div class="heading-section-title display-inline-block">
+  <h2 class="heading-title">
+    Your Success Begins With 
+    <span style="color: #C9A8C1;">Best Digital Marketing Services</span>
+  </h2>
+</div>
                                 </div>
                             </div>
                         </div>
@@ -1392,24 +1446,36 @@
                                 <div class="elementor-widget-container">
                                     <p>Choose a package that fits your business goals and budget. Transparent
                                         pricing, no hidden fees. We also offer tailor-made solutions for
-                                        businesses with unique needs.<br><span><a href=""><button>Build Your
-                                                    Custom Plan</button></a></span></p>
+                                        businesses with unique needs.</p>
+                                        <div class="mycustombutton">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
+                                                        href="#">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-icon">
+                                                                <svg aria-hidden="true"
+                                                                    class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                    viewBox="0 0 512 512"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                    </path>
+                                                                </svg> </span>
+                                                                <span class="elementor-button-text">Build Your Custom Plan</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+
                                 </div>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-50b9b9e7 e-flex e-con-boxed e-con e-child"
                             data-id="50b9b9e7" data-element_type="container">
                             <div class="e-con-inner">
-                                <div class="elementor-element elementor-element-c7031b8 e-flex e-con-boxed elementor-invisible e-con e-child"
-                                    data-id="c7031b8" data-element_type="container"
-                                    data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                <div style="border:1px solid #fff;" class="elementor-element elementor-element-c7031b8 e-flex e-con-boxed e-con e-child animated fadeInUp" data-id="c7031b8" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
                                     <div class="e-con-inner">
-                                        <div class="elementor-element elementor-element-523b15fa e-flex e-con-boxed e-con e-child"
-                                            data-id="523b15fa" data-element_type="container">
+                                        <div class="elementor-element elementor-element-523b15fa e-flex e-con-boxed e-con e-child" data-id="523b15fa" data-element_type="container">
                                             <div class="e-con-inner">
-                                                <div class="elementor-element elementor-element-20ccc0fe elementor-widget elementor-widget-heading"
-                                                    data-id="20ccc0fe" data-element_type="widget"
-                                                    data-widget_type="heading.default">
+                                                <div class="elementor-element elementor-element-20ccc0fe elementor-widget elementor-widget-heading" data-id="20ccc0fe" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <h5 class="elementor-heading-title elementor-size-default">
                                                             Basic Plan</h5>
@@ -1417,125 +1483,99 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-57d2fb6b e-flex e-con-boxed e-con e-child"
-                                            data-id="57d2fb6b" data-element_type="container">
+                                        <div class="elementor-element elementor-element-57d2fb6b e-flex e-con-boxed e-con e-child" data-id="57d2fb6b" data-element_type="container">
                                             <div class="e-con-inner">
-                                                <div class="elementor-element elementor-element-670a778c elementor-widget elementor-widget-heading"
-                                                    data-id="670a778c" data-element_type="widget"
-                                                    data-widget_type="heading.default">
+                                                <div class="elementor-element elementor-element-670a778c elementor-widget elementor-widget-heading" data-id="670a778c" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <h4 class="elementor-heading-title elementor-size-default">
-                                                            RM 899
+                                                            RM 1,000
                                                         </h4>
                                                     </div>
                                                 </div>
-                                                <div class="elementor-element elementor-element-74a1b78e elementor-widget elementor-widget-text-editor"
-                                                    data-id="74a1b78e" data-element_type="widget"
-                                                    data-widget_type="text-editor.default">
+                                                <div class="elementor-element elementor-element-74a1b78e elementor-widget elementor-widget-text-editor" data-id="74a1b78e" data-element_type="widget" data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
                                                         <p>/ month</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-7c7ccbb6 e-flex e-con-boxed e-con e-child"
-                                            data-id="7c7ccbb6" data-element_type="container">
+                                        <div class="elementor-element elementor-element-7c7ccbb6 e-flex e-con-boxed e-con e-child" data-id="7c7ccbb6" data-element_type="container">
                                             <div class="e-con-inner">
-                                                <div class="elementor-element elementor-element-5aa43e44 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                    data-id="5aa43e44" data-element_type="widget"
-                                                    data-widget_type="icon-list.default">
+                                                <div class="elementor-element elementor-element-5aa43e44 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="5aa43e44" data-element_type="widget" data-widget_type="icon-list.default">
                                                     <div class="elementor-widget-container">
                                                         <ul class="elementor-icon-list-items">
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-check-circle"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text"> Basic
-                                                                    SEO optimization</span>
+                                                                <span class="elementor-icon-list-text">Basic SEO Optimization</span>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-check-circle"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text">Social
-                                                                    media post design</span>
+                                                                <span class="elementor-icon-list-text">  Social Media Post Design</span>
+                                                            </li>
+                                                            
+                                                            <li class="elementor-icon-list-item">
+                                                                <span class="elementor-icon-list-icon">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                        </path>
+                                                                    </svg> </span>
+                                                                <span class="elementor-icon-list-text">Social Media Page Management</span>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-check-circle"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text"> Social
-                                                                    media page management</span>
+                                                                <span class="elementor-icon-list-text">Basic Website Audit</span>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-check-circle"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text"> Basic
-                                                                    website audit</span>
+                                                                <span class="elementor-icon-list-text">Monthly Performance Report</span>
+                                                            </li>
+                                                              <li class="elementor-icon-list-item">
+                                                                <span class="elementor-icon-list-icon">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                        </path>
+                                                                    </svg> </span>
+                                                                <span class="elementor-icon-list-text">Google Business Profile Setup</span>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-check-circle"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text"> Monthly
-                                                                    performance report</span>
+                                                                <span class="elementor-icon-list-text">Keyword Research (Up to 10 keywords)</span>
                                                             </li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-18cbc8ad e-con-full e-flex e-con e-child"
-                                            data-id="18cbc8ad" data-element_type="container">
-                                            <div class="elementor-element elementor-element-229d91ea e-con-full e-flex e-con e-child"
-                                                data-id="229d91ea" data-element_type="container"
-                                                data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                                <div class="elementor-element elementor-element-55dc15e8 elementor-align-justify elementor-widget elementor-widget-button"
-                                                    data-id="55dc15e8" data-element_type="widget"
-                                                    data-widget_type="button.default">
+                                        <div class="elementor-element elementor-element-18cbc8ad e-con-full e-flex e-con e-child" data-id="18cbc8ad" data-element_type="container">
+                                            <div class="elementor-element elementor-element-229d91ea e-con-full e-flex e-con e-child" data-id="229d91ea" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                                <div class="elementor-element elementor-element-55dc15e8 elementor-align-justify elementor-widget elementor-widget-button" data-id="55dc15e8" data-element_type="widget" data-widget_type="button.default">
                                                     <div class="elementor-widget-container">
-                                                        <div class="elementor-button-wrapper">
-                                                            <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                                href="#">
-                                                                <span class="elementor-button-content-wrapper">
+                                                        <div class="mycustombutton">
+                                                            <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="#">
+                                                                <span class="">
                                                                     <span class="elementor-button-icon">
-                                                                        <svg aria-hidden="true"
-                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                            viewBox="0 0 512 512"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                             </path>
                                                                         </svg> </span>
                                                                     <span class="elementor-button-text">Select
@@ -1549,166 +1589,109 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-609f922e e-con-full e-flex elementor-invisible e-con e-child"
-                                    data-id="609f922e" data-element_type="container"
-                                    data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                    <div class="elementor-element elementor-element-2d03d740 e-flex e-con-boxed e-con e-child"
-                                        data-id="2d03d740" data-element_type="container">
+                                <div style="border:1px solid #fff;" class="elementor-element elementor-element-609f922e e-con-full e-flex e-con e-child animated fadeInUp" data-id="609f922e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                    <div class="elementor-element elementor-element-2d03d740 e-flex e-con-boxed e-con e-child" data-id="2d03d740" data-element_type="container">
                                         <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-7e2183ad elementor-widget elementor-widget-heading"
-                                                data-id="7e2183ad" data-element_type="widget"
-                                                data-widget_type="heading.default">
+                                            <div class="elementor-element elementor-element-7e2183ad elementor-widget elementor-widget-heading" data-id="7e2183ad" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h5 class="elementor-heading-title elementor-size-default">
-                                                        standart Plan</h5>
+                                                        Standard Plan</h5>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-1c185d62 e-flex e-con-boxed e-con e-child"
-                                        data-id="1c185d62" data-element_type="container">
+                                    <div class="elementor-element elementor-element-1c185d62 e-flex e-con-boxed e-con e-child" data-id="1c185d62" data-element_type="container">
                                         <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-764291ab elementor-widget elementor-widget-heading"
-                                                data-id="764291ab" data-element_type="widget"
-                                                data-widget_type="heading.default">
+                                            <div class="elementor-element elementor-element-764291ab elementor-widget elementor-widget-heading" data-id="764291ab" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h4 class="elementor-heading-title elementor-size-default">
-                                                        RM 1,699</h4>
+                                                        RM 1599</h4>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-706f48ba elementor-widget elementor-widget-text-editor"
-                                                data-id="706f48ba" data-element_type="widget"
-                                                data-widget_type="text-editor.default">
+                                            <div class="elementor-element elementor-element-706f48ba elementor-widget elementor-widget-text-editor" data-id="706f48ba" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <p>/ month</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-3a0035c8 e-flex e-con-boxed e-con e-child"
-                                        data-id="3a0035c8" data-element_type="container">
+                                    <div class="elementor-element elementor-element-3a0035c8 e-flex e-con-boxed e-con e-child" data-id="3a0035c8" data-element_type="container">
                                         <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-63f335f6 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                data-id="63f335f6" data-element_type="widget"
-                                                data-widget_type="icon-list.default">
+                                            <div class="elementor-element elementor-element-63f335f6 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="63f335f6" data-element_type="widget" data-widget_type="icon-list.default">
                                                 <div class="elementor-widget-container">
                                                     <ul class="elementor-icon-list-items">
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text">On-Page
-                                                                SEO</span>
+                                                            <span class="elementor-icon-list-text">On-Page SEO</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> Social Media
-                                                                Management</span>
+                                                            <span class="elementor-icon-list-text">Social Media Management</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> Ad Campaign
-                                                                Setup & Management</span>
+                                                            <span class="elementor-icon-list-text">Ad Campaign Setup & Management</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> Google My
-                                                                Business Optimization</span>
+                                                            <span class="elementor-icon-list-text">Google My Business Optimization</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> Website
-                                                                Maintenance Support</span>
+                                                            <span class="elementor-icon-list-text">Website Maintenance Support</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> 2
-                                                                Conversion-focused Landing Pages</span>
+                                                            <span class="elementor-icon-list-text">2 Conversion-focused Landing Pages</span>
                                                         </li>
-                                                        <li class="elementor-icon-list-item">
+                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text"> Bi-weekly
-                                                                Performance Reports</span>
+                                                            <span class="elementor-icon-list-text">Bi-weekly Performance Reports</span>
                                                         </li>
+                                                        
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-190bad35 e-con-full e-flex e-con e-child"
-                                        data-id="190bad35" data-element_type="container">
-                                        <div class="elementor-element elementor-element-ffafd07 e-con-full e-flex e-con e-child"
-                                            data-id="ffafd07" data-element_type="container"
-                                            data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                            <div class="elementor-element elementor-element-29c1b775 elementor-align-justify elementor-widget elementor-widget-button"
-                                                data-id="29c1b775" data-element_type="widget"
-                                                data-widget_type="button.default">
+                                    <div class="elementor-element elementor-element-190bad35 e-con-full e-flex e-con e-child" data-id="190bad35" data-element_type="container">
+                                        <div class="elementor-element elementor-element-ffafd07 e-con-full e-flex e-con e-child" data-id="ffafd07" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                            <div class="elementor-element elementor-element-29c1b775 elementor-align-justify elementor-widget elementor-widget-button" data-id="29c1b775" data-element_type="widget" data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
-                                                    <div class="elementor-button-wrapper">
-                                                        <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                            href="#">
+                                                    <div class="mycustombutton">
+                                                        <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="#">
                                                             <span class="elementor-button-content-wrapper">
                                                                 <span class="elementor-button-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                         </path>
                                                                     </svg> </span>
                                                                 <span class="elementor-button-text">Select
@@ -1721,15 +1704,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-792a8e8e e-con-full e-flex elementor-invisible e-con e-child"
-                                    data-id="792a8e8e" data-element_type="container"
-                                    data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                    <div class="elementor-element elementor-element-b8ecacb e-flex e-con-boxed e-con e-child"
-                                        data-id="b8ecacb" data-element_type="container">
+                                <div style="border:1px solid #fff;" class="elementor-element elementor-element-792a8e8e e-con-full e-flex e-con e-child animated fadeInUp" data-id="792a8e8e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                                    <div class="elementor-element elementor-element-b8ecacb e-flex e-con-boxed e-con e-child" data-id="b8ecacb" data-element_type="container">
                                         <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-442a788a elementor-widget elementor-widget-heading"
-                                                data-id="442a788a" data-element_type="widget"
-                                                data-widget_type="heading.default">
+                                            <div class="elementor-element elementor-element-442a788a elementor-widget elementor-widget-heading" data-id="442a788a" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h5 class="elementor-heading-title elementor-size-default">
                                                         Premium plan</h5>
@@ -1737,55 +1715,38 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-14e838c2 e-flex e-con-boxed e-con e-child"
-                                        data-id="14e838c2" data-element_type="container">
+                                    <div class="elementor-element elementor-element-14e838c2 e-flex e-con-boxed e-con e-child" data-id="14e838c2" data-element_type="container">
                                         <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-74b8ac4c elementor-widget elementor-widget-heading"
-                                                data-id="74b8ac4c" data-element_type="widget"
-                                                data-widget_type="heading.default">
+                                            <div class="elementor-element elementor-element-74b8ac4c elementor-widget elementor-widget-heading" data-id="74b8ac4c" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h4 class="elementor-heading-title elementor-size-default">
                                                         RM 2,899</h4>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-585d403c elementor-widget elementor-widget-text-editor"
-                                                data-id="585d403c" data-element_type="widget"
-                                                data-widget_type="text-editor.default">
+                                            <div class="elementor-element elementor-element-585d403c elementor-widget elementor-widget-text-editor" data-id="585d403c" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <p>/ month</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-380fc580 e-flex e-con-boxed e-con e-child"
-                                        data-id="380fc580" data-element_type="container">
+                                    <div class="elementor-element elementor-element-380fc580 e-flex e-con-boxed e-con e-child" data-id="380fc580" data-element_type="container">
                                         <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-1acc2005 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                data-id="1acc2005" data-element_type="widget"
-                                                data-widget_type="icon-list.default">
+                                            <div class="elementor-element elementor-element-1acc2005 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1acc2005" data-element_type="widget" data-widget_type="icon-list.default">
                                                 <div class="elementor-widget-container">
                                                     <ul class="elementor-icon-list-items">
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-icon-list-text">Advanced SEO
-                                                                Strategy</span>
+                                                            <span class="elementor-icon-list-text">Advanced SEO Strategy</span>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
                                                             <span class="elementor-icon-list-text">Full Social
@@ -1793,12 +1754,8 @@
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
                                                             <span class="elementor-icon-list-text"> Paid Ads
@@ -1806,12 +1763,8 @@
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
                                                             <span class="elementor-icon-list-text">Custom
@@ -1819,12 +1772,8 @@
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
                                                             <span class="elementor-icon-list-text">
@@ -1832,12 +1781,8 @@
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
                                                             <span class="elementor-icon-list-text"> Graphic
@@ -1845,12 +1790,8 @@
                                                         </li>
                                                         <li class="elementor-icon-list-item">
                                                             <span class="elementor-icon-list-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-check-circle"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
+                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                     </path>
                                                                 </svg> </span>
                                                             <span class="elementor-icon-list-text">Weekly
@@ -1861,26 +1802,16 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-7e4f692b e-con-full e-flex e-con e-child"
-                                        data-id="7e4f692b" data-element_type="container">
-                                        <div class="elementor-element elementor-element-3508eb1f e-con-full e-flex e-con e-child"
-                                            data-id="3508eb1f" data-element_type="container"
-                                            data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                            <div class="elementor-element elementor-element-6ae65119 elementor-align-justify elementor-widget elementor-widget-button"
-                                                data-id="6ae65119" data-element_type="widget"
-                                                data-widget_type="button.default">
+                                    <div class="elementor-element elementor-element-7e4f692b e-con-full e-flex e-con e-child" data-id="7e4f692b" data-element_type="container">
+                                        <div class="elementor-element elementor-element-3508eb1f e-con-full e-flex e-con e-child" data-id="3508eb1f" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                            <div class="elementor-element elementor-element-6ae65119 elementor-align-justify elementor-widget elementor-widget-button" data-id="6ae65119" data-element_type="widget" data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
-                                                    <div class="elementor-button-wrapper">
-                                                        <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                            href="#">
+                                                    <div class="mycustombutton">
+                                                        <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="#">
                                                             <span class="elementor-button-content-wrapper">
                                                                 <span class="elementor-button-icon">
-                                                                    <svg aria-hidden="true"
-                                                                        class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                        viewBox="0 0 512 512"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path
-                                                                            d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                         </path>
                                                                     </svg> </span>
                                                                 <span class="elementor-button-text">Select
@@ -1901,14 +1832,7 @@
                     data-id="53e21ddd" data-element_type="widget"
                     data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_transform_flipX_effect&quot;:&quot;transform&quot;,&quot;_transform_flipY_effect&quot;:&quot;transform&quot;,&quot;_animation&quot;:&quot;fadeInRight&quot;}"
                     data-widget_type="image.default">
-                    <div class="elementor-widget-container">
-                        <img loading="lazy" decoding="async" width="800" height="113"
-                            src="wp-content/uploads/sites/292/2024/11/1-7-1024x145.png"
-                            class="attachment-large size-large wp-image-907" alt=""
-                            srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-1024x145.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-300x43.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-768x109.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-1536x218.png 1536w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7-800x114.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-7.png 1556w"
-                            sizes="(max-width: 800px) 100vw, 800px" />
-                    </div>
-                </div>
+                    
             </div>
         </div>
         <div class="elementor-element elementor-element-3d2b4980 e-flex e-con-boxed e-con e-parent" data-id="3d2b4980"
@@ -1968,11 +1892,9 @@
                                         <div class="elementor-widget-container">
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_11_683073e41efeb">
-                                                <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title">Driving Success With Top<span
-                                                            class=""><span> Digital Marketing
-                                                                Company in Malaysia </span></span></span></h2>
-                                                </div>
+                                                <h2 class="heading-title text-center">
+  Driving Success With Top <span style="color: #C9A8C1;">Digital Marketing Company</span>
+</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -1982,7 +1904,7 @@
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
                                             <p>Partnering with the Best digital marketing agency in Malaysia
-                                                ensuress strategies, and maximum online success.
+                                                ensuress strategies, and maximum success.
                                             </p>
                                         </div>
                                     </div>
@@ -2441,11 +2363,10 @@
                                     <div class="elementor-widget-container">
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_13_683073e42ba32">
-                                            <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">What They Say <span
-                                                        class=""><span>About Us?</span></span>
-                                                </h2>
-                                            </div>
+                                            
+<h4 class="heading-title text-center"> 
+What They Say <span style="color: #C9A8C1;"> About Us? </span>  
+</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -2516,7 +2437,7 @@
                                                                             <p>“Go Viral Digital Marketing
                                                                                 transformed our online presence
                                                                                 and helped us double our sales
-                                                                                within six months.”</p>
+                                                                                within six months with best customer support.”</p>
                                                                         </div>
 
                                                                         <div class="elementskit-commentor-bio">
@@ -2675,8 +2596,7 @@
                                                                                     traffic significantly. The
                                                                                     regular updates and
                                                                                     transparency made the entire
-                                                                                    process seamless and
-                                                                                    effective."</p>
+                                                                                    process seamless"</p>
                                                                             </div>
                                                                         </div>
 
@@ -2722,6 +2642,10 @@
             <div class="elementor-element elementor-element-1f4a113b e-flex e-con-boxed e-con e-parent"
                 data-id="1f4a113b" data-element_type="container">
                 <div class="e-con-inner">
+
+
+
+                
                     <div class="elementor-element elementor-element-53334ea4 e-flex e-con-boxed e-con e-child"
                         data-id="53334ea4" data-element_type="container">
                         <div class="e-con-inner">
@@ -2921,9 +2845,10 @@
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_15_683073e4311ed">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Frequently Asked <span
-                                                        class=""><span>Questions</span></span>
-                                                </h2>
+                                                
+<h4 class="heading-title text-center"> 
+ Frequently <span style="color: #C9A8C1;">Asked Questions</span>  
+</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -2933,9 +2858,7 @@
                                     data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                            ad minim veniam</p>
+                                        <p>We’ve compiled answers to the most common questions our clients ask about digital marketing and SEO services. Whether you're just starting or looking to boost your online visibility, this section will guide you. If your question isn't listed, feel free to ask — we're here to help!</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-1d4ef575 e-con-full e-flex elementor-invisible e-con e-child"
@@ -2948,23 +2871,7 @@
                                             data-id="50a99fa" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                    </path>
-                                                                </svg> </span>
-                                                            <span class="elementor-button-text">See More</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
+                                              
                                             </div>
                                         </div>
                                     </div>
@@ -3003,7 +2910,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-2c461563 e-con-full e-flex e-con e-child"
+                                            <div style="width:200px;" class="elementor-element elementor-element-2c461563 e-con-full e-flex e-con e-child"
                                                 data-id="2c461563" data-element_type="container">
                                                 <div class="elementor-element elementor-element-63f7318c elementor-widget elementor-widget-jkit_heading"
                                                     data-id="63f7318c" data-element_type="widget"
@@ -3014,8 +2921,7 @@
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_16_683073e4327ac">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class=""><span>Our
-                                                                            Blog</span></span></h2>
+                                                                        class=""><span>SEO Agency</span></span></h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3030,11 +2936,12 @@
                                         <div class="elementor-widget-container">
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_17_683073e43308d">
-                                                <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title">Blog &amp; <span
-                                                            class=""><span> Article</span></span>
-                                                    </h2>
-                                                </div>
+                                                <div class="heading-section-title display-inline-block">
+  <h2 class="heading-title">
+    The Proven Process of a 
+    <span style="color: #D4BEE4;">Local SEO Agency</span>
+  </h2>
+</div>
                                             </div>
                                         </div>
                                     </div>
@@ -3043,13 +2950,7 @@
                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>Stay updated with the latest digital marketing trends, expert
-                                                tips, and industry insights. Our blog offers valuable content to
-                                                help you grow your online presence and stay ahead of the
-                                                competition. Dive into practical guides and case studies that
-                                                inspire real results.
-
-                                            </p>
+                                            <p>A proven local SEO process begins with optimizing your Google Business Profile to ensure your business appears in relevant local searches. Next, accurate NAP (Name, Address, Phone) citations are built across trusted directories to strengthen credibility. Our local SEO agency also performs competitor analysis and keyword targeting to capture high-intent local traffic. Consistent review management and location-based content help improve rankings and drive in-store or service-based conversions.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -3068,12 +2969,12 @@
 
                                                         <div class="elementskit-post-image-card">
                                                             <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
+                                                              <div class="elementskit-entry-header">
+    <div class="steps">
+     1st Step
+  </div>
+   
+</div>
 
                                                             </div><!-- .elementskit-entry-header END -->
 
@@ -3082,14 +2983,20 @@
                                                                 <h2 class="entry-title">
                                                                     <a
                                                                         href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Why Content Is The Backbone Of Your
-                                                                        Digital Strategy </a>
+                                                                        Keyword Research </a>
                                                                 </h2>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur
-                                                                    adipiscing elit, sed do eiusmod tempor
-                                                                    incididunt ut labore et dolore magna aliqua.
-                                                                </p>
-                                                                <div class="btn-wraper">
+                                                                <div class="read-more-container">
+    <p class="short-text">
+        Top SEO agency, or supplier of white label SEO services. It directs your content strategy and assists in determining the search terms used by your target audience.  We use tools like SEMrush, Ahrefs, or Moz to find the relevant keywords, as well as their search volume and difficulty. We often use goldilocks keywords which refers to a list of keywords that maintain a hierarchy between realistic competition and traffic relevance. Sort your keywords into: primary keywords, and secondary keywords.
+    </p>
+
+    <p class="full-text" style="display: none;">
+         An SEO agency providing reasonably priced SEO services must have a well-organised keyword strategy. The important terms you wish to rank for are known as primary keywords. Supporting terms that increase context and relevance are known as secondary keywords. SEO helps your website rank higher on search engines, attract more visitors, and grow your business organically over time.
+    </p>
+
+    <button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+</div>
+                                                                <div style="display:none" class="btn-wraper">
                                                                     <a class="elementskit-btn whitespace--normal" id=""
                                                                         href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
                                                                         Learn more <svg aria-hidden="true"
@@ -3110,28 +3017,30 @@
 
                                                         <div class="elementskit-post-image-card">
                                                             <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/29-14.jpg')}}"
-                                                                        alt="How To Run A Successful Google Ads Campaign: A Step-By-Step">
-                                                                </a><!-- .elementskit-entry-thumb END -->
+                                                                
 
                                                             </div><!-- .elementskit-entry-header END -->
-
+<div class="steps">
+     2nd Step
+  </div>
                                                             <div class="elementskit-post-body ">
 
                                                                 <h2 class="entry-title">
                                                                     <a
                                                                         href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                        How To Run A Successful Google Ads
-                                                                        Campaign: A Step-By-Step </a>
+                                                                       Competitors Analysis</a>
                                                                 </h2>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur
-                                                                    adipiscing elit, sed do eiusmod tempor
-                                                                    incididunt ut labore et dolore magna aliqua.
-                                                                </p>
-                                                                <div class="btn-wraper">
+                                                                <div class="read-more-container">
+    <p class="short-text">In the SEO process, assessing your competitors is the next stage. Discovering who dominates the search results for your targeted keywords. Understand their weaknesses, such as lacking relevant backlinks, subpar on-site SEO, and poor content quality.  Apply these insights as benchmarks for your business. Missed keyword opportunities that your website can target can be uncovered through content gap analysis. Every top SEO agency uses this strategy to gain a competitive edge.</p>
+
+    <p class="full-text" style="display: none;">Finally, conduct a backlink evaluation of the main competition to assess the quality and quantity of links required to compete. This analysis helps you build a practical and effective off-site SEO plan based on real data. Studying competitor flaws not only sharpens your SEO strategy but also reveals untapped opportunities, ensuring your website is prepared to rank and perform better in search results.</p>
+
+    <button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+</div>
+                                                    
+        
+    
+                                                                <div style="display:none" class="btn-wraper">
                                                                     <a class="elementskit-btn whitespace--normal" id=""
                                                                         href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
                                                                         Learn more <svg aria-hidden="true"
@@ -3152,28 +3061,170 @@
 
                                                         <div class="elementskit-post-image-card">
                                                             <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/30-11.jpg')}}"
-                                                                        alt="Social Media In 2025: How To Leverage Them For Your Brand">
-                                                                </a><!-- .elementskit-entry-thumb END -->
+                                                               
 
                                                             </div><!-- .elementskit-entry-header END -->
-
+<div class="steps">
+     3rd Step
+  </div>
                                                             <div class="elementskit-post-body ">
 
                                                                 <h2 class="entry-title">
                                                                     <a
                                                                         href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
-                                                                        Social Media In 2025: How To Leverage
-                                                                        Them For Your Brand </a>
+                                                                        Technical SEO</a>
                                                                 </h2>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur
-                                                                    adipiscing elit, sed do eiusmod tempor
-                                                                    incididunt ut labore et dolore magna aliqua.
-                                                                </p>
-                                                                <div class="btn-wraper">
+                                                                <div class="read-more-container">
+    <p class="short-text">Fixing the technical foundation of your website comes next after conducting thorough keyword research. SEO company consider this stage crucial for achieving high rankings for your target keywords. Even with high-quaity content, a website that is slow, unstable, or difficult to navigate will not rank well in search results. Important technical SEO areas include site speed, mobile responsiveness, duplicate content, indexability, and site architecture. An ideal speed of a website is under 2 sec, </p>
+
+    <p class="full-text" style="display: none;">which indicates optimized code and compressed images. Moreover, your website must run efficiently across all devices, and high-quality content is essential to avoid ranking issues. SEO company strongly focuses on technical SEO, especially when offering high-ROI and affordable SEO services. Strong technical groundwork helps increase visibility, improve user experience, and ensures long-term success across all major search engines and platforms.</p>
+
+    <button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+</div>
+                                                                
+                                                                <div style="display:none" class="btn-wraper">
+                                                                    <a class="elementskit-btn whitespace--normal" id=""
+                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
+                                                                        Learn more <svg aria-hidden="true"
+                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                            viewBox="0 0 512 512"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                            </path>
+                                                                        </svg> </a>
+
+                                                                </div>
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-259e45d3 e-flex e-con-boxed e-con e-child"
+                                data-id="259e45d3" data-element_type="container">
+                                <div class="e-con-inner">
+                                    <div class="elementor-element elementor-element-640e645b elementor-invisible elementor-widget elementor-widget-elementskit-blog-posts"
+                                        data-id="640e645b" data-element_type="widget"
+                                        data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
+                                        data-widget_type="elementskit-blog-posts.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="ekit-wid-con">
+                                                <div id="post-items--640e645b" class="row post-items">
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                            <div class="elementskit-entry-header">
+                                                                
+
+                                                            </div><!-- .elementskit-entry-header END -->
+<div class="steps">
+     4th Step
+  </div>
+         
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a
+                                                                        href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
+                                                                        On-Page Content optimisation</a>
+                                                                </h2>
+                                                                <div class="read-more-container">
+    <p class="short-text">Optimizing on-page elements helps search engines understand your content. On-page SEO involves using primary and secondary keywords strategically in headers, body text, image alt tags, titles, and meta tags—without keyword stuffing. A balanced keyword strategy ensures your site ranks well while offering real value to users. The goal is to improve relevance while keeping the content clear and user-friendly. Pages on CMS platforms like WordPress, Shopify, or Webflow can be easily</p>
+
+    <p class="full-text" style="display: none;"> optimized by a top SEO agency in Malaysia.
+A strong content strategy is essential for SEO success. Publishing quality content that meets search intent boosts rankings and traffic. Conduct a content audit and gap analysis to find missed keyword opportunities. Restructure existing pages with pillar content or clusters, and create new material that addresses audience needs. Top SEO agencies rely on this proven approach.</p>
+
+    <button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+</div>
+                                                                <div style="display:none" class="btn-wraper">
+                                                                    <a class="elementskit-btn whitespace--normal" id=""
+                                                                        href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
+                                                                        Learn more <svg aria-hidden="true"
+                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                            viewBox="0 0 512 512"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                            </path>
+                                                                        </svg> </a>
+
+                                                                </div>
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                            <div class="elementskit-entry-header">
+                                                               
+
+                                                            </div><!-- .elementskit-entry-header END -->
+<div class="steps">
+     5th Step
+  </div>
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a
+                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
+                                                                        Local SEO & Link-building</a>
+                                                                </h2>
+                                                                 <div class="read-more-container">
+    <p class="short-text">To increase exposure in location-based searches, local SEO services are essential. A strong strategy boosts both online traffic and in-store visits. Optimising your Google Business Profile (GBP) is the first step. This free tool lets you manage how your business appears on Google Maps and Search—upload images, respond to reviews, and update your address, hours, and website. Backlinks are a major SEO ranking factor that help search engines judge your site's authority.</p>
+
+    <p class="full-text" style="display: none;">Quality links from reputable sources signal trustworthiness and can improve your rankings. Guest posting on niche-relevant websites is a powerful way to gain strong backlinks. Also, review your link profile to remove toxic links and fix any broken ones. By following these steps, you can improve your rankings and pass on maximum link equity to your most important pages. SEO helps your website rank higher on search engines, attract more visitors, and grow your business organically over time.</p>
+
+    <button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+</div>
+                                                                       <div style="display:none" class="btn-wraper">
+                                                                    <a class="elementskit-btn whitespace--normal" id=""
+                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
+                                                                        Learn more <svg aria-hidden="true"
+                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                            viewBox="0 0 512 512"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                            </path>
+                                                                        </svg> </a>
+
+                                                                </div>
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                            <div class="elementskit-entry-header">
+                                                        
+
+                                                            </div><!-- .elementskit-entry-header END -->
+<div class="steps">
+     6th Step
+  </div>
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a
+                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
+                                                                        Reporting & Maintenance</a>
+                                                                </h2>
+                                                                <div class="read-more-container">
+    <p class="short-text">SEO is a continuous cycle of research, testing, and improvement rather than a one-time event. To monitor developments and trouble spots, a clear reporting mechanism is necessary. To identify problems early and maintain long-term outcomes, monitor important metrics like rankings, traffic, and conversions. Every top SEO business depends on a robust reporting system to maintain the effectiveness of their SEO process and provide reliable, top SEO services.</p>
+
+    <p class="full-text" style="display: none;">Regular insights not only help measure performance but also guide strategic decisions for consistent growth. With transparent reporting, businesses stay informed and in control every step of the way. Our SEO experts provide detailed monthly reports, competitor comparisons, keyword performance, and actionable recommendations. This ensures complete clarity and allows you to stay one step ahead of your digital competition with data that drives real results.</p>
+
+    <button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+</div>
+                                                        
+                                                                <div  style="display:none" class="btn-wraper">
                                                                     <a class="elementskit-btn whitespace--normal" id=""
                                                                         href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
                                                                         Learn more <svg aria-hidden="true"
@@ -3202,409 +3253,5 @@
             </div>
         </div>
 
-        <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
-            <div class='footer-width-fixer'>
-                <div data-elementor-type="wp-post" data-elementor-id="305" class="elementor elementor-305">
-                    <div class="elementor-element elementor-element-b7d4e9f e-flex e-con-boxed e-con e-parent"
-                        data-id="b7d4e9f" data-element_type="container">
-                        <div class="e-con-inner">
-                            <div class="elementor-element elementor-element-f9d162b e-flex e-con-boxed e-con e-child"
-                                data-id="f9d162b" data-element_type="container"
-                                data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                <div class="e-con-inner">
-                                    <div class="elementor-element elementor-element-166f2ab e-con-full e-flex e-con e-child"
-                                        data-id="166f2ab" data-element_type="container">
-                                        <div class="elementor-element elementor-element-196373e elementor-widget elementor-widget-jkit_heading"
-                                            data-id="196373e" data-element_type="widget"
-                                            data-widget_type="jkit_heading.default">
-                                            <div class="elementor-widget-container">
-                                                <div
-                                                    class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_18_683073e43a8ce">
-                                                    <div class="heading-section-title  display-inline-block">
-                                                        <h2 class="heading-title">Follow Our <span
-                                                                class="style-color"><span>Newsletter</span></span>
-                                                        </h2>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-8622cd1 e-flex e-con-boxed e-con e-child"
-                                        data-id="8622cd1" data-element_type="container">
-                                        <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-dd54e88 elementor-widget elementor-widget-metform"
-                                                data-id="dd54e88" data-element_type="widget"
-                                                data-widget_type="metform.default">
-                                                <div class="elementor-widget-container">
-                                                    <div id="mf-response-props-id-194" data-previous-steps-style=""
-                                                        data-editswitchopen="" data-response_type="alert"
-                                                        data-erroricon="fas fa-exclamation-triangle"
-                                                        data-successicon="fas fa-check" data-messageposition="top"
-                                                        class="   mf-scroll-top-no">
-                                                        <div class="formpicker_warper formpicker_warper_editable"
-                                                            data-metform-formpicker-key="194">
-
-                                                            <div class="elementor-widget-container">
-
-                                                                <div id="metform-wrap-dd54e88-194"
-                                                                    class="mf-form-wrapper" data-form-id="194"
-                                                                    data-action="https://kitpro.site/fluxco/wp-json/metform/v1/entries/insert/194"
-                                                                    data-wp-nonce="6b5bcd905f"
-                                                                    data-form-nonce="9d4d0dd2de"
-                                                                    data-quiz-summery="false" data-save-progress="false"
-                                                                    data-form-type="contact_form"
-                                                                    data-stop-vertical-effect=""></div>
-
-                                                                <!----------------------------- 
-			* controls_data : find the the props passed indie of data attribute
-			* props.SubmitResponseMarkup : contains the markup of error or success message
-			* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-		--------------------------- -->
-
-                                                                <script type="text/mf" class="mf-template">
-                                                                    function controls_data (value){
-				let currentWrapper = "mf-response-props-id-194";
-				let currentEl = document.getElementById(currentWrapper);
-				
-				return currentEl ? currentEl.dataset[value] : false
-			}
-
-
-			let is_edit_mode = '' ? true : false;
-			let message_position = controls_data('messageposition') || 'top';
-
-			
-			let message_successIcon = controls_data('successicon') || '';
-			let message_errorIcon = controls_data('erroricon') || '';
-			let message_editSwitch = controls_data('editswitchopen') === 'yes' ? true : false;
-			let message_proClass = controls_data('editswitchopen') === 'yes' ? 'mf_pro_activated' : '';
-			
-			let is_dummy_markup = is_edit_mode && message_editSwitch ? true : false;
-
-			
-			return html`
-				<form
-					className="metform-form-content"
-					ref=${parent.formContainerRef}
-					onSubmit=${ validation.handleSubmit( parent.handleFormSubmit ) }
-				
-					>
-			
-			
-					${is_dummy_markup ? message_position === 'top' ?  props.ResponseDummyMarkup(message_successIcon, message_proClass) : '' : ''}
-					${is_dummy_markup ? ' ' :  message_position === 'top' ? props.SubmitResponseMarkup`${parent}${state}${message_successIcon}${message_errorIcon}${message_proClass}` : ''}
-
-					<!--------------------------------------------------------
-					*** IMPORTANT / DANGEROUS ***
-					${html``} must be used as in immediate child of "metform-form-main-wrapper"
-					class otherwise multistep form will not run at all
-					---------------------------------------------------------->
-
-					<div className="metform-form-main-wrapper" key=${'hide-form-after-submit'} ref=${parent.formRef}>
-					${html`
-								<div data-elementor-type="wp-post" key="2" data-elementor-id="194" className="elementor elementor-194">
-				<div className="elementor-element elementor-element-f92be75 e-flex e-con-boxed e-con e-parent" data-id="f92be75" data-element_type="container">
-					<div className="e-con-inner">
-		<div className="elementor-element elementor-element-4989952 e-flex e-con-boxed e-con e-child" data-id="4989952" data-element_type="container">
-					<div className="e-con-inner">
-		<div className="elementor-element elementor-element-0585e85 e-flex e-con-boxed e-con e-child" data-id="0585e85" data-element_type="container">
-					<div className="e-con-inner">
-				<div className="elementor-element elementor-element-a694626 elementor-widget elementor-widget-mf-email" data-id="a694626" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}" data-widget_type="mf-email.default">
-				<div className="elementor-widget-container">
-			
-		<div className="mf-input-wrapper">
-			
-			<input 
-				type="email" 
-				 
-				defaultValue="" 
-				className="mf-input " 
-				id="mf-input-email-a694626" 
-				name="mf-email" 
-				placeholder="${ parent.decodeEntities(`Email`) } " 
-				 
-				onBlur=${parent.handleChange} onFocus=${parent.handleChange} aria-invalid=${validation.errors['mf-email'] ? 'true' : 'false' } 
-				ref=${el=> parent.activateValidation({"message":"This field is required.","emailMessage":"Please enter a valid Email address","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)}
-							/>
-
-						<${validation.ErrorMessage} 
-				errors=${validation.errors} 
-				name="mf-email" 
-				as=${html`<span className="mf-error-message"></span>`}
-			/>
-			
-					</div>
-
-		</div>
-				</div>
-					</div>
-				</div>
-		<div className="elementor-element elementor-element-d2e32b9 e-con-full e-flex e-con e-child" data-id="d2e32b9" data-element_type="container">
-				<div className="elementor-element elementor-element-e4dabb8 mf-btn--justify mf-btn--tablet-justify mf-btn--mobile-justify elementor-widget elementor-widget-mf-button" data-id="e4dabb8" data-element_type="widget" data-widget_type="mf-button.default">
-				<div className="elementor-widget-container">
-					<div className="mf-btn-wraper " data-mf-form-conditional-logic-requirement="">
-							<button type="submit" className="metform-btn metform-submit-btn " id="">
-					<span>${ parent.decodeEntities(`Subscribe`) } </span>
-				</button>
-			        </div>
-        		</div>
-				</div>
-				</div>
-					</div>
-				</div>
-					</div>
-				</div>
-				</div>
-							`}
-					</div>
-
-					${is_dummy_markup ? message_position === 'bottom' ? props.ResponseDummyMarkup(message_successIcon, message_proClass) : '' : ''}
-					${is_dummy_markup ? ' ' : message_position === 'bottom' ? props.SubmitResponseMarkup`${parent}${state}${message_successIcon}${message_errorIcon}${message_proClass}` : ''}
-				
-				</form>
-			`
-		</script>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-element elementor-element-dc8f090 e-flex e-con-boxed e-con e-parent"
-                        data-id="dc8f090" data-element_type="container"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="e-con-inner">
-                            <div class="elementor-element elementor-element-6148ea7 e-flex e-con-boxed e-con e-child"
-                                data-id="6148ea7" data-element_type="container">
-                                <div class="e-con-inner">
-                                    <div class="elementor-element elementor-element-af9e022 e-con-full e-flex e-con e-child"
-                                        data-id="af9e022" data-element_type="container">
-                                        <div class="elementor-element elementor-element-1c7f63a elementor-widget elementor-widget-image"
-                                            data-id="1c7f63a" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <img width="800" height="238"
-                                                    src="wp-content/uploads/sites/292/2024/11/3-1-1024x305.png"
-                                                    class="attachment-large size-large wp-image-943" alt=""
-                                                    decoding="async"
-                                                    srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-1024x305.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-300x89.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-768x229.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-1536x458.png 1536w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-2048x610.png 2048w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/3-1-800x238.png 800w"
-                                                    sizes="(max-width: 800px) 100vw, 800px" />
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-f016da8 elementor-widget elementor-widget-text-editor"
-                                            data-id="f016da8" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                                                    elit tellus, luctus nec ullamcorper mattis.</p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-bf4190a elementor-shape-circle e-grid-align-left e-grid-align-mobile-center elementor-grid-0 elementor-widget elementor-widget-social-icons"
-                                            data-id="bf4190a" data-element_type="widget"
-                                            data-widget_type="social-icons.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-social-icons-wrapper elementor-grid">
-                                                    <span class="elementor-grid-item">
-                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-7f6288d"
-                                                            target="_blank">
-                                                            <span class="elementor-screen-only">Facebook</span>
-                                                            <svg class="e-font-icon-svg e-fab-facebook"
-                                                                viewBox="0 0 512 512"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path
-                                                                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
-                                                                </path>
-                                                            </svg> </a>
-                                                    </span>
-                                                    <span class="elementor-grid-item">
-                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-grow elementor-repeater-item-1099a3a"
-                                                            target="_blank">
-                                                            <span class="elementor-screen-only">Twitter</span>
-                                                            <svg class="e-font-icon-svg e-fab-twitter"
-                                                                viewBox="0 0 512 512"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path
-                                                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
-                                                                </path>
-                                                            </svg> </a>
-                                                    </span>
-                                                    <span class="elementor-grid-item">
-                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-grow elementor-repeater-item-6f93880"
-                                                            target="_blank">
-                                                            <span class="elementor-screen-only">Youtube</span>
-                                                            <svg class="e-font-icon-svg e-fab-youtube"
-                                                                viewBox="0 0 576 512"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path
-                                                                    d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
-                                                                </path>
-                                                            </svg> </a>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-92260bb e-flex e-con-boxed e-con e-child"
-                                        data-id="92260bb" data-element_type="container">
-                                        <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-e50b579 e-con-full e-flex e-con e-child"
-                                                data-id="e50b579" data-element_type="container">
-                                                <div class="elementor-element elementor-element-7787d00 elementor-widget elementor-widget-heading"
-                                                    data-id="7787d00" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <h5 class="elementor-heading-title elementor-size-default">
-                                                            Our Pages</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-79082bd elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                    data-id="79082bd" data-element_type="widget"
-                                                    data-widget_type="icon-list.default">
-                                                    <div class="elementor-widget-container">
-                                                        <ul class="elementor-icon-list-items">
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Home</span>
-                                                            </li>
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">About
-                                                                    Us</span>
-                                                            </li>
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Service</span>
-                                                            </li>
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Pricing</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-44dc489 e-con-full e-flex e-con e-child"
-                                                data-id="44dc489" data-element_type="container">
-                                                <div class="elementor-element elementor-element-ff020b8 elementor-widget elementor-widget-heading"
-                                                    data-id="ff020b8" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <h5 class="elementor-heading-title elementor-size-default">
-                                                            Quick Links</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-48cc2de elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                    data-id="48cc2de" data-element_type="widget"
-                                                    data-widget_type="icon-list.default">
-                                                    <div class="elementor-widget-container">
-                                                        <ul class="elementor-icon-list-items">
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Privacy
-                                                                    Policy</span>
-                                                            </li>
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Term Of
-                                                                    Service</span>
-                                                            </li>
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Disclaimer</span>
-                                                            </li>
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Credits</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-ff32189 e-flex e-con-boxed e-con e-child"
-                                                data-id="ff32189" data-element_type="container">
-                                                <div class="e-con-inner">
-                                                    <div class="elementor-element elementor-element-91d2964 elementor-widget elementor-widget-heading"
-                                                        data-id="91d2964" data-element_type="widget"
-                                                        data-widget_type="heading.default">
-                                                        <div class="elementor-widget-container">
-                                                            <h5 class="elementor-heading-title elementor-size-default">
-                                                                Get In Touch</h5>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-01cb54d elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                        data-id="01cb54d" data-element_type="widget"
-                                                        data-widget_type="icon-list.default">
-                                                        <div class="elementor-widget-container">
-                                                            <ul class="elementor-icon-list-items">
-                                                                <li class="elementor-icon-list-item">
-                                                                    <span class="elementor-icon-list-icon">
-                                                                        <svg aria-hidden="true"
-                                                                            class="e-font-icon-svg e-fas-phone-alt"
-                                                                            viewBox="0 0 512 512"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z">
-                                                                            </path>
-                                                                        </svg> </span>
-                                                                    <span class="elementor-icon-list-text">(+23)
-                                                                        456-867-9008</span>
-                                                                </li>
-                                                                <li class="elementor-icon-list-item">
-                                                                    <span class="elementor-icon-list-icon">
-                                                                        <svg aria-hidden="true"
-                                                                            class="e-font-icon-svg e-fas-envelope"
-                                                                            viewBox="0 0 512 512"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
-                                                                            </path>
-                                                                        </svg> </span>
-                                                                    <span
-                                                                        class="elementor-icon-list-text">fluxco@example.site</span>
-                                                                </li>
-                                                                <li class="elementor-icon-list-item">
-                                                                    <span class="elementor-icon-list-icon">
-                                                                        <svg aria-hidden="true"
-                                                                            class="e-font-icon-svg e-fas-map-marker-alt"
-                                                                            viewBox="0 0 384 512"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
-                                                                            </path>
-                                                                        </svg> </span>
-                                                                    <span class="elementor-icon-list-text">Nusa
-                                                                        Dua, Bali - Indonesia</span>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-element elementor-element-bd18ae7 e-flex e-con-boxed e-con e-parent"
-                        data-id="bd18ae7" data-element_type="container"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="e-con-inner">
-                            <div class="elementor-element elementor-element-0485f30 e-flex e-con-boxed e-con e-child"
-                                data-id="0485f30" data-element_type="container">
-                                <div class="e-con-inner">
-                                    <div class="elementor-element elementor-element-4ccbc73 elementor-widget elementor-widget-text-editor"
-                                        data-id="4ccbc73" data-element_type="widget"
-                                        data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            <p>Copyright © 2025 Go-viral | Powered by Go-viral</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div><!-- #page -->
 
     @endsection

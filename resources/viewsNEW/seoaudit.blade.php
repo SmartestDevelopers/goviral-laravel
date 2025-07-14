@@ -1,25 +1,10 @@
 @extends('layouts.front')
-@section('title', 'Top UI UX Design Agency Malaysia for better Digital Experiences')
-@section('meta_description', 'Transform your digital presence with our leading UI UX design agency Malaysia. We craft user-centric interfaces to elevate user experience.')
 
 @section('content')
 <style>
 		img:is([sizes="auto"i], [sizes^="auto,"i]) {
 			contain-intrinsic-size: 3000px 1500px
 		}
-        
-.mycustombutton{
-border: 1px solid #ffffff !important;  /* white border */
-  border-radius: 8px !important;         /* smooth corners */
-  background-color: transparent !important;  /* optional: makes button transparent */
-  color: #ffffff !important;            /* text color white (you can change if needed) */
-  font-weight: 500;
-}
-.mycustombutton:hover {
-  color:rgb(255, 255, 255) !important;
-  transition: all 0.3s ease;
-}
-
 	</style>
     <link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Feed" href="../../feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Comments Feed"
@@ -620,21 +605,6 @@ border: 1px solid #ffffff !important;  /* white border */
 			})
 		}(jQuery);
 	</script>
-    <script>
-  function toggleContent(btn) {
-    const span = btn.previousElementSibling.querySelector(".more-content");
-    const isHidden = span.style.display === "none";
-
-
-    if (isHidden) {
-      span.style.display = "inline";
-      btn.innerHTML = 'Read less <i class="fas fa-chevron-up"></i>';
-    } else {
-      span.style.display = "none";
-      btn.innerHTML = 'Read more <i class="fas fa-chevron-down"></i>';
-    }
-  }
-</script>
 	<script
 		src="../../wp-content/plugins/template-kit-export/assets/public/template-kit-export-public982a.js?ver=1.0.23"
 		id="template-kit-export-js"></script>
@@ -712,7 +682,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_1_683073e3d52b9">
                                             <div style="  padding-right:10px;"
                                                 class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title"><span class=""><span>UI/UX Design Agency</span></span></h2>
+                                                <h2 class="heading-title"><span class=""><span>SEO Audit Agency</span></span></h2>
                                             </div>
                                         </div>
                                     </div>
@@ -730,8 +700,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h1 style="font-size: 50px;" class="heading-title">UI/UX Design Agency in Malaysia
-<span class=""><span></span></span></h1>
+                                        <h1 style="font-size: 50px;" class="heading-title"> SEO Audit Malaysia:
+<span class=""><span> Identify Ranking Issues Instantly</span></span></h1>
                                     </div>
                                 </div>
                             </div>
@@ -743,8 +713,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <p>As a top UI/UX design firm in Malaysia, Go Viral offers specialised, approachable solutions that increase user engagement and interactions by creating aesthetically beautiful visuals and user-friendly experiences that are suited to your brand's requirements.
-</p>
+                                    <p>Boost your online presence with our free SEO website audit service in Malaysia. Our SEO audit uncovers weaknesses, optimizes strengths, and maximizes visibility for success. We perform 100+ onsite and offsite SEO checks, deliver a complete 360° SEO analysis, and provide a free SEO audit in just 30 seconds — helping you identify what’s holding your site back and how to fix it fast.</p>
                                 </div>
                             </div>
                         </div>
@@ -826,7 +795,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                     data-id="145626e0" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>With years of expertise, we craft high-quality digital experiences that evolve with user needs. Our innovative approach has built long-term relationships with clients.</p>
+                                        <p>As a trusted SEO audit agency, we identify what’s holding your website back. We offer the best SEO audit services with technical and content analysis. Boost visibility with expert insights.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1089,7 +1058,60 @@ border: 1px solid #ffffff !important;  /* white border */
     <div class="elementor-element elementor-element-1265131f e-flex e-con-boxed elementor-invisible e-con e-parent"
         data-id="1265131f" data-element_type="container"
         data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-       
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-7369d99c e-flex e-con-boxed e-con e-child"
+                data-id="7369d99c" data-element_type="container">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-4fefc831 elementor-widget elementor-widget-image-carousel"
+                        data-id="4fefc831" data-element_type="widget"
+                        data-settings="{&quot;slides_to_show&quot;:&quot;5&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;autoplay_speed&quot;:500,&quot;speed&quot;:7000,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:53,&quot;sizes&quot;:[]},&quot;slides_to_show_tablet&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;2&quot;,&quot;slides_to_scroll_tablet&quot;:&quot;1&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;1&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+                        data-widget_type="image-carousel.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+                                <div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="1 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-1.png')}}" alt="1" />
+                                        </figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="2 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-213-1.png')}}"
+                                                alt="logoipsum-213" /></figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="3 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-216-1.png')}}"
+                                                alt="logoipsum-216" /></figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="4 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-217-1.png')}}"
+                                                alt="logoipsum-217" /></figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="5 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-218-1.png')}}"
+                                                alt="logoipsum-218" /></figure>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="elementor-element elementor-element-768d8a73 e-flex e-con-boxed e-con e-parent" data-id="768d8a73"
         data-element_type="container">
@@ -1113,7 +1135,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                         data-id="794e72e9" data-element_type="widget"
                                         data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h5 class="elementor-heading-title elementor-size-default">Why choose us?</h5>
+                                            <h5 class="elementor-heading-title elementor-size-default">Why
+                                                Choose Us?</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -1121,7 +1144,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                     data-id="31b1fa50" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Choose Go Viral, a UI/UX design company in Malaysia offering innovative, user-friendly, and result-driven UI/UX design services that enhance usability, engagement, and digital success.</p>
+                                        <p>Choose the best SEO audit services in Malaysia for expert analysis, technical checks, content overviews, and boosted rankings through our proven strategies.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-4587248f elementor-align-center elementor-widget elementor-widget-button"
@@ -1191,7 +1214,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                                     data-id="38c33e5" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <p>Improved user experience and engagement for 300+ clients successfully.</p>
+                                                        <p> Successfully improved rankings and traffic for 500+ websites through data-driven tactics and professional SEO audits</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1539,7 +1562,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                     <div
                                         class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_5_683073e40c673">
                                         <div class="heading-section-title  display-inline-block">
-                                            <h2 style="font-size: 30px;" class="heading-title">Best <span style="color: #C9A8C1;"> UI/UX Design Agency</span> in Malaysia
+                                            <h2 style="font-size: 30px;" class="heading-title">Best SEO Audit Services in Malaysia
 <span style="font-size: 30px;" class=" "><span></span></span></h2>
                                         </div>
                                     </div>
@@ -1551,7 +1574,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
                                     <div>
-                                        <p>As a leading UI/UX design agency in Malaysia, we craft intuitive, user-friendly websites that blend creativity and data-driven strategy. We focus on delivering seamless user experiences and impressive visual designs that reflect your brand identity and enrich digital engagement across all devices.
+                                        <p>At Go Viral, we deliver the best SEO audit services in Malaysia. We offer expert performance insights, comprehensive data analysis, and technical assessment. Our expert team solves SEO issues, optimises site health, and boosts visibility—helping businesses expand through smarter search tactics and data-driven solutions that deliver measurable outcomes.
+
 </p>
 
                                     </div>
@@ -1566,7 +1590,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="13a55f96" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="mycustombutton">
+                                                <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
                                                         href="#">
                                                         <span class="elementor-button-content-wrapper">
@@ -1579,7 +1603,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                                                         d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-button-text">Contact Us</span>
+                                                            <span class="elementor-button-text">Get Free Website Audit Now!</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1655,8 +1679,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_7_683073e4108be">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h2 class="heading-title"><span style="color: #C9A8C1;"> UI/UX Design Services</span> for Better Engagement
-
+                                        <h2 class="heading-title">Go Viral Offers Best SEO Audit Services Malaysia
 <span
                                                 class=""><span></span></span></h2>
                                     </div>
@@ -1668,7 +1691,7 @@ border: 1px solid #ffffff !important;  /* white border */
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                             data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p>At Go Viral, we craft seamless and intuitive digital experiences that keep users engaged and satisfied. As the Best UI/UX design agency in Malaysia, we focus on user behavior, aesthetic design, and functionality to ensure optimal performance. Our UI/UX design services are tailored to reflect your brand identity and drive long-term success. We deliver expert UI/UX design services in Malaysia that blend creativity, technology, and strategy to achieve real business outcomes.</p>
+                                <p>At Go Viral, our specialised SEO audit services are crafted to deeply analyse your website’s structure, content, and technical elements. As a trusted SEO audit agency in Malaysia, we help identify issues that could be hurting your rankings—like slow site speed, broken links, or weak on-page SEO. Through our expert technical SEO audit services, you receive a clear action plan to boost your site’s visibility, improve user experience, and drive more organic traffic.</p>
                             </div>
                         </div>
                     </div>
@@ -1704,7 +1727,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="7f70002a" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Requirement Analysis 
+                                                <h5 class="elementor-heading-title elementor-size-default">Technical SEO Audit
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-4f08705f elementor-widget elementor-widget-text-editor"
@@ -1713,7 +1736,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             <div class="elementor-widget-container">
                                                 <div class="section">
                                                     <p class="show">
-                                                        <span class="preview">We begin by understanding your business goals, target audience, timeline, and budget to shape effective UI/UX design strategies.</span>
+                                                        <span class="preview">To make sure your website satisfies all technical standards for optimal search engine performance, we examine crawlability, indexing, code structure, mobile friendliness, and site speed.</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -1748,7 +1771,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="73c705b9" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Strategic Planning </h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">On-Page SEO Audit</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-5b71efa8 elementor-widget elementor-widget-text-editor"
@@ -1758,7 +1781,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview">Our team creates a sitemap, defines technologies, and ensures every planning step supports a user-friendly website experience.</span>
+                                                            <span class="preview">To ensure the optimisation of each page for user experience and rankings, we evaluate content quality, keyword usage, meta tags, internal linking, and overall structure. Boost rankings with precise insights.</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1797,7 +1820,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="3aa6d3dc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">UI/UX Design Creation</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">Off-Page SEO Audit</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-88678c2 elementor-widget elementor-widget-text-editor"
@@ -1807,8 +1830,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview"> We design wireframes, select fonts and visuals, and deliver a final design that reflects your unique brand identity.
-
+                                                            <span class="preview">We examine backlink profiles, domain authority, anchor texts, and external signals to evaluate how your website performs outside its own pages in search results. Strengthen visibility with trusted authority.
  </span>
                                                             <span class="more-text"></span>
                                                         </p>
@@ -1847,7 +1869,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="101e2f11" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Long-Term Support</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">UX & Performance Audit</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-17b368c3 elementor-widget elementor-widget-text-editor"
@@ -1857,7 +1879,9 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview">We build, test for performance, and offer ongoing technical support as part of our UI/UX design services in Malaysia.</span>
+                                                            <span class="preview">
+We check mobile-friendliness, navigation, security, and loading times to ensure your website provides a seamless, engaging experience that supports SEO and user retention.
+</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -2482,7 +2506,8 @@ Build Your Custom Plan</button></a></span></p>
             data-element_type="container">
             <div class="e-con-inner">
                 <div class="elementor-element elementor-element-4c7bb9cc e-flex e-con-boxed e-con e-child"
-                    data-id="4c7bb9cc" data-element_type="container">                    <div class="e-con-inner">
+                    data-id="4c7bb9cc" data-element_type="container">
+                    <div class="e-con-inner">
                         <div class="elementor-element elementor-element-696d42b8 e-flex e-con-boxed e-con e-child"
                             data-id="696d42b8" data-element_type="container">
                             <div class="e-con-inner">
@@ -2517,7 +2542,7 @@ Build Your Custom Plan</button></a></span></p>
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_10_683073e41e5c2">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class=""><span>UI/UX Design Company</span></span></h2>
+                                                                        class=""><span>SEO Audit</span></span></h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2533,8 +2558,7 @@ Build Your Custom Plan</button></a></span></p>
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_11_683073e41efeb">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title">Create the Ideal Ambience for Your <span style="color: #C9A8C1;"> UI/UX Design</span>
-<span
+                                                    <h2 class="heading-title">Maximize Your Online Growth with SEO Audit Agency<span
                                                             class=""><span></span></span></span></h2>
                                                 </div>
                                             </div>
@@ -2545,7 +2569,8 @@ Build Your Custom Plan</button></a></span></p>
                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                         data-widget_type="text-editor.default">
                                         <div style="text-align:left," class="elementor-widget-container">
-                                            <p>As a best UI/UX design agency in Malaysia, we guarantee that the art direction of your brand is taken into consideration when designing your website. In order to gain a firm understanding of how we can establish an appropriate mood that complements your brand identity and can evoke the required emotion in your users, we first engage you in our conversation to learn more about your brand, your industry, and your users.</p>
+                                            <p>At Go Viral, we offer expert SEO audit services tailored to uncover and fix critical issues affecting your website's visibility and performance. From technical checks and keyword usage to on-page elements and backlink profiles, our audits cover it all. As a trusted SEO audit agency in Malaysia, we ensure your site is fully optimized to drive more traffic and improve rankings. Let us help you unlock higher search performance and long-term growth.
+</p>
                                         </div>
                                     </div>
                                 </div>
@@ -2573,7 +2598,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        Cut Time and Costs:</h5>
+                                                                       Why Choose Go Viral’s SEO Audit Services</h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2583,7 +2608,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="elementor-widget-container">
                                                                     <div class="section">
                                                                         <div class="content">
-                                                                            <p> Engage a UI/UX design agency early to identify usability issues before development, preventing expensive rework later.</p>
+                                                                            <p>As the best SEO audit agency in Malaysia, we offer expert analysis to uncover hidden opportunities and boost rankings.</p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2647,7 +2672,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                      Enhance Accessibility:</h5>
+                                                                       What Our SEO Audit Services Cover</h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2658,7 +2683,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     <div class="section">
 
                                                                         <div class="content">
-                                                                            <p> UI/UX design ensures inclusive interfaces, improving usability for diverse abilities and strengthening your brand's reputation.</p>
+                                                                            <p>Our SEO audit services analyze technical SEO, content quality, backlinks, and user experience to ensure full search engine compliance and performance.</p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2778,7 +2803,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                      Boost User Engagement: </h5>
+                                                                       Comprehensive SEO Audit in Malaysia</h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2789,7 +2814,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     <div class="section">
 
                                                                         <div class="content">
-                                                                            <p>A UI/UX company in Malaysia crafts interactions that increase visit duration, conversions, and loyalty through immersive design.</p>
+                                                                            <p>Get a free, detailed SEO audit including on-page, off-page, and technical analysis to increase visibility and ranking effortlessly.</p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2851,7 +2876,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                         Strengthen Branding: </h5>
+                                                                        Boost Rankings with the Best SEO Audit Agency</h5>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-6aed7f96 elementor-widget elementor-widget-text-editor"
@@ -2860,7 +2885,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="elementor-widget-container">
                                                                     <div class="section">
                                                                         <div class="content">
-                                                                            <p>Consistent UI/UX design elements build identity, elevate customer loyalty, attract new users, and enhance overall satisfaction and trust.</p>
+                                                                            <p>We fix technical issues, optimize content, and strengthen backlinks through data-driven strategies from the best SEO audit agency in Malaysia.</p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2949,7 +2974,7 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_13_683073e42ba32">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Reviews from Our <span style="color: #C9A8C1;"> Happy Clients<span
+                                                <h2 class="heading-title">Reviews from Our Happy Clients<span
                                                         class=""><span></span></span>
                                                 </h2>
                                             </div>
@@ -3020,7 +3045,7 @@ Build Your Custom Plan</button></a></span></p>
 
                                                                         <div class="elementskit-commentor-content">
                                                                             <!-- Client testimonial -->
-                                                                            <p>“From the start, Go Viral understood our goals. Their PPC campaigns were spot on, and we’re seeing better conversions than ever. Great service from a reliable team!”</p>
+                                                                            <p>“I loved how the audit clearly explained every weak point on our site. Their team gave practical solutions that actually worked. Highly recommended for businesses in Malaysia!”</p>
                                                                         </div>
 
                                                                         <div class="elementskit-commentor-bio">
@@ -3037,7 +3062,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Nadiah, Penang
+                                                                                        class="elementskit-author-name">Jasmine Lee, Penang
 
                                                                                     </strong>
                                                                                     <span
@@ -3094,7 +3119,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 <div
                                                                                     class="elementskit-commentor-content">
                                                                                     <!-- Client testimonial -->
-                                                                                    <p>“Super happy with Go Viral’s pay-per-click services! Their team explained everything clearly and kept me updated. My ROI has improved significantly in just a short time.”</p>
+                                                                                    <p>“The SEO audit from Go Viral was incredibly detailed and helpful. It uncovered technical issues we never noticed before. Now our website loads faster and ranks higher!”</p>
                                                                                 </div>
                                                                             </p>
                                                                         </div>
@@ -3166,9 +3191,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                         <div class="elementskit-commentor-content">
                                                                             <div class="elementskit-commentor-content">
                                                                                 <!-- Client testimonial -->
-                                                                                <p>"Go Viral really helped my brand get noticed. Their PPC strategies brought in quality leads, and I saw results within weeks. Highly recommend their expert team!
-
-"</p>
+                                                                                <p>"As a startup, I wasn’t sure where to begin with SEO. The audit report was thorough, clear, and actionable. Thanks to them, we saw real improvement within weeks."</p>
                                                                             </div>
                                                                         </div>
 
@@ -3186,7 +3209,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Faizal Ahmed, Kuala Lumpur
+                                                                                        class="elementskit-author-name">Ahmed Zafran, Kuala Lumpur
 
                                                                                     </strong>
                                                                                     <span
@@ -3254,7 +3277,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">What is the difference between UI and UX design?</span>
+                                                                <span class="ekit-accordion-title">What is an SEO audit?</span>
 
                                                             </a>
                                                         </div>
@@ -3263,7 +3286,9 @@ Build Your Custom Plan</button></a></span></p>
                                                             aria-labelledby="primaryHeading-0-5447b409"
                                                             data-parent="#accordion-683073e42fec7">
 
-                                                            <div class="elementskit-card-body ekit-accordion--content">UI (User Interface) refers to the visual elements of a product—like buttons, icons, and layouts—while UX (User Experience) focuses on how users interact with those elements and the overall feel of the experience.</p>
+                                                            <div class="elementskit-card-body ekit-accordion--content">
+An SEO audit is a detailed assessment of a website's SEO health, analysing factors like keywords, content, technical aspects, and backlinks to improve its search engine rankings and overall performance.
+</p>
                                                             </div>
 
                                                         </div>
@@ -3290,7 +3315,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">Why is UI/UX design important for my business?
+                                                                <span class="ekit-accordion-title">How long does a technical SEO audit take?
 </span>
 
                                                             </a>
@@ -3301,7 +3326,7 @@ Build Your Custom Plan</button></a></span></p>
                                                             data-parent="#accordion-683073e42fec7">
 
                                                             <div class="elementskit-card-body ekit-accordion--content">
-                                                                <p>A good UI/UX design improves user satisfaction, boosts engagement, and increases conversions. It helps retain customers by making your website or app easy to use, attractive, and efficient
+                                                                <p>Depending on the size and complexity of the website, a technical SEO audit might take anywhere from one to two weeks to complete, including analysis and report writing.
 
 
 
@@ -3332,7 +3357,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">How long does a UI/UX design project typically take?</span>
+                                                                <span class="ekit-accordion-title">What issues are identified in technical SEO audits?</span>
 
                                                             </a>
                                                         </div>
@@ -3342,7 +3367,9 @@ Build Your Custom Plan</button></a></span></p>
                                                             data-parent="#accordion-683073e42fec7">
 
                                                             <div class="elementskit-card-body ekit-accordion--content">
-                                                                <p>The timeline varies depending on the complexity of the project. A basic website might take 2–3 weeks, while a custom platform or app could take 4–8 weeks or more, including research, wireframing, design, feedback, and revisions.</p>
+                                                                <p>A technical SEO audit identifies issues like slow site speed, mobile unfriendliness, broken links, duplicate content, improper redirects, XML sitemap errors, and issues with robots.txt, impacting website performance.
+
+</p>
                                                             </div>
 
                                                         </div>
@@ -3408,7 +3435,8 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_15_683073e4311ed">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Frequently <span style="color: #C9A8C1;">  Asked Questions</span></span>
+                                                <h2 class="heading-title">Frequently Asked <span
+                                                        class=""><span>Questions</span></span>
                                                 </h2>
                                             </div>
                                         </div>
@@ -3419,7 +3447,7 @@ Build Your Custom Plan</button></a></span></p>
                                     data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Looking to enhance your digital presence? The best UI UX company in Malaysia, Go Viral, crafts intuitive designs that engage users and boost brand credibility. We focus on user-centered layouts that improve navigation, satisfaction, and conversions. From startups to enterprises, our designs drive real results across all devices.</p>
+                                        <p>A thorough SEO audit helps identify what’s holding your website back from ranking higher in search engines. It checks technical issues, content quality, and backlink strength. With expert analysis, you can improve visibility, traffic, and overall performance.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-1d4ef575 e-con-full e-flex elementor-invisible e-con e-child"
@@ -3432,7 +3460,23 @@ Build Your Custom Plan</button></a></span></p>
                                             data-id="50a99fa" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
+                                                        href="#">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-icon">
+                                                                <svg aria-hidden="true"
+                                                                    class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                    viewBox="0 0 512 512"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                    </path>
+                                                                </svg> </span>
+                                                            <span class="elementor-button-text">See More</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -3448,239 +3492,12 @@ Build Your Custom Plan</button></a></span></p>
 
             <div class="elementor-element elementor-element-21786894 e-flex e-con-boxed e-con e-parent"
                 data-id="21786894" data-element_type="container">
-                
                 <div class="e-con-inner">
-                    <div class="elementor-element elementor-element-6b4be47a e-flex e-con-boxed e-con e-child"
-                        data-id="6b4be47a" data-element_type="container">
-                        <div class="e-con-inner">
-                            <div class="elementor-element elementor-element-7fad2de6 e-flex e-con-boxed e-con e-child"
-                                data-id="7fad2de6" data-element_type="container">
-                                <div class="e-con-inner">
-                                    <div class="elementor-element elementor-element-51ae9fbb e-con-full e-flex elementor-invisible e-con e-child"
-                                        data-id="51ae9fbb" data-element_type="container"
-                                        data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                        <div style="width:400px;" class="elementor-element elementor-element-4729847f e-con-full e-flex e-con e-child"
-                                            data-id="4729847f" data-element_type="container"
-                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                            <div  class="elementor-element elementor-element-3035d01d e-con-full e-flex e-con e-child"
-                                                data-id="3035d01d" data-element_type="container">
-                                                <div class="elementor-element elementor-element-424a0220 elementor-widget elementor-widget-image"
-                                                    data-id="424a0220" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="800" height="780"
-                                                            src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
-                                                            class="attachment-large size-large wp-image-884" alt=""
-                                                            srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-2c461563 e-con-full e-flex e-con e-child"
-                                                data-id="2c461563" data-element_type="container">
-                                                <div class="elementor-element elementor-element-63f7318c elementor-widget elementor-widget-jkit_heading"
-                                                    data-id="63f7318c" data-element_type="widget"
-                                                    data-settings="{&quot;_animation&quot;:&quot;none&quot;}"
-                                                    data-widget_type="jkit_heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div 
-                                                            class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_16_683073e4327ac">
-                                                            <div class="heading-section-title  display-inline-block">
-                                                                <h2 class="heading-title"><span
-                                                                        class=""><span>UI/UX Design Company Malaysia</span></span></h2>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-39b6c460 elementor-invisible elementor-widget elementor-widget-jkit_heading"
-                                        data-id="39b6c460" data-element_type="widget"
-                                        data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
-                                        data-widget_type="jkit_heading.default">
-                                        <div class="elementor-widget-container">
-                                            <div
-                                                class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_17_683073e43308d">
-                                                <div class="heading-section-title  display-inline-block">
-                                                    <h3 class="heading-title"><span style="color: #C9A8C1;"> Our Design Process:</span> From Vision to Reality
-</span></span>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-6df28a7b elementor-invisible elementor-widget elementor-widget-text-editor"
-                                        data-id="6df28a7b" data-element_type="widget"
-                                        data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
-                                        data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            <p>Go Viral, a trusted UI/UX design agency in Malaysia, follows a systematic and cooperative approach to guarantee that each UI/UX design project fulfils your company objectives, engages your users, and produces visible results. We begin by thoroughly understanding your business goals, user expectations, and industry standards. Our collaborative process ensures that every design decision is user-focused and aligned with your brand identity. From initial research to final execution, we pay close attention to detail, usability, and visual appeal. Whether you're launching a new website or revamping an existing one, we tailor every aspect of our UI/UX strategy to deliver seamless, intuitive, and high-converting digital experiences that drive business success.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-259e45d3 e-flex e-con-boxed e-con e-child"
-                                data-id="259e45d3" data-element_type="container">
-                                <div class="e-con-inner">
-                                    <div class="elementor-element elementor-element-640e645b elementor-invisible elementor-widget elementor-widget-elementskit-blog-posts"
-                                        data-id="640e645b" data-element_type="widget"
-                                        data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
-                                        data-widget_type="elementskit-blog-posts.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="ekit-wid-con">
-                                                <div id="post-items--640e645b" class="row post-items">
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                             <div class="elementskit-entry-header">
-                                                                
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a
-                                                                        href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Analysis of Requirements</a>
-                                                                </h2>
-                                                                <p>To learn more about your website and business goals, we first set up a consultation at a time that works for you. Being an affordable UI/UX company in Malaysia, we offer forms to collect all the information required for your project. This involves defining your objectives, the elements of your website, the expected outcomes, the timeframe, scope, and budget. The creation of a comprehensive proposal guarantees that our expectations are met right away.</p>
-                                                            
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                             <div class="elementskit-entry-header">
-                                                               
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a
-                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                       Making Plans</a>
-                                                                </h2>
-                                                                <p>We start creating a plan for your website using the data from the first stage. This includes creating a sitemap and choosing the appropriate technology, such as whether to utilise a content management system like WordPress. We make sure that every planning detail contributes to the development of a well-organised and user-friendly website as part of our UI/UX design services. This strategic planning lays the foundation for a seamless and impactful user experience.
- 
- </p>
-                                                               
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                          <div class="elementskit-entry-header">
-                                                               
-
-                                                            </div><!-- .elementskit-entry-header END -->
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a
-                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
-                                                                        Design</a>
-                                                                </h2>
-                                                                <p>Our creative team begins working on the user interface (UI) and user experience (UX) strategies as soon as the blueprint is complete. The visual features (like colours, fonts, animations, hovers, and format) are chosen, outlines are designed, and a design that goes with your brand is produced. Once all the changes have been made according to your demand, the final design is forwarded to you for approval. We ensure that every element reflects your brand identity seamlessly.
-</p>
-                                                                
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
-       <div class="e-con-inner">
-                            <div class="elementor-element elementor-element-259e45d3 e-flex e-con-boxed e-con e-child" data-id="259e45d3" data-element_type="container">
-                                <div class="e-con-inner">
-                                    <div class="elementor-element elementor-element-640e645b elementor-widget elementor-widget-elementskit-blog-posts animated fadeInUp" data-id="640e645b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="elementskit-blog-posts.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="ekit-wid-con">
-                                                <div id="post-items--640e645b" class="row post-items">
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                         <div class="elementskit-entry-header">
-                                                              
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Development and Site Test</a>
-                                                                </h2>
-                                                                <p>
-Once  the design is approved, we proceed with development. This includes developing the structure of the website with HTML, CSS, and other technologies, polishing the content, and including visual elements like interactive media, videos, and photographs. We guarantee that, as a leading UI/UX company, you can review the website during the developing process and provide feedback anytime. We test  the website before launching to check the compatibility on different browsers and devices.
-</p>
-                                                                
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                             <div class="elementskit-entry-header">
-                                                               
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                        Launching for Impact</a>
-                                                                </h2>
-                                                                <p>
- After launching your website, our efforts don’t stop there. As your long-term partner, we ensure your site continues to grow and perform. We implement SEO fundamentals like title tags, meta descriptions, keyword optimisation, and link building to enhance visibility. Alongside this, we offer regular maintenance and technical support to keep your website running smoothly as part of our comprehensive UI/UX design services. Our team is here to help your website keeps growing and succeeding.</p>
-                                                               
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                            <div class="elementskit-entry-header">
-                                                                
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">Feedback & Iteration</a>
-                                                                </h2>
-                                                                <p>Even after launch, we believe the design journey continues. At Go Viral, we value client and user feedback to fine-tune your website experience. We monitor user behavior, identify areas for improvement, and iterate designs to ensure lasting engagement. This agile and adaptive approach helps us deliver high-performing, user-centered interfaces that evolve with your business goals, because your success is our ongoing priority. We stay connected to your brand's growth and ensure your digital presence remains impactful.</p>
-                                                        
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+       
 
         <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
             <div class='footer-width-fixer'>

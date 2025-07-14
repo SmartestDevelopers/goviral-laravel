@@ -1,25 +1,10 @@
 @extends('layouts.front')
-@section('title', 'Top UI UX Design Agency Malaysia for better Digital Experiences')
-@section('meta_description', 'Transform your digital presence with our leading UI UX design agency Malaysia. We craft user-centric interfaces to elevate user experience.')
 
 @section('content')
 <style>
 		img:is([sizes="auto"i], [sizes^="auto,"i]) {
 			contain-intrinsic-size: 3000px 1500px
 		}
-        
-.mycustombutton{
-border: 1px solid #ffffff !important;  /* white border */
-  border-radius: 8px !important;         /* smooth corners */
-  background-color: transparent !important;  /* optional: makes button transparent */
-  color: #ffffff !important;            /* text color white (you can change if needed) */
-  font-weight: 500;
-}
-.mycustombutton:hover {
-  color:rgb(255, 255, 255) !important;
-  transition: all 0.3s ease;
-}
-
 	</style>
     <link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Feed" href="../../feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Comments Feed"
@@ -620,21 +605,6 @@ border: 1px solid #ffffff !important;  /* white border */
 			})
 		}(jQuery);
 	</script>
-    <script>
-  function toggleContent(btn) {
-    const span = btn.previousElementSibling.querySelector(".more-content");
-    const isHidden = span.style.display === "none";
-
-
-    if (isHidden) {
-      span.style.display = "inline";
-      btn.innerHTML = 'Read less <i class="fas fa-chevron-up"></i>';
-    } else {
-      span.style.display = "none";
-      btn.innerHTML = 'Read more <i class="fas fa-chevron-down"></i>';
-    }
-  }
-</script>
 	<script
 		src="../../wp-content/plugins/template-kit-export/assets/public/template-kit-export-public982a.js?ver=1.0.23"
 		id="template-kit-export-js"></script>
@@ -712,7 +682,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_1_683073e3d52b9">
                                             <div style="  padding-right:10px;"
                                                 class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title"><span class=""><span>UI/UX Design Agency</span></span></h2>
+                                                <h2 class="heading-title"><span class=""><span>Social Media Agency Malaysia</span></span></h2>
                                             </div>
                                         </div>
                                     </div>
@@ -730,8 +700,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h1 style="font-size: 50px;" class="heading-title">UI/UX Design Agency in Malaysia
-<span class=""><span></span></span></h1>
+                                        <h1 style="font-size: 60px;" class="heading-title">Social Media Marketing<span class=""><span> Agency Malaysia</span></span></h1>
                                     </div>
                                 </div>
                             </div>
@@ -743,8 +712,14 @@ border: 1px solid #ffffff !important;  /* white border */
                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <p>As a top UI/UX design firm in Malaysia, Go Viral offers specialised, approachable solutions that increase user engagement and interactions by creating aesthetically beautiful visuals and user-friendly experiences that are suited to your brand's requirements.
-</p>
+                                    <p>Go Viral is the top digital marketing agency in Malaysia, delivering
+                                        user-friendly, results-driven websites and marketing strategies since
+                                        2008. To help your business thrive online, we are here to provide
+                                        comprehensive website solutions. From SEO and PPC to e-commerce growth,
+                                        we help businesses scale fast. Unlock your brand’s full potential with
+                                        our expert strategies. Let’s Go Viral and take your business to the next
+                                        level!
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -768,7 +743,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                                                 d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                             </path>
                                                         </svg> </span>
-                                                    <span class="elementor-button-text">Get Free Consultation</span>
+                                                    <span class="elementor-button-text">Let's Get Started</span>
                                                 </span>
                                             </a>
                                         </div>
@@ -826,7 +801,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                     data-id="145626e0" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>With years of expertise, we craft high-quality digital experiences that evolve with user needs. Our innovative approach has built long-term relationships with clients.</p>
+                                        <p>Helping local brands thrive with strategic social media marketing. GoViral, a social media marketing company in Malaysia, helps businesses grow and reach their goals — standing by them every step of the way.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1089,7 +1064,60 @@ border: 1px solid #ffffff !important;  /* white border */
     <div class="elementor-element elementor-element-1265131f e-flex e-con-boxed elementor-invisible e-con e-parent"
         data-id="1265131f" data-element_type="container"
         data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-       
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-7369d99c e-flex e-con-boxed e-con e-child"
+                data-id="7369d99c" data-element_type="container">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-4fefc831 elementor-widget elementor-widget-image-carousel"
+                        data-id="4fefc831" data-element_type="widget"
+                        data-settings="{&quot;slides_to_show&quot;:&quot;5&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;autoplay_speed&quot;:500,&quot;speed&quot;:7000,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:53,&quot;sizes&quot;:[]},&quot;slides_to_show_tablet&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;2&quot;,&quot;slides_to_scroll_tablet&quot;:&quot;1&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;1&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+                        data-widget_type="image-carousel.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+                                <div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="1 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-1.png')}}" alt="1" />
+                                        </figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="2 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-213-1.png')}}"
+                                                alt="logoipsum-213" /></figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="3 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-216-1.png')}}"
+                                                alt="logoipsum-216" /></figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="4 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-217-1.png')}}"
+                                                alt="logoipsum-217" /></figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="5 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-218-1.png')}}"
+                                                alt="logoipsum-218" /></figure>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="elementor-element elementor-element-768d8a73 e-flex e-con-boxed e-con e-parent" data-id="768d8a73"
         data-element_type="container">
@@ -1113,7 +1141,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                         data-id="794e72e9" data-element_type="widget"
                                         data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h5 class="elementor-heading-title elementor-size-default">Why choose us?</h5>
+                                            <h5 class="elementor-heading-title elementor-size-default">Why
+                                                Choose Us?</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -1121,7 +1150,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                     data-id="31b1fa50" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Choose Go Viral, a UI/UX design company in Malaysia offering innovative, user-friendly, and result-driven UI/UX design services that enhance usability, engagement, and digital success.</p>
+                                        <p>Partner with Malaysia's leading social media marketing agency, and watch your brand’s engagement grow among your ideal audience, and multiply your reach across all social media platforms. We are a strategic partner who craft powerful, data-driven campaigns that boost your brand’s full potential and maxmize conversions.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-4587248f elementor-align-center elementor-widget elementor-widget-button"
@@ -1139,7 +1168,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                                                 d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                             </path>
                                                         </svg> </span>
-                                                    <span class="elementor-button-text">Get Free Consultation</span>
+                                                    <span class="elementor-button-text">Learn More</span>
                                                 </span>
                                             </a>
                                         </div>
@@ -1191,7 +1220,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                                     data-id="38c33e5" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <p>Improved user experience and engagement for 300+ clients successfully.</p>
+                                                        <p>We are proud of our achievements and the impact we’ve created through innovative work,  dedication, and efficiency. </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1539,8 +1568,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                     <div
                                         class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_5_683073e40c673">
                                         <div class="heading-section-title  display-inline-block">
-                                            <h2 style="font-size: 30px;" class="heading-title">Best <span style="color: #C9A8C1;"> UI/UX Design Agency</span> in Malaysia
-<span style="font-size: 30px;" class=" "><span></span></span></h2>
+                                            <h2 style="font-size: 30px;" class="heading-title">See What Makes Us
+                                                The Top <br> Social Media Marketing Company<span style="font-size: 30px;" class=" "> Malaysia<span></span></span></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -1551,8 +1580,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
                                     <div>
-                                        <p>As a leading UI/UX design agency in Malaysia, we craft intuitive, user-friendly websites that blend creativity and data-driven strategy. We focus on delivering seamless user experiences and impressive visual designs that reflect your brand identity and enrich digital engagement across all devices.
-</p>
+                                        <p>Our social media marketing agency in Malaysia helps you build your brand over time by using compelling brand stories and high-quality content. As a social media agency, we help you create strong and enduring relationships with your targated audience, increase trust, engagement, and visibility across all platforms.
+                                        </p>
 
                                     </div>
                                 </div>
@@ -1566,7 +1595,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="13a55f96" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="mycustombutton">
+                                                <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
                                                         href="#">
                                                         <span class="elementor-button-content-wrapper">
@@ -1579,7 +1608,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                                         d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-button-text">Contact Us</span>
+                                                            <span class="elementor-button-text">Learn
+                                                                More</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1655,9 +1685,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_7_683073e4108be">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h2 class="heading-title"><span style="color: #C9A8C1;"> UI/UX Design Services</span> for Better Engagement
-
-<span
+                                        <h2 class="heading-title">How social media marketing Agency works? <span
                                                 class=""><span></span></span></h2>
                                     </div>
                                 </div>
@@ -1668,7 +1696,7 @@ border: 1px solid #ffffff !important;  /* white border */
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                             data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p>At Go Viral, we craft seamless and intuitive digital experiences that keep users engaged and satisfied. As the Best UI/UX design agency in Malaysia, we focus on user behavior, aesthetic design, and functionality to ensure optimal performance. Our UI/UX design services are tailored to reflect your brand identity and drive long-term success. We deliver expert UI/UX design services in Malaysia that blend creativity, technology, and strategy to achieve real business outcomes.</p>
+                                <p>In today’s fast-evolving digital world, stand‌ing out on social media isn't easy, but as Malaysia's top social media marketing agency , we precisely deliver what you need. We help businesses build a strong online presence through our data-driven campaigns, budget strategies, and optimizing platform performances. Here’s how we do it:</p>
                             </div>
                         </div>
                     </div>
@@ -1704,7 +1732,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="7f70002a" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Requirement Analysis 
+                                                <h5 class="elementor-heading-title elementor-size-default">Paid Ad Campaigns
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-4f08705f elementor-widget elementor-widget-text-editor"
@@ -1713,7 +1741,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                             <div class="elementor-widget-container">
                                                 <div class="section">
                                                     <p class="show">
-                                                        <span class="preview">We begin by understanding your business goals, target audience, timeline, and budget to shape effective UI/UX design strategies.</span>
+                                                        <span class="preview">We run social media ad campaigns to produce </span>
+                                                        <span class="more-text">  measurable outcomes by understanding brand goals and crafting creative, targeted ads with catchy copy - increases engagement, sales, and visibility</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -1748,7 +1777,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="73c705b9" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Strategic Planning </h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">
+                                                    Budget Management         </h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-5b71efa8 elementor-widget elementor-widget-text-editor"
@@ -1758,7 +1788,9 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview">Our team creates a sitemap, defines technologies, and ensures every planning step supports a user-friendly website experience.</span>
+                                                            <span class="preview">Effective budget management ensures your funds are spent wisely by analyzing performance </span>
+                                                            <span class="more-text"> and allocating budget to top-performing campaigns. We use cost-effective tactics to maximise ROI across platforms. 
+</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1797,7 +1829,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="3aa6d3dc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">UI/UX Design Creation</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">Platform Management</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-88678c2 elementor-widget elementor-widget-text-editor"
@@ -1807,10 +1839,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview"> We design wireframes, select fonts and visuals, and deliver a final design that reflects your unique brand identity.
-
- </span>
-                                                            <span class="more-text"></span>
+                                                            <span class="preview">All social media platforms are unique, and have different optimisation strategies. </span>
+                                                            <span class="more-text">  We tailor platform-specific strategies to ensure strong, consistent brand visibility, with experts monitoring posts, interactions, and insights.</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1847,7 +1877,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="101e2f11" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Long-Term Support</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">Strategy and Planning</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-17b368c3 elementor-widget elementor-widget-text-editor"
@@ -1857,7 +1887,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview">We build, test for performance, and offer ongoing technical support as part of our UI/UX design services in Malaysia.</span>
+                                                            <span class="preview">Social media marketing agency follows a detailed strategy & planning approach.</span>
+                                                            <span class="more-text"> Our strategic and data-driven execution ensures that every post and campaign aligns with brand goals and engages your ideal audience.</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1872,7 +1903,7 @@ border: 1px solid #ffffff !important;  /* white border */
             </div>
         </div>
 
-        <div  style="display:none;"         class="elementor-element elementor-element-1fce4e90 e-flex e-con-boxed e-con e-parent" data-id="1fce4e90"
+        <div class="elementor-element elementor-element-1fce4e90 e-flex e-con-boxed e-con e-parent" data-id="1fce4e90"
             data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="e-con-inner">
                 <div class="elementor-element elementor-element-41750a9f e-flex e-con-boxed e-con e-child"
@@ -1942,23 +1973,7 @@ border: 1px solid #ffffff !important;  /* white border */
 From strategic planning to creative visuals — we provide a Social Media Specialist, Copywriter, Graphics Designer, and an Account Manager to ensure smooth communication and results. OR you can make your customized package<br>
 
 <div class="elementor-widget-container">
-                                                        <div class="build_your_custom_plan elementor-button-wrapper">
-                                                            <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                                href="#">
-                                                                <span class="elementor-button-content-wrapper">
-                                                                    <span class="elementor-button-icon">
-                                                                        <svg aria-hidden="true"
-                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                            viewBox="0 0 512 512"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                            </path>
-                                                                        </svg> </span>
-                                                                    <span class="elementor-button-text">Build your custom plan</span>
-                                                                </span>
-                                                            </a>
-                                                        </div>
+                                                    
                                                     </div>
 
 <span>
@@ -1967,7 +1982,7 @@ Build Your Custom Plan</button></a></span></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-50b9b9e7 e-flex e-con-boxed e-con e-child"
+                        <div  class="elementor-element elementor-element-50b9b9e7 e-flex e-con-boxed e-con e-child"
                             data-id="50b9b9e7" data-element_type="container">
                             <div  class="e-con-inner">
                                 <div style="border:1px solid #fff;" class="elementor-element elementor-element-c7031b8 e-flex e-con-boxed elementor-invisible e-con e-child"
@@ -1995,7 +2010,7 @@ Build Your Custom Plan</button></a></span></p>
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <h4 class="elementor-heading-title elementor-size-default">
-                                                            RM 2,200–4,400
+                                                            RM 1,000
                                                         </h4>
                                                     </div>
                                                 </div>
@@ -2026,7 +2041,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                             d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text">Review monitoring</span>
+                                                                <span class="elementor-icon-list-text">Single Account Manager, Specialist, Copywriter, and a Graphic Designer</span>
                                                             </li>
                                                             <li class="elementor-icon-list-item">
                                                                 <span class="elementor-icon-list-icon">
@@ -2038,7 +2053,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                             d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
                                                                         </path>
                                                                     </svg> </span>
-                                                                <span class="elementor-icon-list-text">Alert setup</span>
+                                                                <span class="elementor-icon-list-text"> 6 High-Quality Posts</span>
                                                             </li>
                                                             
                                                             <li class="elementor-icon-list-item">
@@ -2482,7 +2497,8 @@ Build Your Custom Plan</button></a></span></p>
             data-element_type="container">
             <div class="e-con-inner">
                 <div class="elementor-element elementor-element-4c7bb9cc e-flex e-con-boxed e-con e-child"
-                    data-id="4c7bb9cc" data-element_type="container">                    <div class="e-con-inner">
+                    data-id="4c7bb9cc" data-element_type="container">
+                    <div class="e-con-inner">
                         <div class="elementor-element elementor-element-696d42b8 e-flex e-con-boxed e-con e-child"
                             data-id="696d42b8" data-element_type="container">
                             <div class="e-con-inner">
@@ -2517,7 +2533,7 @@ Build Your Custom Plan</button></a></span></p>
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_10_683073e41e5c2">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class=""><span>UI/UX Design Company</span></span></h2>
+                                                                        class=""><span>Why Choose Social Media Marketing Agency</span></span></h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2533,8 +2549,7 @@ Build Your Custom Plan</button></a></span></p>
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_11_683073e41efeb">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title">Create the Ideal Ambience for Your <span style="color: #C9A8C1;"> UI/UX Design</span>
-<span
+                                                    <h2 class="heading-title">Social Media Management Process:<span
                                                             class=""><span></span></span></span></h2>
                                                 </div>
                                             </div>
@@ -2545,7 +2560,8 @@ Build Your Custom Plan</button></a></span></p>
                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                         data-widget_type="text-editor.default">
                                         <div style="text-align:left," class="elementor-widget-container">
-                                            <p>As a best UI/UX design agency in Malaysia, we guarantee that the art direction of your brand is taken into consideration when designing your website. In order to gain a firm understanding of how we can establish an appropriate mood that complements your brand identity and can evoke the required emotion in your users, we first engage you in our conversation to learn more about your brand, your industry, and your users.</p>
+                                            <p>Our Social Media Marketing Services help your brand grow over time with high-quality content and engaging brand stories, building brand awareness by increasing fans and followers, which drives consumer decisions and boosts word of mouth and referrals, making your brand the talk of the town. We create strong relationships through consistent engagement, encouraging real interactions like likes, comments, and shares, which enhance your brand’s visibility and trust. Additionally, we increase website exposure and data collection by driving quality traffic and generating leads, which ultimately contributes to higher sales and long-term business growth.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -2573,7 +2589,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        Cut Time and Costs:</h5>
+                                                                        Expert Social Media Management Services</h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2583,7 +2599,9 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="elementor-widget-container">
                                                                     <div class="section">
                                                                         <div class="content">
-                                                                            <p> Engage a UI/UX design agency early to identify usability issues before development, preventing expensive rework later.</p>
+                                                                            <p>
+                                                                                Assign a dedicated social media manager to conduct market research, create a custom strategy, and execute effective marketing campaigns
+                                                                            </p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2647,7 +2665,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                      Enhance Accessibility:</h5>
+                                                                        Social media marketing – content planning </h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2658,7 +2676,9 @@ Build Your Custom Plan</button></a></span></p>
                                                                     <div class="section">
 
                                                                         <div class="content">
-                                                                            <p> UI/UX design ensures inclusive interfaces, improving usability for diverse abilities and strengthening your brand's reputation.</p>
+                                                                            <p>
+                                                                                As a professional marketing company, we create monthly content calendars and targeted ads for your approval before publishing them across multiple platforms.
+                                                                            </p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2778,7 +2798,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                      Boost User Engagement: </h5>
+                                                                       Custom Social Media Strategy Development</h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2789,7 +2809,8 @@ Build Your Custom Plan</button></a></span></p>
                                                                     <div class="section">
 
                                                                         <div class="content">
-                                                                            <p>A UI/UX company in Malaysia crafts interactions that increase visit duration, conversions, and loyalty through immersive design.</p>
+                                                                            <p>We assist in creating a social media strategy with competitive analysis, brand voice, content planning, conversion-driven funnels, and advertising
+                                                                            </p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2851,7 +2872,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                         Strengthen Branding: </h5>
+                                                                        Social Media Reporting & Maintenance </h5>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-6aed7f96 elementor-widget elementor-widget-text-editor"
@@ -2860,7 +2881,9 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="elementor-widget-container">
                                                                     <div class="section">
                                                                         <div class="content">
-                                                                            <p>Consistent UI/UX design elements build identity, elevate customer loyalty, attract new users, and enhance overall satisfaction and trust.</p>
+                                                                            <p>
+                                                                                We handle daily social media activity with 24-hour responses and provide monthly performance reports to improve results through key insights.
+                                                                            </p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2949,7 +2972,7 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_13_683073e42ba32">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Reviews from Our <span style="color: #C9A8C1;"> Happy Clients<span
+                                                <h2 class="heading-title">Reviews from Our Happy Clients<span
                                                         class=""><span></span></span>
                                                 </h2>
                                             </div>
@@ -3020,7 +3043,7 @@ Build Your Custom Plan</button></a></span></p>
 
                                                                         <div class="elementskit-commentor-content">
                                                                             <!-- Client testimonial -->
-                                                                            <p>“From the start, Go Viral understood our goals. Their PPC campaigns were spot on, and we’re seeing better conversions than ever. Great service from a reliable team!”</p>
+                                                                            <p>“Go Viral took us from having no digital presence to trending in our industry. Phenomenal experience!”</p>
                                                                         </div>
 
                                                                         <div class="elementskit-commentor-bio">
@@ -3037,7 +3060,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Nadiah, Penang
+                                                                                        class="elementskit-author-name">Sarah Lim, Boutique Owner
 
                                                                                     </strong>
                                                                                     <span
@@ -3094,7 +3117,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 <div
                                                                                     class="elementskit-commentor-content">
                                                                                     <!-- Client testimonial -->
-                                                                                    <p>“Super happy with Go Viral’s pay-per-click services! Their team explained everything clearly and kept me updated. My ROI has improved significantly in just a short time.”</p>
+                                                                                    <p>“They ranked our site and boosted our social media marketing platform's traffic. A full-service agency that actually delivers.”</p>
                                                                                 </div>
                                                                             </p>
                                                                         </div>
@@ -3113,7 +3136,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Nur Aisyah, Selangor</strong>
+                                                                                        class="elementskit-author-name">Liyana Mahathir, Online Retailer</strong>
                                                                                     <span
                                                                                         class="elementskit-author-des">Our
                                                                                         Client</span>
@@ -3166,9 +3189,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                         <div class="elementskit-commentor-content">
                                                                             <div class="elementskit-commentor-content">
                                                                                 <!-- Client testimonial -->
-                                                                                <p>"Go Viral really helped my brand get noticed. Their PPC strategies brought in quality leads, and I saw results within weeks. Highly recommend their expert team!
-
-"</p>
+                                                                                <p>"They didn’t just help — they transformed how people see us online. If you're a new brand, their social media strategies are a game changer."</p>
                                                                             </div>
                                                                         </div>
 
@@ -3186,7 +3207,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Faizal Ahmed, Kuala Lumpur
+                                                                                        class="elementskit-author-name">Amira Zulkifli, Fitness Coach
 
                                                                                     </strong>
                                                                                     <span
@@ -3254,7 +3275,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">What is the difference between UI and UX design?</span>
+                                                                <span class="ekit-accordion-title">What is social media marketing and how does it work?</span>
 
                                                             </a>
                                                         </div>
@@ -3263,7 +3284,9 @@ Build Your Custom Plan</button></a></span></p>
                                                             aria-labelledby="primaryHeading-0-5447b409"
                                                             data-parent="#accordion-683073e42fec7">
 
-                                                            <div class="elementskit-card-body ekit-accordion--content">UI (User Interface) refers to the visual elements of a product—like buttons, icons, and layouts—while UX (User Experience) focuses on how users interact with those elements and the overall feel of the experience.</p>
+                                                            <div class="elementskit-card-body ekit-accordion--content">
+                                                                <p>Social media marketing is the process of using platforms like Facebook, Instagram, and TikTok to promote your brand through targeted content and paid ads — it works by engaging your ideal audience, building brand trust, and ultimately driving traffic, leads, and sales for your business.
+</p>
                                                             </div>
 
                                                         </div>
@@ -3290,8 +3313,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">Why is UI/UX design important for my business?
-</span>
+                                                                <span class="ekit-accordion-title">Why should I use social media, and do ads really work?</span>
 
                                                             </a>
                                                         </div>
@@ -3301,9 +3323,7 @@ Build Your Custom Plan</button></a></span></p>
                                                             data-parent="#accordion-683073e42fec7">
 
                                                             <div class="elementskit-card-body ekit-accordion--content">
-                                                                <p>A good UI/UX design improves user satisfaction, boosts engagement, and increases conversions. It helps retain customers by making your website or app easy to use, attractive, and efficient
-
-
+                                                                <p>With billions of people active on social media, it's one of the most effective ways to connect with your audience, build brand awareness, and grow your business — and yes, social media ads work by delivering excellent ROI and helping your brand reach the right people at the right time.
 
 </p>
                                                             </div>
@@ -3332,7 +3352,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">How long does a UI/UX design project typically take?</span>
+                                                                <span class="ekit-accordion-title"> Are social media ads expensive, and do they actually work?</span>
 
                                                             </a>
                                                         </div>
@@ -3342,7 +3362,9 @@ Build Your Custom Plan</button></a></span></p>
                                                             data-parent="#accordion-683073e42fec7">
 
                                                             <div class="elementskit-card-body ekit-accordion--content">
-                                                                <p>The timeline varies depending on the complexity of the project. A basic website might take 2–3 weeks, while a custom platform or app could take 4–8 weeks or more, including research, wireframing, design, feedback, and revisions.</p>
+                                                                <p>Not at all. Social media advertising is cost-effective and offers great ROI. Your total cost depends on your goals, budget, and how quickly you want to see results. When done right, they effectively reach your target audience and drive real results—boosting traffic, engagement, and sales.
+
+</p>
                                                             </div>
 
                                                         </div>
@@ -3408,7 +3430,8 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_15_683073e4311ed">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Frequently <span style="color: #C9A8C1;">  Asked Questions</span></span>
+                                                <h2 class="heading-title">Frequently Asked <span
+                                                        class=""><span>Questions</span></span>
                                                 </h2>
                                             </div>
                                         </div>
@@ -3419,7 +3442,7 @@ Build Your Custom Plan</button></a></span></p>
                                     data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Looking to enhance your digital presence? The best UI UX company in Malaysia, Go Viral, crafts intuitive designs that engage users and boost brand credibility. We focus on user-centered layouts that improve navigation, satisfaction, and conversions. From startups to enterprises, our designs drive real results across all devices.</p>
+                                        <p>We handle everything — from content creation to posting and ads, so you can focus on running your business. Get consistent posts, more engagement, and monthly performance reports — all done for you.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-1d4ef575 e-con-full e-flex elementor-invisible e-con e-child"
@@ -3432,7 +3455,23 @@ Build Your Custom Plan</button></a></span></p>
                                             data-id="50a99fa" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
+                                                        href="#">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-icon">
+                                                                <svg aria-hidden="true"
+                                                                    class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                    viewBox="0 0 512 512"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                    </path>
+                                                                </svg> </span>
+                                                            <span class="elementor-button-text">See More</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -3448,7 +3487,6 @@ Build Your Custom Plan</button></a></span></p>
 
             <div class="elementor-element elementor-element-21786894 e-flex e-con-boxed e-con e-parent"
                 data-id="21786894" data-element_type="container">
-                
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-6b4be47a e-flex e-con-boxed e-con e-child"
                         data-id="6b4be47a" data-element_type="container">
@@ -3459,10 +3497,10 @@ Build Your Custom Plan</button></a></span></p>
                                     <div class="elementor-element elementor-element-51ae9fbb e-con-full e-flex elementor-invisible e-con e-child"
                                         data-id="51ae9fbb" data-element_type="container"
                                         data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                        <div style="width:400px;" class="elementor-element elementor-element-4729847f e-con-full e-flex e-con e-child"
+                                        <div class="elementor-element elementor-element-4729847f e-con-full e-flex e-con e-child"
                                             data-id="4729847f" data-element_type="container"
                                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                            <div  class="elementor-element elementor-element-3035d01d e-con-full e-flex e-con e-child"
+                                            <div class="elementor-element elementor-element-3035d01d e-con-full e-flex e-con e-child"
                                                 data-id="3035d01d" data-element_type="container">
                                                 <div class="elementor-element elementor-element-424a0220 elementor-widget elementor-widget-image"
                                                     data-id="424a0220" data-element_type="widget"
@@ -3482,11 +3520,11 @@ Build Your Custom Plan</button></a></span></p>
                                                     data-settings="{&quot;_animation&quot;:&quot;none&quot;}"
                                                     data-widget_type="jkit_heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <div 
+                                                        <div
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_16_683073e4327ac">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class=""><span>UI/UX Design Company Malaysia</span></span></h2>
+                                                                        class=""><span>SMM Agency Malaysia</span></span></h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3502,9 +3540,11 @@ Build Your Custom Plan</button></a></span></p>
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_17_683073e43308d">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h3 class="heading-title"><span style="color: #C9A8C1;"> Our Design Process:</span> From Vision to Reality
+                                                    <h2 class="heading-title"> <span
+                                                            class=""><span>Top Social Media Marketing Agency in Kuala Lumpur That Drives Real Results
+
 </span></span>
-                                                    </h3>
+                                                    </h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -3514,7 +3554,8 @@ Build Your Custom Plan</button></a></span></p>
                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>Go Viral, a trusted UI/UX design agency in Malaysia, follows a systematic and cooperative approach to guarantee that each UI/UX design project fulfils your company objectives, engages your users, and produces visible results. We begin by thoroughly understanding your business goals, user expectations, and industry standards. Our collaborative process ensures that every design decision is user-focused and aligned with your brand identity. From initial research to final execution, we pay close attention to detail, usability, and visual appeal. Whether you're launching a new website or revamping an existing one, we tailor every aspect of our UI/UX strategy to deliver seamless, intuitive, and high-converting digital experiences that drive business success.</p>
+                                            <p>As the best social media marketing agency in Kuala Lumpur, Malaysia, we can help you shine with our social media management services on Facebook, Instagram, and other platforms, With the help of our experts, we will position your business to go viral and increase sales.
+Every agency says to work together. It's what we live by. We will work closely with you to find a solution, no matter how you need it. You get lively conversations instead of presentations. We examine data and user insights to improve your brand’s visibility and attract loyal users. By analyzing user behavior and KPIs, we deliver monthly reports and actionable strategies for continuous growth.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -3532,8 +3573,13 @@ Build Your Custom Plan</button></a></span></p>
                                                     <div class="col-lg-4 col-md-6">
 
                                                         <div class="elementskit-post-image-card">
-                                                             <div class="elementskit-entry-header">
-                                                                
+                                                            <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
+                                                                </a><!-- .elementskit-entry-thumb END -->
 
                                                             </div><!-- .elementskit-entry-header END -->
 
@@ -3542,10 +3588,11 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <h2 class="entry-title">
                                                                     <a
                                                                         href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Analysis of Requirements</a>
+                                                                        Connecting Brands with Passionate Fans </a>
                                                                 </h2>
-                                                                <p>To learn more about your website and business goals, we first set up a consultation at a time that works for you. Being an affordable UI/UX company in Malaysia, we offer forms to collect all the information required for your project. This involves defining your objectives, the elements of your website, the expected outcomes, the timeframe, scope, and budget. The creation of a comprehensive proposal guarantees that our expectations are met right away.</p>
-                                                            
+                                                                <p>Having a social media presence is not enough; you also need an audience-engaging strategy. Being the top social media marketing company in Malaysia, we use data-driven insights, original content, and focused campaigns to help businesses establish strong relationships with their customers. We ensure that your brand remains current and appeals to the correct audience by creating visually appealing content, monitoring engagement, and assessing results.  By working with us now, you can step up your social media game!
+</p>
+                                                               
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
 
@@ -3553,8 +3600,13 @@ Build Your Custom Plan</button></a></span></p>
                                                     <div class="col-lg-4 col-md-6">
 
                                                         <div class="elementskit-post-image-card">
-                                                             <div class="elementskit-entry-header">
-                                                               
+                                                            <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/29-14.jpg')}}"
+                                                                        alt="How To Run A Successful Google Ads Campaign: A Step-By-Step">
+                                                                </a><!-- .elementskit-entry-thumb END -->
 
                                                             </div><!-- .elementskit-entry-header END -->
 
@@ -3563,11 +3615,109 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <h2 class="entry-title">
                                                                     <a
                                                                         href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                       Making Plans</a>
+                                                                        Information, Planning, &ementation</a>
                                                                 </h2>
-                                                                <p>We start creating a plan for your website using the data from the first stage. This includes creating a sitemap and choosing the appropriate technology, such as whether to utilise a content management system like WordPress. We make sure that every planning detail contributes to the development of a well-organised and user-friendly website as part of our UI/UX design services. This strategic planning lays the foundation for a seamless and impactful user experience.
+                                                                <p>We use a data-driven approach to drive every strategic choice we make. Instead of relying on feeling, we use data and facts. Through the examination of your first, second, and third-party data, we are skilled to conduct a comprehensive audit of your current situation, covering your digital marketing activities, the actions of your competitors, and identifying your exact target audience. This will allow us to create and implement a plan that will benefit your company in the long run.
  
  </p>
+                                                                
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                            <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/30-11.jpg')}}"
+                                                                        alt="Social Media In 2025: How To Leverage Them For Your Brand">
+                                                                </a><!-- .elementskit-entry-thumb END -->
+
+                                                            </div><!-- .elementskit-entry-header END -->
+
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a
+                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
+                                                                        Seamless Customer Journeys</a>
+                                                                </h2>
+                                                                <p>No matter where your audience engages, a channel-agnostic strategy guarantees a seamless and effective customer journey, leading them towards a purchase. whether your customers spend time on Facebook, Instagram, TikTok, or other platforms, your brand is always available to them, offering correct information, exciting interactions, and a smooth experience. We assist you in connecting with your audience by implementing an integrated digital marketing plan, converting frequent visitors into devoted clients.  </p>
+                                                             
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-259e45d3 e-flex e-con-boxed e-con e-child"
+                                data-id="259e45d3" data-element_type="container">
+                                <div class="e-con-inner">
+                                    <div class="elementor-element elementor-element-640e645b elementor-invisible elementor-widget elementor-widget-elementskit-blog-posts"
+                                        data-id="640e645b" data-element_type="widget"
+                                        data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
+                                        data-widget_type="elementskit-blog-posts.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="ekit-wid-con">
+                                                <div id="post-items--640e645b" class="row post-items">
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                            <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
+                                                                </a><!-- .elementskit-entry-thumb END -->
+
+                                                            </div><!-- .elementskit-entry-header END -->
+
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a
+                                                                        href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
+                                                                         Innovative Copywriting 
+</a>
+                                                                </h2>
+                                                                <p>The most important factor in product promotion is copywriting. Lame results are simply unacceptable. With highly relevant content, we will amaze the people that visit your social media pages. Our experts deliver bold, engaging, and user-centred content that is impossible to ignore and can grab the attention of your targeted audience. Our professionally written words are tailored to reflect your brand’s image. Let's drive real results through our top social media marketing agency in Malaysia because social media speaks volumes.
+ </p>
+                                                                
+                                                            </div><!-- .elementskit-post-body END -->
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+
+                                                        <div class="elementskit-post-image-card">
+                                                            <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/29-14.jpg')}}"
+                                                                        alt="How To Run A Successful Google Ads Campaign: A Step-By-Step">
+                                                                </a><!-- .elementskit-entry-thumb END -->
+
+                                                            </div><!-- .elementskit-entry-header END -->
+
+                                                            <div class="elementskit-post-body ">
+
+                                                                <h2 class="entry-title">
+                                                                    <a
+                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
+                                                                        Increase Reach through Influencer</a>
+                                                                </h2>
+                                                                <p>Adaptability is crucial in the rapidly changing digital world of today, and we are excellent at it. Although knowing your customer's journey is useful, it's not always clear how they will find your product or service. Paid social methods can help with it. We use media and influencer amplification in conjunction with a data-driven strategy and creative know-how to effectively realise brand's message. We guarantee more engagement, deeper connections, and sustained company success by implementing a consistent and engaging brand story across all consumer touchpoints. 
+
+</p>
                                                                
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
@@ -3576,25 +3726,29 @@ Build Your Custom Plan</button></a></span></p>
                                                     <div class="col-lg-4 col-md-6">
 
                                                         <div class="elementskit-post-image-card">
-                                                          <div class="elementskit-entry-header">
-                                                               
+                                                            <div class="elementskit-entry-header">
+                                                                <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/30-11.jpg')}}"
+                                                                        alt="Social Media In 2025: How To Leverage Them For Your Brand">
+                                                                </a><!-- .elementskit-entry-thumb END -->
 
                                                             </div><!-- .elementskit-entry-header END -->
+
                                                             <div class="elementskit-post-body ">
 
                                                                 <h2 class="entry-title">
                                                                     <a
                                                                         href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
-                                                                        Design</a>
+                                                                        Social Account Set Up</a>
                                                                 </h2>
-                                                                <p>Our creative team begins working on the user interface (UI) and user experience (UX) strategies as soon as the blueprint is complete. The visual features (like colours, fonts, animations, hovers, and format) are chosen, outlines are designed, and a design that goes with your brand is produced. Once all the changes have been made according to your demand, the final design is forwarded to you for approval. We ensure that every element reflects your brand identity seamlessly.
-</p>
+                                                                <p> An optimised social media account setup is crucial for the foundation of any social media presence. At our social media marketing agency in Malaysia, we make sure to  build profiles that start performing from day one. We set up all necessary factors, from selecting the appropriate platform to writing captivating bios and brand-representative visuals. We are responsible for every detail, from choosing a username to setting up your business information to linking your website and also setting up communication tools to answer any query. </p>
                                                                 
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
 
                                                     </div>
-                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -3606,81 +3760,6 @@ Build Your Custom Plan</button></a></span></p>
                 </div>
             </div>
         </div>
-       <div class="e-con-inner">
-                            <div class="elementor-element elementor-element-259e45d3 e-flex e-con-boxed e-con e-child" data-id="259e45d3" data-element_type="container">
-                                <div class="e-con-inner">
-                                    <div class="elementor-element elementor-element-640e645b elementor-widget elementor-widget-elementskit-blog-posts animated fadeInUp" data-id="640e645b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="elementskit-blog-posts.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="ekit-wid-con">
-                                                <div id="post-items--640e645b" class="row post-items">
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                         <div class="elementskit-entry-header">
-                                                              
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Development and Site Test</a>
-                                                                </h2>
-                                                                <p>
-Once  the design is approved, we proceed with development. This includes developing the structure of the website with HTML, CSS, and other technologies, polishing the content, and including visual elements like interactive media, videos, and photographs. We guarantee that, as a leading UI/UX company, you can review the website during the developing process and provide feedback anytime. We test  the website before launching to check the compatibility on different browsers and devices.
-</p>
-                                                                
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                             <div class="elementskit-entry-header">
-                                                               
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                        Launching for Impact</a>
-                                                                </h2>
-                                                                <p>
- After launching your website, our efforts don’t stop there. As your long-term partner, we ensure your site continues to grow and perform. We implement SEO fundamentals like title tags, meta descriptions, keyword optimisation, and link building to enhance visibility. Alongside this, we offer regular maintenance and technical support to keep your website running smoothly as part of our comprehensive UI/UX design services. Our team is here to help your website keeps growing and succeeding.</p>
-                                                               
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                            <div class="elementskit-entry-header">
-                                                                
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">Feedback & Iteration</a>
-                                                                </h2>
-                                                                <p>Even after launch, we believe the design journey continues. At Go Viral, we value client and user feedback to fine-tune your website experience. We monitor user behavior, identify areas for improvement, and iterate designs to ensure lasting engagement. This agile and adaptive approach helps us deliver high-performing, user-centered interfaces that evolve with your business goals, because your success is our ongoing priority. We stay connected to your brand's growth and ensure your digital presence remains impactful.</p>
-                                                        
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
         <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
             <div class='footer-width-fixer'>

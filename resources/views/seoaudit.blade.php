@@ -1,10 +1,49 @@
 @extends('layouts.front')
 
+@section('title', 'Professional SEO Audit Services Malaysia for Better Rankings')
+@section('meta_description', 'Boost your website’s performance with expert SEO audit services in Malaysia. Our in-depth analysis identifies issues, and rank higher on search engines.')
+
 @section('content')
 <style>
 		img:is([sizes="auto"i], [sizes^="auto,"i]) {
 			contain-intrinsic-size: 3000px 1500px
 		}
+        .swiper-slide {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  justify-content: center;
+  flex-direction: row; /* Align icon and text horizontally */
+  gap: 10px; /* Space between the icon and the text */
+  text-align: center;
+  font-size: 24px;
+  color:rgb(225, 185, 255); /* Light Lilac Color */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.swiper-slide i {
+  font-size: 30px; /* Make icon bigger */
+}
+
+.swiper-slide h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.mycustombutton{
+ border: 1px solid white;
+
+  border-radius: 8px !important;         /* smooth corners */
+  background-color: transparent !important;  /* optional: makes button transparent */
+  color: #ffffff !important;            /* text color white (you can change if needed) */
+  font-weight: 500;
+}
+.mycustombutton:hover {
+  color:rgb(255, 255, 255) !important;
+  transition: all 0.3s ease;
+}
+
 	</style>
     <link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Feed" href="../../feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Comments Feed"
@@ -605,6 +644,21 @@
 			})
 		}(jQuery);
 	</script>
+    <script>
+  function toggleContent(btn) {
+    const span = btn.previousElementSibling.querySelector(".more-content");
+    const isHidden = span.style.display === "none";
+
+
+    if (isHidden) {
+      span.style.display = "inline";
+      btn.innerHTML = 'Read less <i class="fas fa-chevron-up"></i>';
+    } else {
+      span.style.display = "none";
+      btn.innerHTML = 'Read more <i class="fas fa-chevron-down"></i>';
+    }
+  }
+</script>
 	<script
 		src="../../wp-content/plugins/template-kit-export/assets/public/template-kit-export-public982a.js?ver=1.0.23"
 		id="template-kit-export-js"></script>
@@ -700,8 +754,8 @@
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h1 style="font-size: 50px;" class="heading-title"> SEO Audit Malaysia:
-<span class=""><span> Identify Ranking Issues Instantly</span></span></h1>
+                                        <h1 style="font-size: 70px;" class="heading-title heading-title text-center"> <span style="color: #C9A8C1;">SEO Audit Malaysia:</span>  Identify Ranking Issues Instantly
+</h1></h1>
                                     </div>
                                 </div>
                             </div>
@@ -1071,38 +1125,37 @@
                                 <div class="elementor-image-carousel swiper-wrapper" aria-live="off">
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="1 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-1.png')}}" alt="1" />
-                                        </figure>
+                                         <div class="swiper-slide">
+      <i class="fab fa-wix"></i>
+      <h4>Wix</h4>
+    </div>
                                     </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="2 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-213-1.png')}}"
-                                                alt="logoipsum-213" /></figure>
+                                       <div class="swiper-slide">
+      <i class="fab fa-wordpress"></i>
+      <h4>WordPress</h4>
+    </div>
                                     </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="3 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-216-1.png')}}"
-                                                alt="logoipsum-216" /></figure>
+                                        <div class="swiper-slide">
+      <i class="fab fa-figma"></i>
+      <h4>Figma</h4>
+    </div>
                                     </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="4 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-217-1.png')}}"
-                                                alt="logoipsum-217" /></figure>
-                                    </div>
+                                        <div class="swiper-slide">
+      <i class="fab fa-shopify"></i>
+      <h4>Shopify</h4>
+    </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="5 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-218-1.png')}}"
-                                                alt="logoipsum-218" /></figure>
+                                        <div class="swiper-slide">
+      <i class="fab fa-weebly"></i>
+      <h4>Weebly</h4>
+    </div>
                                     </div>
                                 </div>
 
@@ -1590,7 +1643,7 @@
                                             data-id="13a55f96" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
+                                                <div class=" mycustombutton">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
                                                         href="#">
                                                         <span class="elementor-button-content-wrapper">
@@ -1603,7 +1656,7 @@
                                                                         d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-button-text">Get Free Website Audit Now!</span>
+                                                            <span class="elementor-button-text">Get Free Audit</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -2542,7 +2595,7 @@ Build Your Custom Plan</button></a></span></p>
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_10_683073e41e5c2">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class=""><span>SEO Audit</span></span></h2>
+                                                                        class=""><span>SEO Audit Agency</span></span></h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2558,8 +2611,9 @@ Build Your Custom Plan</button></a></span></p>
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_11_683073e41efeb">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title">Maximize Your Online Growth with SEO Audit Agency<span
-                                                            class=""><span></span></span></span></h2>
+                                                   <h2 class="heading-title text-center">
+  Maximize Your Growth with <span style="color: #C9A8C1;">SEO Audit Agency</span>
+</h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -2974,7 +3028,7 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_13_683073e42ba32">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Reviews from Our Happy Clients<span
+                                                <h2 class="heading-title">Reviews from Our  <span style="color: #C9A8C1;"> Happy Clients</span><span
                                                         class=""><span></span></span>
                                                 </h2>
                                             </div>
@@ -3191,7 +3245,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                         <div class="elementskit-commentor-content">
                                                                             <div class="elementskit-commentor-content">
                                                                                 <!-- Client testimonial -->
-                                                                                <p>"As a startup, I wasn’t sure where to begin with SEO. The audit report was thorough, clear, and actionable. Thanks to them, we saw real improvement within weeks."</p>
+                                                                                <p>"As a startup, I wasn’t sure where to begin with SEO. The audit report was thorough, clear, and actionable. Thanks to them, we saw real improvement within two months."</p>
                                                                             </div>
                                                                         </div>
 
@@ -3435,8 +3489,7 @@ An SEO audit is a detailed assessment of a website's SEO health, analysing facto
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_15_683073e4311ed">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Frequently Asked <span
-                                                        class=""><span>Questions</span></span>
+                                                <h2 class="heading-title">Frequently  <span style="color: #C9A8C1;">Asked Questions</span></span>
                                                 </h2>
                                             </div>
                                         </div>
@@ -3460,23 +3513,7 @@ An SEO audit is a detailed assessment of a website's SEO health, analysing facto
                                             data-id="50a99fa" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                    </path>
-                                                                </svg> </span>
-                                                            <span class="elementor-button-text">See More</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -3493,226 +3530,7 @@ An SEO audit is a detailed assessment of a website's SEO health, analysing facto
             <div class="elementor-element elementor-element-21786894 e-flex e-con-boxed e-con e-parent"
                 data-id="21786894" data-element_type="container">
                 <div class="e-con-inner">
-                    <div class="elementor-element elementor-element-6b4be47a e-flex e-con-boxed e-con e-child"
-                        data-id="6b4be47a" data-element_type="container">
-                        <div class="e-con-inner">
-                            <div class="elementor-element elementor-element-7fad2de6 e-flex e-con-boxed e-con e-child"
-                                data-id="7fad2de6" data-element_type="container">
-                                <div class="e-con-inner">
-                                    <div class="elementor-element elementor-element-51ae9fbb e-con-full e-flex elementor-invisible e-con e-child"
-                                        data-id="51ae9fbb" data-element_type="container"
-                                        data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                        <div class="elementor-element elementor-element-4729847f e-con-full e-flex e-con e-child"
-                                            data-id="4729847f" data-element_type="container"
-                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                            <div class="elementor-element elementor-element-3035d01d e-con-full e-flex e-con e-child"
-                                                data-id="3035d01d" data-element_type="container">
-                                                <div class="elementor-element elementor-element-424a0220 elementor-widget elementor-widget-image"
-                                                    data-id="424a0220" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="800" height="780"
-                                                            src="wp-content/uploads/sites/292/2024/11/1-6-1024x998.png"
-                                                            class="attachment-large size-large wp-image-884" alt=""
-                                                            srcset="https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png 1024w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-300x292.png 300w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-768x749.png 768w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6-800x780.png 800w, https://kitpro.site/fluxco/wp-content/uploads/sites/292/2024/11/1-6.png 1196w"
-                                                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-2c461563 e-con-full e-flex e-con e-child"
-                                                data-id="2c461563" data-element_type="container">
-                                                <div class="elementor-element elementor-element-63f7318c elementor-widget elementor-widget-jkit_heading"
-                                                    data-id="63f7318c" data-element_type="widget"
-                                                    data-settings="{&quot;_animation&quot;:&quot;none&quot;}"
-                                                    data-widget_type="jkit_heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_16_683073e4327ac">
-                                                            <div class="heading-section-title  display-inline-block">
-                                                                <h2 class="heading-title"><span
-                                                                        class=""><span>Our
-                                                                            Blog</span></span></h2>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-39b6c460 elementor-invisible elementor-widget elementor-widget-jkit_heading"
-                                        data-id="39b6c460" data-element_type="widget"
-                                        data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
-                                        data-widget_type="jkit_heading.default">
-                                        <div class="elementor-widget-container">
-                                            <div
-                                                class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_17_683073e43308d">
-                                                <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title">Blog &amp; <span
-                                                            class=""><span> Article</span></span>
-                                                    </h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-6df28a7b elementor-invisible elementor-widget elementor-widget-text-editor"
-                                        data-id="6df28a7b" data-element_type="widget"
-                                        data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
-                                        data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            <p>Stay updated with the latest digital marketing trends, expert
-                                                tips, and industry insights. Our blog offers valuable content to
-                                                help you grow your online presence and stay ahead of the
-                                                competition. Dive into practical guides and case studies that
-                                                inspire real results.
-
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-259e45d3 e-flex e-con-boxed e-con e-child"
-                                data-id="259e45d3" data-element_type="container">
-                                <div class="e-con-inner">
-                                    <div class="elementor-element elementor-element-640e645b elementor-invisible elementor-widget elementor-widget-elementskit-blog-posts"
-                                        data-id="640e645b" data-element_type="widget"
-                                        data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
-                                        data-widget_type="elementskit-blog-posts.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="ekit-wid-con">
-                                                <div id="post-items--640e645b" class="row post-items">
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                            <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a
-                                                                        href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Why Content Is The Backbone Of Your
-                                                                        Digital Strategy </a>
-                                                                </h2>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur
-                                                                    adipiscing elit, sed do eiusmod tempor
-                                                                    incididunt ut labore et dolore magna aliqua.
-                                                                </p>
-                                                                <div class="btn-wraper">
-                                                                    <a class="elementskit-btn whitespace--normal" id=""
-                                                                        href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Learn more <svg aria-hidden="true"
-                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                            viewBox="0 0 512 512"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                            </path>
-                                                                        </svg> </a>
-
-                                                                </div>
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                            <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/29-14.jpg')}}"
-                                                                        alt="How To Run A Successful Google Ads Campaign: A Step-By-Step">
-                                                                </a><!-- .elementskit-entry-thumb END -->
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a
-                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                        How To Run A Successful Google Ads
-                                                                        Campaign: A Step-By-Step </a>
-                                                                </h2>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur
-                                                                    adipiscing elit, sed do eiusmod tempor
-                                                                    incididunt ut labore et dolore magna aliqua.
-                                                                </p>
-                                                                <div class="btn-wraper">
-                                                                    <a class="elementskit-btn whitespace--normal" id=""
-                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                        Learn more <svg aria-hidden="true"
-                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                            viewBox="0 0 512 512"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                            </path>
-                                                                        </svg> </a>
-
-                                                                </div>
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6">
-
-                                                        <div class="elementskit-post-image-card">
-                                                            <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/30-11.jpg')}}"
-                                                                        alt="Social Media In 2025: How To Leverage Them For Your Brand">
-                                                                </a><!-- .elementskit-entry-thumb END -->
-
-                                                            </div><!-- .elementskit-entry-header END -->
-
-                                                            <div class="elementskit-post-body ">
-
-                                                                <h2 class="entry-title">
-                                                                    <a
-                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
-                                                                        Social Media In 2025: How To Leverage
-                                                                        Them For Your Brand </a>
-                                                                </h2>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur
-                                                                    adipiscing elit, sed do eiusmod tempor
-                                                                    incididunt ut labore et dolore magna aliqua.
-                                                                </p>
-                                                                <div class="btn-wraper">
-                                                                    <a class="elementskit-btn whitespace--normal" id=""
-                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
-                                                                        Learn more <svg aria-hidden="true"
-                                                                            class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                            viewBox="0 0 512 512"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                            </path>
-                                                                        </svg> </a>
-
-                                                                </div>
-                                                            </div><!-- .elementskit-post-body END -->
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>

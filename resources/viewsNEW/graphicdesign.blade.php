@@ -1,25 +1,10 @@
 @extends('layouts.front')
-@section('title', 'Top UI UX Design Agency Malaysia for better Digital Experiences')
-@section('meta_description', 'Transform your digital presence with our leading UI UX design agency Malaysia. We craft user-centric interfaces to elevate user experience.')
 
 @section('content')
 <style>
 		img:is([sizes="auto"i], [sizes^="auto,"i]) {
 			contain-intrinsic-size: 3000px 1500px
 		}
-        
-.mycustombutton{
-border: 1px solid #ffffff !important;  /* white border */
-  border-radius: 8px !important;         /* smooth corners */
-  background-color: transparent !important;  /* optional: makes button transparent */
-  color: #ffffff !important;            /* text color white (you can change if needed) */
-  font-weight: 500;
-}
-.mycustombutton:hover {
-  color:rgb(255, 255, 255) !important;
-  transition: all 0.3s ease;
-}
-
 	</style>
     <link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Feed" href="../../feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Comments Feed"
@@ -620,21 +605,6 @@ border: 1px solid #ffffff !important;  /* white border */
 			})
 		}(jQuery);
 	</script>
-    <script>
-  function toggleContent(btn) {
-    const span = btn.previousElementSibling.querySelector(".more-content");
-    const isHidden = span.style.display === "none";
-
-
-    if (isHidden) {
-      span.style.display = "inline";
-      btn.innerHTML = 'Read less <i class="fas fa-chevron-up"></i>';
-    } else {
-      span.style.display = "none";
-      btn.innerHTML = 'Read more <i class="fas fa-chevron-down"></i>';
-    }
-  }
-</script>
 	<script
 		src="../../wp-content/plugins/template-kit-export/assets/public/template-kit-export-public982a.js?ver=1.0.23"
 		id="template-kit-export-js"></script>
@@ -712,7 +682,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_1_683073e3d52b9">
                                             <div style="  padding-right:10px;"
                                                 class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title"><span class=""><span>UI/UX Design Agency</span></span></h2>
+                                                <h2 class="heading-title"><span class=""><span>Graphic Design Agency</span></span></h2>
                                             </div>
                                         </div>
                                     </div>
@@ -730,7 +700,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h1 style="font-size: 50px;" class="heading-title">UI/UX Design Agency in Malaysia
+                                        <h1 style="font-size: 50px;" class="heading-title"> Graphic Design Agency in Malaysia Delivering Creative Branding Solutions
 <span class=""><span></span></span></h1>
                                     </div>
                                 </div>
@@ -743,8 +713,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                 data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <p>As a top UI/UX design firm in Malaysia, Go Viral offers specialised, approachable solutions that increase user engagement and interactions by creating aesthetically beautiful visuals and user-friendly experiences that are suited to your brand's requirements.
-</p>
+                                    <p>Searching for a creative and successful graphic design agency in Malaysia? Our team creates powerful images for your company under the direction of a famous graphic designer in Malaysia. Whether you need a graphic design artist in Malaysia for logos, branding, or marketing, we turn ideas into powerful designs.our graphic designing services includes: brochure and banner designs, logo or business card design, poster designs, and much more to elevate your brand identity.</p>
                                 </div>
                             </div>
                         </div>
@@ -826,7 +795,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                     data-id="145626e0" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>With years of expertise, we craft high-quality digital experiences that evolve with user needs. Our innovative approach has built long-term relationships with clients.</p>
+                                        <p>At Go Viral, we transform creative ideas into impactful visual designs that connect with your audience. Our graphic design services include brochures, banners, logos, business cards, and posters tailored to your brand. With a focus on quality and creativity, we help your brand stand out in a competitive market.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1089,7 +1058,60 @@ border: 1px solid #ffffff !important;  /* white border */
     <div class="elementor-element elementor-element-1265131f e-flex e-con-boxed elementor-invisible e-con e-parent"
         data-id="1265131f" data-element_type="container"
         data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-       
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-7369d99c e-flex e-con-boxed e-con e-child"
+                data-id="7369d99c" data-element_type="container">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-4fefc831 elementor-widget elementor-widget-image-carousel"
+                        data-id="4fefc831" data-element_type="widget"
+                        data-settings="{&quot;slides_to_show&quot;:&quot;5&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;autoplay_speed&quot;:500,&quot;speed&quot;:7000,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:53,&quot;sizes&quot;:[]},&quot;slides_to_show_tablet&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;2&quot;,&quot;slides_to_scroll_tablet&quot;:&quot;1&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;1&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+                        data-widget_type="image-carousel.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+                                <div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="1 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-1.png')}}" alt="1" />
+                                        </figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="2 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-213-1.png')}}"
+                                                alt="logoipsum-213" /></figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="3 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-216-1.png')}}"
+                                                alt="logoipsum-216" /></figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="4 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-217-1.png')}}"
+                                                alt="logoipsum-217" /></figure>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
+                                        aria-label="5 of 5">
+                                        <figure class="swiper-slide-inner"><img decoding="async"
+                                                class="swiper-slide-image"
+                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-218-1.png')}}"
+                                                alt="logoipsum-218" /></figure>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="elementor-element elementor-element-768d8a73 e-flex e-con-boxed e-con e-parent" data-id="768d8a73"
         data-element_type="container">
@@ -1121,7 +1143,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                     data-id="31b1fa50" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Choose Go Viral, a UI/UX design company in Malaysia offering innovative, user-friendly, and result-driven UI/UX design services that enhance usability, engagement, and digital success.</p>
+                                        <p>Work with a top-rated graphic design agency in Malaysia featuring expert graphic design artists, brand identity designer, and professional logo design services tailored for your business.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-4587248f elementor-align-center elementor-widget elementor-widget-button"
@@ -1191,7 +1213,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                                     data-id="38c33e5" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <p>Improved user experience and engagement for 300+ clients successfully.</p>
+                                                        <p>Achieved 500+ successful projects as a top graphic design company in Malaysia, boosting brand identity.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1539,8 +1561,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                     <div
                                         class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_5_683073e40c673">
                                         <div class="heading-section-title  display-inline-block">
-                                            <h2 style="font-size: 30px;" class="heading-title">Best <span style="color: #C9A8C1;"> UI/UX Design Agency</span> in Malaysia
-<span style="font-size: 30px;" class=" "><span></span></span></h2>
+                                            <h2 style="font-size: 30px;" class="heading-title">Graphic Design Company for Complete Branding Solutions
                                         </div>
                                     </div>
                                 </div>
@@ -1551,7 +1572,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                 data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
                                     <div>
-                                        <p>As a leading UI/UX design agency in Malaysia, we craft intuitive, user-friendly websites that blend creativity and data-driven strategy. We focus on delivering seamless user experiences and impressive visual designs that reflect your brand identity and enrich digital engagement across all devices.
+                                        <p>Go Viral is a top-rated graphic design company in Malaysia, home to expert graphic design artists, a famous designer, and a skilled brand identity designer. We specialise in Malaysia logo design, brand visuals, and creative strategies that strengthen identity, drive engagement, and deliver measurable success for businesses across industries.
+
 </p>
 
                                     </div>
@@ -1566,7 +1588,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="13a55f96" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="mycustombutton">
+                                                <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
                                                         href="#">
                                                         <span class="elementor-button-content-wrapper">
@@ -1579,7 +1601,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                                                         d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                                     </path>
                                                                 </svg> </span>
-                                                            <span class="elementor-button-text">Contact Us</span>
+                                                            <span class="elementor-button-text">Get Free Consultation!</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1655,7 +1677,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_7_683073e4108be">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h2 class="heading-title"><span style="color: #C9A8C1;"> UI/UX Design Services</span> for Better Engagement
+                                        <h2 class="heading-title">Graphic Design Services for Every Business
 
 <span
                                                 class=""><span></span></span></h2>
@@ -1668,7 +1690,7 @@ border: 1px solid #ffffff !important;  /* white border */
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                             data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p>At Go Viral, we craft seamless and intuitive digital experiences that keep users engaged and satisfied. As the Best UI/UX design agency in Malaysia, we focus on user behavior, aesthetic design, and functionality to ensure optimal performance. Our UI/UX design services are tailored to reflect your brand identity and drive long-term success. We deliver expert UI/UX design services in Malaysia that blend creativity, technology, and strategy to achieve real business outcomes.</p>
+                                <p>We deliver expert brand design, custom logo creation, and impactful marketing visuals that elevate your brand identity and drive audience engagement. Our graphic design services in Malaysia are tailored to reflect your business values and make a lasting impression. From brochures and business cards to banners and social media graphics, we ensure consistency and creativity across all platforms. Whether you're a startup or an established brand, our designs help you stand out, connect with your audience, and grow with confidence.</p>
                             </div>
                         </div>
                     </div>
@@ -1704,7 +1726,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="7f70002a" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Requirement Analysis 
+                                                <h5 class="elementor-heading-title elementor-size-default">Unique and Professional Branding
+ 
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-4f08705f elementor-widget elementor-widget-text-editor"
@@ -1713,7 +1736,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             <div class="elementor-widget-container">
                                                 <div class="section">
                                                     <p class="show">
-                                                        <span class="preview">We begin by understanding your business goals, target audience, timeline, and budget to shape effective UI/UX design strategies.</span>
+                                                        <span class="preview">Our best logo designer in Malaysia crafts original, brand-aligned logos that attract attention and enhance business recognition and trust.</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -1748,7 +1771,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="73c705b9" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Strategic Planning </h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">Captures Your Business Identity</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-5b71efa8 elementor-widget elementor-widget-text-editor"
@@ -1758,7 +1781,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview">Our team creates a sitemap, defines technologies, and ensures every planning step supports a user-friendly website experience.</span>
+                                                            <span class="preview">From full visual branding to professional logo creation, our brand design in Malaysia reflects your business values and personality.
+</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1797,7 +1821,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="3aa6d3dc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">UI/UX Design Creation</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">Flyers, Brochures, & Posters</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-88678c2 elementor-widget elementor-widget-text-editor"
@@ -1807,7 +1831,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview"> We design wireframes, select fonts and visuals, and deliver a final design that reflects your unique brand identity.
+                                                            <span class="preview">We design brochures, flyers, posters, and social media graphics that drive engagement and reflect your brand identity perfectly. Each design is unique.
 
  </span>
                                                             <span class="more-text"></span>
@@ -1847,7 +1871,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                             data-id="101e2f11" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Long-Term Support</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">Business Card & UI Design</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-17b368c3 elementor-widget elementor-widget-text-editor"
@@ -1857,7 +1881,8 @@ border: 1px solid #ffffff !important;  /* white border */
                                                 <div class="elementor-widget-container">
                                                     <div class="section">
                                                         <p class="show">
-                                                            <span class="preview">We build, test for performance, and offer ongoing technical support as part of our UI/UX design services in Malaysia.</span>
+                                                            <span class="preview">Enhance web & mobile UI graphics, infographics, and business card design to boost clarity, interactivity, and professional impact.
+</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -2517,7 +2542,7 @@ Build Your Custom Plan</button></a></span></p>
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_10_683073e41e5c2">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class=""><span>UI/UX Design Company</span></span></h2>
+                                                                        class=""><span>Graphic Design Services</span></span></h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2533,7 +2558,7 @@ Build Your Custom Plan</button></a></span></p>
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_11_683073e41efeb">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title">Create the Ideal Ambience for Your <span style="color: #C9A8C1;"> UI/UX Design</span>
+                                                    <h2 class="heading-title">Work With Top Graphic Designers in Malaysia Today
 <span
                                                             class=""><span></span></span></span></h2>
                                                 </div>
@@ -2545,7 +2570,7 @@ Build Your Custom Plan</button></a></span></p>
                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                         data-widget_type="text-editor.default">
                                         <div style="text-align:left," class="elementor-widget-container">
-                                            <p>As a best UI/UX design agency in Malaysia, we guarantee that the art direction of your brand is taken into consideration when designing your website. In order to gain a firm understanding of how we can establish an appropriate mood that complements your brand identity and can evoke the required emotion in your users, we first engage you in our conversation to learn more about your brand, your industry, and your users.</p>
+                                            <p>Our expert team includes renowned graphic designers and brand identity specialists who craft visuals that leave a lasting impact. Whether you need custom illustrations, brochures, or social media graphics, we ensure every design aligns perfectly with your brand message. With consistent branding across all platforms, we help you stand out in a competitive market. Choose Go Viral for high-quality graphic design services that combine innovation with strategy</p>
                                         </div>
                                     </div>
                                 </div>
@@ -2573,7 +2598,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        Cut Time and Costs:</h5>
+                                                                        Top Graphic Design Artists in Malaysia </h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2583,7 +2608,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="elementor-widget-container">
                                                                     <div class="section">
                                                                         <div class="content">
-                                                                            <p> Engage a UI/UX design agency early to identify usability issues before development, preventing expensive rework later.</p>
+                                                                            <p>Our graphic design artists in Malaysia deliver powerful, targeted, and creative designs tailored to your audience.</p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2647,7 +2672,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                      Enhance Accessibility:</h5>
+                                                                      Famous Graphic Designers in Malaysia</h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2658,7 +2683,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     <div class="section">
 
                                                                         <div class="content">
-                                                                            <p> UI/UX design ensures inclusive interfaces, improving usability for diverse abilities and strengthening your brand's reputation.</p>
+                                                                            <p>A famous graphic designer in Malaysia brings creativity and vision to build your competitive brand presence.</p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2778,7 +2803,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                      Boost User Engagement: </h5>
+                                                                      Expert Brand Identity Designer in Malaysia </h5>
                                                                 </div>
                                                             </div>
                                                             <div style="text-align: left;"
@@ -2789,7 +2814,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     <div class="section">
 
                                                                         <div class="content">
-                                                                            <p>A UI/UX company in Malaysia crafts interactions that increase visit duration, conversions, and loyalty through immersive design.</p>
+                                                                            <p>Our brand identity designer in Malaysia creates consistent branding through smart typography and strategic design elements.</p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2851,7 +2876,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="elementor-widget-container">
                                                                     <h5
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                         Strengthen Branding: </h5>
+                                                                         Malaysia Logo & Graphic Designer </h5>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-6aed7f96 elementor-widget elementor-widget-text-editor"
@@ -2860,7 +2885,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <div class="elementor-widget-container">
                                                                     <div class="section">
                                                                         <div class="content">
-                                                                            <p>Consistent UI/UX design elements build identity, elevate customer loyalty, attract new users, and enhance overall satisfaction and trust.</p>
+                                                                            <p>We offer scalable Malaysia logo design and professional graphic designer support for business growth.</p>
                                                                         </div>
                                                                         <span class="read-more-btn">Read
                                                                             more</span>
@@ -2949,7 +2974,7 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_13_683073e42ba32">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Reviews from Our <span style="color: #C9A8C1;"> Happy Clients<span
+                                                <h2 class="heading-title">Reviews from Our Happy Clients<span
                                                         class=""><span></span></span>
                                                 </h2>
                                             </div>
@@ -3020,7 +3045,7 @@ Build Your Custom Plan</button></a></span></p>
 
                                                                         <div class="elementskit-commentor-content">
                                                                             <!-- Client testimonial -->
-                                                                            <p>“From the start, Go Viral understood our goals. Their PPC campaigns were spot on, and we’re seeing better conversions than ever. Great service from a reliable team!”</p>
+                                                                            <p>“I admired working with the Go Viral design team! They really understood my brand and delivered exactly what I needed.Their graphic design services are top-notch and truly creative.”</p>
                                                                         </div>
 
                                                                         <div class="elementskit-commentor-bio">
@@ -3037,7 +3062,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Nadiah, Penang
+                                                                                        class="elementskit-author-name">Siti Amirah, Penang
 
                                                                                     </strong>
                                                                                     <span
@@ -3094,7 +3119,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 <div
                                                                                     class="elementskit-commentor-content">
                                                                                     <!-- Client testimonial -->
-                                                                                    <p>“Super happy with Go Viral’s pay-per-click services! Their team explained everything clearly and kept me updated. My ROI has improved significantly in just a short time.”</p>
+                                                                                    <p>“From logo to brochure, everything was perfect. Go Viral’s team was patient and highly professional. I’d definitely recommend them to anyone looking for high-quality designs”</p>
                                                                                 </div>
                                                                             </p>
                                                                         </div>
@@ -3166,7 +3191,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                         <div class="elementskit-commentor-content">
                                                                             <div class="elementskit-commentor-content">
                                                                                 <!-- Client testimonial -->
-                                                                                <p>"Go Viral really helped my brand get noticed. Their PPC strategies brought in quality leads, and I saw results within weeks. Highly recommend their expert team!
+                                                                                <p>"Their attention to detail and creative input amazed me. They helped bring my brand vision to life seamlessly. Truly one of the best design teams I’ve worked with!
 
 "</p>
                                                                             </div>
@@ -3186,7 +3211,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                                 </div>
                                                                                 <div class="elementskit-profile-info">
                                                                                     <strong
-                                                                                        class="elementskit-author-name">Faizal Ahmed, Kuala Lumpur
+                                                                                        class="elementskit-author-name">Azlan Hakim, Kuala Lumpur
 
                                                                                     </strong>
                                                                                     <span
@@ -3254,7 +3279,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">What is the difference between UI and UX design?</span>
+                                                                <span class="ekit-accordion-title"> What is included in graphic design services?</span>
 
                                                             </a>
                                                         </div>
@@ -3263,7 +3288,7 @@ Build Your Custom Plan</button></a></span></p>
                                                             aria-labelledby="primaryHeading-0-5447b409"
                                                             data-parent="#accordion-683073e42fec7">
 
-                                                            <div class="elementskit-card-body ekit-accordion--content">UI (User Interface) refers to the visual elements of a product—like buttons, icons, and layouts—while UX (User Experience) focuses on how users interact with those elements and the overall feel of the experience.</p>
+                                                            <div class="elementskit-card-body ekit-accordion--content">Graphic design services typically include logo design, branding, brochures, social media posts, business cards, packaging, infographics, and website graphics.</p>
                                                             </div>
 
                                                         </div>
@@ -3290,7 +3315,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">Why is UI/UX design important for my business?
+                                                                <span class="ekit-accordion-title"> How much do graphic design services cost in Malaysia?
 </span>
 
                                                             </a>
@@ -3301,7 +3326,7 @@ Build Your Custom Plan</button></a></span></p>
                                                             data-parent="#accordion-683073e42fec7">
 
                                                             <div class="elementskit-card-body ekit-accordion--content">
-                                                                <p>A good UI/UX design improves user satisfaction, boosts engagement, and increases conversions. It helps retain customers by making your website or app easy to use, attractive, and efficient
+                                                                <p>Prices vary based on the scope of work, but basic services like logo design can start from RM200+, while full branding packages may range from RM1,000 to RM5,000 or more.
 
 
 
@@ -3332,7 +3357,7 @@ Build Your Custom Plan</button></a></span></p>
                                                                     </div>
                                                                 </div>
 
-                                                                <span class="ekit-accordion-title">How long does a UI/UX design project typically take?</span>
+                                                                <span class="ekit-accordion-title">How long does it take to complete a graphic design project?</span>
 
                                                             </a>
                                                         </div>
@@ -3342,7 +3367,7 @@ Build Your Custom Plan</button></a></span></p>
                                                             data-parent="#accordion-683073e42fec7">
 
                                                             <div class="elementskit-card-body ekit-accordion--content">
-                                                                <p>The timeline varies depending on the complexity of the project. A basic website might take 2–3 weeks, while a custom platform or app could take 4–8 weeks or more, including research, wireframing, design, feedback, and revisions.</p>
+                                                                <p>Simple projects (like a flyer or logo) may take 2–5 days. Larger projects involving branding or multiple assets could take 1–3 weeks, depending on revisions and client feedback.</p>
                                                             </div>
 
                                                         </div>
@@ -3408,7 +3433,8 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_15_683073e4311ed">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Frequently <span style="color: #C9A8C1;">  Asked Questions</span></span>
+                                                <h2 class="heading-title">Frequently Asked <span
+                                                        class=""><span>Questions</span></span>
                                                 </h2>
                                             </div>
                                         </div>
@@ -3419,7 +3445,7 @@ Build Your Custom Plan</button></a></span></p>
                                     data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Looking to enhance your digital presence? The best UI UX company in Malaysia, Go Viral, crafts intuitive designs that engage users and boost brand credibility. We focus on user-centered layouts that improve navigation, satisfaction, and conversions. From startups to enterprises, our designs drive real results across all devices.</p>
+                                        <p>Looking for a creative boost for your brand? Go Viral is a professional graphic design agency that transforms your ideas into stunning visuals. From logos and brochures to social media graphics and UI designs, we craft designs that leave a lasting impression and strengthen your brand identity. Let your business stand out with designs that speak volumes.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-1d4ef575 e-con-full e-flex elementor-invisible e-con e-child"
@@ -3432,7 +3458,23 @@ Build Your Custom Plan</button></a></span></p>
                                             data-id="50a99fa" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
+                                                        href="#">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-icon">
+                                                                <svg aria-hidden="true"
+                                                                    class="e-font-icon-svg e-fas-arrow-circle-right"
+                                                                    viewBox="0 0 512 512"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
+                                                                    </path>
+                                                                </svg> </span>
+                                                            <span class="elementor-button-text">Contact Us</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -3459,10 +3501,10 @@ Build Your Custom Plan</button></a></span></p>
                                     <div class="elementor-element elementor-element-51ae9fbb e-con-full e-flex elementor-invisible e-con e-child"
                                         data-id="51ae9fbb" data-element_type="container"
                                         data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                        <div style="width:400px;" class="elementor-element elementor-element-4729847f e-con-full e-flex e-con e-child"
+                                        <div class="elementor-element elementor-element-4729847f e-con-full e-flex e-con e-child"
                                             data-id="4729847f" data-element_type="container"
                                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                            <div  class="elementor-element elementor-element-3035d01d e-con-full e-flex e-con e-child"
+                                            <div class="elementor-element elementor-element-3035d01d e-con-full e-flex e-con e-child"
                                                 data-id="3035d01d" data-element_type="container">
                                                 <div class="elementor-element elementor-element-424a0220 elementor-widget elementor-widget-image"
                                                     data-id="424a0220" data-element_type="widget"
@@ -3482,11 +3524,11 @@ Build Your Custom Plan</button></a></span></p>
                                                     data-settings="{&quot;_animation&quot;:&quot;none&quot;}"
                                                     data-widget_type="jkit_heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <div 
+                                                        <div
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_16_683073e4327ac">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
-                                                                        class=""><span>UI/UX Design Company Malaysia</span></span></h2>
+                                                                        class=""><span>Graphic Design Company Malaysia</span></span></h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3502,7 +3544,9 @@ Build Your Custom Plan</button></a></span></p>
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_17_683073e43308d">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h3 class="heading-title"><span style="color: #C9A8C1;"> Our Design Process:</span> From Vision to Reality
+                                                    <h3 class="heading-title"> <span
+                                                            class=""><span>Our Graphic Design Services Include
+
 </span></span>
                                                     </h3>
                                                 </div>
@@ -3514,7 +3558,7 @@ Build Your Custom Plan</button></a></span></p>
                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>Go Viral, a trusted UI/UX design agency in Malaysia, follows a systematic and cooperative approach to guarantee that each UI/UX design project fulfils your company objectives, engages your users, and produces visible results. We begin by thoroughly understanding your business goals, user expectations, and industry standards. Our collaborative process ensures that every design decision is user-focused and aligned with your brand identity. From initial research to final execution, we pay close attention to detail, usability, and visual appeal. Whether you're launching a new website or revamping an existing one, we tailor every aspect of our UI/UX strategy to deliver seamless, intuitive, and high-converting digital experiences that drive business success.</p>
+                                            <p>At Go Viral, we offer a wide range of graphic design services tailored to meet the branding and marketing needs of modern businesses. Our expertise includes logo and brand identity design, business cards, letterheads, flyers, brochures, posters, banners, and packaging designs. We also create stunning social media graphics, infographics, website visuals, and UI graphics that enhance user engagement. Whether you need presentation design, catalogues, menu cards, or email newsletters, our creative team delivers high-quality, print-ready designs that leave a lasting impression.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -3533,7 +3577,12 @@ Build Your Custom Plan</button></a></span></p>
 
                                                         <div class="elementskit-post-image-card">
                                                              <div class="elementskit-entry-header">
-                                                                
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
+                                                                </a><!-- .elementskit-entry-thumb END -->
 
                                                             </div><!-- .elementskit-entry-header END -->
 
@@ -3542,9 +3591,9 @@ Build Your Custom Plan</button></a></span></p>
                                                                 <h2 class="entry-title">
                                                                     <a
                                                                         href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Analysis of Requirements</a>
+                                                                        Brand Design in Malaysia</a>
                                                                 </h2>
-                                                                <p>To learn more about your website and business goals, we first set up a consultation at a time that works for you. Being an affordable UI/UX company in Malaysia, we offer forms to collect all the information required for your project. This involves defining your objectives, the elements of your website, the expected outcomes, the timeframe, scope, and budget. The creation of a comprehensive proposal guarantees that our expectations are met right away.</p>
+                                                                <p>Improve your brand image with expert brand design in Malaysia that embodies your personality and engages your target market. From creating a logo to providing full visual branding, our creative team has it covered.</p>
                                                             
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
@@ -3554,7 +3603,12 @@ Build Your Custom Plan</button></a></span></p>
 
                                                         <div class="elementskit-post-image-card">
                                                              <div class="elementskit-entry-header">
-                                                               
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
+                                                                </a><!-- .elementskit-entry-thumb END -->
 
                                                             </div><!-- .elementskit-entry-header END -->
 
@@ -3562,10 +3616,9 @@ Build Your Custom Plan</button></a></span></p>
 
                                                                 <h2 class="entry-title">
                                                                     <a
-                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                       Making Plans</a>
+                                                                        href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">Brochures, Flyers & Posters</a>
                                                                 </h2>
-                                                                <p>We start creating a plan for your website using the data from the first stage. This includes creating a sitemap and choosing the appropriate technology, such as whether to utilise a content management system like WordPress. We make sure that every planning detail contributes to the development of a well-organised and user-friendly website as part of our UI/UX design services. This strategic planning lays the foundation for a seamless and impactful user experience.
+                                                                <p>Searching for a Malaysian designer to design attractive posters, flyers, and brochures? We are here to show our creativity in visually appealing, superior marketing collateral that engages audience and reflects brand.
  
  </p>
                                                                
@@ -3577,24 +3630,27 @@ Build Your Custom Plan</button></a></span></p>
 
                                                         <div class="elementskit-post-image-card">
                                                           <div class="elementskit-entry-header">
-                                                               
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
+                                                                </a><!-- .elementskit-entry-thumb END -->
 
                                                             </div><!-- .elementskit-entry-header END -->
                                                             <div class="elementskit-post-body ">
 
                                                                 <h2 class="entry-title">
                                                                     <a
-                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">
-                                                                        Design</a>
+                                                                        href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">Social Media Graphics Design</a>
                                                                 </h2>
-                                                                <p>Our creative team begins working on the user interface (UI) and user experience (UX) strategies as soon as the blueprint is complete. The visual features (like colours, fonts, animations, hovers, and format) are chosen, outlines are designed, and a design that goes with your brand is produced. Once all the changes have been made according to your demand, the final design is forwarded to you for approval. We ensure that every element reflects your brand identity seamlessly.
+                                                                <p>Enhance your online visibility with eye-catching, engagement-focused social media graphics design. We provide images for Facebook advertising and Instagram posts that are precisely in line with your plan and brand.
 </p>
                                                                 
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
 
                                                     </div>
-                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -3617,7 +3673,12 @@ Build Your Custom Plan</button></a></span></p>
 
                                                         <div class="elementskit-post-image-card">
                                                          <div class="elementskit-entry-header">
-                                                              
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
+                                                                </a><!-- .elementskit-entry-thumb END -->
 
                                                             </div><!-- .elementskit-entry-header END -->
 
@@ -3625,11 +3686,10 @@ Build Your Custom Plan</button></a></span></p>
 
                                                                 <h2 class="entry-title">
                                                                     <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html">
-                                                                        Development and Site Test</a>
+                                                                        Infographics & Presentations</a>
                                                                 </h2>
                                                                 <p>
-Once  the design is approved, we proceed with development. This includes developing the structure of the website with HTML, CSS, and other technologies, polishing the content, and including visual elements like interactive media, videos, and photographs. We guarantee that, as a leading UI/UX company, you can review the website during the developing process and provide feedback anytime. We test  the website before launching to check the compatibility on different browsers and devices.
-</p>
+Simplify difficult information with unique infographics and presentations to deliver data with impact. To keep your audience informed, interested, and amazed, our designs blend originality with clarity.</p>
                                                                 
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
@@ -3639,17 +3699,23 @@ Once  the design is approved, we proceed with development. This includes develop
 
                                                         <div class="elementskit-post-image-card">
                                                              <div class="elementskit-entry-header">
-                                                               
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
+                                                                </a><!-- .elementskit-entry-thumb END -->
+
                                                             </div><!-- .elementskit-entry-header END -->
 
                                                             <div class="elementskit-post-body ">
 
                                                                 <h2 class="entry-title">
                                                                     <a href="2024/11/13/what-is-the-metaverse-and-what-can-we-do/index.html">
-                                                                        Launching for Impact</a>
+                                                                        Web & Mobile UI Graphics</a>
                                                                 </h2>
-                                                                <p>
- After launching your website, our efforts don’t stop there. As your long-term partner, we ensure your site continues to grow and perform. We implement SEO fundamentals like title tags, meta descriptions, keyword optimisation, and link building to enhance visibility. Alongside this, we offer regular maintenance and technical support to keep your website running smoothly as part of our comprehensive UI/UX design services. Our team is here to help your website keeps growing and succeeding.</p>
+                                                                <p>Enhance user experience with sleek and intuitive web & mobile UI graphics. We create cutting-edge, intuitive user interfaces that promote interaction and functionality on all platforms in addition to looking fantastic.
+</p>
                                                                
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>
@@ -3659,16 +3725,21 @@ Once  the design is approved, we proceed with development. This includes develop
 
                                                         <div class="elementskit-post-image-card">
                                                             <div class="elementskit-entry-header">
-                                                                
+                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
+                                                                    class="elementskit-entry-thumb">
+                                                                    <img decoding="async"
+                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
+                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
+                                                                </a><!-- .elementskit-entry-thumb END -->
 
                                                             </div><!-- .elementskit-entry-header END -->
 
                                                             <div class="elementskit-post-body ">
 
                                                                 <h2 class="entry-title">
-                                                                    <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">Feedback & Iteration</a>
+                                                                    <a href="2024/11/13/embrace-revolta-virtual-reality-services-today/index.html">Business Cards Design</a>
                                                                 </h2>
-                                                                <p>Even after launch, we believe the design journey continues. At Go Viral, we value client and user feedback to fine-tune your website experience. We monitor user behavior, identify areas for improvement, and iterate designs to ensure lasting engagement. This agile and adaptive approach helps us deliver high-performing, user-centered interfaces that evolve with your business goals, because your success is our ongoing priority. We stay connected to your brand's growth and ensure your digital presence remains impactful.</p>
+                                                                <p>A business card design will embody your brand identity and leave a lasting impression. For effective networking, we design simple, memorable cards that blend elegance and clarity.</p>
                                                         
                                                             </div><!-- .elementskit-post-body END -->
                                                         </div>

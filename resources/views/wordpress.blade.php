@@ -1,10 +1,25 @@
 @extends('layouts.front')
+@section('title', 'Best WordPress Development Service Malaysia for your brand')
+@section('meta_description', 'Get the best WordPress development service Malaysia for scalable, responsive, SEO-friendly websites tailored to boost your digital performance and growth.')
 
 @section('content')
 <style>
 		img:is([sizes="auto"i], [sizes^="auto,"i]) {
 			contain-intrinsic-size: 3000px 1500px
 		}
+        
+.mycustombutton{
+border: 1px solid #ffffff !important;  /* white border */
+  border-radius: 8px !important;         /* smooth corners */
+  background-color: transparent !important;  /* optional: makes button transparent */
+  color: #ffffff !important;            /* text color white (you can change if needed) */
+  font-weight: 500;
+}
+.mycustombutton:hover {
+  color:rgb(255, 255, 255) !important;
+  transition: all 0.3s ease;
+}
+
 	</style>
     <link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Feed" href="../../feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Fluxco &raquo; Comments Feed"
@@ -125,6 +140,21 @@
 			}))
 		}((window, document), window._wpemojiSettings);
 	</script>
+    <script>
+  function toggleContent(btn) {
+    const span = btn.previousElementSibling.querySelector(".more-content");
+    const isHidden = span.style.display === "none";
+
+
+    if (isHidden) {
+      span.style.display = "inline";
+      btn.innerHTML = 'Read less <i class="fas fa-chevron-up"></i>';
+    } else {
+      span.style.display = "none";
+      btn.innerHTML = 'Read more <i class="fas fa-chevron-down"></i>';
+    }
+  }
+</script>
 	<link rel='stylesheet' id='hfe-widgets-style-css'
 		href='../../wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend3c94.css?ver=2.1.0'
 		media='all' />
@@ -700,7 +730,7 @@
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h1 style="font-size: 50px;" class="heading-title">Your Trusted WordPress Development Company in Malaysia
+                                        <h1 style="font-size: 50px;" class="heading-title">We Are The Trusted <span style="color: #c9a8c1;">WordPress Development Company in Malaysia
 
 <span class=""><span></span></span></h1>
                                     </div>
@@ -1072,39 +1102,7 @@
                                 <div class="elementor-image-carousel swiper-wrapper" aria-live="off">
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="1 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-1.png')}}" alt="1" />
-                                        </figure>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
-                                        aria-label="2 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-213-1.png')}}"
-                                                alt="logoipsum-213" /></figure>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
-                                        aria-label="3 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-216-1.png')}}"
-                                                alt="logoipsum-216" /></figure>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
-                                        aria-label="4 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-217-1.png')}}"
-                                                alt="logoipsum-217" /></figure>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-roledescription="slide"
-                                        aria-label="5 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-218-1.png')}}"
-                                                alt="logoipsum-218" /></figure>
-                                    </div>
+                                        
                                 </div>
 
                             </div>
@@ -1563,7 +1561,7 @@
                                     <div
                                         class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_5_683073e40c673">
                                         <div class="heading-section-title  display-inline-block">
-                                            <h2 style="font-size: 30px;" class="heading-title">Created by Professional WordPress Developers & Designers
+                                            <h2 style="font-size: 30px;" class="heading-title">Created by Professional  <span style="color: #C9A8C1;">WordPress Developers & Designers
 
                                         </div>
                                     </div>
@@ -1591,23 +1589,7 @@
                                             data-id="13a55f96" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                    </path>
-                                                                </svg> </span>
-                                                            <span class="elementor-button-text">Get Free Consultation!</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -1680,7 +1662,7 @@
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_7_683073e4108be">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h2 class="heading-title">Top WordPress Development Company Offering the Best Services 
+                                        <h2 class="heading-title">The Best Services Offered by<span style="color: #C9A8C1;">Top WordPress Development Company</span>    
 
 <span
                                                 class=""><span></span></span></h2>
@@ -2569,7 +2551,7 @@ Build Your Custom Plan</button></a></span></p>
                                             <div
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_11_683073e41efeb">
                                                 <div class="heading-section-title  display-inline-block">
-                                                    <h2 class="heading-title">Our WordPress Development Process
+                                                    <h2 class="heading-title"> <span style="color: #C9A8C1;"> WordPress Development Process
 <span
                                                             class=""><span></span></span></span></h2>
                                                 </div>
@@ -2986,7 +2968,7 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_13_683073e42ba32">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Reviews from Our Happy Clients<span
+                                                <h2 class="heading-title">Reviews from Our  <span style="color: #C9A8C1;"> Happy Clients<span
                                                         class=""><span></span></span>
                                                 </h2>
                                             </div>
@@ -3443,7 +3425,7 @@ Build Your Custom Plan</button></a></span></p>
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile-center jeg_module_777_15_683073e4311ed">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title">Frequently Asked <span
+                                                <h2 class="heading-title">Frequently <span style="color: #C9A8C1;"> Asked <span
                                                         class=""><span>Questions</span></span>
                                                 </h2>
                                             </div>
@@ -3468,23 +3450,7 @@ Build Your Custom Plan</button></a></span></p>
                                             data-id="50a99fa" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-icon">
-                                                                <svg aria-hidden="true"
-                                                                    class="e-font-icon-svg e-fas-arrow-circle-right"
-                                                                    viewBox="0 0 512 512"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
-                                                                    </path>
-                                                                </svg> </span>
-                                                            <span class="elementor-button-text">Contact Us</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -3511,7 +3477,7 @@ Build Your Custom Plan</button></a></span></p>
                                     <div class="elementor-element elementor-element-51ae9fbb e-con-full e-flex elementor-invisible e-con e-child"
                                         data-id="51ae9fbb" data-element_type="container"
                                         data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                        <div class="elementor-element elementor-element-4729847f e-con-full e-flex e-con e-child"
+                                        <div style="width:400px;"  class="elementor-element elementor-element-4729847f e-con-full e-flex e-con e-child"
                                             data-id="4729847f" data-element_type="container"
                                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                             <div class="elementor-element elementor-element-3035d01d e-con-full e-flex e-con e-child"
@@ -3529,12 +3495,12 @@ Build Your Custom Plan</button></a></span></p>
                                             </div>
                                             <div class="elementor-element elementor-element-2c461563 e-con-full e-flex e-con e-child"
                                                 data-id="2c461563" data-element_type="container">
-                                                <div class="elementor-element elementor-element-63f7318c elementor-widget elementor-widget-jkit_heading"
+                                                <div style:"width:500px;" class="elementor-element elementor-element-63f7318c elementor-widget elementor-widget-jkit_heading"
                                                     data-id="63f7318c" data-element_type="widget"
                                                     data-settings="{&quot;_animation&quot;:&quot;none&quot;}"
                                                     data-widget_type="jkit_heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <div
+                                                        <div 
                                                             class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_16_683073e4327ac">
                                                             <div class="heading-section-title  display-inline-block">
                                                                 <h2 class="heading-title"><span
@@ -3555,7 +3521,7 @@ Build Your Custom Plan</button></a></span></p>
                                                 class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_17_683073e43308d">
                                                 <div class="heading-section-title  display-inline-block">
                                                     <h3 class="heading-title"> <span
-                                                            class=""><span>Why Pick Our Services for WordPress Development?
+                                                            class=""><span>Why Pick Our Services for <span style="color: #C9A8C1;">WordPress Development?
 
 </span></span>
                                                     </h3>
@@ -3588,12 +3554,7 @@ Build Your Custom Plan</button></a></span></p>
 
                                                         <div class="elementskit-post-image-card">
                                                              <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
+                                                                
 
                                                             </div><!-- .elementskit-entry-header END -->
 
@@ -3616,13 +3577,7 @@ Every project benefits from the years of experience and creative thinking of our
 
                                                         <div class="elementskit-post-image-card">
                                                              <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
-
+                                                                
                                                             </div><!-- .elementskit-entry-header END -->
 
                                                             <div class="elementskit-post-body ">
@@ -3645,12 +3600,7 @@ Our designers are masters in building exquisitely designed, responsive WordPress
 
                                                         <div class="elementskit-post-image-card">
                                                           <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
+                                                                
 
                                                             </div><!-- .elementskit-entry-header END -->
                                                             <div class="elementskit-post-body ">
@@ -3669,33 +3619,14 @@ We build SEO-friendly WordPress websites that not only look amazing but also ran
 
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-       <div class="e-con-inner">
-                            <div class="elementor-element elementor-element-259e45d3 e-flex e-con-boxed e-con e-child" data-id="259e45d3" data-element_type="container">
-                                <div class="e-con-inner">
-                                    <div class="elementor-element elementor-element-640e645b elementor-widget elementor-widget-elementskit-blog-posts animated fadeInUp" data-id="640e645b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="elementskit-blog-posts.default">
-                                        <div class="elementor-widget-container">
+                                                <div class="elementor-widget-container">
                                             <div class="ekit-wid-con">
                                                 <div id="post-items--640e645b" class="row post-items">
                                                     <div class="col-lg-4 col-md-6">
 
                                                         <div class="elementskit-post-image-card">
                                                          <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
+                                                             
 
                                                             </div><!-- .elementskit-entry-header END -->
 
@@ -3716,12 +3647,7 @@ Simplify difficult information with unique infographics and presentations to del
 
                                                         <div class="elementskit-post-image-card">
                                                              <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
+                                                               
 
                                                             </div><!-- .elementskit-entry-header END -->
 
@@ -3742,12 +3668,7 @@ Simplify difficult information with unique infographics and presentations to del
 
                                                         <div class="elementskit-post-image-card">
                                                             <div class="elementskit-entry-header">
-                                                                <a href="2024/11/13/the-metaverse-will-make-gamers-of-us-all/index.html"
-                                                                    class="elementskit-entry-thumb">
-                                                                    <img decoding="async"
-                                                                        src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/28-18.jpg')}}"
-                                                                        alt="Why Content Is The Backbone Of Your Digital Strategy">
-                                                                </a><!-- .elementskit-entry-thumb END -->
+                                                                
 
                                                             </div><!-- .elementskit-entry-header END -->
 
@@ -3762,6 +3683,28 @@ Simplify difficult information with unique infographics and presentations to del
                                                         </div>
 
                                                     </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="e-con-inner">
+                            <div class="elementor-element elementor-element-259e45d3 e-flex e-con-boxed e-con e-child" data-id="259e45d3" data-element_type="container">
+                                <div class="e-con-inner">
+                                    <div class="elementor-element elementor-element-640e645b elementor-widget elementor-widget-elementskit-blog-posts animated fadeInUp" data-id="640e645b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="elementskit-blog-posts.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="ekit-wid-con">
+                                                <div id="post-items--640e645b" class="row post-items">
+                                                    
                                                 </div>
                                             </div>
                                         </div>

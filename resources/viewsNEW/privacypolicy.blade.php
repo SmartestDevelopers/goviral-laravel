@@ -670,63 +670,9 @@
             <div class="elementor-background-video-container elementor-hidden-mobile">
                 <div class="elementor-background-video-embed"></div>
             </div>
-            <div class="elementor-element elementor-element-b69feea e-con-full e-flex e-con e-child" data-id="b69feea"
-                data-element_type="container">
-                <div class="elementor-element elementor-element-1d391092 e-con-full e-flex e-con e-child"
-                    data-id="1d391092" data-element_type="container">
-                    <div class="elementor-element elementor-element-18893392 e-con-full e-flex elementor-invisible e-con e-child"
-                        data-id="18893392" data-element_type="container"
-                        data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                        <div class="elementor-element elementor-element-47feaea2 e-con-full e-flex e-con e-child"
-                            data-id="47feaea2" data-element_type="container"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-element elementor-element-664423cf e-con-full e-flex e-con e-child"
-                                data-id="664423cf" data-element_type="container">
-                                <div class="elementor-element elementor-element-724bf129 elementor-widget elementor-widget-image"
-                                    data-id="724bf129" data-element_type="widget" data-widget_type="image.default">
-                                    <div class="elementor-widget-container">
-                                        <img decoding="async" width="800" height="780"
-                                            src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}}"
-                                            class="attachment-large size-large wp-image-884" alt=""
-                                            srcset="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 1024w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 300w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 768w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 800w, {{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-6-1024x998.png')}} 1196w"
-                                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-2d96591 e-con-full e-flex e-con e-child"
-                                data-id="2d96591" data-element_type="container">
-                                <div class="elementor-element elementor-element-6a508ff4 elementor-widget elementor-widget-jkit_heading"
-                                    data-id="6a508ff4" data-element_type="widget"
-                                    data-settings="{&quot;_animation&quot;:&quot;none&quot;}"
-                                    data-widget_type="jkit_heading.default">
-                                    <div class="elementor-widget-container">
-                                        <div
-                                            class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_1_683073e3d52b9">
-                                            <div style="  padding-right:10px;"
-                                                class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title"><span class=""><span>About Us</span></span></h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+          
                     </div>
-                    <div class="elementor-element elementor-element-72f07e7f e-con-full e-flex e-con e-child"
-                        data-id="72f07e7f" data-element_type="container">
-                        <div class="elementor-element elementor-element-75fa2992 elementor-invisible elementor-widget elementor-widget-jkit_heading"
-                            data-id="75fa2992" data-element_type="widget"
-                            data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
-                            data-widget_type="jkit_heading.default">
-                            <div class="elementor-widget-container">
-                                <div
-                                    class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
-                                    <div class="heading-section-title  display-inline-block">
-                                        <h1 style="font-size: 70px;" class="heading-title">Build Your Brand with Advanced Marketing Strategies
-<span class=""><span></span></span></h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                
                         <div class="elementor-element elementor-element-2efa94ed e-con-full e-flex e-con e-child"
                             data-id="2efa94ed" data-element_type="container">
                             <div class="elementor-element elementor-element-8d62ef2 elementor-invisible elementor-widget elementor-widget-text-editor"
@@ -735,14 +681,59 @@
                                 data-widget_type="text-editor.default">
                                <div class="container">
  
-    <div class="work">
-      <h4>Who We Are</h4>
-    <p>Go‑Viral is your all‑in‑one digital marketing agency, based in Selangor and Kuala Lumpur, Malaysia. Our passionate crew of business advisors, creatives, and online specialists unites strategy and storytelling to bring your brand closer to the people who matter.</p>
-  </div>
-    <div class="work">
-     <h4>Seamless Strategy</h4>
-    <p>From crafting B2B growth strategies and powerful brand identities to writing persuasive copy, building dynamic websites, and executing cross‑platform campaigns—we handle it all, so you see real revenue gains. Take your brand to the higher l with us.</p>
-  </div>
+    <div style="max-width: 800px; margin: 40px auto; padding: 30px; color: #fff; font-family: 'Segoe UI', sans-serif; line-height: 1.7; text-align: left;">
+
+  <h1 style="font-size: 70px; margin-bottom: 20px;">Privacy Policy</h1>
+  
+  <p style="margin-bottom: 20px;">Go‑Viral values your privacy. This Privacy Policy explains how we collect, use, and protect your personal data when you visit our website or use our services in Malaysia.</p>
+
+  <h2 style="margin-top: 30px; font-size: 40px;">1. What We Collect</h2>
+  <ul style="padding-left: 20px; margin-bottom: 20px; list-style: none;">
+    <li>Name</li>
+    <li>Email address</li>
+    <li>Phone number</li>
+    <li>Company or business name (if applicable)</li>
+    <li>Message details (from forms)</li>
+    <li>Website usage data (pages visited, time spent, etc.)</li>
+  </ul>
+
+  <h2 style="margin-top: 30px; font-size: 40px;">2. Why We Collect It</h2>
+  <ul style="padding-left: 20px; margin-bottom: 20px; list-style: none;">
+    <li>To contact you regarding your inquiries</li>
+    <li>To provide digital marketing services you request (SEO, SMM, Web Design, etc.)</li>
+    <li>To improve our website and user experience</li>
+    <li>To send updates or offers (only with your permission)</li>
+  </ul>
+
+  <h2 style="margin-top: 30px; font-size: 40px;">3. How We Protect Your Information</h2>
+  <ul style="padding-left: 20px; margin-bottom: 20px; list-style: none;">
+    <li>Your data is stored securely</li>
+    <li>We do not sell or share your information with third parties</li>
+    <li>Our website uses SSL encryption to keep your data safe</li>
+  </ul>
+
+  <h2 style="margin-top: 30px; font-size: 40px;">4. Cookies</h2>
+  <p style="margin-bottom: 20px;">We may use cookies to enhance your website experience. You can disable cookies anytime in your browser settings.</p>
+
+  <h2 style="margin-top: 30px; font-size: 40px;">5. Your Rights (Under PDPA Malaysia)</h2>
+  <p style="margin-bottom: 10px;">Under Malaysia’s PDPA law, you have the right to:</p>
+  <ul style="padding-left: 20px; margin-bottom: 20px; list-style: none;">
+    <li>Request access to your personal data</li>
+    <li>Ask for your data to be updated or corrected</li>
+    <li>Request removal of your personal information</li>
+  </ul>
+
+  <h2 style="margin-top: 30px; font-size: 40px;">6. Contact Us</h2>
+  <p style="margin-bottom: 20px;">If you have questions or concerns about this Privacy Policy, contact us at:</p>
+  <ul style="padding-left: 20px; margin-bottom: 20px; list-style: none;">
+    <li><strong>Email:</strong> info@goviralagency.com</li>
+    <li><strong>WhatsApp:</strong> +60 XXX‑XXXXXXX</li>
+  </ul>
+
+  <h2 style="margin-top: 30px; font-size: 40px;">7. Policy Updates</h2>
+  <p style="margin-bottom: 0;">We may update this Privacy Policy from time to time. Please review this page for any changes.</p>
+
+</div>
   
 </div>
 
@@ -780,15 +771,7 @@
                                 data-id="66ea5075" data-element_type="widget"
                                 data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}"
                                 data-widget_type="jkit_video_button.default">
-                                <div class="elementor-widget-container">
-                                    <div class="jeg-elementor-kit jkit-video-button jeg_module_777_3_683073e3d8cd8"
-                                        data-autoplay="0" data-loop="0" data-controls="0" data-type="youtube"
-                                        data-mute="0" data-start="0" data-end="0"><a
-                                            href="https://www.youtube.com/watch?v=MLpWrANjFbI"
-                                            class="jkit-video-popup-btn glow-enable" aria-label="video-button"><span
-                                                class="icon-position-before"><i aria-hidden="true"
-                                                    class="jki jki-play1-light"></i></span></a></div>
-                                </div>
+    
                             </div>
                         </div>
                     </div>
