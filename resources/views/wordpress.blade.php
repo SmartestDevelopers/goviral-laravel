@@ -1,5 +1,5 @@
 @extends('layouts.front')
-@section('title', 'Best WordPress Development Service Malaysia for your brand')
+@section('meta_title', 'Best WordPress Development Service Malaysia for your brand')
 @section('meta_description', 'Get the best WordPress development service Malaysia for scalable, responsive, SEO-friendly websites tailored to boost your digital performance and growth.')
 
 @section('content')

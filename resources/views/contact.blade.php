@@ -987,8 +987,8 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
   
   <!-- Left contact page --> 
     
-    <form style="width:600px !important;" id="contact-form" role="form">
-       
+    <form action="{{url('submit-form')}}"  method="POST" style="width:600px !important;" id="contact-form" role="form">
+       @csrf
       <div class="form-group">
         <div class="col-sm-12">
           <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
@@ -1003,7 +1003,7 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
 
       <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
      
-      
+      <input type="submit" value="Submit Form" class="form-control"/>
     </form>
     
   <!-- Left contact page --> 

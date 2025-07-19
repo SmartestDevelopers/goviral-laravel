@@ -685,7 +685,8 @@
 
   <h1 style="font-size: 70px; margin-bottom: 20px;">Privacy Policy</h1>
   
-  <p style="margin-bottom: 20px;">Go‑Viral values your privacy. This Privacy Policy explains how we collect, use, and protect your personal data when you visit our website or use our services in Malaysia.</p>
+  <p style="margin-bottom: 20px;">Welcome to https://go-viral.my  We value your privacy and are committed to protecting your 
+personal information when you visit or use our website. </p>
 
   <h2 style="margin-top: 30px; font-size: 40px;">1. What We Collect</h2>
   <ul style="padding-left: 20px; margin-bottom: 20px; list-style: none;">
@@ -697,42 +698,50 @@
     <li>Website usage data (pages visited, time spent, etc.)</li>
   </ul>
 
-  <h2 style="margin-top: 30px; font-size: 40px;">2. Why We Collect It</h2>
-  <ul style="padding-left: 20px; margin-bottom: 20px; list-style: none;">
-    <li>To contact you regarding your inquiries</li>
-    <li>To provide digital marketing services you request (SEO, SMM, Web Design, etc.)</li>
-    <li>To improve our website and user experience</li>
-    <li>To send updates or offers (only with your permission)</li>
+  <h2 style="margin-top: 30px; font-size: 40px;">2. Cookies & Tracking:</h2>
+ <p style="margin-bottom: 20px;">We use cookies, web beacons, and similar tech to enhance user 
+experience and analyze site performance. You may disable cookies via your browser 
+settings. </p>
+ 
+
+  <h2 style="margin-top: 30px; font-size: 40px;">3. How We Use Your Data?</h2>
+  <ul style="padding-left: 20px; margin-bottom: 20px; ">  
+     <li> For customer support and account management </li>
+    <li> To send newsletters or marketing communications (opt-out available) </li>
+    <li> To process payments (via secure third-party processors) </li>
+    <li> To analyze usage and optimize content</li>
+	<li> To provide, maintain, and improve our services</li>
+  </ul>
+  <h2 style="margin-top: 30px; font-size: 40px;">4. Data Sharing </h2>
+  <ul style="padding-left: 20px; margin-bottom: 20px; ">  
+     <li>With trusted third-party service providers (hosting, analytics, payment processors)</li>
+    <li> When required by law enforcement or legal request  </li>
+    <li> In connection with a sale, merger, or business transfer  </li>
+    
   </ul>
 
-  <h2 style="margin-top: 30px; font-size: 40px;">3. How We Protect Your Information</h2>
-  <ul style="padding-left: 20px; margin-bottom: 20px; list-style: none;">
-    <li>Your data is stored securely</li>
-    <li>We do not sell or share your information with third parties</li>
-    <li>Our website uses SSL encryption to keep your data safe</li>
-  </ul>
+  <h2 style="margin-top: 30px; font-size: 40px;">5. Third-Party Links </h2>
+  <p style="margin-bottom: 20px;">Our site may contain links to external websites. We are not responsible for their privacy or 
+content practices. </p>
 
-  <h2 style="margin-top: 30px; font-size: 40px;">4. Cookies</h2>
-  <p style="margin-bottom: 20px;">We may use cookies to enhance your website experience. You can disable cookies anytime in your browser settings.</p>
+  <h2 style="margin-top: 30px; font-size: 40px;">6. Data Security & Retention </h2>
+  <p style="margin-bottom: 10px;">We implement reasonable security measures. We retain personal data only as necessary for our services or as required by law. </p>
+  
 
-  <h2 style="margin-top: 30px; font-size: 40px;">5. Your Rights (Under PDPA Malaysia)</h2>
-  <p style="margin-bottom: 10px;">Under Malaysia’s PDPA law, you have the right to:</p>
-  <ul style="padding-left: 20px; margin-bottom: 20px; list-style: none;">
-    <li>Request access to your personal data</li>
-    <li>Ask for your data to be updated or corrected</li>
-    <li>Request removal of your personal information</li>
-  </ul>
+  <h2 style="margin-top: 30px; font-size: 40px;">7. Your Rights </h2>
+  <p style="margin-bottom: 20px;">Depending on your jurisdiction, you may access, correct, delete your personal data or withdraw consent. Contact us at [support@goviral.com].</p>
+ 
 
-  <h2 style="margin-top: 30px; font-size: 40px;">6. Contact Us</h2>
-  <p style="margin-bottom: 20px;">If you have questions or concerns about this Privacy Policy, contact us at:</p>
-  <ul style="padding-left: 20px; margin-bottom: 20px; list-style: none;">
-    <li><strong>Email:</strong> info@goviralagency.com</li>
-    <li><strong>WhatsApp:</strong> +60 XXX‑XXXXXXX</li>
-  </ul>
+  <h2 style="margin-top: 30px; font-size: 40px;">8. Children’s Privacy </h2>
+  <p style="margin-bottom: 0;">Our site is not intended for users under 13 (or 16 in some jurisdictions). We do not knowingly 
+collect data from minors.</p>
 
-  <h2 style="margin-top: 30px; font-size: 40px;">7. Policy Updates</h2>
-  <p style="margin-bottom: 0;">We may update this Privacy Policy from time to time. Please review this page for any changes.</p>
+  <h2 style="margin-top: 30px; font-size: 40px;">9. Changes </h2>
+  <p style="margin-bottom: 0;">We may update this policy periodically. We will notify you of changes by updating this page and revising the “Effective Date”</p>
 
+  <h2 style="margin-top: 30px; font-size: 40px;">10. Contact </h2>
+  <p style="margin-bottom: 0;">Questions or requests? Contact us at: 
+ support@goviral.com .</p>
 </div>
   
 </div>
@@ -750,7 +759,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="">
                                             <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow"
-                                                href="#">
+                                                href="">
                                                 <span class="elementor-button-content-wrapper">
                                                     <span class="elementor-button-icon">
                                                         <svg aria-hidden="true"
@@ -760,7 +769,7 @@
                                                                 d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z">
                                                             </path>
                                                         </svg> </span>
-                                                    <span class="elementor-button-text">Get Free Consultation</span>
+                                                    <span class="elementor-button-text">Any Question Contact Us</span>
                                                 </span>
                                             </a>
                                         </div>

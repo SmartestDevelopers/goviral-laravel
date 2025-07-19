@@ -1,5 +1,5 @@
 @extends('layouts.front')
-@section('title', 'Top Web Design Company Malaysia – Custom Website Solutions')
+@section('meta_title', 'Top Web Design Company Malaysia – Custom Website Solutions')
 @section('meta_description', 'Looking for a reliable web design company Malaysia? We build responsive, SEO-friendly websites for better engagement and business growth of your brand.')
 
 @section('content')

@@ -1,5 +1,5 @@
 @extends('layouts.front')
-@section('title', 'Top Graphic Design Agency Malaysia – Branding Experts')
+@section('meta_title', 'Top Graphic Design Agency Malaysia – Branding Experts')
 @section('meta_description', 'Stand out with the leading graphic design agency Malaysia. We deliver logos, branding, and visuals that elevate your business identity and attract customers.')
 
 @section('content')

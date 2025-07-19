@@ -1,5 +1,5 @@
 @extends('layouts.front')
-@section('title', 'Top UI UX Design Agency Malaysia for better Digital Experiences')
+@section('meta_title', 'Top UI UX Design Agency Malaysia for better Digital Experiences')
 @section('meta_description', 'Transform your digital presence with our leading UI UX design agency Malaysia. We craft user-centric interfaces to elevate user experience.')
 
 @section('content')

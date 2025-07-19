@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', 'Professional SEO Audit Services Malaysia for Better Rankings')
+@section('meta_title', 'Professional SEO Audit Services Malaysia for Better Rankings')
 @section('meta_description', 'Boost your website’s performance with expert SEO audit services in Malaysia. Our in-depth analysis identifies issues, and rank higher on search engines.')
 
 @section('content')

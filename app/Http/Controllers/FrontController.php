@@ -109,5 +109,18 @@ class FrontController extends Controller
         return view('privacypolicy');
     }
 
+    public function formSubmit(Request $request){
+
+        // print_r($request);
+        $data = $request->all();
+        //print_r($data); 
+        
+        $name = $data['name'];
+        $email = $data['email'];
+        $message = $data['message'];
+        
+
+    }
+
  
 }

@@ -1,5 +1,5 @@
 @extends('layouts.front')
-@section('title', 'Top PPC Agency Malaysia | Boost ROI with Targeted Ads')
+@section('meta_title', 'Top PPC Agency Malaysia | Boost ROI with Targeted Ads')
 @section('meta_description', 'Maximise your ad spend with our expert PPC agency Malaysia. Our high-converting campaigns increase more traffic, and real business growth.')
 
 

@@ -456,38 +456,25 @@ border: 1px solid #ffffff !important;  /* white border */
                                 <div class="elementor-image-carousel swiper-wrapper" aria-live="off">
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="1 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/1-1.png')}}" alt="1" />
+                                        <figure class="swiper-slide-inner">
                                         </figure>
                                     </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="2 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-213-1.png')}}"
-                                                alt="logoipsum-213" /></figure>
+                                        <figure class="swiper-slide-inner">
+                                        </figure>
                                     </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="3 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-216-1.png')}}"
-                                                alt="logoipsum-216" /></figure>
+                                        <figure class="swiper-slide-inner"></figure>
                                     </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="4 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-217-1.png')}}"
-                                                alt="logoipsum-217" /></figure>
+                                        <figure class="swiper-slide-inner"></figure>
                                     </div>
                                     <div class="swiper-slide" role="group" aria-roledescription="slide"
                                         aria-label="5 of 5">
-                                        <figure class="swiper-slide-inner"><img decoding="async"
-                                                class="swiper-slide-image"
-                                                src="{{asset('goViralHtml/wp-content/uploads/sites/292/2024/11/logoipsum-218-1.png')}}"
-                                                alt="logoipsum-218" /></figure>
+                                        <figure class="swiper-slide-inner"></figure>
                                     </div>
                                 </div>
 
@@ -498,9 +485,10 @@ border: 1px solid #ffffff !important;  /* white border */
             </div>
         </div>
     </div>
+    
     <div class="elementor-element elementor-element-768d8a73 e-flex e-con-boxed e-con e-parent" data-id="768d8a73"
         data-element_type="container">
-        <div class="e-con-inner">
+        <div class="e-con-inner"> 
             <div class="elementor-element elementor-element-751f143a e-flex e-con-boxed elementor-invisible e-con e-child"
                 data-id="751f143a" data-element_type="container"
                 data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">

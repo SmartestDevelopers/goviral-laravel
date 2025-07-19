@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 
-@section('title', 'Best SEO Agency in Malaysia | ROI‑Driven Services')
+@section('meta_title', 'Best SEO Agency in Malaysia | ROI‑Driven Services')
 @section('meta_description', 'Partner with the best SEO agency in Malaysia for AI powered, white-hat strategies that boost rankings, traffic, and conversions. Get a free consultation today.')
 
 @section('content')
@@ -119,8 +119,7 @@ border: 1px solid #ffffff !important;  /* white border */
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_777_2_683073e3d61f0">
                                     <div class="heading-section-title  display-inline-block">
-                                        <h1 style="font-size: 60px;" class="heading-title">Drive Relevant Traffic &
-                                            Maximum Revenue With
+                                        <h1 style="font-size: 60px;" class="heading-title">
                                             <span style="color: #c9a8c1;">The Best SEO Agency
                                                     Malaysia</span>
                                         </h1>

@@ -42,5 +42,7 @@ Route::get('/faq', 'FrontController@faq');
 Route::get('/privacypolicy', 'FrontController@privacypolicy');
 
 
+Route::post('/submit-form', 'FrontController@formSubmit');
+
 
 

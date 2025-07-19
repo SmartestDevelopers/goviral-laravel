@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', 'Trusted Online Reputation Management Agency for Your Brand')
+@section('meta_title', 'Trusted Online Reputation Management Agency for Your Brand')
 @section('meta_description', 'Protect and preserve your brand image with our expert online reputation management agency. We monitor, manage, and repair your digital presence effectively.')
 @section('content')
 <style>

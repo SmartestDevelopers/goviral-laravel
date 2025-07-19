@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', 'Social Media Marketing Agency Malaysia | Increase Engagement')
+@section('meta_title', 'Social Media Marketing Agency Malaysia | Increase Engagement')
 @section('meta_description', 'Drive traffic and grow your brand with our expert social media marketing agency Malaysia. Our innovative strategies turn followers into loyal customers.')
 @section('content')
 <style>
