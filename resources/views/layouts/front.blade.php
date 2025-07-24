@@ -754,6 +754,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                 <li class="elementor-icon-list-item">
                     <a href="{{ url('privacypolicy') }}"><span class="elementor-icon-list-text">Privacy Policy</span></a>
                 </li>
+				
+				 <li class="elementor-icon-list-item">
+                    <a href="{{ url('disclaimer') }}"><span class="elementor-icon-list-text">Disclaimer</span></a>
+                </li>
+				 <li class="elementor-icon-list-item">
+                    <a href="{{ url('terms') }}"><span class="elementor-icon-list-text">Terms & Conditions</span></a>
+                </li>
             </ul>
         </div>
     </div>

@@ -679,70 +679,64 @@
 
   <div style="max-width: 800px; margin: 40px auto; padding: 30px; color: #fff; font-family: 'Segoe UI', sans-serif; line-height: 1.7; text-align: left;">
 
- 
-    <div style="max-width: 800px; margin: 40px auto; padding: 30px; color: #fff; font-family: 'Segoe UI', sans-serif; line-height: 1.7; text-align: left;">
-
-  <h1 style="font-size: 70px; margin-bottom: 20px;">Privacy Policy</h1>
-  
-  <p style="margin-bottom: 20px;">Welcome to go-viral.my, the top digital marketing agency based in Kuala Lumpur, Malaysia. We value your privacy and are committed to protecting your 
-personal information when you visit or use our website. </p>
-
-  <h2 style="margin-top: 30px; font-size: 40px;">1. What We Collect</h2>
-  <ul style="padding-left: 20px; margin-bottom: 20px; list-style: none;">
-    <li>Name</li>
-    <li>Email address</li>
-    <li>Phone number</li>
-    <li>Company or business name (if applicable)</li>
-    <li>Message details (from forms)</li>
-    <li>Website usage data (pages visited, time spent, etc.)</li>
-  </ul>
-
-  <h2 style="margin-top: 30px; font-size: 40px;">2. Cookies & Tracking</h2>
- <p style="margin-bottom: 20px;">We use cookies, web beacons, and similar tech to enhance user 
-experience and analyze site performance. You may disable cookies via your browser 
-settings. </p>
- 
-
-  <h2 style="margin-top: 30px; font-size: 40px;">3. How We Use Your Data?</h2>
-  <ul style="padding-left: 20px; margin-bottom: 20px; ">  
-     <li> For customer support and account management </li>
-    <li> To send newsletters or marketing communications (opt-out available) </li>
-    <li> To process payments (via secure third-party processors) </li>
-    <li> To analyze usage and optimize content</li>
-	<li> To provide, maintain, and improve our services</li>
-  </ul>
-  <h2 style="margin-top: 30px; font-size: 40px;">4. Data Sharing </h2>
-  <ul style="padding-left: 20px; margin-bottom: 20px; ">  
-     <li>With trusted third-party service providers (hosting, analytics, payment processors)</li>
-    <li> When required by law enforcement or legal request  </li>
-    <li> In connection with a sale, merger, or business transfer  </li>
+    <h1 style="font-size: 70px; margin-bottom: 20px;">Terms & Conditions</h1>
     
-  </ul>
 
-  <h2 style="margin-top: 30px; font-size: 40px;">5. Third-Party Links </h2>
-  <p style="margin-bottom: 20px;">Our site may contain links to external websites. We are not responsible for their privacy or 
-content practices. </p>
+<h2 style="margin-top: 30px; font-size: 40px;"></h2>
+<p style="margin-bottom: 20px;"><strong>Effective Date:</strong> [Insert Date]</p>
 
-  <h2 style="margin-top: 30px; font-size: 40px;">6. Data Security & Retention </h2>
-  <p style="margin-bottom: 10px;">We implement reasonable security measures. We retain personal data only as necessary for our services or as required by law. </p>
-  
+<h3 style="margin-top: 20px; font-size: 30px;">1. Acceptance</h3>
+<p style="margin-bottom: 20px;">
+  By accessing <a href="https://go-viral.my/" style="color: #fff; text-decoration: underline;">https://go-viral.my/</a> you agree to these Terms & Conditions. If you disagree, please do not use the site.
+</p>
 
-  <h2 style="margin-top: 30px; font-size: 40px;">7. Your Rights </h2>
-  <p style="margin-bottom: 20px;">Depending on your jurisdiction, you may access, correct, delete your personal data or withdraw consent. Contact us at [support@goviral.com].</p>
- 
+<h3 style="margin-top: 20px; font-size: 30px;">2. Services</h3>
+<p style="margin-bottom: 20px;">
+  We provide content, tools, and features (the “Services”) for marketing optimization. We reserve the right to modify, suspend, or discontinue any part without notice.
+</p>
 
-  <h2 style="margin-top: 30px; font-size: 40px;">8. Children’s Privacy </h2>
-  <p style="margin-bottom: 0;">Our site is not intended for users under 13 (or 16 in some jurisdictions). We do not knowingly 
-collect data from minors.</p>
+<h3 style="margin-top: 20px; font-size: 30px;">3. User Accounts</h3>
+<p style="margin-bottom: 20px;">
+  You’re responsible for validating all info during registration and securing your account credentials.
+</p>
 
-  <h2 style="margin-top: 30px; font-size: 40px;">9. Changes </h2>
-  <p style="margin-bottom: 0;">We may update this policy periodically. We will notify you of changes by updating this page and revising the “Effective Date”</p>
+<h3 style="margin-top: 20px; font-size: 30px;">4. User Conduct</h3>
+<ul style="padding-left: 20px; margin-bottom: 20px;">
+  <li>Violating applicable laws or regulations</li>
+  <li>Infringing intellectual property rights</li>
+  <li>Uploading harmful, offensive, or unlawful content</li>
+  <li>Attempting unauthorized access to the site</li>
+</ul>
 
-  <h2 style="margin-top: 30px; font-size: 40px;">10. Contact </h2>
-  <p style="margin-bottom: 0;">Questions or requests? Contact us at: 
- support@goviral.com .</p>
-</div>
-  
+<h3 style="margin-top: 20px; font-size: 30px;">5. Intellectual Property</h3>
+<p style="margin-bottom: 20px;">
+  All site content—text, logos, graphics, code—is owned by us or our licensors. You may not reproduce, distribute, or create derivative works without explicit permission.
+</p>
+
+<h3 style="margin-top: 20px; font-size: 30px;">6. Payments & Fees</h3>
+<p style="margin-bottom: 20px;">
+  If applicable, you agree to the payment terms for any premium features. All charges are non-refundable, except as required by law.
+</p>
+
+<h3 style="margin-top: 20px; font-size: 30px;">7. Limitation of Liability</h3>
+<p style="margin-bottom: 20px;">
+  To the extent permitted by law, <a href="https://go-viral.my/" style="color: #fff; text-decoration: underline;">go-viral.my</a> and its affiliates are not liable for indirect, incidental, special or consequential damages, or loss of profit/data arising from your use of the Services.
+</p>
+
+<h3 style="margin-top: 20px; font-size: 30px;">8. Indemnification</h3>
+<p style="margin-bottom: 20px;">
+  You agree to defend and indemnify us from claims, damages or losses arising from your use of our Services, violation of these Terms, or infringement of third-party rights.
+</p>
+
+<h3 style="margin-top: 20px; font-size: 30px;">9. Modifications</h3>
+<p style="margin-bottom: 20px;">
+  We may update this agreement at any time by posting the revised version on this page. The “effective date” will reflect the latest changes.
+</p>
+
+<h3 style="margin-top: 20px; font-size: 30px;">10. Governing Law</h3>
+<p style="margin-bottom: 0;">
+  These Terms are governed by the laws, without regard to conflict of law principles.
+</p>
 </div>
 
                             </div>

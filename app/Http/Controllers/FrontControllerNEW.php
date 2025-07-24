@@ -108,6 +108,14 @@ class FrontController extends Controller
     {
         return view('privacypolicy');
     }
+    public function disclaimer()
+    {
+        return view('disclaimer');
+    }
+     public function terms()
+    {
+        return view('terms');
+    }
 
  
 }

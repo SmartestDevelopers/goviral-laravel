@@ -40,7 +40,8 @@ Route::get('/portfolio', 'FrontController@portfolio');
 Route::get('/blog', 'FrontController@blog');
 Route::get('/faq', 'FrontController@faq');
 Route::get('/privacypolicy', 'FrontController@privacypolicy');
-
+Route::get('/disclaimer', 'FrontController@disclaimer');
+Route::get('/terms', 'FrontController@terms');
 
 
 
